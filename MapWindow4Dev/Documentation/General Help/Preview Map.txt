@@ -1,0 +1,17 @@
+The Preview Map panal displays the Map Display according to your specified extent.
+<p>
+<b>General Functions</b> 
+<ul>
+<li><b>Update Using Full Extents</b> - Sets the Preview Map extents according to your layer's greatest spatial extents.
+<ol>
+<li>Right click in the Preview Map panal
+<li>Click on Update using Full Extents, and then the Preview Map is set to your layer's greatest spatial extents.</ol>
+<li><b>Update Using Current View</b> - Sets the Preview Map extents according to your layer's current viewable spatial extents.
+<ol>
+<li>Right click in the Preview Map panal
+<li>Click on Update using Current View, and then the Preview Map is set to your layer's current viewable spatial extents.</ol>
+<li><b>Clear</b> - Clears the Preview Map of any previously set Preview Map extents and removes the preview image.
+<ol>
+<li>Right click in the Preview Map panal
+<li>Click on Clear, and then the Preview Map is cleared.</ol>
+

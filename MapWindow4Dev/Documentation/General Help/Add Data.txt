@@ -1,0 +1,9 @@
+<b>Steps to Add Data to a MapWindow Project</b>
+<ol>
+<li>Click the Add Layer button under the Add\Remove\Clear Layers button from the Main Toolbar and a dialog box should appear titled Add Map Layer.
+<li>Search for the location where a vector or raster layer is stored and highlight it by clicking on the file name.
+<li>Click the Open button (Note: to learn more about MapWindow supported file formats click <a href="File Formats">here</a>).</ol>
+
+
+
+

@@ -1,0 +1,26 @@
+[24-Jun-11  0:16:20.18] Start compiling cqlib.sln 
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Rebuild All started: Project: cqlib, Configuration: Release x64 ------
+1>Deleting intermediate and output files for project 'cqlib', configuration 'Release|x64'
+1>Compiling...
+1>cq.c
+1>.\cq.c(114) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+1>.\cq.c(116) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+1>.\cq.c(230) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+1>.\cq.c(231) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+1>.\cq.c(232) : warning C4244: '=' : conversion from 'long' to 'float', possible loss of data
+1>.\cq.c(418) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+1>.\cq.c(419) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+1>.\cq.c(445) : warning C4244: '=' : conversion from 'long' to 'unsigned char', possible loss of data
+1>.\cq.c(446) : warning C4244: '=' : conversion from 'long' to 'unsigned char', possible loss of data
+1>.\cq.c(447) : warning C4244: '=' : conversion from 'long' to 'unsigned char', possible loss of data
+1>c:\dev\supportlibraries\cqlib\cq.c(189) : warning C4715: 'Bottom' : not all control paths return a value
+1>c:\dev\supportlibraries\cqlib\cq.c(220) : warning C4715: 'Top' : not all control paths return a value
+1>Creating library...
+1>Copy lib to general lib folder
+1>        1 file(s) copied.
+1>Build log was saved at "file://c:\dev\SupportLibraries\cqlib\Release\x64\BuildLog.htm"
+1>cqlib - 0 error(s), 12 warning(s)
+========== Rebuild All: 1 succeeded, 0 failed, 0 skipped ==========

@@ -1,0 +1,10 @@
+<b>What is MapWindow GIS?</b>
+<p>
+MapWindow GIS is an open source GIS (mapping) application and set of programmable mapping components. Because it is distributed as an open source application under the Mozilla Public License distribution license, MapWindow GIS can be reprogrammed to perform different or more specialized tasks. There are also <a href='..\Menus\Plug-ins'>plug-ins</a> available to expand compatibility and functionality. MapWindow GIS is built upon Microsoft .NET technology but is not a multi-platform application and hence does not run on non-Microsoft operating systems including Mac OS X, Linux, and UNIX.
+<p>
+MapWindow GIS is notable software because it has been adopted by the <a href='http://www.epa.gov/'>United States Environmental Protection Agency</a> as the primary GIS platform for its <a href='http://www.epa.gov/waterscience/basins/'>BASINS</a> (Better Assessment Science Integrating Point and Nonpoint Sources) watershed analysis and modeling software. <a href='http://www.epa.gov/waterscience/basins/'>BASINS</a> is distributed from the EPA website world-wide and has been used by thousands of watershed modeling professionals at the federal, state, and local level as well as internationally.
+<p>
+MapWindow GIS is continually maintained by an active group of student and voluntary developers who regularly release updates and bug fixes. Help is available from these individuals through <a href='Online Help'>online forums</a> where messages are listed from MapWindow users that had questions. Additionally, <a href ='http://www.mapwindow.org/tutorials/'>video and written tutorials</a> are available at the MapWindow website.
+
+
+

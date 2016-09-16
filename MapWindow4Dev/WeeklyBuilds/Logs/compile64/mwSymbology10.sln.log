@@ -1,0 +1,18 @@
+
+Microsoft (R) Visual Studio Version 10.0.30319.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: mwSymbology10, Configuration: Debug x64 ------
+C:\dev\MapWindow4Dev\SymbologyPlugin\Controls\ImageCombo.cs(111,21): warning CS0108: 'System.Windows.Forms.ImageCombo.Enabled' hides inherited member 'System.Windows.Forms.Control.Enabled'. Use the new keyword if hiding was intended.
+C:\dev\MapWindow4Dev\SymbologyPlugin\Forms\frmSymbologyMain.Designer.cs(1847,65): warning CS0108: 'mwSymbology.Forms.frmSymbologyMain.Visible' hides inherited member 'System.Windows.Forms.Control.Visible'. Use the new keyword if hiding was intended.
+C:\dev\MapWindow4Dev\SymbologyPlugin\Forms\frmCategories.Designer.cs(295,65): warning CS0108: 'mwSymbology.Forms.frmCategories.Visible' hides inherited member 'System.Windows.Forms.Control.Visible'. Use the new keyword if hiding was intended.
+C:\dev\MapWindow4Dev\SymbologyPlugin\Forms\frmSymbologyMain.cs(603,69): warning CS0642: Possible mistaken empty statement
+C:\dev\MapWindow4Dev\SymbologyPlugin\Classes\XMLFile.cs(417,57): warning CS0168: The variable 'ex' is declared but never used
+C:\dev\MapWindow4Dev\SymbologyPlugin\Forms\frmDrawingOptions.cs(17,37): warning CS0169: The field 'mwSymbology.Forms.frmDrawingOptions._shapefile' is never used
+C:\dev\MapWindow4Dev\SymbologyPlugin\Forms\frmDrawingOptions.cs(20,22): warning CS0169: The field 'mwSymbology.Forms.frmDrawingOptions._noEvents' is never used
+C:\dev\MapWindow4Dev\SymbologyPlugin\Forms\frmDrawingOptions.cs(21,28): warning CS0414: The field 'mwSymbology.Forms.frmDrawingOptions.tabNumber' is assigned but its value is never used
+C:\dev\MapWindow4Dev\SymbologyPlugin\Controls\CharacterControl.cs(59,28): warning CS0169: The field 'System.Windows.Forms.CharacterControl.components' is never used
+C:\dev\MapWindow4Dev\SymbologyPlugin\Forms\frmColorScheme.cs(24,28): warning CS0414: The field 'mwSymbology.Forms.frmColorScheme._initBlend' is assigned but its value is never used
+
+Compile complete -- 0 errors, 10 warnings
+  mwSymbology10 -> C:\dev\MapWindow4Dev\bin64\ApplicationPlugins\mwSymbology.dll
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========

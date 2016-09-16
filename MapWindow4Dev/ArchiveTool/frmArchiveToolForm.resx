@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="chbAllFiles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 148</value>
+  </data>
+  <data name="chbAllFiles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 35</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chbAllFiles.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="chbAllFiles.Text" xml:space="preserve">
+    <value>Include all files in same directory as project, even if not in project?
+</value>
+  </data>
+  <data name="&gt;&gt;chbAllFiles.Name" xml:space="preserve">
+    <value>chbAllFiles</value>
+  </data>
+  <data name="&gt;&gt;chbAllFiles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbAllFiles.Parent" xml:space="preserve">
+    <value>grpArchive</value>
+  </data>
+  <data name="&gt;&gt;chbAllFiles.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="chbPreserveLocations.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 111</value>
+  </data>
+  <data name="chbPreserveLocations.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 35</value>
+  </data>
+  <data name="chbPreserveLocations.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="chbPreserveLocations.Text" xml:space="preserve">
+    <value>Preserve original file locations in archive?</value>
+  </data>
+  <data name="&gt;&gt;chbPreserveLocations.Name" xml:space="preserve">
+    <value>chbPreserveLocations</value>
+  </data>
+  <data name="&gt;&gt;chbPreserveLocations.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbPreserveLocations.Parent" xml:space="preserve">
+    <value>grpArchive</value>
+  </data>
+  <data name="&gt;&gt;chbPreserveLocations.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtNotes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 41</value>
+  </data>
+  <data name="txtNotes.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtNotes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 62</value>
+  </data>
+  <data name="txtNotes.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtNotes.Name" xml:space="preserve">
+    <value>txtNotes</value>
+  </data>
+  <data name="&gt;&gt;txtNotes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtNotes.Parent" xml:space="preserve">
+    <value>grpArchive</value>
+  </data>
+  <data name="&gt;&gt;txtNotes.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 25</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 13</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Notes:</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>grpArchive</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chkIncludeUserCompName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkIncludeUserCompName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 189</value>
+  </data>
+  <data name="chkIncludeUserCompName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 18</value>
+  </data>
+  <data name="chkIncludeUserCompName.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="chkIncludeUserCompName.Text" xml:space="preserve">
+    <value>Include Computer and User Name in Notes?</value>
+  </data>
+  <data name="&gt;&gt;chkIncludeUserCompName.Name" xml:space="preserve">
+    <value>chkIncludeUserCompName</value>
+  </data>
+  <data name="&gt;&gt;chkIncludeUserCompName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkIncludeUserCompName.Parent" xml:space="preserve">
+    <value>grpArchive</value>
+  </data>
+  <data name="&gt;&gt;chkIncludeUserCompName.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnArchive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 166</value>
+  </data>
+  <data name="btnArchive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 24</value>
+  </data>
+  <data name="btnArchive.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnArchive.Text" xml:space="preserve">
+    <value>&amp;Archive Project</value>
+  </data>
+  <data name="&gt;&gt;btnArchive.Name" xml:space="preserve">
+    <value>btnArchive</value>
+  </data>
+  <data name="&gt;&gt;btnArchive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnArchive.Parent" xml:space="preserve">
+    <value>grpArchive</value>
+  </data>
+  <data name="&gt;&gt;btnArchive.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblCompression.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCompression.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 109</value>
+  </data>
+  <data name="lblCompression.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 13</value>
+  </data>
+  <data name="lblCompression.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblCompression.Text" xml:space="preserve">
+    <value>Compression: 5</value>
+  </data>
+  <data name="&gt;&gt;lblCompression.Name" xml:space="preserve">
+    <value>lblCompression</value>
+  </data>
+  <data name="&gt;&gt;lblCompression.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCompression.Parent" xml:space="preserve">
+    <value>grpArchive</value>
+  </data>
+  <data name="&gt;&gt;lblCompression.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tbCompression.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 125</value>
+  </data>
+  <data name="tbCompression.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 45</value>
+  </data>
+  <data name="tbCompression.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tbCompression.Name" xml:space="preserve">
+    <value>tbCompression</value>
+  </data>
+  <data name="&gt;&gt;tbCompression.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbCompression.Parent" xml:space="preserve">
+    <value>grpArchive</value>
+  </data>
+  <data name="&gt;&gt;tbCompression.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="grpArchive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="grpArchive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>371, 218</value>
+  </data>
+  <data name="grpArchive.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grpArchive.Text" xml:space="preserve">
+    <value>Archive Project...</value>
+  </data>
+  <data name="&gt;&gt;grpArchive.Name" xml:space="preserve">
+    <value>grpArchive</value>
+  </data>
+  <data name="&gt;&gt;grpArchive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpArchive.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpArchive.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnRestore.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnRestore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 122</value>
+  </data>
+  <data name="btnRestore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 24</value>
+  </data>
+  <data name="btnRestore.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnRestore.Text" xml:space="preserve">
+    <value>&amp;Restore Project</value>
+  </data>
+  <data name="&gt;&gt;btnRestore.Name" xml:space="preserve">
+    <value>btnRestore</value>
+  </data>
+  <data name="&gt;&gt;btnRestore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRestore.Parent" xml:space="preserve">
+    <value>grpRestore</value>
+  </data>
+  <data name="&gt;&gt;btnRestore.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chbIntoThisProject.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chbIntoThisProject.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 122</value>
+  </data>
+  <data name="chbIntoThisProject.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 20</value>
+  </data>
+  <data name="chbIntoThisProject.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="chbIntoThisProject.Text" xml:space="preserve">
+    <value>Open into existing (current) project?</value>
+  </data>
+  <data name="&gt;&gt;chbIntoThisProject.Name" xml:space="preserve">
+    <value>chbIntoThisProject</value>
+  </data>
+  <data name="&gt;&gt;chbIntoThisProject.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbIntoThisProject.Parent" xml:space="preserve">
+    <value>grpRestore</value>
+  </data>
+  <data name="&gt;&gt;chbIntoThisProject.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lnkDetails.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lnkDetails.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lnkDetails.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 55</value>
+  </data>
+  <data name="lnkDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 13</value>
+  </data>
+  <data name="lnkDetails.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lnkDetails.Text" xml:space="preserve">
+    <value>View Archive Details...</value>
+  </data>
+  <data name="&gt;&gt;lnkDetails.Name" xml:space="preserve">
+    <value>lnkDetails</value>
+  </data>
+  <data name="&gt;&gt;lnkDetails.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lnkDetails.Parent" xml:space="preserve">
+    <value>grpRestore</value>
+  </data>
+  <data name="&gt;&gt;lnkDetails.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnRestoreTo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnRestoreTo.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnRestoreTo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAScwAA
+        EnMBjCK5BwAAAIVJREFUOE+9UkEOwCAI8/+f3iYKaytm7CKJ0QRaaqG1g3E9vfopBRbbe4QR6CHCpXgi
+        CSRkQWAdMKlgzJse+FKAXSKCnVRvIlAgdCBlSOIE8O+ZnkbtOqsH4W5FdqaguziGRPdraKYExslTYC9W
+        kgyIiwBKGPwFJJLN5pVW2Itw834Bzxffu39np1eADJUAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnRestoreTo.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="btnRestoreTo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 88</value>
+  </data>
+  <data name="btnRestoreTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 24</value>
+  </data>
+  <data name="btnRestoreTo.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnRestoreTo.Name" xml:space="preserve">
+    <value>btnRestoreTo</value>
+  </data>
+  <data name="&gt;&gt;btnRestoreTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRestoreTo.Parent" xml:space="preserve">
+    <value>grpRestore</value>
+  </data>
+  <data name="&gt;&gt;btnRestoreTo.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtRestoreTo.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtRestoreTo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 88</value>
+  </data>
+  <data name="txtRestoreTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 20</value>
+  </data>
+  <data name="txtRestoreTo.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtRestoreTo.Name" xml:space="preserve">
+    <value>txtRestoreTo</value>
+  </data>
+  <data name="&gt;&gt;txtRestoreTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtRestoreTo.Parent" xml:space="preserve">
+    <value>grpRestore</value>
+  </data>
+  <data name="&gt;&gt;txtRestoreTo.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 91</value>
+  </data>
+  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 13</value>
+  </data>
+  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Restore To:</value>
+  </data>
+  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
+    <value>Label3</value>
+  </data>
+  <data name="&gt;&gt;Label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
+    <value>grpRestore</value>
+  </data>
+  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 31</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Archive:</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>grpRestore</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnOpenArchive.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnOpenArchive.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAScwAA
+        EnMBjCK5BwAAAIVJREFUOE+9UkEOwCAI8/+f3iYKaytm7CKJ0QRaaqG1g3E9vfopBRbbe4QR6CHCpXgi
+        CSRkQWAdMKlgzJse+FKAXSKCnVRvIlAgdCBlSOIE8O+ZnkbtOqsH4W5FdqaguziGRPdraKYExslTYC9W
+        kgyIiwBKGPwFJJLN5pVW2Itw834Bzxffu39np1eADJUAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnOpenArchive.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="btnOpenArchive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 28</value>
+  </data>
+  <data name="btnOpenArchive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 24</value>
+  </data>
+  <data name="btnOpenArchive.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnOpenArchive.Name" xml:space="preserve">
+    <value>btnOpenArchive</value>
+  </data>
+  <data name="&gt;&gt;btnOpenArchive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOpenArchive.Parent" xml:space="preserve">
+    <value>grpRestore</value>
+  </data>
+  <data name="&gt;&gt;btnOpenArchive.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtArchive.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="txtArchive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 28</value>
+  </data>
+  <data name="txtArchive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 20</value>
+  </data>
+  <data name="txtArchive.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtArchive.Name" xml:space="preserve">
+    <value>txtArchive</value>
+  </data>
+  <data name="&gt;&gt;txtArchive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtArchive.Parent" xml:space="preserve">
+    <value>grpRestore</value>
+  </data>
+  <data name="&gt;&gt;txtArchive.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="grpRestore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 236</value>
+  </data>
+  <data name="grpRestore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>371, 162</value>
+  </data>
+  <data name="grpRestore.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="grpRestore.Text" xml:space="preserve">
+    <value>Restore Project Archive...</value>
+  </data>
+  <data name="&gt;&gt;grpRestore.Name" xml:space="preserve">
+    <value>grpRestore</value>
+  </data>
+  <data name="&gt;&gt;grpRestore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpRestore.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpRestore.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Button5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>292, 404</value>
+  </data>
+  <data name="Button5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 24</value>
+  </data>
+  <data name="Button5.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Button5.Text" xml:space="preserve">
+    <value>&amp;Close</value>
+  </data>
+  <data name="&gt;&gt;Button5.Name" xml:space="preserve">
+    <value>Button5</value>
+  </data>
+  <data name="&gt;&gt;Button5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="prg1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 404</value>
+  </data>
+  <data name="prg1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 20</value>
+  </data>
+  <data name="prg1.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="prg1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;prg1.Name" xml:space="preserve">
+    <value>prg1</value>
+  </data>
+  <data name="&gt;&gt;prg1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;prg1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;prg1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>395, 438</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAQAEAAAAAAAAAAAAAAAAAAAAA
+        AAA5AAAAShAAAGsQAAB7EAAAhBAAAIwQAABjIQAAjCEAAJQpAACUMQAApTEAAK05AACtQgAAtUIAAMZK
+        AADGUgAAzlIAAMZjAADOYwAA1mMAAM5rAADWawAA52sAAOdzAADvcwAA73sAAPd7AAD3hAAA/4QAAP+M
+        AAD/lAAAQiEIAEohCABrKQgAczEIAHs5CACEOQgAjEIIAM5zCAD/lAgA/6UIAFIpEACUShAAznMQAPeU
+        EAD/pRAApUohALVSIQDOcyEA1nshAOeEIQDvjCEA/60hAGM5KQB7QikAznMpAM57KQD3lCkA/60pAK1S
+        MQD/tTEAlFI5ALVjOQC1azkA/7U5AJRjQgCtY0IAtWtCAL1zQgDnlEIA/7VCALVrSgC1c0oAvXtKAIxr
+        UgCtc1IAvXNSAL17UgDGhFIA1oxSAHtrYwC9e2MAzoxjANaUYwC9hGsAzpRrANalawD/xmsApYRzALWE
+        cwC9hHMAxoxzAIyEewCUhHsArYR7AL2MewDGjHsAzpR7AOetewD/xnsAa3OEAIyEhADOlIQAzqWEAOe1
+        hAAASowAc4SMAM6ljADOrYwA1q2MAP/OjABKc5QAvaWUANatlADWtZQA57WUAOe9lADvvZQA78aUAPfG
+        lAD3zpQACGOlAAhrpQBKe6UAY4SlANa1pQDnvaUA98alAGuMrQBzjK0A1r2tAOe9rQD3zq0Azr21AOe9
+        tQDnxrUA9861AOfGvQDnzr0A7869APfOvQD31r0Ac6XGAM7GxgDvzsYA79bGAOfOzgDv1s4A79bWAO/n
+        1gD35+cA9+/nAP/v5wD37+8A9/fvAP/37wD/AP8A////AAAAAAD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8Anp6enp6enp6enp6enp6enp6enp5YCgUFAiFQXp6enp6enp5eDBI+kYeCUTsFBp6enp5eDBUS
+        Q5OJg3FrW0uenp6eDhcWFUiVimBnW2dLnp6eng8ZFxZNlpJ6aW9rS56enp4PGxcXH5eVk4mCcUuenp6e
+        EBsZFymWlpSKh31mnp6enhIdGyyXjYR0RAAgPZ6enp4SHRssnZaEhExULyKenp6eFCwdG4p0YWZra04j
+        np6enhQtHR2Wk2pkWWtOI56enp4rOiwelpaRioJ9UySenp6eMEAtJ5eWk4qDglYlnp6enjhXeJGKiXNt
+        TzcQSJ6enp6eXltbUVFUUV9enp6env/////wD///4AP//8AD///AA///wAP//8AD///AA///wAP//8AD
+        ///AA///wAP//8AD///AA///wAP//+AP//8=
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Archive or Restore Project</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmArchiveToolForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

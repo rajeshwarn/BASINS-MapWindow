@@ -1,0 +1,23 @@
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: GraphPlugin, Configuration: Debug x64 ------
+C:\Windows\Microsoft.NET\Framework\v3.5\Csc.exe /noconfig /nowarn:1701,1702 /platform:x64 /errorreport:prompt /define:DEBUG;TRACE /reference:..\..\..\MapWindow4Dev\Bin\Interop.MapWinGIS.dll /reference:..\..\..\MapWindow4Dev\Bin\MapWinInterfaces.dll /reference:..\..\..\MapWindow4Dev\Bin\MapWinUtility.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll" /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /reference:..\..\..\MapWindow4Dev\Bin\Plugins\zedgraph\ZedGraph.dll /reference:C:\Windows\assembly\GAC\stdole\7.0.3300.0__b03f5f7f11d50a3a\stdole.dll /debug+ /debug:full /filealign:512 /out:obj\x64\Debug\GraphPlugin.dll /resource:obj\x64\Debug\GraphPlugin.frmGraph.resources /resource:Resources\graph.ico,GraphPlugin.Resources.graph.ico /target:library /win32icon:Resources\graph.ico Classes\GraphPlugin.cs frmGraph.cs frmGraph.designer.cs Helpers.cs Info.cs PluginHelper.cs Properties\AssemblyInfo.cs
+warning CS1607: Assembly generation -- Referenced assembly 'System.Data.dll' targets a different processor
+warning CS1607: Assembly generation -- Referenced assembly 'mscorlib.dll' targets a different processor
+
+Compile complete -- 0 errors, 2 warnings
+GraphPlugin -> C:\dev\MapWindow4Dev\Bin64\Plugins\GraphPlugin.dll
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: GraphPlugin, Configuration: Debug x64 ------
+GraphPlugin -> C:\dev\MapWindow4Dev\Bin64\Plugins\GraphPlugin.dll
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: GraphPlugin, Configuration: Debug x64 ------
+GraphPlugin -> C:\dev\MapWindow4Dev\Bin64\Plugins\GraphPlugin.dll
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========

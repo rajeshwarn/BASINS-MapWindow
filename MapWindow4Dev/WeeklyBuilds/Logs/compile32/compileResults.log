@@ -1,0 +1,46 @@
+[19-Jul-11 21:28:11.63] Start compile sequence 
+Used compile configuration is /build "Debug|x86" 
+C:\Dev\MapWindow4Dev\WeeklyBuilds\Logs\compile32\compileResults.log
+20 File(s) copied
+1 File(s) copied
+27 File(s) copied
+36 File(s) copied
+[19-Jul-11 21:28:12.55] Copying supporting libraries was successful 
+MapWinGIS.sln copied successful 
+MapWinUtility.sln compiled successful 
+MapWinInterfaces.sln compiled successful 
+MapWinGeoProc.sln compiled successful 
+mwControls.sln compiled successful 
+MWPluginsCS.sln compiled successful 
+MWPluginsVB.sln compiled successful 
+CSharpCodeCompletion.sln compiled successful 
+MapWindow.sln compiled successful 
+GraphPlugin.sln compiled successful 
+MeemsTools.sln compiled successful 
+mwBayesianNetSmile.sln compiled successful 
+GeoCoder.sln compiled successful 
+mwGPS.sln compiled successful 
+mwGPSProximity.sln compiled successful 
+mwGPX.sln compiled successful 
+mwSampling.sln compiled successful 
+mwLaunch.sln compiled successful 
+mwMapServerGenerator.sln compiled successful 
+measureProject.sln compiled successful 
+mwOpenMetadataManager.sln compiled successful 
+mwPathAnalyzer.sln compiled successful 
+PhotoViewer.sln compiled successful 
+ShapefileToGrid.sln compiled successful 
+OnlineDataPlugin.sln compiled successful 
+AWD_V3.sln compiled successful 
+mwSwat.sln compiled successful 
+MWSWAT2009.sln compiled successful 
+mwLayout.sln compiled successful 
+MWBalloonIdentifier.sln compiled successful 
+ImgRegPlugin.sln compiled successful 
+ImgRegPluginCSharp.sln compiled successful 
+SpatialConverter.sln compiled successful 
+mwTiles.sln compiled successful 
+mwSymbology.sln compiled successful 
+KrigingPlugin.sln compiled successful 
+GridAnalysisTool.sln compiled successful 
+[19-Jul-11 21:30:26.53] Finished compile sequence 

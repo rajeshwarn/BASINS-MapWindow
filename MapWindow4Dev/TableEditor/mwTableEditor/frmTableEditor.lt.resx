@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TableEditorDataGrid.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="lblUpdating.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblUpdating.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 389</value>
+  </data>
+  <data name="lblUpdating.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 16</value>
+  </data>
+  <data name="lblUpdating.Text" xml:space="preserve">
+    <value>Lentelė atnaujinama...</value>
+  </data>
+  <data name="UpdateProgress.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="UpdateProgress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 384</value>
+  </data>
+  <data name="UpdateProgress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 23</value>
+  </data>
+  <data name="btnApply.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="btnApply.Text" xml:space="preserve">
+    <value>Taikyti</value>
+  </data>
+  <data name="btnClose.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>Uždaryti</value>
+  </data>
+  <data name="Selected_Label.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="Selected_Label.Text" xml:space="preserve">
+    <value>Pažymėta 0 iš 27</value>
+  </data>
+  <data name="Column_Expression_popup.Text" xml:space="preserve">
+    <value>Skaičiuoti reikšmes (visiems įrašams)</value>
+  </data>
+  <data name="Selected_Input_popup.Text" xml:space="preserve">
+    <value>Priskirti reikšmes (Pažymėtiems įrašams)</value>
+  </data>
+  <data name="MenuItem11.Text" xml:space="preserve">
+    <value>Apkirpti tekstą (Visiems įrašams)</value>
+  </data>
+  <data name="MenuItem12.Text" xml:space="preserve">
+    <value>Apkirpti tekstą (Pažymėtiems įrašams)</value>
+  </data>
+  <data name="sort_asc.Text" xml:space="preserve">
+    <value>Rikitiuoti didėjančiai</value>
+  </data>
+  <data name="Sort_desc.Text" xml:space="preserve">
+    <value>Rikiuoti mažėjančiai</value>
+  </data>
+  <data name="Statistics_popup.Text" xml:space="preserve">
+    <value>Statistika</value>
+  </data>
+  <data name="mnuAddField.Text" xml:space="preserve">
+    <value>Pridėti lauką</value>
+  </data>
+  <data name="mnuRemoveField.Text" xml:space="preserve">
+    <value>Šalinti lauką</value>
+  </data>
+  <data name="mnuRenameField.Text" xml:space="preserve">
+    <value>Pervadinti lauką</value>
+  </data>
+  <data name="MenuItem3.Text" xml:space="preserve">
+    <value>Redaguoti</value>
+  </data>
+  <data name="mnuShowSelected.Text" xml:space="preserve">
+    <value>Rodyti tik pažymėtus objektus</value>
+  </data>
+  <data name="mnuZoomToSelected.Text" xml:space="preserve">
+    <value>Pritraukti iki pažymėtų objektų</value>
+  </data>
+  <data name="MenuItem15.Text" xml:space="preserve">
+    <value>Pritraukti iki redaguojamo objekto</value>
+  </data>
+  <data name="MenuItem16.Text" xml:space="preserve">
+    <value>Parodyti pažymėtus objektus</value>
+  </data>
+  <data name="MenuItem4.Text" xml:space="preserve">
+    <value>Vaizdas</value>
+  </data>
+  <data name="mnuQuery.Text" xml:space="preserve">
+    <value>Užklausa</value>
+  </data>
+  <data name="mnuSelectAll.Text" xml:space="preserve">
+    <value>Pažymėti viską</value>
+  </data>
+  <data name="mnuSelectNone.Text" xml:space="preserve">
+    <value>Nežymėti nieko</value>
+  </data>
+  <data name="mnuSwitchSelection.Text" xml:space="preserve">
+    <value>Perversti pažymėjimą</value>
+  </data>
+  <data name="mnuExport.Text" xml:space="preserve">
+    <value>Eksportuoti pažymėtus objektus</value>
+  </data>
+  <data name="MenuItem5.Text" xml:space="preserve">
+    <value>Pažymėjimas</value>
+  </data>
+  <data name="mnuFind.Text" xml:space="preserve">
+    <value>Rasti</value>
+  </data>
+  <data name="mnuReplace.Text" xml:space="preserve">
+    <value>Pakeisti</value>
+  </data>
+  <data name="MenuItem7.Text" xml:space="preserve">
+    <value>Importuoti laukų apibrėžimus iš DBF</value>
+  </data>
+  <data name="MenuItem8.Text" xml:space="preserve">
+    <value>Laukų skaičiuoklė</value>
+  </data>
+  <data name="mnuShapeID.Text" xml:space="preserve">
+    <value>Generuoti ar atnaujinti "MWShapeID" lauką</value>
+  </data>
+  <data name="MenuItem10.Text" xml:space="preserve">
+    <value>Kopijuoti "SHAPE_ID" į nurodytą bylą...</value>
+  </data>
+  <data name="MenuItem6.Text" xml:space="preserve">
+    <value>Įrankiai</value>
+  </data>
+  <data name="ToolStrip1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="btnZoomToSelected.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAqFJREFUOE9jZICC
+        08tizJkYmSoYGRht/jMyC/3/94/h38+/7/7+/nWE4defDsuctSdhajHo88tiU88vS3x+dkncudMLomrO
+        zI/UODozSOP4rJCa4zNDzx2dHv78UH9AKlYDQDaDNS+Objt7/5PmuQefQs49/Jx//tHnnAsPP/peevhB
+        6dAE/7bD/YHP93V7mWMYcnZZ3Pqzi+POnbn/SePcw0+ZQFx5/tGnsnOPvpScf/i5EGhQ9Pn77xUO9vmf
+        29vutR7DgHPL4l+fXhBRc+HxpyCg5gqI5s/FUM055x59ygK6yGVvq1fNnnbf15guWJ7w98zMSA2gTdkw
+        W2FeALno/MNP6SBX7Kh309jX5fsXw4DTS+P/ggIMpBCk8dyDz3kgw84+/JQBFnv0KeXCw8/hIAP2tnlh
+        GnB8fvTr49NCas4++uIBccWnLLDmx59Sgezk8w8/Jpx99Mlue7VrzY5aN0wvHJsesv7YlNBzoIAC+jsM
+        qjHl/KOPiSDNQG/4X3z8VWZ7o+f3rRXOmGnhUL+f+ZGpwc8P9Pm3nb33Tf7848+OICcDDQu98PCTDUjz
+        wQnBvy6tzv+/r9jh/7p8m0iMcNjf5Zd6qN//+d5O73O7m91rQP4F4e2VzjX7ewL+XttS+f/xmZn/7x3p
+        /b+n2f//xmRzcQxD9rV5me9q8Vq/q9XrNSiw9rR4/t1a5/5hd6PP/9v72/+/uLr4/8vrS//f2t3wf3WS
+        7d9l2AzBllTXF9jHHuyL+H//aP//55cX/H9wfPL/k7MT/7e5adzZlGbMhTN/IEusybKJ3dMS+P/61tr/
+        17bW/z88Mez/6nTTt6tCtXiIMgCkaGWqWezSGOP/Oxs8/q9MMn+2NNJYhGjNMIUrky2EZkUYtMyPt+eA
+        iQEAfsukVenm6H0AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnZoomToSelected.ToolTipText" xml:space="preserve">
+    <value>Pritraukti iki pažymėto objekto</value>
+  </data>
+  <data name="btnShowSelected.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAoVJREFUOE+tk+1P
+        UlEcx/0Pet/L1nzT6h/oVbZVbr2wp61lyQuna2Vra/kQJTOmwwcsm6SEkTjT1CEBWYQkioB0tbnLk6KJ
+        D/iAcEURgQua+3bvTSG35mrrbN+ds9/O93O+57dzMjL+x2gfXhcoTBuLrUMhyI0UZF8oNPUH0Kjzo+Hj
+        CsTaJVS/96FSOY+Kbi/KO2bAb5seTZ3dalqjovQO/kUPFe5ECvBmcI0zd7hfo80phZyUQDregMaxOjwj
+        RKgZEaLSLECFiY8nxhJu7/0WF1KAlgGKK/7tYPfeabanAVLmvmyx0xw4VJ8HeuHpuI7vmiqQ8nMgX57I
+        41JImGbtA9gU3ZbVA2GUtlXEVjTwG0sRdvQBW8vYcChhrb2wygGe9y0jEt9Gz0gASla2IHptAaiIANSM
+        jKZOhNxPkVzUwj9Uh7hThR/zFtjlhTQHEGsWsckAVESQO1m9N7NrmjIh5CrHbtyCuLcIodF7mGzPB/Gq
+        AERjTiYHEKkWEI5uQzsWxIdvaQ1a1Fh3PsIubUNshgfal4vIBB+zihzcFSnTTRT2zGFjKwnd+K8EBpKC
+        f4K581jpnjkP9MINbLoeY1Z2ER5yFLz6r2mAoMvLAfoZI2vW697BrS9hYg+DnstHwncLYSbJdHM29FYX
+        PL4wbtaOpAH8t1NYZwBGB4UpK2P+xIdd14Al4hpic7kIkWXwyi9hO7zEJWQBPPFvgOK2SYQiCQTDNHpq
+        zgKReXhkV2HkH4VVmg2z+DwmHSRn3FdurXk39RIfyN2WomZn9HaTHcLCU0jaJEgSL0BUnUFn4XEUCLtw
+        udJ8QFnFevUfP/KV00doES9zx1CdvWOozzL1lZ08dtiP/wlMn5w0SKhhWgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnShowSelected.ToolTipText" xml:space="preserve">
+    <value>Rodyti tik pažymėtus objektus</value>
+  </data>
+  <data name="btnImportFieldsFromDBF.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMtJREFUOE9jYBi0
+        wC23e7F7du8ZEAaxSXYoSOOlh//+n3vw77+AW/YZsgw4e//f/+R5P8g34Pjdf/+jZ1FgwL5bf/8HTiHS
+        AORAgwXelmt//3v0fwd7ARnzu+ViBipIwVlggB2/+/c/yGaQ5oK1v/8nLv/9P3jBr/+us3/9t57+879i
+        5VfcYQIypHfXn//1m/9gap5GQDMsmkCGQGz+9T94Icjmn/+tiNWMbEgQ0NluQGdbEXI2rgQCcolazVf8
+        fiaUumAhT0jdwMoDANVttHjq/ZLlAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnImportFieldsFromDBF.ToolTipText" xml:space="preserve">
+    <value>Importuoti laukų aprašymus iš DBF</value>
+  </data>
+  <data name="btnFieldCalculator.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAcxJREFUOE+tk01r
+        GlEYhf2D3XQR8gNK05DShc1CLELSJOPEOJoZFVEba1CpooKKuwgmBpPahaAuFBX8wi9cdNXSMpqTed9F
+        Cr1Ju8mBw3DnPfe5Zy6MyfRcMpvNjnA4PE4kEkilUkin08hkMvykNb2PxWIIhUJLm82mCef6/f76er3+
+        jv/IyPw2slMBEIlEdGN498L8Bf8y8Y2mEABUj7TxIYtXJ1d4rVxjy13B9ukNdrSveOv9xjOScZgIiEaj
+        D4AtY/Obvza/8/0BfI6cPw5YrVbodDpotVpoNBqo1WqoVquoVCool8solUpPN6BaJLp5l8uFdruNeDwO
+        h8PBoPnue3Q3X0LX9cfv4OwszIDxeIzhcIher4dut8ttms0mu16vc+aTkRUuMRAM8jCXy0FVVYxGI27j
+        drsZlkwmoSgKNwgEgiLA5/MxYD6fYzabYTKZcBsCDQYD9Pt9BpEoKzRQVY2HhUIBXq+XIfl8Hh6Ph0HZ
+        bJabUQNV00TAidPJgOVyyV4sFg9tCDadTtkkp+ISAZIk6aXLy7tisQjyxROmzOHR0U/hE6xWa/Pg4PCH
+        JNlhtxuWZcjHx5Blssxrmu3tf/xlsVhun+snNt0DwD0SPCgK4rkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnFieldCalculator.ToolTipText" xml:space="preserve">
+    <value>Laukų skaičiuoklė</value>
+  </data>
+  <data name="ToolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAt5JREFUOE+Vk21I
+        U1EcxpeRqEXJJEb7IANdWpBpc6HpEFHcCIwSCvJDhtiHnDAyxz44XQudRTXf+6ASooK4ZjlKp2W6Ntxc
+        SjrSRStwy7fZ0uxFna9P515TCiLswHPvueee33P+59zn7mb8ZzOZTDeYTOZZi8ViJOjqjnGFQuEjl8sv
+        NDc3eyoqKpb9/f1TCeyzIwMej3dAJEpriz4pgMFgAHUPDg4uIfDefxpIJBJOVlZ2JJd7tDExPhxkMg1T
+        CgwMvEWemX8YKLKz98lk11MLCuQVarW676FWO93Ra557XBuFsS7GtoFIJHIR8ApRwLZBbm7u+bKyUqu5
+        zwzPzBRW19ZAN9s9wOGLyd4AZGWcgVQmR2hoqI6AkUS7aAOpVHpb/1S3bvjwFbw6N671fKfZjdpi4DAD
+        40V+eN5dic5OPeZmZ5GXl0dVcGILlujbu2hg/Bsg7fLQJmipomFn1H70NtXT8MryMrxeL3Q6HTgcTiEx
+        8GOUqO44HHPDePL5PhwrrzbLbiVwmA+c0Uw8a2mkYUo2mw0ulwsqlWo9KCionBgcZJTdrVwQQ4yrb3nk
+        KsZ6fTnAZWDymC8Mmk04J0f8IyUlxZGfn+/VaDSIjY21E/gifYgymWzIOmih4U/6JkwdYuDj8QDoa6po
+        2O2ZR6lavZCenv6upqZmaWBgAMXFxbNhYWESOkhCofBy0c2ijRH7eyy+7IbtNB8dD+poeHX4EtkPA9Bw
+        MTbmosufmJiAx+MhVeUMEYMQ6iB9ExISlORLLLW26TA0asf0l0Uszo9uw5SB2z1Dw06nE3a7HZmZmeOE
+        TdzKgR+bzc44l5ZmLVQo1qqrq6HVPkKPqR9m6yD6Lf0wGo1ob29HQ0MDlEolIiIizASO/z2JVChCWCyW
+        mLxsiomJeSEQJA4kJQnfkG3ak5OTR+Li4l7z+XwTWayJzM0kYv/tX9hDBllER4h4RKeIBL9E9amxcKJA
+        Kok/ASyNsewf7qICAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ToolStripButton1.Text" xml:space="preserve">
+    <value>Atnaujinti spalvojimo schemą</value>
+  </data>
+  <data name="tbbRefresh.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAl1JREFUOE+Vk9tP
+        0mEYx9n8O8gZas1YW8JyP5WUJjoUPIxDGw7kFXE0PLBcpJKI/gSVXygqB02DNJdNc2O6RXawFKbTDiRr
+        69o75+Zt8+4b0o0ga/bevs/7eQ6f92GxLnHuvajtViwrsi4RmjlE6q+MiyeEc/8EPNjSso3vmkwta6qw
+        elV5rHpZD1mgBlKfCIZXWjQvNKK4j+fOCDG+b6YMG5oQHenB5P4o5n54EDjwYibmhufLE4zvDWM4aoPc
+        WwtuW/5QCuT+Wy1b/6YxNLZnx+LPWUx/H8fT2CS8X11w74+A2aFhj1rRv9UDiasKHH2OMwXQst5osn56
+        iPn4NOZiHrh2HdAvaVDuoFBs5YNnvok6txjVjAi5JHvqQgvqFVl4NGJLZnRGadxlBIeCwduu84F5LZw4
+        R3slmLF/2fOao7oZ0WnVhPB3uaPkpNTGp9MDc5rYFpaClaVZlhPlQi1pmBUTyZSQVDClhCXxVpBKVxkp
+        c1CEsvLJLTOXnDnv3NZZ0kGKeSkt9Ved/E1GnZb2844yVtXxWRc0bKjj5y9lz6pdUo/ocGzHkbAyAvN6
+        Z2I+3PAFQPsmmbLvWjCw/QiaFTkSvxCJkmF8rQMToZNKR3cGofTX40Z7vikFYPygddLRHiz9CiSVBuP+
+        FKWD271JpbpFNQqMeSGOlsNOU6oaevyxC8EDX1Kp79s4JvadYHbtGNjsRduqHg2TNbhuyA1xmrOpjP0r
+        5yXujlArDMsEFYwAd+giFFkKUdhVcMxtuxbOb71qupA5nXS2OEJHScoQ/2sTzzRSfbzuyzz6AwhjMz2Q
+        F+a4AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="tbbRefresh.Text" xml:space="preserve">
+    <value>Atnaujinti įrašus</value>
+  </data>
+  <data name="tbbQuery.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAp1JREFUOE+tk91P
+        UnEcxv0PvO/KdeFFra2LWhdtbZk1XVtrq7aWpS6oi5Y3baVZbXVhCQ6IkASbttlIJy01BV+OIQcO6AGc
+        iOcIyIEDaPkGQjYlp+7pnLNqa2Hd9Nu+l8/neb4vv4KC//0mJydf0zS9TVEU7HY7CIKA1WpFb28vzGZz
+        555+Pp+vUCgzx3GYn/8MLpYAx/GIiBWJIZVag8lkQl6A4Frm9XoXeJ7HysoKaM8UXG4vnJQHpHMCJDmO
+        UJhDe3t7foAgxvLyslSJRBKUIG5pMUCvfwmdrhla7QvMBiMwGAz5AW63G5lMRhAnEI1G4RBdHRMYI92w
+        jblAfHSCnZ1D96s7CJkuI9LXAH/bGfj1ByullsRhpVIpxONxoe8o7EJk0VWj0UClUkGpVCLsMWDRVots
+        YAD4+gmZwDu4lGVLEkCctAgQZxAOzwmubozaKBCjTgwTJNxDTUizj7E1/wGL9iZszrzHTpzCdNvNnASw
+        WCwSIBaLIRQKS5FHCAeGR0hYnY+QZh5id5PCZvQ20p4aBN/I4G+tSNG688USoKenB6urq1L/LBuUXIeG
+        7SAtWqzN3MdubhwbXBVyyQqsz9aDbzmxNKU5ffjXSru6uqT1iYAZhsWgILa+fYpFb+0PcSVyiSv4wjwA
+        pytZD6qPHvntHjo6OpDNZqUhBgIMLKZGsEN3hdgO5HgZviWvISskCTaXIqg5VvTHMRmNRrq/vx8Mw8DV
+        pwdrrcf04HMs0JewwVcg7a9D2HgOtTXX89+BSFSr1WcVCoWvW3EKWI8j1HoRtvp9cBnK4VCWIsnSkMvl
+        ewN+xnpy48DO1ngztmgt6IaT6JQX4d6tq5DJZKiurg7+8/NeOF6Ye1ZVvE00lm8TqhJyoO7Q/r+JvgO+
+        WRX1ZkUcwQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="tbbQuery.Text" xml:space="preserve">
+    <value>Užklausa (F6)</value>
+  </data>
+  <data name="$this.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAGABoAwAAFgAAACgAAAAQAAAAIAAAAAEAGAAAAAAAQAMAAMQOAADEDgAAAAAAAAAA
+        AAD///////////////8RPVUoX4dJiL1Cjbwtd7P////////////////////////////////WnnLTmW7R
+        lmguZoKUx/mRyflBhckkZqaogmXDhFLDhFLDhFLDhFK7d0L////////XoXX48u338OpDiarg8v9Umtga
+        er5JmMVHjMPQ0tfw4tjw4tjw4tjFil3////////ZpHr58+7r0r6nxdl6ttWQt9FVyeRb3/V40O1Rnd3k
+        8Pr////w4tjGjF/////////dqH758+/r0Lrr0Lunt7l2udXC9v1j3/dd4vh50/BJl9rUxbnw4tjGilz/
+        ///////fqoL58+/qzrf////r0Lux1ud3y+fH9/1e3PVa4fd71PFMmt7K0NjIjV/////////hrof69PDq
+        y7LqzLPqzLPqzLOwxL950+7H9/1f3PVb4vd61vJQoN6sh2v////////jsYz69vHqya7////qybD/////
+        ///B6/d91O3E9v1s3fZtyu1jo9dlmclRksr////ltI/69vLpxqrpxqzqx6zpx63pya7pybCmwb6B1e2y
+        4/mLwOeu0/bE4Pxmn9P////nt5T79/Tpw6b////oxKn////////////ox6yx5vV3vue00vDl8/+s0u9I
+        jMf////pupj79/Tpw6bpw6bpw6bpw6bpw6bpw6bpw6bpw6atvbhYpdiFsdtGndArldH////rvZv79/T/
+        ///////////////////////////////////////79/TRl2r////////sv5779/Sc1aWY06GU0J2QzpiL
+        y5OHyY6Cxol+w4R6wYB2vnz79/TUm2/////////uwaH79/T79/T79/T79/T79/T79/T79/T79/T79/T7
+        9/T79/T79/TXoHT////////vwqPvwaLtwJ/rvp3rvJrpupbnt5PmtZDksozir4jgrITdqYDcpX3ao3r/
+        //////////////////////////////////////////////////////////////////8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Atributų lentelės redaktorius</value>
+  </data>
+  <data name="btnFieldSep.ToolTipText" xml:space="preserve">
+    <value>Lauko skaidymas</value>
+  </data>
+  <data name="mnuShowAll" xml:space="preserve">
+    <value>Rodyti visus objektus</value>
+  </data>
+  <data name="mnuShowSelected" xml:space="preserve">
+    <value>Rodyti tik pažymėtus objektus</value>
+  </data>
+  <data name="msgEnterField" xml:space="preserve">
+    <value>Įveskite lauko pavadinimą, į kurį norite sudėti ID reikšmes.</value>
+  </data>
+  <data name="msgError" xml:space="preserve">
+    <value>Klaida</value>
+  </data>
+  <data name="msgFieldName" xml:space="preserve">
+    <value>Įveskite lauko pavadinimą</value>
+  </data>
+  <data name="msgNoCollumn" xml:space="preserve">
+    <value>Nepažymėjote tinkamo lauko</value>
+  </data>
+  <data name="msgOverwritten" xml:space="preserve">
+    <value>Jei laukas egzistuoja, reikšmės bus perrašytos.</value>
+  </data>
+  <data name="msgSave" xml:space="preserve">
+    <value>Ar norite užsaugoti padarytus pakeitimus?</value>
+  </data>
+  <data name="qSave" xml:space="preserve">
+    <value>Ar užsaugoti?</value>
+  </data>
+</root>

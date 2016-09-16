@@ -1,0 +1,79 @@
+using System;
+using System.Collections.Generic;
+using System.Collections;
+using System.Text;
+
+namespace Iesi.Collections.Generic
+{
+        /// <summary>
+        /// Simple Wrapper for wrapping an regular Enumerator as a generic Enumberator&lt;T&gt;
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <exception cref="InvalidCastException">
+        /// If the wrapped has any item that is not of Type T, InvalidCastException could be thrown at any time
+        /// </exception>
+        public struct EnumeratorWrapper<T> : IEnumerator<T>
+        {
+            private IEnumerator innerEnumerator;
+
+            /// <summary>
+            /// ER.. a wrapper for this enumerator?
+            /// </summary>
+            /// <param name="toWrap"></param>
+            public EnumeratorWrapper(IEnumerator toWrap)
+            {
+                this.innerEnumerator = toWrap;
+            }
+
+            #region IEnumerator<T> Members
+
+            /// <summary>
+            /// 
+            /// </summary>
+            public T Current
+            {
+                get { return (T)innerEnumerator.Current; }
+            }
+
+            #endregion
+
+            #region IDisposable Members
+
+            /// <summary>
+            /// Disposes this object
+            /// </summary>
+            public void Dispose()
+            {
+                this.innerEnumerator = null;
+            }
+
+            #endregion
+
+            #region IEnumerator Members
+
+            object IEnumerator.Current
+            {
+                get { return innerEnumerator.Current; }
+            }
+
+            /// <summary>
+            /// Advances to the next member
+            /// </summary>
+            /// <returns></returns>
+            public bool MoveNext()
+            {
+                return innerEnumerator.MoveNext();
+            }
+
+            /// <summary>
+            /// Resets
+            /// </summary>
+            public void Reset()
+            {
+                innerEnumerator.Reset();
+            }
+
+            #endregion
+        }
+   
+}

@@ -1,0 +1,12 @@
+<b>Printing</b>
+<p>
+The Print dialog box allows you to select and print the Legend,  Visible Layers, Title, Scale Bar, and North Arrow along with your map. Simply click on a radio button to select and deselect these print options, and then click the Print button to print your map. <i>Note: to change the location where you would like to print your map, click the Properties button.</i>
+<p>
+Select the Title radio button and then type the map title into the text box below the button. The title that you type will appear on your map when you print. Also, you can click on the A button to the right of the Title text box to select font options such as font style and size.
+<p>
+The Preview button allows you to view your map the way that it will print with all the print options that you selected.
+<p>
+The Properties button allows you to select the printer properties such as which printer, and the number of copies.
+<p>
+The Print button will print the map, including any selected print options, on your default printer.
+

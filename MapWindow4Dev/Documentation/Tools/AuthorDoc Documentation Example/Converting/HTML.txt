@@ -1,0 +1,8 @@
+<h>HTML Pages</h>
+
+No additional software is needed to convert source into HTML pages. 
+Simply select the Convert option in the File menu, choose HTML Pages, 
+select whether or not Up/Next Navigation and a Contents.html page are desired,
+and press the Convert button. The Out directory will be filled with a structure 
+of HTML files matching your source files.
+

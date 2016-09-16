@@ -1,0 +1,64 @@
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: CreateHRU2009, Configuration: Debug x86 ------
+C:\Windows\Microsoft.NET\Framework\v3.5\Csc.exe /noconfig /unsafe- /checked+ /nowarn:1701,1702 /nostdlib- /platform:x86 /warn:4 /baseaddress:4194304 /define:DEBUG;TRACE /reference:C:\dev\MapWindow4Dev\Bin\AxInterop.MapWinGIS.dll /reference:C:\dev\MapWindow4Dev\Bin\Interop.MapWinGIS.dll /reference:C:\dev\MapWindow4Dev\Bin\MapWinGeoProc.dll /reference:C:\dev\MapWindow4Dev\Bin\MapWinInterfaces.dll /reference:C:\dev\MapWindow4Dev\Bin\MapWinUtility.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Configuration.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Data.DataSetExtensions.dll" /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.dll" /debug+ /debug:Full /filealign:4096 /optimize- /out:obj\x86\Debug\CreateHRU2009.dll /resource:obj\x86\Debug\CreateHRU2009.mwSWATHU.resources /resource:obj\x86\Debug\CreateHRU2009.mwSWATResults.resources /resource:obj\x86\Debug\CreateHRU2009.strings.resources /target:library /warnaserror- mwSWATDbUtils.cs mwSWATGlobals.cs mwSWATHRU.cs mwSWATHRUdb.cs mwSWATHU.cs mwSWATHU.Designer.cs mwSWATResults.cs mwSWATResults.Designer.cs mwSWATTopology.cs mwSWATUtils.cs Properties\AssemblyInfo.cs strings.Designer.cs
+
+Compile complete -- 0 errors, 0 warnings
+CreateHRU2009 -> C:\dev\MapWindow4Plugins\MWSWAT2009\CreateHRU2009\bin\Debug\CreateHRU2009.dll
+------ Build started: Project: MWSWAT2009, Configuration: Debug x86 ------
+C:\Windows\Microsoft.NET\Framework\v3.5\Vbc.exe /noconfig /baseaddress:400000 /imports:Microsoft.VisualBasic,System,System.Collections,System.Collections.Generic,System.Diagnostics,System.Drawing,System.Windows.Forms /optioncompare:Binary /optionexplicit+ /optionstrict- /optioninfer+ /platform:x86 /removeintchecks- /rootnamespace:MWSWAT2009 /define:"CONFIG=\"Debug\",_MyType=\"Windows\",PLATFORM=\"x86\",DEBUG=1,TRACE=1" /reference:C:\dev\MapWindow4Plugins\MWSWAT2009\CreateHRU2009\bin\Debug\CreateHRU2009.dll,C:\dev\MapWindow4Dev\Bin\Interop.MapWinGIS.dll,C:\dev\MapWindow4Dev\Bin\MapWinGeoProc.dll,C:\dev\MapWindow4Dev\Bin\MapWinInterfaces.dll,..\..\..\MapWindow4Dev\Bin\Plugins\Watershed_delin\mwTaudemBasinsWrapper.dll,"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll",C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll,"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.dll" /debug+ /debug:Full /optimize- /out:obj\x86\Debug\MWSWAT2009.dll /resource:obj\x86\Debug\MWSWAT2009.frmDEM.resources /resource:obj\x86\Debug\MWSWAT2009.frmExempt.resources /resource:obj\x86\Debug\MWSWAT2009.frmHRU.resources /resource:obj\x86\Debug\MWSWAT2009.frmLUs.resources /resource:obj\x86\Debug\MWSWAT2009.frmSave.resources /resource:obj\x86\Debug\MWSWAT2009.frmSplit.resources /resource:obj\x86\Debug\MWSWAT2009.swatInterface.resources /resource:obj\x86\Debug\MWSWAT2009.frmSWATSetup.resources /resource:obj\x86\Debug\MWSWAT2009.frmWeather.resources /resource:obj\x86\Debug\MWSWAT2009.strings.resources /target:library /warnaserror- frmDEM.Designer.vb frmDEM.vb frmExempt.Designer.vb frmExempt.vb frmHRU.Designer.vb frmHRU.vb frmLUs.Designer.vb frmLUs.vb frmSave.Designer.vb frmSave.vb frmSplit.Designer.vb frmSplit.vb frmswatInterface.Designer.vb frmswatInterface.vb frmSWATSetup.Designer.vb frmSWATSetup.vb frmWeather.Designer.vb frmWeather.vb mPublics.vb mwSWAT.vb Properties\AssemblyInfo.vb strings.Designer.vb
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmExempt.vb(42) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmExempt.vb(50) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmHRU.vb(310) : warning BC42016: Implicit conversion from 'Object' to 'Integer'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmHRU.vb(311) : warning BC42019: Operands of type Object used for operator '>'; runtime errors could occur.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmHRU.vb(312) : warning BC42016: Implicit conversion from 'Object' to 'Integer'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmHRU.vb(329) : warning BC42016: Implicit conversion from 'Object' to 'Integer'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmHRU.vb(330) : warning BC42019: Operands of type Object used for operator '>'; runtime errors could occur.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmHRU.vb(331) : warning BC42016: Implicit conversion from 'Object' to 'Integer'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmHRU.vb(348) : warning BC42016: Implicit conversion from 'Object' to 'Integer'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmHRU.vb(349) : warning BC42019: Operands of type Object used for operator '>'; runtime errors could occur.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmHRU.vb(350) : warning BC42016: Implicit conversion from 'Object' to 'Integer'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmHRU.vb(562) : warning BC42016: Implicit conversion from 'Microsoft.VisualBasic.MsgBoxStyle' to 'Boolean'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmHRU.vb(640) : warning BC42016: Implicit conversion from 'Double' to 'Integer'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmHRU.vb(644) : warning BC42016: Implicit conversion from 'Double' to 'Integer'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmHRU.vb(660) : warning BC42016: Implicit conversion from 'Double' to 'Integer'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmHRU.vb(712) : warning BC42019: Operands of type Object used for operator '>'; runtime errors could occur.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmHRU.vb(713) : warning BC42016: Implicit conversion from 'Object' to 'Integer'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmHRU.vb(802) : warning BC42016: Implicit conversion from 'Double' to 'Integer'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmHRU.vb(805) : warning BC42016: Implicit conversion from 'Double' to 'Integer'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmHRU.vb(814) : warning BC42016: Implicit conversion from 'Double' to 'Integer'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmHRU.vb(819) : warning BC42016: Implicit conversion from 'Double' to 'Integer'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmHRU.vb(826) : warning BC42016: Implicit conversion from 'Double' to 'Integer'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmHRU.vb(832) : warning BC42016: Implicit conversion from 'Double' to 'Integer'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmHRU.vb(919) : warning BC42019: Operands of type Object used for operator '*'; runtime errors could occur.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmHRU.vb(920) : warning BC42019: Operands of type Object used for operator '*'; runtime errors could occur.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmHRU.vb(1044) : warning BC42016: Implicit conversion from 'Double' to 'Integer'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmHRU.vb(1086) : warning BC42016: Implicit conversion from 'Double' to 'Integer'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmHRU.vb(1118) : warning BC42016: Implicit conversion from 'Object' to 'MapWinGIS.GridColorScheme'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmHRU.vb(1121) : warning BC42016: Implicit conversion from 'Double' to 'Integer'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmHRU.vb(1149) : warning BC42016: Implicit conversion from 'Object' to 'MapWinGIS.GridColorScheme'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmHRU.vb(1152) : warning BC42016: Implicit conversion from 'Double' to 'Integer'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmHRU.vb(1188) : warning BC42016: Implicit conversion from 'Object' to 'MapWinGIS.GridColorScheme'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmHRU.vb(1191) : warning BC42016: Implicit conversion from 'Double' to 'Integer'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmHRU.vb(1291) : warning BC42016: Implicit conversion from 'Object' to 'MapWinGIS.Shapefile'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmHRU.vb(1310) : warning BC42016: Implicit conversion from 'Object' to 'MapWinGIS.Shapefile'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmHRU.vb(1329) : warning BC42016: Implicit conversion from 'Object' to 'Integer'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmHRU.vb(1359) : warning BC42016: Implicit conversion from 'Object' to 'MapWinGIS.ShapefileClass'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmLUs.vb(38) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmSWATSetup.vb(228) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmSWATSetup.vb(235) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmSave.vb(50) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmSplit.vb(72) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmSplit.vb(79) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmSplit.vb(101) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmSplit.vb(162) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmSplit.vb(167) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmSplit.vb(168) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmswatInterface.vb(61) : warning BC42016: Implicit conversion from 'MapWindow.Interfaces.IPlugin' to 'mwTaudemBasinsWrap.mwTaudemBASINSWrapper_v3'.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmswatInterface.vb(863) : warning BC42018: Operands of type Object used for operator '='; use the 'Is' operator to test object identity.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmswatInterface.vb(865) : warning BC42018: Operands of type Object used for operator '='; use the 'Is' operator to test object identity.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\frmswatInterface.vb(867) : warning BC42018: Operands of type Object used for operator '='; use the 'Is' operator to test object identity.
+C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\mwSWAT.vb(48) : warning BC42016: Implicit conversion from 'System.Windows.Forms.Control' to 'System.Windows.Forms.Form'.
+MWSWAT2009 -> C:\dev\MapWindow4Plugins\MWSWAT2009\MWSWAT2009\bin\Debug\MWSWAT2009.dll
+========== Build: 2 succeeded or up-to-date, 0 failed, 0 skipped ==========

@@ -1,0 +1,888 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7AE7B1DF-7D39-4326-9A62-2EF9D62DEB98}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>GeoProcDialog\LightRed.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>MapWinGeoProc</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>MapWinGeoProc</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\Bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>MapWinGeoProc.xml</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\Bin\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DocumentationFile>MapWinGeoProc.xml</DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\Bin64\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>..\Bin64\MapWinGeoProc.xml</DocumentationFile>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>..\Bin64\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>..\Bin64\MapWinGeoProc.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\..\BASINS40\local\x86Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>..\..\..\BASINS40\local\x86Debug.xml</DocumentationFile>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>..\Bin\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>..\Bin\MapWinGeoProc.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.MapWinGIS, Version=4.8.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BASINS40\local\x86Debug\AxInterop.MapWinGIS.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Interop.MapWinGIS, Version=4.7.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MapWindow.Interfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=14ba77d91dae5597, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MapWinInterfaces, Version=4.8.6.28691, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BASINS40\local\x86Debug\MapWinInterfaces.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsDataManagement\DataManagement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsDataManagement\MergeShapes.cs" />
+    <Compile Include="clsDataManagement\PointExporter.cs" />
+    <Compile Include="clsDataManagement\ShapefileXYZtoXY.cs" />
+    <Compile Include="clsEnumerations\Enumerations.cs" />
+    <Compile Include="clsError\Error.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsFlowArea\FlowArea.cs" />
+    <Compile Include="clsGeneralization\DPSimplification.cs" />
+    <Compile Include="clsHydrology\CrossSection.cs" />
+    <Compile Include="clsHydrology\Hydrology.cs" />
+    <Compile Include="clsHydrology\Pitfill\Algorithm.cs" />
+    <Compile Include="clsHydrology\Pitfill\Frame.cs" />
+    <Compile Include="clsHydrology\Pitfill\Framework.cs" />
+    <Compile Include="clsHydrology\CrossSection.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrossSection.resx</DependentUpon>
+    </Compile>
+    <Compile Include="clsInterpolation\HPoint.cs" />
+    <Compile Include="clsInterpolation\HRect.cs" />
+    <Compile Include="clsInterpolation\Interpolation.cs" />
+    <Compile Include="clsInterpolation\KDTree.cs" />
+    <Compile Include="clsInterpolation\KeyDuplicateException.cs" />
+    <Compile Include="clsInterpolation\KeyMissingException.cs" />
+    <Compile Include="clsInterpolation\KeySizeException.cs" />
+    <Compile Include="clsInterpolation\NearestNeighborList.cs" />
+    <Compile Include="clsInterpolation\PriorityQueue.cs" />
+    <Compile Include="clsRasterProximity\RasterProximity.cs" />
+    <Compile Include="clsSpatialOperations\Buffer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsSpatialOperations\Clipping\ClipGridWithPoly.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsSpatialOperations\Clipping\ClipLineSFWithPoly.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsSpatialOperations\Clipping\ClipPointSFWithPoly.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsSpatialOperations\Clipping\ClipPolySFWithPoly.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsSpatialOperations\Clipping\ClipPolyWithLine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsSpatialOperations\Erase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsSpatialOperations\Merge.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsSpatialOperations\Selection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsSpatialOperations\SpatialOperations.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsSpatialReference\Affine.cs" />
+    <Compile Include="clsSpatialReference\Projective.cs" />
+    <Compile Include="clsSpatialReference\SpatialReference.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsStatistics\Statistics.cs" />
+    <Compile Include="clsTerrainAnalysis\TerrainAnalysis.cs" />
+    <Compile Include="clsUnits\UnitConverter.cs" />
+    <Compile Include="clsUtils\LineEdge.cs" />
+    <Compile Include="clsUtils\ManhattanShapes.cs" />
+    <Compile Include="clsUtils\ManhattanShapes.Designer.cs">
+      <DependentUpon>ManhattanShapes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clsUtils\Rasterizer.cs" />
+    <Compile Include="clsScaleTools\ScaleTools.cs" />
+    <Compile Include="clsUtils\Utils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compatibility\Convert.cs" />
+    <Compile Include="Compatibility\Raster.cs" />
+    <Compile Include="Coordinates.cs" />
+    <Compile Include="GeoProcDialog\BooleanElement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GeoProcDialog\BooleanElement.Designer.cs">
+      <DependentUpon>BooleanElement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeoProcDialog\BatchFileElement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GeoProcDialog\BatchFileElement.Designer.cs">
+      <DependentUpon>BatchFileElement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeoProcDialog\ComboBoxElement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GeoProcDialog\ComboBoxElement.Designer.cs">
+      <DependentUpon>ComboBoxElement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeoProcDialog\DialogElement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GeoProcDialog\DialogElement.Designer.cs">
+      <DependentUpon>DialogElement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeoProcDialog\FileElement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GeoProcDialog\FileElement.Designer.cs">
+      <DependentUpon>FileElement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeoProcDialog\FrameworkStatus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GeoProcDialog\FrameworkStatus.designer.cs">
+      <DependentUpon>FrameworkStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeoProcDialog\GeoProcDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeoProcDialog\GeoProcDialog.Designer.cs">
+      <DependentUpon>GeoProcDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Analysis\ImageAnalysis.cs" />
+    <Compile Include="GeoProcDialog\HelpPannelEventArgs.cs" />
+    <Compile Include="GeoProcDialog\LayerFileElement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GeoProcDialog\LayerFileElement.Designer.cs">
+      <DependentUpon>LayerFileElement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeoProcDialog\TextElement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GeoProcDialog\TextElement.Designer.cs">
+      <DependentUpon>TextElement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Globals.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GridWrapper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GeoProcDialog\ProgressDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeoProcDialog\ProgressDialog.designer.cs">
+      <DependentUpon>ProgressDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Macro.cs" />
+    <Compile Include="MapWinException.cs" />
+    <Compile Include="NTS.Topology\Algorithm\CentroidArea.cs" />
+    <Compile Include="NTS.Topology\Algorithm\CentroidLine.cs" />
+    <Compile Include="NTS.Topology\Algorithm\CentroidPoint.cs" />
+    <Compile Include="NTS.Topology\Algorithm\CGAlgorithms.cs" />
+    <Compile Include="NTS.Topology\Algorithm\ConvexHull.cs" />
+    <Compile Include="NTS.Topology\Algorithm\HCoordinate.cs" />
+    <Compile Include="NTS.Topology\Algorithm\InteriorPointArea.cs" />
+    <Compile Include="NTS.Topology\Algorithm\InteriorPointLine.cs" />
+    <Compile Include="NTS.Topology\Algorithm\InteriorPointPoint.cs" />
+    <Compile Include="NTS.Topology\Algorithm\IPointInRing.cs" />
+    <Compile Include="NTS.Topology\Algorithm\LineIntersector.cs" />
+    <Compile Include="NTS.Topology\Algorithm\MCPointInRing.cs" />
+    <Compile Include="NTS.Topology\Algorithm\MinimumDiameter.cs" />
+    <Compile Include="NTS.Topology\Algorithm\NonRobustCGAlgorithms.cs" />
+    <Compile Include="NTS.Topology\Algorithm\NonRobustLineIntersector.cs" />
+    <Compile Include="NTS.Topology\Algorithm\NotRepresentableException.cs" />
+    <Compile Include="NTS.Topology\Algorithm\PointLocator.cs" />
+    <Compile Include="NTS.Topology\Algorithm\RobustDeterminant.cs" />
+    <Compile Include="NTS.Topology\Algorithm\RobustLineIntersector.cs" />
+    <Compile Include="NTS.Topology\Algorithm\SimplePointInAreaLocator.cs" />
+    <Compile Include="NTS.Topology\Algorithm\SimplePointInRing.cs" />
+    <Compile Include="NTS.Topology\Algorithm\SIRtreePointInRing.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\AngularUnit.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\AxisInfo.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\AxisOrientationEnum.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\CoordinateSystem.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\CoordinateSystemFactory.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\Datum.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\DatumType.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\Ellipsoid.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\GeocentricCoordinateSystem.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\GeographicCoordinateSystem.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\GeographicTransform.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\HorizontalCoordinateSystem.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\HorizontalDatum.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\IAngularUnit.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\ICompoundCoordinateSystem.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\ICoordinateSystem.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\ICoordinateSystemAuthorityFactory.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\ICoordinateSystemFactory.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\IDatum.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\IEllipsoid.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\IFittedCoordinateSystem.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\IGeocentricCoordinateSystem.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\IGeodeticSpatialReference.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\IGeographicCoordinateSystem.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\IGeographicTransform.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\IHorizontalCoordinateSystem.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\IHorizontalDatum.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\IInfo.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\ILinearUnit.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\ILocalCoordinateSystem.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\ILocalDatum.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\Info.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\IParameterInfo.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\IPrimeMeridian.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\IProjectedCoordinateSystem.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\IProjection.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\IUnit.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\IVerticalCoordinateSystem.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\IVerticalDatum.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\LinearUnit.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\Parameter.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\PrimeMeridian.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\ProjectedCoordinateSystem.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\Projection.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\ProjectionParameter.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\Projections\AlbersProjection.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\Projections\LambertConformalConic.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\Projections\MapProjection.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\Projections\Mercator.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\Projections\TransverseMercator.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\Transformations\ConcatenatedTransform.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\Transformations\CoordinateTransformation.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\Transformations\CoordinateTransformationAuthorityFactory.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\Transformations\CoordinateTransformationFactory.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\Transformations\DatumTransform.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\Transformations\DomainFlags.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\Transformations\GeocentricTransform.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\Transformations\GeographicTransform.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\Transformations\GeometryTransform.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\Transformations\ICoordinateTransformation.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\Transformations\ICoordinateTransformationFactory.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\Transformations\IMathTransform.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\Transformations\IMathTransformFactory.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\Transformations\MathTransform.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\Transformations\TransformType.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\Unit.cs" />
+    <Compile Include="NTS.Topology\CoordinateSystems\WGS84ConversionInfo.cs" />
+    <Compile Include="NTS.Topology\Features\AttributesTable.cs" />
+    <Compile Include="NTS.Topology\Features\Feature.cs" />
+    <Compile Include="NTS.Topology\Features\IAttributesTable.cs" />
+    <Compile Include="NTS.Topology\GeometriesGraph\Depth.cs" />
+    <Compile Include="NTS.Topology\GeometriesGraph\DirectedEdge.cs" />
+    <Compile Include="NTS.Topology\GeometriesGraph\DirectedEdgeStar.cs" />
+    <Compile Include="NTS.Topology\GeometriesGraph\Edge.cs" />
+    <Compile Include="NTS.Topology\GeometriesGraph\EdgeEnd.cs" />
+    <Compile Include="NTS.Topology\GeometriesGraph\EdgeEndStar.cs" />
+    <Compile Include="NTS.Topology\GeometriesGraph\EdgeIntersection.cs" />
+    <Compile Include="NTS.Topology\GeometriesGraph\EdgeIntersectionList.cs" />
+    <Compile Include="NTS.Topology\GeometriesGraph\EdgeList.cs" />
+    <Compile Include="NTS.Topology\GeometriesGraph\EdgeNodingValidator.cs" />
+    <Compile Include="NTS.Topology\GeometriesGraph\EdgeRing.cs" />
+    <Compile Include="NTS.Topology\GeometriesGraph\GeometryGraph.cs" />
+    <Compile Include="NTS.Topology\GeometriesGraph\GraphComponent.cs" />
+    <Compile Include="NTS.Topology\GeometriesGraph\Index\EdgeSetIntersector.cs" />
+    <Compile Include="NTS.Topology\GeometriesGraph\Index\MonotoneChain.cs" />
+    <Compile Include="NTS.Topology\GeometriesGraph\Index\MonotoneChainEdge.cs" />
+    <Compile Include="NTS.Topology\GeometriesGraph\Index\MonotoneChainIndexer.cs" />
+    <Compile Include="NTS.Topology\GeometriesGraph\Index\SegmentIntersector.cs" />
+    <Compile Include="NTS.Topology\GeometriesGraph\Index\SimpleEdgeSetIntersector.cs" />
+    <Compile Include="NTS.Topology\GeometriesGraph\Index\SimpleMCSweepLineIntersector.cs" />
+    <Compile Include="NTS.Topology\GeometriesGraph\Index\SimpleSweepLineIntersector.cs" />
+    <Compile Include="NTS.Topology\GeometriesGraph\Index\SweepLineEvent.cs" />
+    <Compile Include="NTS.Topology\GeometriesGraph\Index\SweepLineSegment.cs" />
+    <Compile Include="NTS.Topology\GeometriesGraph\Label.cs" />
+    <Compile Include="NTS.Topology\GeometriesGraph\Node.cs" />
+    <Compile Include="NTS.Topology\GeometriesGraph\NodeFactory.cs" />
+    <Compile Include="NTS.Topology\GeometriesGraph\NodeMap.cs" />
+    <Compile Include="NTS.Topology\GeometriesGraph\PlanarGraph.cs" />
+    <Compile Include="NTS.Topology\GeometriesGraph\Position.cs" />
+    <Compile Include="NTS.Topology\GeometriesGraph\QuadrantOp.cs" />
+    <Compile Include="NTS.Topology\GeometriesGraph\TopologyLocation.cs" />
+    <Compile Include="NTS.Topology\Geometries\Coordinate.cs" />
+    <Compile Include="NTS.Topology\Geometries\CoordinateArrays.cs" />
+    <Compile Include="NTS.Topology\Geometries\CoordinateArraySequence.cs" />
+    <Compile Include="NTS.Topology\Geometries\CoordinateArraySequenceFactory.cs" />
+    <Compile Include="NTS.Topology\Geometries\CoordinateList.cs" />
+    <Compile Include="NTS.Topology\Geometries\CoordinateSequences.cs" />
+    <Compile Include="NTS.Topology\Geometries\DefaultCoordinateSequence.cs" />
+    <Compile Include="NTS.Topology\Geometries\DefaultCoordinateSequenceFactory.cs" />
+    <Compile Include="NTS.Topology\Geometries\Dimension.cs" />
+    <Compile Include="NTS.Topology\Geometries\Envelope.cs" />
+    <Compile Include="NTS.Topology\Geometries\Geometry.cs" />
+    <Compile Include="NTS.Topology\Geometries\GeometryCollection.cs" />
+    <Compile Include="NTS.Topology\Geometries\GeometryCollectionEnumerator.cs" />
+    <Compile Include="NTS.Topology\Geometries\GeometryFactory.cs" />
+    <Compile Include="NTS.Topology\Geometries\IntersectionMatrix.cs" />
+    <Compile Include="NTS.Topology\Geometries\LinearRing.cs" />
+    <Compile Include="NTS.Topology\Geometries\LineSegment.cs" />
+    <Compile Include="NTS.Topology\Geometries\LineString.cs" />
+    <Compile Include="NTS.Topology\Geometries\Location.cs" />
+    <Compile Include="NTS.Topology\Geometries\MultiLineString.cs" />
+    <Compile Include="NTS.Topology\Geometries\MultiPoint.cs" />
+    <Compile Include="NTS.Topology\Geometries\MultiPolygon.cs" />
+    <Compile Include="NTS.Topology\Geometries\PackedCoordinateSequence.cs" />
+    <Compile Include="NTS.Topology\Geometries\PackedCoordinateSequenceFactory.cs" />
+    <Compile Include="NTS.Topology\Geometries\Point.cs" />
+    <Compile Include="NTS.Topology\Geometries\Polygon.cs" />
+    <Compile Include="NTS.Topology\Geometries\PrecisionModel.cs" />
+    <Compile Include="NTS.Topology\Geometries\TopologyException.cs" />
+    <Compile Include="NTS.Topology\Geometries\Triangle.cs" />
+    <Compile Include="NTS.Topology\Geometries\Utilities\GeometryEditor.cs" />
+    <Compile Include="NTS.Topology\Geometries\Utilities\GeometryTransformer.cs" />
+    <Compile Include="NTS.Topology\Geometries\Utilities\LinearComponentExtracter.cs" />
+    <Compile Include="NTS.Topology\Geometries\Utilities\PointExtracter.cs" />
+    <Compile Include="NTS.Topology\Geometries\Utilities\PolygonExtracter.cs" />
+    <Compile Include="NTS.Topology\Geometries\Utilities\ShortCircuitedGeometryVisitor.cs" />
+    <Compile Include="NTS.Topology\Index\ArrayListVisitor.cs" />
+    <Compile Include="NTS.Topology\Index\Bintree\Bintree.cs" />
+    <Compile Include="NTS.Topology\Index\Bintree\Interval.cs" />
+    <Compile Include="NTS.Topology\Index\Bintree\Key.cs" />
+    <Compile Include="NTS.Topology\Index\Bintree\Node.cs" />
+    <Compile Include="NTS.Topology\Index\Bintree\NodeBase.cs" />
+    <Compile Include="NTS.Topology\Index\Bintree\Root.cs" />
+    <Compile Include="NTS.Topology\Index\Chain\MonotoneChain.cs" />
+    <Compile Include="NTS.Topology\Index\Chain\MonotoneChainBuilder.cs" />
+    <Compile Include="NTS.Topology\Index\Chain\MonotoneChainOverlapAction.cs" />
+    <Compile Include="NTS.Topology\Index\Chain\MonotoneChainSelectAction.cs" />
+    <Compile Include="NTS.Topology\Index\IIndexVisitor.cs" />
+    <Compile Include="NTS.Topology\Index\IItemVisitor.cs" />
+    <Compile Include="NTS.Topology\Index\ISpatialIndex.cs" />
+    <Compile Include="NTS.Topology\Index\Quadtree\DoubleBits.cs" />
+    <Compile Include="NTS.Topology\Index\Quadtree\IntervalSize.cs" />
+    <Compile Include="NTS.Topology\Index\Quadtree\Key.cs" />
+    <Compile Include="NTS.Topology\Index\Quadtree\Node.cs" />
+    <Compile Include="NTS.Topology\Index\Quadtree\NodeBase.cs" />
+    <Compile Include="NTS.Topology\Index\Quadtree\Quadtree.cs" />
+    <Compile Include="NTS.Topology\Index\Quadtree\Root.cs" />
+    <Compile Include="NTS.Topology\Index\Strtree\AbstractNode.cs" />
+    <Compile Include="NTS.Topology\Index\Strtree\AbstractSTRtree.cs" />
+    <Compile Include="NTS.Topology\Index\Strtree\IBoundable.cs" />
+    <Compile Include="NTS.Topology\Index\Strtree\Interval.cs" />
+    <Compile Include="NTS.Topology\Index\Strtree\ItemBoundable.cs" />
+    <Compile Include="NTS.Topology\Index\Strtree\SIRtree.cs" />
+    <Compile Include="NTS.Topology\Index\Strtree\STRtree.cs" />
+    <Compile Include="NTS.Topology\Index\Sweepline\ISweepLineOverlapAction.cs" />
+    <Compile Include="NTS.Topology\Index\Sweepline\SweepLineEvent.cs" />
+    <Compile Include="NTS.Topology\Index\Sweepline\SweepLineIndex.cs" />
+    <Compile Include="NTS.Topology\Index\Sweepline\SweepLineInterval.cs" />
+    <Compile Include="NTS.Topology\IO\BEBinaryReader.cs" />
+    <Compile Include="NTS.Topology\IO\BEBinaryWriter.cs" />
+    <Compile Include="NTS.Topology\IO\CoordinateSystems\CoordinateSystemWktReader.cs" />
+    <Compile Include="NTS.Topology\IO\CoordinateSystems\SpatialReference.cs" />
+    <Compile Include="NTS.Topology\IO\CoordinateSystems\StreamTokenizer.cs" />
+    <Compile Include="NTS.Topology\IO\CoordinateSystems\WKTStreamTokenizer.cs" />
+    <Compile Include="NTS.Topology\IO\GDBReader.cs" />
+    <Compile Include="NTS.Topology\IO\GDBWriter.cs" />
+    <Compile Include="NTS.Topology\IO\GeoTools\BigEndianBinaryReader.cs" />
+    <Compile Include="NTS.Topology\IO\GeoTools\BigEndianBinaryWriter.cs" />
+    <Compile Include="NTS.Topology\IO\GeoTools\Dbase\ColumnStructure.cs" />
+    <Compile Include="NTS.Topology\IO\GeoTools\Dbase\DbaseFieldDescriptor.cs" />
+    <Compile Include="NTS.Topology\IO\GeoTools\Dbase\DbaseFileHeader.cs" />
+    <Compile Include="NTS.Topology\IO\GeoTools\Dbase\DbaseFileReader.cs" />
+    <Compile Include="NTS.Topology\IO\GeoTools\Dbase\DbaseFileWriter.cs" />
+    <Compile Include="NTS.Topology\IO\GeoTools\Dbase\RowStructure.cs" />
+    <Compile Include="NTS.Topology\IO\GeoTools\Handlers\MultiLineHandler.cs" />
+    <Compile Include="NTS.Topology\IO\GeoTools\Handlers\MultiPointHandler.cs" />
+    <Compile Include="NTS.Topology\IO\GeoTools\Handlers\PointHandler.cs" />
+    <Compile Include="NTS.Topology\IO\GeoTools\Handlers\PolygonHandler.cs" />
+    <Compile Include="NTS.Topology\IO\GeoTools\Handlers\ShapeHandler.cs" />
+    <Compile Include="NTS.Topology\IO\GeoTools\Shapefile.cs" />
+    <Compile Include="NTS.Topology\IO\GeoTools\ShapefileDataReader.cs" />
+    <Compile Include="NTS.Topology\IO\GeoTools\ShapefileDataWriter.cs" />
+    <Compile Include="NTS.Topology\IO\GeoTools\ShapefileException.cs" />
+    <Compile Include="NTS.Topology\IO\GeoTools\ShapefileHeader.cs" />
+    <Compile Include="NTS.Topology\IO\GeoTools\ShapefileReader.cs" />
+    <Compile Include="NTS.Topology\IO\GeoTools\ShapefileWriter.cs" />
+    <Compile Include="NTS.Topology\IO\GeoTools\TokenType.cs" />
+    <Compile Include="NTS.Topology\IO\GeoTools\WktStreamTokenizer.cs" />
+    <Compile Include="NTS.Topology\IO\GML2\GMLReader.cs" />
+    <Compile Include="NTS.Topology\IO\GML2\GMLWriter.cs" />
+    <Compile Include="NTS.Topology\IO\MyShapeFileReader.cs" />
+    <Compile Include="NTS.Topology\IO\MyShapeFileWriter.cs" />
+    <Compile Include="NTS.Topology\IO\ParseException.cs" />
+    <Compile Include="NTS.Topology\IO\ShapeReader.cs" />
+    <Compile Include="NTS.Topology\IO\ShapeWriter.cs" />
+    <Compile Include="NTS.Topology\IO\TokenType.cs" />
+    <Compile Include="NTS.Topology\IO\WKBGeometryTypes.cs" />
+    <Compile Include="NTS.Topology\IO\WKBReader.cs" />
+    <Compile Include="NTS.Topology\IO\WKBWriter.cs" />
+    <Compile Include="NTS.Topology\IO\WKTReader.cs" />
+    <Compile Include="NTS.Topology\IO\WKTWriter.cs" />
+    <Compile Include="NTS.Topology\LinearReferencing\ExtractLineByLocation.cs" />
+    <Compile Include="NTS.Topology\LinearReferencing\LengthIndexedLine.cs" />
+    <Compile Include="NTS.Topology\LinearReferencing\LengthIndexOfPoint.cs" />
+    <Compile Include="NTS.Topology\LinearReferencing\LengthLocationMap.cs" />
+    <Compile Include="NTS.Topology\LinearReferencing\LinearGeometryBuilder.cs" />
+    <Compile Include="NTS.Topology\LinearReferencing\LinearIterator.cs" />
+    <Compile Include="NTS.Topology\LinearReferencing\LinearLocation.cs" />
+    <Compile Include="NTS.Topology\LinearReferencing\LocationIndexedLine.cs" />
+    <Compile Include="NTS.Topology\LinearReferencing\LocationIndexOfLine.cs" />
+    <Compile Include="NTS.Topology\LinearReferencing\LocationIndexOfPoint.cs" />
+    <Compile Include="NTS.Topology\Noding\INoder.cs" />
+    <Compile Include="NTS.Topology\Noding\IntersectionAdder.cs" />
+    <Compile Include="NTS.Topology\Noding\IntersectionFinderAdder.cs" />
+    <Compile Include="NTS.Topology\Noding\ISegmentIntersector.cs" />
+    <Compile Include="NTS.Topology\Noding\IteratedNoder.cs" />
+    <Compile Include="NTS.Topology\Noding\MCIndexNoder.cs" />
+    <Compile Include="NTS.Topology\Noding\NodingValidator.cs" />
+    <Compile Include="NTS.Topology\Noding\Octant.cs" />
+    <Compile Include="NTS.Topology\Noding\OrientedCoordinateArray.cs" />
+    <Compile Include="NTS.Topology\Noding\ScaledNoder.cs" />
+    <Compile Include="NTS.Topology\Noding\SegmentNode.cs" />
+    <Compile Include="NTS.Topology\Noding\SegmentNodeList.cs" />
+    <Compile Include="NTS.Topology\Noding\SegmentPointComparator.cs" />
+    <Compile Include="NTS.Topology\Noding\SegmentString.cs" />
+    <Compile Include="NTS.Topology\Noding\SegmentStringDissolver.cs" />
+    <Compile Include="NTS.Topology\Noding\SimpleNoder.cs" />
+    <Compile Include="NTS.Topology\Noding\SinglePassNoder.cs" />
+    <Compile Include="NTS.Topology\Noding\Snapround\HotPixel.cs" />
+    <Compile Include="NTS.Topology\Noding\Snapround\MCIndexPointSnapper.cs" />
+    <Compile Include="NTS.Topology\Noding\Snapround\MCIndexSnapRounder.cs" />
+    <Compile Include="NTS.Topology\Noding\Snapround\SimpleSnapRounder.cs" />
+    <Compile Include="NTS.Topology\Operation\Buffer\BufferBuilder.cs" />
+    <Compile Include="NTS.Topology\Operation\Buffer\BufferOp.cs" />
+    <Compile Include="NTS.Topology\Operation\Buffer\BufferSubgraph.cs" />
+    <Compile Include="NTS.Topology\Operation\Buffer\OffsetCurveBuilder.cs" />
+    <Compile Include="NTS.Topology\Operation\Buffer\OffsetCurveSetBuilder.cs" />
+    <Compile Include="NTS.Topology\Operation\Buffer\RightmostEdgeFinder.cs" />
+    <Compile Include="NTS.Topology\Operation\Buffer\SubgraphDepthLocater.cs" />
+    <Compile Include="NTS.Topology\Operation\Distance\ConnectedElementLocationFilter.cs" />
+    <Compile Include="NTS.Topology\Operation\Distance\ConnectedElementPointFilter.cs" />
+    <Compile Include="NTS.Topology\Operation\Distance\DistanceOp.cs" />
+    <Compile Include="NTS.Topology\Operation\Distance\GeometryLocation.cs" />
+    <Compile Include="NTS.Topology\Operation\GeometryGraphOperation.cs" />
+    <Compile Include="NTS.Topology\Operation\IsSimpleOp.cs" />
+    <Compile Include="NTS.Topology\Operation\Linemerge\EdgeString.cs" />
+    <Compile Include="NTS.Topology\Operation\Linemerge\LineMergeDirectedEdge.cs" />
+    <Compile Include="NTS.Topology\Operation\Linemerge\LineMergeEdge.cs" />
+    <Compile Include="NTS.Topology\Operation\Linemerge\LineMergeGraph.cs" />
+    <Compile Include="NTS.Topology\Operation\Linemerge\LineMerger.cs" />
+    <Compile Include="NTS.Topology\Operation\Linemerge\LineSequencer.cs" />
+    <Compile Include="NTS.Topology\Operation\Overlay\EdgeSetNoder.cs" />
+    <Compile Include="NTS.Topology\Operation\Overlay\LineBuilder.cs" />
+    <Compile Include="NTS.Topology\Operation\Overlay\MaximalEdgeRing.cs" />
+    <Compile Include="NTS.Topology\Operation\Overlay\MinimalEdgeRing.cs" />
+    <Compile Include="NTS.Topology\Operation\Overlay\OverlayNodeFactory.cs" />
+    <Compile Include="NTS.Topology\Operation\Overlay\OverlayOp.cs" />
+    <Compile Include="NTS.Topology\Operation\Overlay\PointBuilder.cs" />
+    <Compile Include="NTS.Topology\Operation\Overlay\PolygonBuilder.cs" />
+    <Compile Include="NTS.Topology\Operation\Polygonize\EdgeRing.cs" />
+    <Compile Include="NTS.Topology\Operation\Polygonize\PolygonizeDirectedEdge.cs" />
+    <Compile Include="NTS.Topology\Operation\Polygonize\PolygonizeEdge.cs" />
+    <Compile Include="NTS.Topology\Operation\Polygonize\PolygonizeGraph.cs" />
+    <Compile Include="NTS.Topology\Operation\Polygonize\Polygonizer.cs" />
+    <Compile Include="NTS.Topology\Operation\Predicate\RectangleContains.cs" />
+    <Compile Include="NTS.Topology\Operation\Predicate\RectangleIntersects.cs" />
+    <Compile Include="NTS.Topology\Operation\Predicate\SegmentIntersectionTester.cs" />
+    <Compile Include="NTS.Topology\Operation\Relate\EdgeEndBuilder.cs" />
+    <Compile Include="NTS.Topology\Operation\Relate\EdgeEndBundle.cs" />
+    <Compile Include="NTS.Topology\Operation\Relate\EdgeEndBundleStar.cs" />
+    <Compile Include="NTS.Topology\Operation\Relate\RelateComputer.cs" />
+    <Compile Include="NTS.Topology\Operation\Relate\RelateNode.cs" />
+    <Compile Include="NTS.Topology\Operation\Relate\RelateNodeFactory.cs" />
+    <Compile Include="NTS.Topology\Operation\Relate\RelateNodeGraph.cs" />
+    <Compile Include="NTS.Topology\Operation\Relate\RelateOp.cs" />
+    <Compile Include="NTS.Topology\Operation\Valid\ConnectedInteriorTester.cs" />
+    <Compile Include="NTS.Topology\Operation\Valid\ConsistentAreaTester.cs" />
+    <Compile Include="NTS.Topology\Operation\Valid\IsValidOp.cs" />
+    <Compile Include="NTS.Topology\Operation\Valid\QuadtreeNestedRingTester.cs" />
+    <Compile Include="NTS.Topology\Operation\Valid\RepeatedPointTester.cs" />
+    <Compile Include="NTS.Topology\Operation\Valid\SimpleNestedRingTester.cs" />
+    <Compile Include="NTS.Topology\Operation\Valid\SweeplineNestedRingTester.cs" />
+    <Compile Include="NTS.Topology\Operation\Valid\TopologyValidationError.cs" />
+    <Compile Include="NTS.Topology\Planargraph\Algorithm\ConnectedSubgraphFinder.cs" />
+    <Compile Include="NTS.Topology\Planargraph\DirectedEdge.cs" />
+    <Compile Include="NTS.Topology\Planargraph\DirectedEdgeStar.cs" />
+    <Compile Include="NTS.Topology\Planargraph\Edge.cs" />
+    <Compile Include="NTS.Topology\Planargraph\GraphComponent.cs" />
+    <Compile Include="NTS.Topology\Planargraph\Node.cs" />
+    <Compile Include="NTS.Topology\Planargraph\NodeMap.cs" />
+    <Compile Include="NTS.Topology\Planargraph\PlanarGraph.cs" />
+    <Compile Include="NTS.Topology\Planargraph\Subgraph.cs" />
+    <Compile Include="NTS.Topology\Precision\CommonBits.cs" />
+    <Compile Include="NTS.Topology\Precision\CommonBitsOp.cs" />
+    <Compile Include="NTS.Topology\Precision\CommonBitsRemover.cs" />
+    <Compile Include="NTS.Topology\Precision\EnhancedPrecisionOp.cs" />
+    <Compile Include="NTS.Topology\Precision\SimpleGeometryPrecisionReducer.cs" />
+    <Compile Include="NTS.Topology\Properties\AssemblyInfo.cs" />
+    <Compile Include="NTS.Topology\Simplify\DouglasPeuckerLineSimplifier.cs" />
+    <Compile Include="NTS.Topology\Simplify\DouglasPeuckerSimplifier.cs" />
+    <Compile Include="NTS.Topology\Simplify\LineSegmentIndex.cs" />
+    <Compile Include="NTS.Topology\Simplify\TaggedLineSegment.cs" />
+    <Compile Include="NTS.Topology\Simplify\TaggedLinesSimplifier.cs" />
+    <Compile Include="NTS.Topology\Simplify\TaggedLineString.cs" />
+    <Compile Include="NTS.Topology\Simplify\TaggedLineStringSimplifier.cs" />
+    <Compile Include="NTS.Topology\Simplify\TopologyPreservingSimplifier.cs" />
+    <Compile Include="NTS.Topology\Utilities\Assert.cs" />
+    <Compile Include="NTS.Topology\Utilities\AssertionFailedException.cs" />
+    <Compile Include="NTS.Topology\Utilities\BitConverter.cs" />
+    <Compile Include="NTS.Topology\Utilities\CollectionUtil.cs" />
+    <Compile Include="NTS.Topology\Utilities\CoordinateArrayFilter.cs" />
+    <Compile Include="NTS.Topology\Utilities\CoordinateCompare.cs" />
+    <Compile Include="NTS.Topology\Utilities\CoordinateCountFilter.cs" />
+    <Compile Include="NTS.Topology\Utilities\Degrees.cs" />
+    <Compile Include="NTS.Topology\Utilities\GeometricShapeFactory.cs" />
+    <Compile Include="NTS.Topology\Utilities\GeoToolsStreamTokenizer.cs" />
+    <Compile Include="NTS.Topology\Utilities\Global.cs" />
+    <Compile Include="NTS.Topology\Utilities\HexConverter.cs" />
+    <Compile Include="NTS.Topology\Utilities\Iesi.Collections\DictionarySet.cs" />
+    <Compile Include="NTS.Topology\Utilities\Iesi.Collections\Generic\CollectionWrapper.cs" />
+    <Compile Include="NTS.Topology\Utilities\Iesi.Collections\Generic\DictionarySet.cs" />
+    <Compile Include="NTS.Topology\Utilities\Iesi.Collections\Generic\EnumerableWrapper.cs" />
+    <Compile Include="NTS.Topology\Utilities\Iesi.Collections\Generic\EnumeratorWrapper.cs" />
+    <Compile Include="NTS.Topology\Utilities\Iesi.Collections\Generic\HashedSet.cs" />
+    <Compile Include="NTS.Topology\Utilities\Iesi.Collections\Generic\HybridSet.cs" />
+    <Compile Include="NTS.Topology\Utilities\Iesi.Collections\Generic\ImmutableSet.cs" />
+    <Compile Include="NTS.Topology\Utilities\Iesi.Collections\Generic\ISet.cs" />
+    <Compile Include="NTS.Topology\Utilities\Iesi.Collections\Generic\ListSet.cs" />
+    <Compile Include="NTS.Topology\Utilities\Iesi.Collections\Generic\ListWrapper.cs" />
+    <Compile Include="NTS.Topology\Utilities\Iesi.Collections\Generic\Set.cs" />
+    <Compile Include="NTS.Topology\Utilities\Iesi.Collections\Generic\SetWrapper.cs" />
+    <Compile Include="NTS.Topology\Utilities\Iesi.Collections\Generic\SortedSet.cs" />
+    <Compile Include="NTS.Topology\Utilities\Iesi.Collections\HashedSet.cs" />
+    <Compile Include="NTS.Topology\Utilities\Iesi.Collections\HybridSet.cs" />
+    <Compile Include="NTS.Topology\Utilities\Iesi.Collections\ImmutableSet.cs" />
+    <Compile Include="NTS.Topology\Utilities\Iesi.Collections\ISet.cs" />
+    <Compile Include="NTS.Topology\Utilities\Iesi.Collections\ListSet.cs" />
+    <Compile Include="NTS.Topology\Utilities\Iesi.Collections\Set.cs" />
+    <Compile Include="NTS.Topology\Utilities\Iesi.Collections\SortedSet.cs" />
+    <Compile Include="NTS.Topology\Utilities\Iesi.Collections\SynchronizedSet.cs" />
+    <Compile Include="NTS.Topology\Utilities\Radians.cs" />
+    <Compile Include="NTS.Topology\Utilities\ReverseOrder.cs" />
+    <Compile Include="NTS.Topology\Utilities\RToolsUtil\BufferedTextReader.cs" />
+    <Compile Include="NTS.Topology\Utilities\RToolsUtil\CharBuffer.cs" />
+    <Compile Include="NTS.Topology\Utilities\RToolsUtil\Finder.cs" />
+    <Compile Include="NTS.Topology\Utilities\RToolsUtil\Logger.cs" />
+    <Compile Include="NTS.Topology\Utilities\RToolsUtil\Opts.cs" />
+    <Compile Include="NTS.Topology\Utilities\RToolsUtil\ParseUtil.cs" />
+    <Compile Include="NTS.Topology\Utilities\RToolsUtil\SoftwarePackage.cs" />
+    <Compile Include="NTS.Topology\Utilities\RToolsUtil\StreamTokenizer.cs" />
+    <Compile Include="NTS.Topology\Utilities\RToolsUtil\Token.cs" />
+    <Compile Include="NTS.Topology\Utilities\RToolsUtil\VerbosityLevel.cs" />
+    <Compile Include="NTS.Topology\Utilities\Stopwatch.cs" />
+    <Compile Include="NTS.Topology\Utilities\UniqueCoordinateArrayFilter.cs" />
+    <Compile Include="NTS_Adapter.cs" />
+    <Compile Include="Projections\Projections.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Compatibility\RasterCatalog.cs" />
+    <Compile Include="TestMethods\TestMethods.cs" />
+    <Compile Include="Toolbox\Selection.cs" />
+    <Compile Include="Toolbox\Toolbox.cs" />
+    <Compile Include="Topology2D\Angle.cs" />
+    <Compile Include="Topology2D\Coordinate.cs" />
+    <Compile Include="Topology2D\Enums.cs" />
+    <Compile Include="Topology2D\Envelope.cs" />
+    <Compile Include="Topology2D\Geometry.cs" />
+    <Compile Include="Topology2D\GeometryFactory.cs" />
+    <Compile Include="Topology2D\LinearRing.cs" />
+    <Compile Include="Topology2D\LineSegment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Topology2D\LineString.cs" />
+    <Compile Include="Topology2D\GeometryCollection.cs" />
+    <Compile Include="Topology2D\MultiLineString.cs" />
+    <Compile Include="Topology2D\MultiPolygon.cs" />
+    <Compile Include="NTS_Functions.cs" />
+    <Compile Include="Topology2D\Point.cs" />
+    <Compile Include="Topology2D\Polygon.cs" />
+    <Compile Include="Topology2D\ShapeCategories.cs" />
+    <Compile Include="Topology\Angle.cs" />
+    <Compile Include="Topology\Envelope.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Topology\LineSegment.cs" />
+    <Compile Include="Topology\LineString.cs" />
+    <Compile Include="Topology\Point.cs" />
+    <Compile Include="Topology\Polygon.cs" />
+    <Compile Include="Topology\ShapeCategories.cs" />
+    <Compile Include="Topology\Adapter.cs" />
+    <Compile Include="Topology2D\Adapter.cs" />
+    <Compile Include="Topology2D\Vector.cs" />
+    <Compile Include="Topology\Vector.cs" />
+    <EmbeddedResource Include="clsUtils\ManhattanShapes.resx">
+      <DependentUpon>ManhattanShapes.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="clsHydrology\CrossSection.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CrossSection.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeoProcDialog\BooleanElement.resx">
+      <DependentUpon>BooleanElement.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeoProcDialog\BatchFileElement.resx">
+      <DependentUpon>BatchFileElement.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeoProcDialog\ComboBoxElement.resx">
+      <DependentUpon>ComboBoxElement.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeoProcDialog\DialogElement.resx">
+      <DependentUpon>DialogElement.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeoProcDialog\FileElement.resx">
+      <DependentUpon>FileElement.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeoProcDialog\FrameworkStatus.resx">
+      <DependentUpon>FrameworkStatus.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeoProcDialog\GeoProcDialog.resx">
+      <DependentUpon>GeoProcDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeoProcDialog\LayerFileElement.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LayerFileElement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeoProcDialog\TextElement.resx">
+      <DependentUpon>TextElement.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeoProcDialog\ProgressDialog.resx">
+      <DependentUpon>ProgressDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="GeoProcDialog\DownArrow.ico" />
+    <Content Include="GeoProcDialog\LightRed.ico" />
+    <Content Include="NTS.Topology\License.txt" />
+    <Content Include="NTS.Topology\ReadMe.txt" />
+    <Content Include="NTS.Topology\Utilities\Iesi.Collections\Iesi.Collections.License.txt" />
+    <Content Include="NTS.Topology\Utilities\RToolsUtil\Rtools.Util.License.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NTS.Topology\NTS.ndoc" />
+    <None Include="NTS.Topology\SRID.csv" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\MapWindow4Plugins\MapWinUtility\BASINS-MapWinUtility10.vbproj">
+      <Project>{33E88992-742F-4D13-823F-35D6A07B1AA1}</Project>
+      <Name>BASINS-MapWinUtility10</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

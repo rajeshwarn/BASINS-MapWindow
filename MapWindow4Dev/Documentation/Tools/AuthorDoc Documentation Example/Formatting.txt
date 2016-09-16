@@ -1,0 +1,144 @@
+Most source is simply plain text. Formatting is accomplished by inserting
+tags into the text. AuthorDoc uses a few HTML tags that will be familiar to some
+and easy to understand for all. The first tag of interest is the paragraph tag.
+As in HTML, it is not usually important in AuthorDoc where you break lines while typing.
+All carriage returns will be removed during conversion and only paragraph and break tags 
+will break lines in the output.
+<p>
+Paragraphs are separated with the paragraph tag &lt;p&gt;<p>
+This tag breaks the line and leaves a little vertical space before starting the next line. 
+<p>
+The break tag &lt;br&gt;<br>
+breaks a line without without leaving added vertical space. 
+<p>
+Some characters with special meaning in HTML have to be written differently so they won't
+be misinterpreted. If you want a &lt; sign to appear in the output, it has 
+to be typed as &amp;lt; and a &gt; sign must be typed as &amp;gt; and an ampersand &amp;
+has to be typed as &amp;amp;. This can be a source of strange errors during conversion.
+If you convert your project and find that some of the document is missing or corrupted in 
+the output, check for stray symbols that should be written differently or tags with a missing
+&lt; or &gt;.
+<p>
+&lt;h&gt;Header of Section&lt;/h&gt;<br>
+Header levels are handled by the converter. The indentation of the
+filename in the project file determines the header level. This
+makes it easy to reorganize documentation and to share sections
+with documentation for other programs.
+<p>
+If a file does not contain a header, a default one will be
+inserted based on the filename. For example, if the file
+Abstract.txt just contains a paragraph of abstract and no &lt;h&gt; tag,
+the string &lt;h&gt;Abstract&lt;/h&gt; will be inserted at the top of the file
+during conversion. Many sections have the same name as the file, so this saves 
+some typing. See the top of this page for an example of a header.
+<p>
+&lt;i&gt;italics&lt;/i&gt;<br>
+<i>italics</i> 
+<p>
+&lt;b&gt;bold&lt;/b&gt;<br>
+<b>bold</b> 
+<p>
+&lt;u&gt;underline&lt;/u&gt;<br>
+<u>underline</u> 
+<p>
+&lt;ul&gt;<br>
+&lt;li&gt;List<br>
+&lt;li&gt;Of<br>
+&lt;li&gt;Bullets<br>
+&lt;/ul&gt;<br>
+<ul>
+<li>List
+<li>Of
+<li>Bullets
+</ul>
+<p>
+&lt;ol&gt;<br>
+&lt;li&gt;Numbered<br>
+&lt;li&gt;List<br>
+&lt;li&gt;Of<br>
+&lt;li&gt;Points<br>
+&lt;/ol&gt;<br>
+<ol>
+<li>Numbered
+<li>List
+<li>Of
+<li>Points
+</ol>
+<p>
+&lt;pre&gt;...&lt;/pre&gt;<br>
+Text to display in Courier fixed-width font, preserving line
+breaks as they are typed. Helpful for text tables like:
+&lt;pre&gt;
+<pre>
+DSN   Filename
+  1   One.wdm
+ 10   Ten.wdm
+134   OneThreeFour.wdm
+</pre>
+&lt;/pre&gt;<br>
+This tag is also helpful for displaying code samples.
+<p>
+&lt;figure&gt;Label for a figure, to be included in table of figures&lt;/figure&gt;
+<p>
+&lt;img src="Screenshot.png"&gt;<br>
+<img src="Screenshot.png"><br>
+Include an image. If the image is not in the same directory, 
+use paths such as 
+&lt;img src="../../images/Screenshot.gif"&gt; or 
+&lt;img src="/images/Screenshot.gif"&gt;
+<p>
+&lt;page&gt;<br>
+Creates a manual page break in the printable output.
+<p>
+&lt;toc&gt;<br>
+Builds a table of contents of the sections that are "children" of this one.
+<p>
+&lt;indexword="WDM"&gt;<br>
+<indexword="WDM">
+Creates a word in the HTML Help index that refers to this section
+<p>
+&lt;keyword="Introduction"&gt;<br>
+<keyword="Introduction"><br>
+Creates the same index entry that indexword creates, plus creates a 
+button in HTML Help that pops open a window with links to all 
+the other topics that share this keyword.
+<p>
+&lt;body bgcolor="0xffffff" background="SubtleLogo.gif"&gt;<br>
+Override the current body style (if any) just for this file.
+This is standard HTML and only has an effect in HTML and HTMLHelp.
+<p>
+<b>Hyperlinks</b>
+<p>
+&lt;a href="Introduction"&gt;Intro&lt;/a&gt;<br>
+<a href="Introduction">Intro</a><br>
+Hypertext link to another section. Relative paths can be used such as
+&lt;a href="../OtherSection/Filename"&gt;Link Text&lt;/a&gt;
+<p>
+If the path starts with a slash, the correct relative path will be generated
+during convert: &lt;a href="/icons/x.gif"&gt; might become &lt;a href="../../icons/x.gif"&gt;
+If you are linking to a web page: <br>
+&lt;a href="http://www.epa.gov/index.html"&gt;EPA&lt;/a&gt;<br>
+<a href="http://www.epa.gov/index.html">EPA</a><br>
+If you want the web page to open in a separate browser window instead of the
+help viewer: &lt;a href="http://www.epa.gov/index.html" target="_blank"&gt;EPA&lt;/a&gt;<br>
+<a href="http://www.epa.gov/index.html" target="_blank">EPA</a>
+<p>
+Several tags can be inserted using the Tags menu. Most tags will be placed "around" 
+the currently selected text in a helpful way. For example if the word click is selected in
+a source file in the right pane, then Tags/Bold is selected, &lt;click&gt; will replace click.
+<p>
+It is possible to turn View/Formatting on and off. While on, some formatting such as bold, italic, 
+and underline will be displayed, but the display may flicker during typing.
+<p>
+Do not include the following in your source files because they may confuse the converter:<br>
+&lt;html&gt;<br>
+&lt;head&gt;<br>
+&lt;form&gt;<br>
+<p>
+Other HTML tags will be preserved in the HTML and HTML Help output
+but will be lost in the printable document and old-style Windows
+help file.
+
+
+
+

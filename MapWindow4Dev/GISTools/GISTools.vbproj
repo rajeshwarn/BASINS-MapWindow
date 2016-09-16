@@ -1,0 +1,777 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3ED1B555-59BC-40A6-AE19-22AAF53A730C}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>GISTools</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>GISTools</RootNamespace>
+    <StartupObject>GISTools.%28None%29</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\bin\ApplicationPlugins\</OutputPath>
+    <DocumentationFile>GISTools.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\Bin\ApplicationPlugins\</OutputPath>
+    <DocumentationFile>GISTools.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>none</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\bin64\ApplicationPlugins\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>GISTools.xml</DocumentationFile>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\bin64\ApplicationPlugins\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>GISTools.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\..\BASINS40\Bin\ApplicationPlugins\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>GISTools.xml</DocumentationFile>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\bin\ApplicationPlugins\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>GISTools.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.MapWinGIS, Version=4.8.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BASINS40\Bin\AxInterop.MapWinGIS.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Interop.MapWinGIS, Version=4.8.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BASINS40\Bin\Interop.MapWinGIS.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MapWindow.Controls, Version=4.8.6.42300, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BASINS40\Bin\MapWindow.Controls.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MapWinInterfaces, Version=4.8.6.42296, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BASINS40\Bin\MapWinInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Management">
+      <Name>System.Management</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\ShapefileTools.vb" />
+    <Compile Include="Classes\MultiThreading\clsCallback.vb" />
+    <Compile Include="Classes\GisToolsPlugin.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\Grid\clsSuperGrid.vb" />
+    <Compile Include="Classes\GridTools.vb" />
+    <Compile Include="Classes\ImageTools.vb" />
+    <Compile Include="Classes\ProjectionTools.vb" />
+    <Compile Include="Classes\MultiThreading\clsToolBase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classes\Grid\clsWMI.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\Grid\GridUtils.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\Vector New\frmCentroids.Designer.vb">
+      <DependentUpon>frmCentroids.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Vector New\frmCentroids.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Vector New\frmFixupShapefile.Designer.vb">
+      <DependentUpon>frmFixupShapefile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Vector New\frmFixupShapefile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Vector New\frmSimplifyLines.Designer.vb">
+      <DependentUpon>frmSimplifyLines.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Vector New\frmSimplifyLines.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Vector New\frmValidate.Designer.vb">
+      <DependentUpon>frmValidate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Vector New\frmValidate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Vector\frm3Dto2D.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Vector New\frmAggregate.Designer.vb">
+      <DependentUpon>frmAggregate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Vector New\frmAggregate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Vector New\frmBufferNew.Designer.vb">
+      <DependentUpon>frmBufferNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Vector New\frmBufferNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Grid\frmChangeNodataVal.Designer.vb">
+      <DependentUpon>frmChangeNodataVal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Grid\frmChangeNodataVal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Vector New\frmDissolve.Designer.vb">
+      <DependentUpon>frmDissolve.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Vector New\frmDissolve.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Vector New\frmExplode.Designer.vb">
+      <DependentUpon>frmExplode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Vector New\frmExplode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Vector\frmExportByMask.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Vector\frmBuffer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Vector\frmCalculateArea.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Vector\frmClip.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Vector\frmClipPolyWLine.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Grid\frmColoringSchemeStylePicker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Vector\frmErase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Vector New\frmExportSelected.Designer.vb">
+      <DependentUpon>frmExportSelected.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Vector New\frmExportSelected.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Grid\frmGenerateContour.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Grid\frmGeoreference.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Vector\frmIdentity.Designer.vb">
+      <DependentUpon>frmIdentity.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Vector\frmIdentity.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Vector New\frmClipOperation.Designer.vb">
+      <DependentUpon>frmClipOperation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Vector New\frmClipOperation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Vector\frmMerge.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Vector New\frmMergeNew.Designer.vb">
+      <DependentUpon>frmMergeNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Vector New\frmMergeNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Vector\frmMergeShapefiles.Designer.vb">
+      <DependentUpon>frmMergeShapefiles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Vector\frmMergeShapefiles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Grid\frmOutput.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classes\MultiThreading\frmProgress.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classes\MultiThreading\frmProgressNew.Designer.vb">
+      <DependentUpon>frmProgressNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\MultiThreading\frmProgressNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Grid\frmResampleOpts.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Grid\frmSelectGrids.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Grid\frmSelectImages.Designer.vb">
+      <DependentUpon>frmSelectImages.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Grid\frmSelectImages.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Vector New\frmSortShapefile.Designer.vb">
+      <DependentUpon>frmSortShapefile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Vector New\frmSortShapefile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Vector New\frmSpatialQuery.Designer.vb">
+      <DependentUpon>frmSpatialQuery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Vector New\frmSpatialQuery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classes\Globals.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="Resource.cs.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.cs.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resource.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resource.lt.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.lt.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resource.th.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.th.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Classes\MultiThreading\clsToolBase.resx">
+      <DependentUpon>clsToolBase.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector New\frmCentroids.resx">
+      <DependentUpon>frmCentroids.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector New\frmFixupShapefile.resx">
+      <DependentUpon>frmFixupShapefile.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector New\frmSimplifyLines.resx">
+      <DependentUpon>frmSimplifyLines.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector New\frmValidate.resx">
+      <DependentUpon>frmValidate.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frm3Dto2D.resx">
+      <DependentUpon>frm3Dto2D.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector New\frmAggregate.resx">
+      <DependentUpon>frmAggregate.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frmBuffer.lt.resx">
+      <DependentUpon>frmBuffer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frmBuffer.th.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmBuffer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector New\frmBufferNew.resx">
+      <DependentUpon>frmBufferNew.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frmCalculateArea.lt.resx">
+      <DependentUpon>frmCalculateArea.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frmCalculateArea.th.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCalculateArea.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Grid\frmChangeNodataVal.lt.resx">
+      <DependentUpon>frmChangeNodataVal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Grid\frmChangeNodataVal.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmChangeNodataVal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Grid\frmChangeNodataVal.th.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmChangeNodataVal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frmClip.de.resx">
+      <DependentUpon>frmClip.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frmClip.lt.resx">
+      <DependentUpon>frmClip.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frmClip.th.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmClip.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frmClipPolyWLine.lt.resx">
+      <DependentUpon>frmClipPolyWLine.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frmClipPolyWLine.th.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmClipPolyWLine.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Grid\frmColoringSchemeStylePicker.lt.resx">
+      <DependentUpon>frmColoringSchemeStylePicker.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Grid\frmColoringSchemeStylePicker.th.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmColoringSchemeStylePicker.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector New\frmDissolve.resx">
+      <DependentUpon>frmDissolve.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frmErase.lt.resx">
+      <DependentUpon>frmErase.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frmErase.th.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmErase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector New\frmExplode.resx">
+      <DependentUpon>frmExplode.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frmExportByMask.lt.resx">
+      <DependentUpon>frmExportByMask.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frmExportByMask.resx">
+      <DependentUpon>frmExportByMask.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frmBuffer.resx">
+      <DependentUpon>frmBuffer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frmCalculateArea.resx">
+      <DependentUpon>frmCalculateArea.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frmClip.resx">
+      <DependentUpon>frmClip.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frmClipPolyWLine.resx">
+      <DependentUpon>frmClipPolyWLine.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Grid\frmColoringSchemeStylePicker.resx">
+      <DependentUpon>frmColoringSchemeStylePicker.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frmErase.resx">
+      <DependentUpon>frmErase.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frmExportByMask.th.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmExportByMask.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector New\frmExportSelected.resx">
+      <DependentUpon>frmExportSelected.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Grid\frmGenerateContour.lt.resx">
+      <DependentUpon>frmGenerateContour.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Grid\frmGenerateContour.resx">
+      <DependentUpon>frmGenerateContour.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Grid\frmGenerateContour.th.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmGenerateContour.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Grid\frmGeoreference.lt.resx">
+      <DependentUpon>frmGeoreference.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Grid\frmGeoreference.resx">
+      <DependentUpon>frmGeoreference.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Grid\frmGeoreference.th.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmGeoreference.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frmIdentity.lt.resx">
+      <DependentUpon>frmIdentity.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frmIdentity.resx">
+      <DependentUpon>frmIdentity.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frmIdentity.th.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmIdentity.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector New\frmClipOperation.resx">
+      <DependentUpon>frmClipOperation.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frmMerge.lt.resx">
+      <DependentUpon>frmMerge.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frmMerge.resx">
+      <DependentUpon>frmMerge.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frmMerge.th.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMerge.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector New\frmMergeNew.resx">
+      <DependentUpon>frmMergeNew.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frmMergeShapefiles.lt.resx">
+      <DependentUpon>frmMergeShapefiles.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frmMergeShapefiles.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMergeShapefiles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frmMergeShapefiles.th.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMergeShapefiles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Grid\frmOutput.lt.resx">
+      <DependentUpon>frmOutput.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Grid\frmOutput.resx">
+      <DependentUpon>frmOutput.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Grid\frmOutput.th.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmOutput.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Classes\MultiThreading\frmProgress.lt.resx">
+      <DependentUpon>frmProgress.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Classes\MultiThreading\frmProgress.resx">
+      <DependentUpon>frmProgress.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Classes\MultiThreading\frmProgress.th.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmProgress.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Classes\MultiThreading\frmProgressNew.resx">
+      <DependentUpon>frmProgressNew.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Grid\frmResampleOpts.lt.resx">
+      <DependentUpon>frmResampleOpts.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Grid\frmResampleOpts.resx">
+      <DependentUpon>frmResampleOpts.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Grid\frmResampleOpts.th.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmResampleOpts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Grid\frmSelectGrids.lt.resx">
+      <DependentUpon>frmSelectGrids.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Grid\frmSelectGrids.resx">
+      <DependentUpon>frmSelectGrids.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Grid\frmSelectGrids.th.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSelectGrids.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Grid\frmSelectImages.lt.resx">
+      <DependentUpon>frmSelectImages.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Grid\frmSelectImages.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSelectImages.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Grid\frmSelectImages.th.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSelectImages.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frmBuffer.cs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmBuffer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frmCalculateArea.cs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCalculateArea.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Grid\frmChangeNodataVal.cs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmChangeNodataVal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frmClip.cs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmClip.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frmClipPolyWLine.cs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmClipPolyWLine.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Grid\frmColoringSchemeStylePicker.cs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmColoringSchemeStylePicker.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frmErase.cs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmErase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frmExportByMask.cs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmExportByMask.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Grid\frmGenerateContour.cs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmGenerateContour.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Grid\frmGeoreference.cs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmGeoreference.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frmIdentity.cs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmIdentity.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frmMerge.cs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMerge.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector\frmMergeShapefiles.cs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMergeShapefiles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Grid\frmOutput.cs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmOutput.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Classes\MultiThreading\frmProgress.cs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmProgress.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Grid\frmResampleOpts.cs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmResampleOpts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Grid\frmSelectGrids.cs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSelectGrids.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Grid\frmSelectImages.cs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSelectImages.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector New\frmSortShapefile.resx">
+      <DependentUpon>frmSortShapefile.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Vector New\frmSpatialQuery.resx">
+      <DependentUpon>frmSpatialQuery.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource.cs.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.cs.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource.de.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource.lt.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.lt.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource.th.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.th.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\MapWindow4Plugins\MapWinUtility\BASINS-MapWinUtility.vbproj">
+      <Project>{3C991AE4-9EDB-4C24-BAF3-42F7303D7DF3}</Project>
+      <Name>BASINS-MapWinUtility</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\MapWinGeoProc\MapWinGeoProc.csproj">
+      <Project>{7AE7B1DF-7D39-4326-9A62-2EF9D62DEB98}</Project>
+      <Name>MapWinGeoProc</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Forms\Projections\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

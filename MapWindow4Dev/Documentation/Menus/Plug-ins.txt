@@ -1,0 +1,63 @@
+Plug-ins are additional functionality which help the GIS become more useful. Examples of GIS plug-ins are GIS tools and Watershed Delineation.
+<p>
+<b>MapWindow Plug-ins</b>
+<br>
+MapWindow has an extensible architecture that allows you to write plug-ins to add functionality using Visual Basic .NET or C#. Default plug-ins included with the MapWindow download include:
+<br>
+<ul>
+<li>Archive Project Tool - This tool allows you to combine, zip and package your <a href="File">MapWindow Project file (*.mwprj)</a> including all the data into one file. In order to package the data with your MapWindow Project file you must first use the Archive Project Tool and create one file with the MapWindow Project file and all the associated data <i>(Note: To learn more about MapWindow Project files click the link above and then browse for the title "To save a MapWindow Project" and read about differences between data and MapWindow Project filesx).<i></ul>
+<ul>
+<li>Shapefile Editor - For editing shape file geometry</ul>
+<ul>
+<li>Grid Wizard - For importing and converting different grid data formats</ul>
+<ul>
+<li>Attribute Table Editor - For viewing and editing shapefile attribute table data</ul>
+<ul>
+<li>Feature Identifier and Labeler - For identifying features and adding labels</ul>
+<ul>
+<li>GIS Tools - For clipping, assigning projections and reprojecting raster and vector data</ul>
+<p>
+In addition to these, several existing plug-ins other plug-ins are available for download from the MapWindow downlaods page.
+<p>
+<b>Your Plug-ins</b>
+<p>
+There are many cases where it may be useful to write your own plug-ins. For example, you may want to write a plug-in to:
+<p>
+<ul>
+<li></ul> Plot housing density by housing type based on a click on a particular neighborhood;
+<ul>
+<li>Re-project data from one projection to another;</ul>
+<ul>
+<li>Calculate the total upstream length of a stream network based on a selected stream;</ul>
+<ul>
+<li>Simulate a battlefield with tanks, obstacles and other interactive elements;</ul>
+<ul>
+<li>Launch a web-browser with the company web site for each of the businesses in a town based on a selection of a building on a map;</ul>
+<ul>
+<li>Compute and display land cover distribution within a selected region;</ul>
+<ul>
+<li>etc...</ul>
+<p>
+If you are interested in writing MapWindow plug-ins for your own use, or for redistributing them to others, you should look at sample code and take a shot at it. You'll find that it is very easy to do and quite fun.
+<p>
+You have the copyright and licensing rights for any plug-in that you write. This means that you can sell your plug-ins if you would like. Regardless of how you choose to license your own code, we would be happy to add your plug-in to our plug-ins download page either directly, or as a link to your company or personal page.
+<p>
+<b>Sample Code</b>
+<p>
+Most of the plug-ins on the MapWindow download page include source code that you can use as a model when writing your own plug-ins. One of the best plug-ins to look at for a sample code reference is the Feature Identifier that is part of the MapWindow application source code download. This plug-in is a fairly complete example of working with both vector and raster data through a plug-in. 
+<p>
+See also:
+<p>
+<ul>
+<li><a href="http://www.mapwindow.org/documentation/MapWinInterfaces.chm">MapWindow Plug-in Interfaces Documentation</a></ul>			
+<ul>
+<li><a href="http://www.mapwindow.org/phorum/index.php">Go to the plug-in developer forum</a></ul>
+
+
+
+
+
+
+
+
+

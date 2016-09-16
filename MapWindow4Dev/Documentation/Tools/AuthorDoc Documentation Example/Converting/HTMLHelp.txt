@@ -1,0 +1,34 @@
+<h>HTML Help</h>
+
+Before converting to HTML Help format (basename.chm) it is necessary to 
+<a href="http://msdn.microsoft.com/library/tools/htmlhelp/wkshp/download.htm">download</a>
+and install HTML Help Workshop from 
+<a href="http://msdn.microsoft.com/library/tools/htmlhelp/chm/hh1start.htm">Microsoft</a>
+or from <a href="ftp://hspf.com/pub/misc/htmlhelp.EXE">Aqua Terra</a>. 
+This program may have to be run once after installation to make it associate itself with 
+HTML Help project files (basename.hhp).
+<p>
+<ul>
+<li>Select the Convert option in the File menu
+<li>Choose HTML Help
+<li>Select whether or not you want 
+  <ul>
+  <li><a href="HelpContextID">HelpContextID</a> File (basename.ID)
+  <li>Project File (basename.hhp, the HTML Help project file)
+  <li>Up/Next Navigation (inserted links between sections, not usually very
+                helpful in HTML Help because the built-in navigation is good)
+  <li>table of Contents (basename.hhc)
+  </ul>
+<li>press the Convert button.
+The Out directory will be filled with a structure of HTML files matching your source files along 
+with whichever other files you have chosen. HTML Help workshop will be opened.
+<li>If you already have the help file open that you are about to redo, close it
+<li>Press the little meat grinder button or choose Compile from the File menu
+<li>Press the Compile button on the small window that opens. <br>
+    The new basename.chm file should be created in the Out directory.
+<li>If there are any errors during compilation, try to figure out where they are in the source
+<li>Close HTML Help Workshop
+<li>Open basename.chm and see how you like the final product.
+</ul>
+
+

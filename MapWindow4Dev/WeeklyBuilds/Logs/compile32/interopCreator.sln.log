@@ -1,0 +1,36 @@
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Rebuild All started: Project: interopCreator, Configuration: Release x86 ------
+del /Q C:\dev\MapWindow4Dev\Bin\AxInterop.MapWinGIS.dll
+del /Q C:\dev\MapWindow4Dev\Bin\Interop.MapWinGIS.dll
+C:\dev\MapWindow4Dev\Bin\regMapWinGIS-as-Admin.lnk
+
+C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets : warning : At least one of the arguments for '_DMap.DrawBackBuffer' cannot be marshaled by the runtime marshaler.  Such arguments will therefore be passed as a pointer and may require unsafe code to manipulate.
+C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets : warning : At least one of the arguments for 'IShapeDrawingOptions.DrawShape' cannot be marshaled by the runtime marshaler.  Such arguments will therefore be passed as a pointer and may require unsafe code to manipulate.
+C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets : warning : At least one of the arguments for 'IShapeDrawingOptions.DrawRectangle' cannot be marshaled by the runtime marshaler.  Such arguments will therefore be passed as a pointer and may require unsafe code to manipulate.
+C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets : warning : At least one of the arguments for 'IShapeDrawingOptions.DrawPoint' cannot be marshaled by the runtime marshaler.  Such arguments will therefore be passed as a pointer and may require unsafe code to manipulate.
+C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets : warning : At least one of the arguments for 'IShapeDrawingOptions.DrawLine' cannot be marshaled by the runtime marshaler.  Such arguments will therefore be passed as a pointer and may require unsafe code to manipulate.
+C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets : warning : At least one of the arguments for 'ILinePattern.Draw' cannot be marshaled by the runtime marshaler.  Such arguments will therefore be passed as a pointer and may require unsafe code to manipulate.
+C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets : warning : At least one of the arguments for 'ILineSegment.Draw' cannot be marshaled by the runtime marshaler.  Such arguments will therefore be passed as a pointer and may require unsafe code to manipulate.
+C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets : warning : At least one of the arguments for 'ICharts.DrawChart' cannot be marshaled by the runtime marshaler.  Such arguments will therefore be passed as a pointer and may require unsafe code to manipulate.
+C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets : warning : At least one of the arguments for 'Map.DrawBackBuffer' cannot be marshaled by the runtime marshaler.  Such arguments will therefore be passed as a pointer and may require unsafe code to manipulate.
+C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets : warning : At least one of the arguments for 'ShapeDrawingOptions.DrawShape' cannot be marshaled by the runtime marshaler.  Such arguments will therefore be passed as a pointer and may require unsafe code to manipulate.
+C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets : warning : At least one of the arguments for 'ShapeDrawingOptions.DrawRectangle' cannot be marshaled by the runtime marshaler.  Such arguments will therefore be passed as a pointer and may require unsafe code to manipulate.
+C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets : warning : At least one of the arguments for 'ShapeDrawingOptions.DrawPoint' cannot be marshaled by the runtime marshaler.  Such arguments will therefore be passed as a pointer and may require unsafe code to manipulate.
+C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets : warning : At least one of the arguments for 'ShapeDrawingOptions.DrawLine' cannot be marshaled by the runtime marshaler.  Such arguments will therefore be passed as a pointer and may require unsafe code to manipulate.
+C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets : warning : At least one of the arguments for 'Charts.DrawChart' cannot be marshaled by the runtime marshaler.  Such arguments will therefore be passed as a pointer and may require unsafe code to manipulate.
+C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets : warning : At least one of the arguments for 'LinePattern.Draw' cannot be marshaled by the runtime marshaler.  Such arguments will therefore be passed as a pointer and may require unsafe code to manipulate.
+C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets : warning : At least one of the arguments for 'LineSegment.Draw' cannot be marshaled by the runtime marshaler.  Such arguments will therefore be passed as a pointer and may require unsafe code to manipulate.
+C:\Windows\Microsoft.NET\Framework\v3.5\Csc.exe /noconfig /nowarn:1701,1702 /platform:x86 /errorreport:prompt /define:TRACE /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Data.DataSetExtensions.dll" /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Deployment.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.dll" /reference:C:\Windows\assembly\GAC\stdole\7.0.3300.0__b03f5f7f11d50a3a\stdole.dll /reference:obj\x86\Release\Interop.MapWinGIS.dll /reference:obj\x86\Release\AxInterop.MapWinGIS.dll /debug- /filealign:512 /optimize+ /out:obj\x86\Release\interopCreator.exe /resource:obj\x86\Release\interopCreator.Form1.resources /resource:obj\x86\Release\interopCreator.Properties.Resources.resources /target:winexe Form1.cs Form1.Designer.cs Program.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs Properties\Settings.Designer.cs
+C:\dev\MapWindow4Dev\interopCreator\interopCreator\Form1.cs(20,17): warning CS0219: The variable 't' is assigned but its value is never used
+
+Compile complete -- 0 errors, 1 warnings
+interopCreator -> C:\dev\MapWindow4Dev\interopCreator\interopCreator\bin\x86\Release\interopCreator.exe
+copy /V /Y "C:\dev\MapWindow4Dev\interopCreator\interopCreator\bin\x86\Release\AxInterop.MapWinGIS.dll" C:\dev\MapWindow4Dev\Bin\
+copy /V /Y "C:\dev\MapWindow4Dev\interopCreator\interopCreator\bin\x86\Release\Interop.MapWinGIS.dll" C:\dev\MapWindow4Dev\Bin\
+del /Q  "C:\dev\MapWindow4Dev\interopCreator\interopCreator\bin\x86\Release\*.dll
+        1 file(s) copied.
+        1 file(s) copied.
+Done building project "interopCreator.csproj".
+========== Rebuild All: 1 succeeded, 0 failed, 0 skipped ==========

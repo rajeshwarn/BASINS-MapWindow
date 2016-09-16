@@ -1,0 +1,24 @@
+
+Microsoft (R) Visual Studio Version 10.0.30319.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Skipped Build: Project: Grids10, Configuration: Debug Any CPU ------
+Project not selected to build for this solution configuration 
+------ Build started: Project: DebuggingPlugin10, Configuration: Debug x64 ------
+warning CS1607: Assembly generation -- Referenced assembly 'MapWinGeoProc.dll' targets a different processor
+warning CS1607: Assembly generation -- Referenced assembly 'MapWinInterfaces.dll' targets a different processor
+
+Compile complete -- 0 errors, 2 warnings
+  DebuggingPlugin10 -> C:\dev\TestingScripts\bin\x64\Debug\DebuggingPlugin.dll
+------ Build started: Project: TestingTool10, Configuration: Debug x64 ------
+  TestingTool10 -> C:\dev\TestingScripts\TestingTool\bin\x64\Debug\TestingTool.exe
+          1 file(s) copied.
+          1 file(s) copied.
+------ Build started: Project: ScriptsVB10, Configuration: Debug x64 ------
+vbc : error BC31019: Unable to write to output file 'C:\dev\TestingScripts\obj\x64\Debug\ScriptsVB.pdb': System Error &H80004005&
+------ Build started: Project: Scripts10, Configuration: Debug x64 ------
+error CS1504: Source file 'C:\dev\TestingScripts\Bug-1688-Clone.cs' could not be opened ('Unspecified error ')
+
+Compile complete -- 1 errors, 0 warnings
+------ Skipped Build: Project: Images10, Configuration: Debug Any CPU ------
+Project not selected to build for this solution configuration 
+========== Build: 2 succeeded or up-to-date, 2 failed, 2 skipped ==========

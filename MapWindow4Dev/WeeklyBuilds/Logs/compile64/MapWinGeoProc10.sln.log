@@ -1,0 +1,26 @@
+
+Microsoft (R) Visual Studio Version 10.0.30319.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: MapWinGeoProc10, Configuration: Debug x64 ------
+C:\dev\MapWindow4Dev\MapWinGeoProc\NTS.Topology\IO\BEBinaryWriter.cs(186,30): warning CS0809: Obsolete member 'MapWinGeoProc.NTS.Topology.IO.BEBinaryWriter.Write(string)' overrides non-obsolete member 'System.IO.BinaryWriter.Write(string)'
+C:\dev\MapWindow4Dev\MapWinGeoProc\NTS.Topology\IO\BEBinaryWriter.cs(198,30): warning CS0809: Obsolete member 'MapWinGeoProc.NTS.Topology.IO.BEBinaryWriter.Write(decimal)' overrides non-obsolete member 'System.IO.BinaryWriter.Write(decimal)'
+C:\dev\MapWindow4Dev\MapWinGeoProc\NTS.Topology\IO\BEBinaryReader.cs(206,32): warning CS0809: Obsolete member 'MapWinGeoProc.NTS.Topology.IO.BEBinaryReader.ReadString()' overrides non-obsolete member 'System.IO.BinaryReader.ReadString()'
+C:\dev\MapWindow4Dev\MapWinGeoProc\NTS.Topology\IO\BEBinaryReader.cs(222,33): warning CS0809: Obsolete member 'MapWinGeoProc.NTS.Topology.IO.BEBinaryReader.ReadDecimal()' overrides non-obsolete member 'System.IO.BinaryReader.ReadDecimal()'
+C:\dev\MapWindow4Dev\MapWinGeoProc\NTS.Topology\Geometries\MultiLineString.cs(80,32): warning CS0809: Obsolete member 'MapWinGeoProc.NTS.Topology.Geometries.MultiLineString.GeometryType' overrides non-obsolete member 'MapWinGeoProc.NTS.Topology.Geometries.Geometry.GeometryType'
+C:\dev\MapWindow4Dev\MapWinGeoProc\NTS.Topology\Geometries\Geometry.cs(181,32): (Related location)
+
+Compile complete -- 0 errors, 5 warnings
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1558,9): warning : At least one of the arguments for 'Shapefile.QuickQueryInEditMode' cannot be marshaled by the runtime marshaler.  Such arguments will therefore be passed as a pointer and may require unsafe code to manipulate.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1558,9): warning : At least one of the arguments for 'IShapefile.QuickQueryInEditMode' cannot be marshaled by the runtime marshaler.  Such arguments will therefore be passed as a pointer and may require unsafe code to manipulate.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1558,9): warning : At least one of the arguments for 'IShapeDrawingOptions.DrawShape' cannot be marshaled by the runtime marshaler.  Such arguments will therefore be passed as a pointer and may require unsafe code to manipulate.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1558,9): warning : At least one of the arguments for 'IShapeDrawingOptions.DrawRectangle' cannot be marshaled by the runtime marshaler.  Such arguments will therefore be passed as a pointer and may require unsafe code to manipulate.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1558,9): warning : At least one of the arguments for 'IShapeDrawingOptions.DrawPoint' cannot be marshaled by the runtime marshaler.  Such arguments will therefore be passed as a pointer and may require unsafe code to manipulate.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1558,9): warning : At least one of the arguments for 'IShapeDrawingOptions.DrawLine' cannot be marshaled by the runtime marshaler.  Such arguments will therefore be passed as a pointer and may require unsafe code to manipulate.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1558,9): warning : At least one of the arguments for 'ICharts.DrawChart' cannot be marshaled by the runtime marshaler.  Such arguments will therefore be passed as a pointer and may require unsafe code to manipulate.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1558,9): warning : At least one of the arguments for 'ShapeDrawingOptions.DrawShape' cannot be marshaled by the runtime marshaler.  Such arguments will therefore be passed as a pointer and may require unsafe code to manipulate.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1558,9): warning : At least one of the arguments for 'ShapeDrawingOptions.DrawRectangle' cannot be marshaled by the runtime marshaler.  Such arguments will therefore be passed as a pointer and may require unsafe code to manipulate.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1558,9): warning : At least one of the arguments for 'ShapeDrawingOptions.DrawPoint' cannot be marshaled by the runtime marshaler.  Such arguments will therefore be passed as a pointer and may require unsafe code to manipulate.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1558,9): warning : At least one of the arguments for 'ShapeDrawingOptions.DrawLine' cannot be marshaled by the runtime marshaler.  Such arguments will therefore be passed as a pointer and may require unsafe code to manipulate.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1558,9): warning : At least one of the arguments for 'Charts.DrawChart' cannot be marshaled by the runtime marshaler.  Such arguments will therefore be passed as a pointer and may require unsafe code to manipulate.
+  MapWinGeoProc10 -> C:\dev\MapWindow4Dev\Bin64\MapWinGeoProc.dll
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========

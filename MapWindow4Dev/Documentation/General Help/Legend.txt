@@ -1,0 +1,89 @@
+The Legend displays vector and raster layers added to your MapWindow project. Below are listed the Legend functions <i>(Note: the Legend and the Preview Map are titled Panals in MapWindow)</i>.
+<p>
+<b>General Functions</b> 
+<ul>
+<li><b>Add Group</b> - Adds a new Group to the Legend.
+<ol>
+<li>Right click in the Legend.
+<li>Click Add Group.</ol>
+<li><b>Add Layer</b> - Adds a layer to the Legend.
+<ol>
+<li>Right click in the Legend.
+<li>Click Add Layer and a dialog box titled Add Map Layer opens.
+<li>Browse to your vector or raster layers from its stored location and highlight it by clicking on the file name.
+<li>Click the Open button. Your layer is added to the Legend and the Map Display.</ol>
+<li><b>Remove Layer (or Group)</b> - Removes a layer or group from the Legend.
+<ol>
+<li>Highlight a layer by clicking on it, or to for a group, see step 2.
+<li>Right click in the Legend, or for a group, right click on the group name.
+<li>Click Remove Layer or Group. Your layer or group is removed from the Legend.</ol>
+<li><b>Clear Layers</b> - Removes all layers from the Legend.
+<ol>
+<li>Right click in the Legend.
+<li>Click Clear Layers and a dialog box appears titled Confirm Remove All Layers.
+<li>Click Yes or No.</ol>
+<li><b>Zoom to Layer (or Group)</b> - Zooms to the spatial extents of the highlighted layer or group.
+<ol>
+<li>Highlight a layer by clicking on it, or to for a group, see step 2.
+<li>Right click in the Legend, or for a group, right click on the group name.
+<li>Click Zoom to Layer or Group and the Map Display zooms to the spatial extents of the layer or group.</ol>
+<li><b>View Metadata</b> - 
+<li><b>View Attribute Table</b> - Allows you to view the attributes of the highlighted layer.
+<ol>
+<li>Highlight a layer by clicking on it.
+<li>Right click in the Legend.
+<li>Click View Attribute Table and the Attribute Table Editor opens <i>(Note: to learn more about the Attribute Table Editor, click <a href="General Help\Attribute Table Editor">here</a>)</i>.</ol>
+<li><b>Expand Groups</b> - Expands the Legend groups and displays all layers.
+<ol>
+<li>Right click in the Legend.
+<li>Click Expand Groups and the Legend displays all layers contained in each group (but not the layer subcontent).</ol>
+<li><b>Expand All</b> - Expands all Legend groups and layer subcontent.
+<ol>
+<li>Right click in the Legend.
+<li>Click Expand All and the Legend displays all layers and layer sub-content contained in each group.</ol>
+<li><b>Collapse Groups</b> - Collapses the Legend groups and hides all layers.
+<ol>
+<li>Right click in the Legend.
+<li>Click Collapse Groups and the Legend hides all layers contained in each group <i>(Note: Collapse Groups does not collapse the layer subcontent, and if you click Expand Groups, you will see the layer subcontent was not collapsed)</i>.</ol>
+<li><b>Collapse All</b> - Collapses all Legend groups and layer subcontent.
+<ol>
+<li>Right click in the Legend.
+<li>Click Collapse All and the Legend collapses all layers and layer sub-content contained in each group.</ol>
+<li><b>Properties</b> - Allows you to view the properties of the highlighted layer.
+<ol>
+<li>Right click in the Legend.
+<li>Click Properties and a dialog box appears titled Legend Editor (Note: for more Properties information, see also <a href="Legend Editor">Legend Editor</a>).</ol>
+</ul> 
+<br>
+<b>Specific Functions</b> 
+<ul>
+<li><b>Legend and Preview Map Docking</b> - The Legend and Preview Map panals are dockable in several locations including the Map Display and the Panals Area. The below image shows the possible docking locations of center, top, bottom, right, and left.
+<p>
+<img src="Docking Tiles_All.bmp"> 
+<ol>
+<li>Click and drag on the title area of the Legend or the Preview Map <img src="Legend.bmp"> and then Docking Tiles <img src="Docking Tiles.bmp"> will appear. Drag the Legend or the Preview Map to either the Panals Area or the Map Display and the panal will display where you release.
+<li>Release the click on one of the Docking Tiles in the Panals Area or the Map Display.</ol>
+<li><b>Legend and Preview Map Auto Hide</b> (Pin and Unpin) - Allows you to pin and unpin (display and hide) the Legend and Preview Map panals.
+<ol>
+<li>Click on the Auto Hide button <img src="Pin.bmp"> to hide the Legend or Preview Map panals. The panals hide and then tabs appear in the upper-left Panals Area (see image below).
+<p>
+<img src="Unpinned Panals.bmp">.
+<li>Click on (or hover over) the Legend or the Preview Map tabs and the Legend or the Preview Map panals will reappear.
+<li>Click the Auto Hide button and the panals will pin themselves open.</ol>
+<li><b>Legend Editor (Properties)</b> - Allows you to edit layer properties for each layer in the Legend <i>(Note: to learn more about the Legend Editor, click <a href="General Help\Legend Editor">here</a>)</i>.
+<ol>
+<li>Click in the Legend on a layer name and it will highlight.
+<li>Right click in the Legend.
+<li>Click Properties, and then the Legend Editor dialog box appears and allows you to edit the layer.</ol></ul> 
+
+
+
+
+
+
+
+
+
+
+
+

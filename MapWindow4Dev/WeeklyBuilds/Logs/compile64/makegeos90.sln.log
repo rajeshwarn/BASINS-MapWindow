@@ -1,0 +1,911 @@
+[24-Jun-11  0:16:20.97] Start compiling makegeos90.sln 
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Rebuild All started: Project: makegeos, Configuration: Release x64 ------
+1>Performing Makefile project actions
+1>Microsoft (R) Program Maintenance Utility Version 9.00.30729.01
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>**********************************************************************
+1>*** GEOS Build Configuration ***
+1>*** Setting BUILD_DEBUG NO
+1>*** Setting ENABLE_INLINE NO
+1>*** Setting BUILD_BATCH NO
+1>*** Using Microsoft NMAKE version 9.00.30729.01
+1>*** Using Microsoft Visual C++ version 9.0
+1>*** Using Microsoft C/C++ version 1500
+1>*** Setting GEOS_INCLUDE -I..\include -I..\capi
+1>*** Setting INCLUDE c:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include;c:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc\include;C:\Program Files\Microsoft SDKs\Windows\v6.0A\\include;C:\Program Files\Microsoft SDKs\Windows\v6.0A\include
+1>*** Using CFLAGS /nologo /MD /GR /O2 /W3 /EHs
+1>*** Using CPPFLAGS /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE"
+1>**********************************************************************
+1> cd src
+1> nmake /f makefile.vc clean
+1>Microsoft (R) Program Maintenance Utility Version 9.00.30729.01
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>**********************************************************************
+1>*** GEOS Build Configuration ***
+1>*** Setting BUILD_DEBUG NO
+1>*** Setting ENABLE_INLINE NO
+1>*** Setting BUILD_BATCH NO
+1>*** Using Microsoft NMAKE version 9.00.30729.01
+1>*** Using Microsoft Visual C++ version 9.0
+1>*** Using Microsoft C/C++ version 1500
+1>*** Setting GEOS_INCLUDE -I..\include -I..\capi
+1>*** Setting INCLUDE c:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include;c:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc\include;C:\Program Files\Microsoft SDKs\Windows\v6.0A\\include;C:\Program Files\Microsoft SDKs\Windows\v6.0A\include
+1>*** Using CFLAGS /nologo /MD /GR /O2 /W3 /EHs
+1>*** Using CPPFLAGS /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE"
+1>**********************************************************************
+1>"*** Cleaning GEOS source tree"
+1>Could Not Find c:\dev\SupportLibraries\GDAL\Geos\src\*.exe
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del algorithm\*.obj 
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del algorithm\distance\*.obj 
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del algorithm\locate\*.obj 
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del examples\*.obj 
+1>The system cannot find the file specified.
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del geom\*.obj 
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del geom\util\*.obj 
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del geom\prep\*.obj 
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del geomgraph\*.obj 
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del geomgraph\index\*.obj 
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del headers\*.obj 
+1>The system cannot find the file specified.
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del headers\geos\*.obj 
+1>The system cannot find the path specified.
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del index\*.obj 
+1>Could Not Find c:\dev\SupportLibraries\GDAL\Geos\src\index\*.obj
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del index\bintree\*.obj 
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del index\chain\*.obj 
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del index\intervalrtree\*.obj 
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del index\quadtree\*.obj 
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del index\strtree\*.obj 
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del index\sweepline\*.obj 
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del io\*.obj 
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del linearref\*.obj 
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del noding\*.obj 
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del noding\snapround\*.obj 
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del operation\*.obj 
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del operation\buffer\*.obj 
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del operation\distance\*.obj 
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del operation\linemerge\*.obj 
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del operation\overlay\*.obj 
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del operation\overlay\snap\*.obj 
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del operation\overlay\validate\*.obj 
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del operation\polygonize\*.obj 
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del operation\predicate\*.obj 
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del operation\relate\*.obj 
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del operation\union\*.obj 
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del operation\valid\*.obj 
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del planargraph\*.obj 
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del planargraph\algorithm\*.obj 
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del precision\*.obj 
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del simplify\*.obj 
+1>c:\dev\SupportLibraries\GDAL\Geos\src>del util\*.obj 
+1> cd ..
+1>Microsoft (R) Program Maintenance Utility Version 9.00.30729.01
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>**********************************************************************
+1>*** GEOS Build Configuration ***
+1>*** Setting BUILD_DEBUG NO
+1>*** Setting ENABLE_INLINE NO
+1>*** Setting BUILD_BATCH NO
+1>*** Using Microsoft NMAKE version 9.00.30729.01
+1>*** Using Microsoft Visual C++ version 9.0
+1>*** Using Microsoft C/C++ version 1500
+1>*** Setting GEOS_INCLUDE -I..\include -I..\capi
+1>*** Setting INCLUDE c:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include;c:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc\include;C:\Program Files\Microsoft SDKs\Windows\v6.0A\\include;C:\Program Files\Microsoft SDKs\Windows\v6.0A\include
+1>*** Using CFLAGS /nologo /MD /GR /O2 /W3 /EHs
+1>*** Using CPPFLAGS /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE"
+1>**********************************************************************
+1> cd src
+1> nmake /f makefile.vc
+1>Microsoft (R) Program Maintenance Utility Version 9.00.30729.01
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>**********************************************************************
+1>*** GEOS Build Configuration ***
+1>*** Setting BUILD_DEBUG NO
+1>*** Setting ENABLE_INLINE NO
+1>*** Setting BUILD_BATCH NO
+1>*** Using Microsoft NMAKE version 9.00.30729.01
+1>*** Using Microsoft Visual C++ version 9.0
+1>*** Using Microsoft C/C++ version 1500
+1>*** Setting GEOS_INCLUDE -I..\include -I..\capi
+1>*** Setting INCLUDE c:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include;c:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc\include;C:\Program Files\Microsoft SDKs\Windows\v6.0A\\include;C:\Program Files\Microsoft SDKs\Windows\v6.0A\include
+1>*** Using CFLAGS /nologo /MD /GR /O2 /W3 /EHs
+1>*** Using CPPFLAGS /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE"
+1>**********************************************************************
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c algorithm\Angle.cpp /Foalgorithm\Angle.obj
+1>Angle.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c algorithm\BoundaryNodeRule.cpp /Foalgorithm\BoundaryNodeRule.obj
+1>BoundaryNodeRule.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c algorithm\CentroidArea.cpp /Foalgorithm\CentroidArea.obj
+1>CentroidArea.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c algorithm\CentroidLine.cpp /Foalgorithm\CentroidLine.obj
+1>CentroidLine.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c algorithm\CentroidPoint.cpp /Foalgorithm\CentroidPoint.obj
+1>CentroidPoint.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c algorithm\CGAlgorithms.cpp /Foalgorithm\CGAlgorithms.obj
+1>CGAlgorithms.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c algorithm\ConvexHull.cpp /Foalgorithm\ConvexHull.obj
+1>ConvexHull.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c algorithm\HCoordinate.cpp /Foalgorithm\HCoordinate.obj
+1>HCoordinate.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c algorithm\InteriorPointArea.cpp /Foalgorithm\InteriorPointArea.obj
+1>InteriorPointArea.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c algorithm\InteriorPointLine.cpp /Foalgorithm\InteriorPointLine.obj
+1>InteriorPointLine.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c algorithm\InteriorPointPoint.cpp /Foalgorithm\InteriorPointPoint.obj
+1>InteriorPointPoint.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c algorithm\LineIntersector.cpp /Foalgorithm\LineIntersector.obj
+1>LineIntersector.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c algorithm\MCPointInRing.cpp /Foalgorithm\MCPointInRing.obj
+1>MCPointInRing.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c algorithm\MinimumDiameter.cpp /Foalgorithm\MinimumDiameter.obj
+1>MinimumDiameter.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c algorithm\NotRepresentableException.cpp /Foalgorithm\NotRepresentableException.obj
+1>NotRepresentableException.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c algorithm\PointLocator.cpp /Foalgorithm\PointLocator.obj
+1>PointLocator.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c algorithm\RayCrossingCounter.cpp /Foalgorithm\RayCrossingCounter.obj
+1>RayCrossingCounter.cpp
+1>algorithm\RayCrossingCounter.cpp(47) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+1>algorithm\RayCrossingCounter.cpp(66) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c algorithm\RobustDeterminant.cpp /Foalgorithm\RobustDeterminant.obj
+1>RobustDeterminant.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c algorithm\SimplePointInRing.cpp /Foalgorithm\SimplePointInRing.obj
+1>SimplePointInRing.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c algorithm\SIRtreePointInRing.cpp /Foalgorithm\SIRtreePointInRing.obj
+1>SIRtreePointInRing.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c algorithm\distance\DiscreteHausdorffDistance.cpp /Foalgorithm\distance\DiscreteHausdorffDistance.obj
+1>DiscreteHausdorffDistance.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c algorithm\distance\DistanceToPoint.cpp /Foalgorithm\distance\DistanceToPoint.obj
+1>DistanceToPoint.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c algorithm\locate\IndexedPointInAreaLocator.cpp /Foalgorithm\locate\IndexedPointInAreaLocator.obj
+1>IndexedPointInAreaLocator.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c algorithm\locate\PointOnGeometryLocator.cpp /Foalgorithm\locate\PointOnGeometryLocator.obj
+1>PointOnGeometryLocator.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c algorithm\locate\SimplePointInAreaLocator.cpp /Foalgorithm\locate\SimplePointInAreaLocator.obj
+1>SimplePointInAreaLocator.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\Coordinate.cpp /Fogeom\Coordinate.obj
+1>Coordinate.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\CoordinateArraySequence.cpp /Fogeom\CoordinateArraySequence.obj
+1>CoordinateArraySequence.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\CoordinateArraySequenceFactory.cpp /Fogeom\CoordinateArraySequenceFactory.obj
+1>CoordinateArraySequenceFactory.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\CoordinateSequence.cpp /Fogeom\CoordinateSequence.obj
+1>CoordinateSequence.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\CoordinateSequenceFactory.cpp /Fogeom\CoordinateSequenceFactory.obj
+1>CoordinateSequenceFactory.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\Dimension.cpp /Fogeom\Dimension.obj
+1>Dimension.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\Envelope.cpp /Fogeom\Envelope.obj
+1>Envelope.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\Geometry.cpp /Fogeom\Geometry.obj
+1>Geometry.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\GeometryCollection.cpp /Fogeom\GeometryCollection.obj
+1>GeometryCollection.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\GeometryComponentFilter.cpp /Fogeom\GeometryComponentFilter.obj
+1>GeometryComponentFilter.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\GeometryFactory.cpp /Fogeom\GeometryFactory.obj
+1>GeometryFactory.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\GeometryList.cpp /Fogeom\GeometryList.obj
+1>GeometryList.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\IntersectionMatrix.cpp /Fogeom\IntersectionMatrix.obj
+1>IntersectionMatrix.cpp
+1>geom\IntersectionMatrix.cpp(166) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+1>geom\IntersectionMatrix.cpp(206) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\LinearRing.cpp /Fogeom\LinearRing.obj
+1>LinearRing.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\LineSegment.cpp /Fogeom\LineSegment.obj
+1>LineSegment.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\LineString.cpp /Fogeom\LineString.obj
+1>LineString.cpp
+1>geom\LineString.cpp(202) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+1>geom\LineString.cpp(240) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+1>geom\LineString.cpp(267) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+1>geom\LineString.cpp(334) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+1>geom\LineString.cpp(353) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+1>geom\LineString.cpp(354) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\Location.cpp /Fogeom\Location.obj
+1>Location.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\MultiLineString.cpp /Fogeom\MultiLineString.obj
+1>MultiLineString.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\MultiPoint.cpp /Fogeom\MultiPoint.obj
+1>MultiPoint.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\MultiPolygon.cpp /Fogeom\MultiPolygon.obj
+1>MultiPolygon.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\Point.cpp /Fogeom\Point.obj
+1>Point.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\Polygon.cpp /Fogeom\Polygon.obj
+1>Polygon.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\PrecisionModel.cpp /Fogeom\PrecisionModel.obj
+1>PrecisionModel.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\Triangle.cpp /Fogeom\Triangle.obj
+1>Triangle.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\util\ComponentCoordinateExtracter.cpp /Fogeom\util\ComponentCoordinateExtracter.obj
+1>ComponentCoordinateExtracter.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\util\CoordinateOperation.cpp /Fogeom\util\CoordinateOperation.obj
+1>CoordinateOperation.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\util\GeometryEditor.cpp /Fogeom\util\GeometryEditor.obj
+1>GeometryEditor.cpp
+1>geom\util\GeometryEditor.cpp(153) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\util\GeometryTransformer.cpp /Fogeom\util\GeometryTransformer.obj
+1>GeometryTransformer.cpp
+1>geom\util\GeometryTransformer.cpp(157) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>geom\util\GeometryTransformer.cpp(188) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>geom\util\GeometryTransformer.cpp(229) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>geom\util\GeometryTransformer.cpp(273) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>geom\util\GeometryTransformer.cpp(331) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>geom\util\GeometryTransformer.cpp(362) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\util\GeometryCombiner.cpp /Fogeom\util\GeometryCombiner.obj
+1>GeometryCombiner.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\util\ShortCircuitedGeometryVisitor.cpp /Fogeom\util\ShortCircuitedGeometryVisitor.obj
+1>ShortCircuitedGeometryVisitor.cpp
+1>geom\util\ShortCircuitedGeometryVisitor.cpp(34) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\util\SineStarFactory.cpp /Fogeom\util\SineStarFactory.obj
+1>SineStarFactory.cpp
+1>c:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\memory(721) : warning C4150: deletion of pointer to incomplete type 'geos::geom::Polygon'; no destructor called
+1>        ..\include\geos/util/GeometricShapeFactory.h(40) : see declaration of 'geos::geom::Polygon'
+1>        c:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\memory(720) : while compiling class template member function 'std::auto_ptr<_Ty>::~auto_ptr(void)'
+1>        with
+1>        [
+1>            _Ty=geos::geom::Polygon
+1>        ]
+1>        geom\util\SineStarFactory.cpp(44) : see reference to class template instantiation 'std::auto_ptr<_Ty>' being compiled
+1>        with
+1>        [
+1>            _Ty=geos::geom::Polygon
+1>        ]
+1>c:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\memory(721) : warning C4150: deletion of pointer to incomplete type 'geos::geom::CoordinateSequence'; no destructor called
+1>        ..\include\geos/geom/CoordinateSequenceFactory.h(33) : see declaration of 'geos::geom::CoordinateSequence'
+1>        c:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\memory(720) : while compiling class template member function 'std::auto_ptr<_Ty>::~auto_ptr(void)'
+1>        with
+1>        [
+1>            _Ty=geos::geom::CoordinateSequence
+1>        ]
+1>        geom\util\SineStarFactory.cpp(84) : see reference to class template instantiation 'std::auto_ptr<_Ty>' being compiled
+1>        with
+1>        [
+1>            _Ty=geos::geom::CoordinateSequence
+1>        ]
+1>c:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\memory(721) : warning C4150: deletion of pointer to incomplete type 'geos::geom::LinearRing'; no destructor called
+1>        ..\include\geos/geom/GeometryFactory.h(42) : see declaration of 'geos::geom::LinearRing'
+1>        c:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\memory(720) : while compiling class template member function 'std::auto_ptr<_Ty>::~auto_ptr(void)'
+1>        with
+1>        [
+1>            _Ty=geos::geom::LinearRing
+1>        ]
+1>        geom\util\SineStarFactory.cpp(85) : see reference to class template instantiation 'std::auto_ptr<_Ty>' being compiled
+1>        with
+1>        [
+1>            _Ty=geos::geom::LinearRing
+1>        ]
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\prep\AbstractPreparedPolygonContains.cpp /Fogeom\prep\AbstractPreparedPolygonContains.obj
+1>AbstractPreparedPolygonContains.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\prep\BasicPreparedGeometry.cpp /Fogeom\prep\BasicPreparedGeometry.obj
+1>BasicPreparedGeometry.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\prep\PreparedGeometry.cpp /Fogeom\prep\PreparedGeometry.obj
+1>PreparedGeometry.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\prep\PreparedGeometryFactory.cpp /Fogeom\prep\PreparedGeometryFactory.obj
+1>PreparedGeometryFactory.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\prep\PreparedLineString.cpp /Fogeom\prep\PreparedLineString.obj
+1>PreparedLineString.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\prep\PreparedLineStringIntersects.cpp /Fogeom\prep\PreparedLineStringIntersects.obj
+1>PreparedLineStringIntersects.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\prep\PreparedPoint.cpp /Fogeom\prep\PreparedPoint.obj
+1>PreparedPoint.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\prep\PreparedPolygon.cpp /Fogeom\prep\PreparedPolygon.obj
+1>PreparedPolygon.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\prep\PreparedPolygonContains.cpp /Fogeom\prep\PreparedPolygonContains.obj
+1>PreparedPolygonContains.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\prep\PreparedPolygonContainsProperly.cpp /Fogeom\prep\PreparedPolygonContainsProperly.obj
+1>PreparedPolygonContainsProperly.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\prep\PreparedPolygonCovers.cpp /Fogeom\prep\PreparedPolygonCovers.obj
+1>PreparedPolygonCovers.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\prep\PreparedPolygonIntersects.cpp /Fogeom\prep\PreparedPolygonIntersects.obj
+1>PreparedPolygonIntersects.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geom\prep\PreparedPolygonPredicate.cpp /Fogeom\prep\PreparedPolygonPredicate.obj
+1>PreparedPolygonPredicate.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geomgraph\Depth.cpp /Fogeomgraph\Depth.obj
+1>Depth.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geomgraph\DirectedEdge.cpp /Fogeomgraph\DirectedEdge.obj
+1>DirectedEdge.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geomgraph\DirectedEdgeStar.cpp /Fogeomgraph\DirectedEdgeStar.obj
+1>DirectedEdgeStar.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geomgraph\Edge.cpp /Fogeomgraph\Edge.obj
+1>Edge.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geomgraph\EdgeEnd.cpp /Fogeomgraph\EdgeEnd.obj
+1>EdgeEnd.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geomgraph\EdgeEndStar.cpp /Fogeomgraph\EdgeEndStar.obj
+1>EdgeEndStar.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geomgraph\EdgeIntersectionList.cpp /Fogeomgraph\EdgeIntersectionList.obj
+1>EdgeIntersectionList.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geomgraph\EdgeList.cpp /Fogeomgraph\EdgeList.obj
+1>EdgeList.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geomgraph\EdgeNodingValidator.cpp /Fogeomgraph\EdgeNodingValidator.obj
+1>EdgeNodingValidator.cpp
+1>..\include\geos/noding/BasicSegmentString.h(74) : warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geomgraph\EdgeRing.cpp /Fogeomgraph\EdgeRing.obj
+1>EdgeRing.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geomgraph\GeometryGraph.cpp /Fogeomgraph\GeometryGraph.obj
+1>GeometryGraph.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geomgraph\GraphComponent.cpp /Fogeomgraph\GraphComponent.obj
+1>GraphComponent.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geomgraph\Label.cpp /Fogeomgraph\Label.obj
+1>Label.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geomgraph\Node.cpp /Fogeomgraph\Node.obj
+1>Node.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geomgraph\NodeFactory.cpp /Fogeomgraph\NodeFactory.obj
+1>NodeFactory.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geomgraph\NodeMap.cpp /Fogeomgraph\NodeMap.obj
+1>NodeMap.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geomgraph\PlanarGraph.cpp /Fogeomgraph\PlanarGraph.obj
+1>PlanarGraph.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geomgraph\Position.cpp /Fogeomgraph\Position.obj
+1>Position.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geomgraph\Quadrant.cpp /Fogeomgraph\Quadrant.obj
+1>Quadrant.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geomgraph\TopologyLocation.cpp /Fogeomgraph\TopologyLocation.obj
+1>TopologyLocation.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geomgraph\index\MonotoneChainEdge.cpp /Fogeomgraph\index\MonotoneChainEdge.obj
+1>MonotoneChainEdge.cpp
+1>geomgraph\index\MonotoneChainEdge.cpp(105) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+1>geomgraph\index\MonotoneChainEdge.cpp(105) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geomgraph\index\MonotoneChainIndexer.cpp /Fogeomgraph\index\MonotoneChainIndexer.obj
+1>MonotoneChainIndexer.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geomgraph\index\SegmentIntersector.cpp /Fogeomgraph\index\SegmentIntersector.obj
+1>SegmentIntersector.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geomgraph\index\SimpleEdgeSetIntersector.cpp /Fogeomgraph\index\SimpleEdgeSetIntersector.obj
+1>SimpleEdgeSetIntersector.cpp
+1>geomgraph\index\SimpleEdgeSetIntersector.cpp(94) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+1>geomgraph\index\SimpleEdgeSetIntersector.cpp(94) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geomgraph\index\SimpleMCSweepLineIntersector.cpp /Fogeomgraph\index\SimpleMCSweepLineIntersector.obj
+1>SimpleMCSweepLineIntersector.cpp
+1>geomgraph\index\SimpleMCSweepLineIntersector.cpp(97) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+1>geomgraph\index\SimpleMCSweepLineIntersector.cpp(98) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+1>geomgraph\index\SimpleMCSweepLineIntersector.cpp(100) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+1>geomgraph\index\SimpleMCSweepLineIntersector.cpp(118) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+1>geomgraph\index\SimpleMCSweepLineIntersector.cpp(133) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geomgraph\index\SimpleSweepLineIntersector.cpp /Fogeomgraph\index\SimpleSweepLineIntersector.obj
+1>SimpleSweepLineIntersector.cpp
+1>geomgraph\index\SimpleSweepLineIntersector.cpp(90) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geomgraph\index\SweepLineEvent.cpp /Fogeomgraph\index\SweepLineEvent.obj
+1>SweepLineEvent.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c geomgraph\index\SweepLineSegment.cpp /Fogeomgraph\index\SweepLineSegment.obj
+1>SweepLineSegment.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c index\bintree\Bintree.cpp /Foindex\bintree\Bintree.obj
+1>Bintree.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c index\bintree\Interval.cpp /Foindex\bintree\Interval.obj
+1>Interval.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c index\bintree\Key.cpp /Foindex\bintree\Key.obj
+1>Key.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c index\bintree\Node.cpp /Foindex\bintree\Node.obj
+1>Node.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c index\bintree\NodeBase.cpp /Foindex\bintree\NodeBase.obj
+1>NodeBase.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c index\bintree\Root.cpp /Foindex\bintree\Root.obj
+1>Root.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c index\chain\MonotoneChain.cpp /Foindex\chain\MonotoneChain.obj
+1>MonotoneChain.cpp
+1>index\chain\MonotoneChain.cpp(96) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>index\chain\MonotoneChain.cpp(103) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c index\chain\MonotoneChainBuilder.cpp /Foindex\chain\MonotoneChainBuilder.obj
+1>MonotoneChainBuilder.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c index\chain\MonotoneChainOverlapAction.cpp /Foindex\chain\MonotoneChainOverlapAction.obj
+1>MonotoneChainOverlapAction.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c index\chain\MonotoneChainSelectAction.cpp /Foindex\chain\MonotoneChainSelectAction.obj
+1>MonotoneChainSelectAction.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c index\intervalrtree\IntervalRTreeBranchNode.cpp /Foindex\intervalrtree\IntervalRTreeBranchNode.obj
+1>IntervalRTreeBranchNode.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c index\intervalrtree\IntervalRTreeLeafNode.cpp /Foindex\intervalrtree\IntervalRTreeLeafNode.obj
+1>IntervalRTreeLeafNode.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c index\intervalrtree\IntervalRTreeNode.cpp /Foindex\intervalrtree\IntervalRTreeNode.obj
+1>IntervalRTreeNode.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c index\intervalrtree\SortedPackedIntervalRTree.cpp /Foindex\intervalrtree\SortedPackedIntervalRTree.obj
+1>SortedPackedIntervalRTree.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c index\quadtree\DoubleBits.cpp /Foindex\quadtree\DoubleBits.obj
+1>DoubleBits.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c index\quadtree\IntervalSize.cpp /Foindex\quadtree\IntervalSize.obj
+1>IntervalSize.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c index\quadtree\Key.cpp /Foindex\quadtree\Key.obj
+1>Key.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c index\quadtree\Node.cpp /Foindex\quadtree\Node.obj
+1>Node.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c index\quadtree\NodeBase.cpp /Foindex\quadtree\NodeBase.obj
+1>NodeBase.cpp
+1>index\quadtree\NodeBase.cpp(166) : warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c index\quadtree\Root.cpp /Foindex\quadtree\Root.obj
+1>Root.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c index\quadtree\Quadtree.cpp /Foindex\quadtree\Quadtree.obj
+1>Quadtree.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c index\strtree\AbstractNode.cpp /Foindex\strtree\AbstractNode.obj
+1>AbstractNode.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c index\strtree\AbstractSTRtree.cpp /Foindex\strtree\AbstractSTRtree.obj
+1>AbstractSTRtree.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c index\strtree\Interval.cpp /Foindex\strtree\Interval.obj
+1>Interval.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c index\strtree\ItemBoundable.cpp /Foindex\strtree\ItemBoundable.obj
+1>ItemBoundable.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c index\strtree\SIRtree.cpp /Foindex\strtree\SIRtree.obj
+1>SIRtree.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c index\strtree\STRtree.cpp /Foindex\strtree\STRtree.obj
+1>STRtree.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c index\sweepline\SweepLineEvent.cpp /Foindex\sweepline\SweepLineEvent.obj
+1>SweepLineEvent.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c index\sweepline\SweepLineIndex.cpp /Foindex\sweepline\SweepLineIndex.obj
+1>SweepLineIndex.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c index\sweepline\SweepLineInterval.cpp /Foindex\sweepline\SweepLineInterval.obj
+1>SweepLineInterval.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c io\ByteOrderDataInStream.cpp /Foio\ByteOrderDataInStream.obj
+1>ByteOrderDataInStream.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c io\ByteOrderValues.cpp /Foio\ByteOrderValues.obj
+1>ByteOrderValues.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c io\CLocalizer.cpp /Foio\CLocalizer.obj
+1>CLocalizer.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c io\ParseException.cpp /Foio\ParseException.obj
+1>ParseException.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c io\StringTokenizer.cpp /Foio\StringTokenizer.obj
+1>StringTokenizer.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c io\Unload.cpp /Foio\Unload.obj
+1>Unload.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c io\WKBReader.cpp /Foio\WKBReader.obj
+1>WKBReader.cpp
+1>io\WKBReader.cpp(483) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c io\WKBWriter.cpp /Foio\WKBWriter.obj
+1>WKBWriter.cpp
+1>io\WKBWriter.cpp(168) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+1>io\WKBWriter.cpp(199) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+1>io\WKBWriter.cpp(276) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c io\WKTReader.cpp /Foio\WKTReader.obj
+1>WKTReader.cpp
+1>io\WKTReader.cpp(204) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c io\WKTWriter.cpp /Foio\WKTWriter.obj
+1>WKTWriter.cpp
+1>io\WKTWriter.cpp(79) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>io\WKTWriter.cpp(364) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+1>io\WKTWriter.cpp(398) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>io\WKTWriter.cpp(421) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>io\WKTWriter.cpp(445) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>io\WKTWriter.cpp(473) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c io\Writer.cpp /Foio\Writer.obj
+1>Writer.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c noding\BasicSegmentString.cpp /Fonoding\BasicSegmentString.obj
+1>BasicSegmentString.cpp
+1>..\include\geos/noding/BasicSegmentString.h(74) : warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c noding\FastNodingValidator.cpp /Fonoding\FastNodingValidator.obj
+1>FastNodingValidator.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c noding\FastSegmentSetIntersectionFinder.cpp /Fonoding\FastSegmentSetIntersectionFinder.obj
+1>FastSegmentSetIntersectionFinder.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c noding\IntersectionAdder.cpp /Fonoding\IntersectionAdder.obj
+1>IntersectionAdder.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c noding\IntersectionFinderAdder.cpp /Fonoding\IntersectionFinderAdder.obj
+1>IntersectionFinderAdder.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c noding\IteratedNoder.cpp /Fonoding\IteratedNoder.obj
+1>IteratedNoder.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c noding\MCIndexNoder.cpp /Fonoding\MCIndexNoder.obj
+1>MCIndexNoder.cpp
+1>noding\MCIndexNoder.cpp(152) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+1>noding\MCIndexNoder.cpp(152) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c noding\MCIndexSegmentSetMutualIntersector.cpp /Fonoding\MCIndexSegmentSetMutualIntersector.obj
+1>MCIndexSegmentSetMutualIntersector.cpp
+1>noding\MCIndexSegmentSetMutualIntersector.cpp(169) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+1>noding\MCIndexSegmentSetMutualIntersector.cpp(169) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c noding\NodedSegmentString.cpp /Fonoding\NodedSegmentString.obj
+1>NodedSegmentString.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c noding\NodingValidator.cpp /Fonoding\NodingValidator.obj
+1>NodingValidator.cpp
+1>noding\NodingValidator.cpp(66) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>noding\NodingValidator.cpp(112) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>noding\NodingValidator.cpp(113) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>noding\NodingValidator.cpp(175) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c noding\Octant.cpp /Fonoding\Octant.obj
+1>Octant.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c noding\OrientedCoordinateArray.cpp /Fonoding\OrientedCoordinateArray.obj
+1>OrientedCoordinateArray.cpp
+1>noding\OrientedCoordinateArray.cpp(77) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+1>noding\OrientedCoordinateArray.cpp(78) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+1>noding\OrientedCoordinateArray.cpp(80) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+1>noding\OrientedCoordinateArray.cpp(81) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c noding\ScaledNoder.cpp /Fonoding\ScaledNoder.obj
+1>ScaledNoder.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c noding\SegmentIntersectionDetector.cpp /Fonoding\SegmentIntersectionDetector.obj
+1>SegmentIntersectionDetector.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c noding\SegmentNode.cpp /Fonoding\SegmentNode.obj
+1>SegmentNode.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c noding\SegmentNodeList.cpp /Fonoding\SegmentNodeList.obj
+1>SegmentNodeList.cpp
+1>noding\SegmentNodeList.cpp(75) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>noding\SegmentNodeList.cpp(75) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>noding\SegmentNodeList.cpp(113) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>noding\SegmentNodeList.cpp(127) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>noding\SegmentNodeList.cpp(128) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>noding\SegmentNodeList.cpp(284) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c noding\SegmentString.cpp /Fonoding\SegmentString.obj
+1>SegmentString.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c noding\SegmentStringUtil.cpp /Fonoding\SegmentStringUtil.obj
+1>SegmentStringUtil.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c noding\SimpleNoder.cpp /Fonoding\SimpleNoder.obj
+1>SimpleNoder.cpp
+1>noding\SimpleNoder.cpp(39) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>noding\SimpleNoder.cpp(40) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c noding\SingleInteriorIntersectionFinder.cpp /Fonoding\SingleInteriorIntersectionFinder.obj
+1>SingleInteriorIntersectionFinder.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c noding\snapround\HotPixel.cpp /Fonoding\snapround\HotPixel.obj
+1>HotPixel.cpp
+1>noding\snapround\HotPixel.cpp(177) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>noding\snapround\HotPixel.cpp(178) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>noding\snapround\HotPixel.cpp(183) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c noding\snapround\MCIndexPointSnapper.cpp /Fonoding\snapround\MCIndexPointSnapper.obj
+1>MCIndexPointSnapper.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c noding\snapround\MCIndexSnapRounder.cpp /Fonoding\snapround\MCIndexSnapRounder.obj
+1>MCIndexSnapRounder.cpp
+1>noding\snapround\MCIndexSnapRounder.cpp(73) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c noding\snapround\SimpleSnapRounder.cpp /Fonoding\snapround\SimpleSnapRounder.obj
+1>SimpleSnapRounder.cpp
+1>noding\snapround\SimpleSnapRounder.cpp(132) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>noding\snapround\SimpleSnapRounder.cpp(137) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\GeometryGraphOperation.cpp /Fooperation\GeometryGraphOperation.obj
+1>GeometryGraphOperation.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\IsSimpleOp.cpp /Fooperation\IsSimpleOp.obj
+1>IsSimpleOp.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\buffer\BufferBuilder.cpp /Fooperation\buffer\BufferBuilder.obj
+1>BufferBuilder.cpp
+1>..\include\geos/operation/buffer/OffsetSegmentString.h(175) : warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+1>operation\buffer\BufferBuilder.cpp(202) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\buffer\BufferInputLineSimplifier.cpp /Fooperation\buffer\BufferInputLineSimplifier.obj
+1>BufferInputLineSimplifier.cpp
+1>operation\buffer\BufferInputLineSimplifier.cpp(118) : warning C4267: 'initializing' : conversion from 'size_t' to 'const unsigned int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\buffer\BufferParameters.cpp /Fooperation\buffer\BufferParameters.obj
+1>BufferParameters.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\buffer\BufferOp.cpp /Fooperation\buffer\BufferOp.obj
+1>BufferOp.cpp
+1>..\include\geos/operation/buffer/OffsetSegmentString.h(175) : warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\buffer\BufferSubgraph.cpp /Fooperation\buffer\BufferSubgraph.obj
+1>BufferSubgraph.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\buffer\OffsetCurveBuilder.cpp /Fooperation\buffer\OffsetCurveBuilder.obj
+1>OffsetCurveBuilder.cpp
+1>..\include\geos/operation/buffer/OffsetSegmentString.h(175) : warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+1>operation\buffer\OffsetCurveBuilder.cpp(132) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+1>operation\buffer\OffsetCurveBuilder.cpp(149) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+1>operation\buffer\OffsetCurveBuilder.cpp(207) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+1>operation\buffer\OffsetCurveBuilder.cpp(222) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+1>operation\buffer\OffsetCurveBuilder.cpp(248) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+1>operation\buffer\OffsetCurveBuilder.cpp(276) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+1>operation\buffer\OffsetCurveBuilder.cpp(294) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\buffer\OffsetCurveSetBuilder.cpp /Fooperation\buffer\OffsetCurveSetBuilder.obj
+1>OffsetCurveSetBuilder.cpp
+1>..\include\geos/operation/buffer/OffsetSegmentString.h(175) : warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+1>operation\buffer\OffsetCurveSetBuilder.cpp(174) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\buffer\OffsetSegmentGenerator.cpp /Fooperation\buffer\OffsetSegmentGenerator.obj
+1>OffsetSegmentGenerator.cpp
+1>..\include\geos/operation/buffer/OffsetSegmentString.h(175) : warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\buffer\RightmostEdgeFinder.cpp /Fooperation\buffer\RightmostEdgeFinder.obj
+1>RightmostEdgeFinder.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\buffer\SubgraphDepthLocater.cpp /Fooperation\buffer\SubgraphDepthLocater.obj
+1>SubgraphDepthLocater.cpp
+1>operation\buffer\SubgraphDepthLocater.cpp(238) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\distance\ConnectedElementLocationFilter.cpp /Fooperation\distance\ConnectedElementLocationFilter.obj
+1>ConnectedElementLocationFilter.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\distance\ConnectedElementPointFilter.cpp /Fooperation\distance\ConnectedElementPointFilter.obj
+1>ConnectedElementPointFilter.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\distance\DistanceOp.cpp /Fooperation\distance\DistanceOp.obj
+1>DistanceOp.cpp
+1>operation\distance\DistanceOp.cpp(573) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+1>operation\distance\DistanceOp.cpp(575) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+1>operation\distance\DistanceOp.cpp(611) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\distance\GeometryLocation.cpp /Fooperation\distance\GeometryLocation.obj
+1>GeometryLocation.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\linemerge\EdgeString.cpp /Fooperation\linemerge\EdgeString.obj
+1>EdgeString.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\linemerge\LineMergeDirectedEdge.cpp /Fooperation\linemerge\LineMergeDirectedEdge.obj
+1>LineMergeDirectedEdge.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\linemerge\LineMergeEdge.cpp /Fooperation\linemerge\LineMergeEdge.obj
+1>LineMergeEdge.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\linemerge\LineMergeGraph.cpp /Fooperation\linemerge\LineMergeGraph.obj
+1>LineMergeGraph.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\linemerge\LineMerger.cpp /Fooperation\linemerge\LineMerger.obj
+1>LineMerger.cpp
+1>operation\linemerge\LineMerger.cpp(119) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\linemerge\LineSequencer.cpp /Fooperation\linemerge\LineSequencer.obj
+1>LineSequencer.cpp
+1>operation\linemerge\LineSequencer.cpp(69) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>operation\linemerge\LineSequencer.cpp(78) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\overlay\EdgeSetNoder.cpp /Fooperation\overlay\EdgeSetNoder.obj
+1>EdgeSetNoder.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\overlay\ElevationMatrix.cpp /Fooperation\overlay\ElevationMatrix.obj
+1>ElevationMatrix.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\overlay\ElevationMatrixCell.cpp /Fooperation\overlay\ElevationMatrixCell.obj
+1>ElevationMatrixCell.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\overlay\LineBuilder.cpp /Fooperation\overlay\LineBuilder.obj
+1>LineBuilder.cpp
+1>operation\overlay\LineBuilder.cpp(218) : warning C4267: 'argument' : conversion from 'size_t' to 'const int', possible loss of data
+1>operation\overlay\LineBuilder.cpp(252) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+1>operation\overlay\LineBuilder.cpp(260) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\overlay\MaximalEdgeRing.cpp /Fooperation\overlay\MaximalEdgeRing.obj
+1>MaximalEdgeRing.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\overlay\MinimalEdgeRing.cpp /Fooperation\overlay\MinimalEdgeRing.obj
+1>MinimalEdgeRing.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\overlay\OverlayNodeFactory.cpp /Fooperation\overlay\OverlayNodeFactory.obj
+1>OverlayNodeFactory.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\overlay\OverlayOp.cpp /Fooperation\overlay\OverlayOp.obj
+1>OverlayOp.cpp
+1>operation\overlay\OverlayOp.cpp(853) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\overlay\PointBuilder.cpp /Fooperation\overlay\PointBuilder.obj
+1>PointBuilder.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\overlay\PolygonBuilder.cpp /Fooperation\overlay\PolygonBuilder.obj
+1>PolygonBuilder.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\overlay\snap\GeometrySnapper.cpp /Fooperation\overlay\snap\GeometrySnapper.obj
+1>GeometrySnapper.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\overlay\snap\LineStringSnapper.cpp /Fooperation\overlay\snap\LineStringSnapper.obj
+1>LineStringSnapper.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\overlay\snap\SnapOverlayOp.cpp /Fooperation\overlay\snap\SnapOverlayOp.obj
+1>SnapOverlayOp.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\overlay\snap\SnapIfNeededOverlayOp.cpp /Fooperation\overlay\snap\SnapIfNeededOverlayOp.obj
+1>SnapIfNeededOverlayOp.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\overlay\validate\FuzzyPointLocator.cpp /Fooperation\overlay\validate\FuzzyPointLocator.obj
+1>FuzzyPointLocator.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\overlay\validate\OffsetPointGenerator.cpp /Fooperation\overlay\validate\OffsetPointGenerator.obj
+1>OffsetPointGenerator.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\overlay\validate\OverlayResultValidator.cpp /Fooperation\overlay\validate\OverlayResultValidator.obj
+1>OverlayResultValidator.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\polygonize\PolygonizeDirectedEdge.cpp /Fooperation\polygonize\PolygonizeDirectedEdge.obj
+1>PolygonizeDirectedEdge.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\polygonize\PolygonizeEdge.cpp /Fooperation\polygonize\PolygonizeEdge.obj
+1>PolygonizeEdge.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\polygonize\EdgeRing.cpp /Fooperation\polygonize\EdgeRing.obj
+1>EdgeRing.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\polygonize\PolygonizeGraph.cpp /Fooperation\polygonize\PolygonizeGraph.obj
+1>PolygonizeGraph.cpp
+1>operation\polygonize\PolygonizeGraph.cpp(386) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\polygonize\Polygonizer.cpp /Fooperation\polygonize\Polygonizer.obj
+1>Polygonizer.cpp
+1>operation\polygonize\Polygonizer.cpp(79) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>operation\polygonize\Polygonizer.cpp(84) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>operation\polygonize\Polygonizer.cpp(101) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>operation\polygonize\Polygonizer.cpp(119) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>operation\polygonize\Polygonizer.cpp(242) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>operation\polygonize\Polygonizer.cpp(279) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>operation\polygonize\Polygonizer.cpp(293) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\predicate\RectangleContains.cpp /Fooperation\predicate\RectangleContains.obj
+1>RectangleContains.cpp
+1>operation\predicate\RectangleContains.cpp(59) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>operation\predicate\RectangleContains.cpp(97) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\predicate\RectangleIntersects.cpp /Fooperation\predicate\RectangleIntersects.obj
+1>RectangleIntersects.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\predicate\SegmentIntersectionTester.cpp /Fooperation\predicate\SegmentIntersectionTester.obj
+1>SegmentIntersectionTester.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\relate\EdgeEndBuilder.cpp /Fooperation\relate\EdgeEndBuilder.obj
+1>EdgeEndBuilder.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\relate\EdgeEndBundle.cpp /Fooperation\relate\EdgeEndBundle.obj
+1>EdgeEndBundle.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\relate\EdgeEndBundleStar.cpp /Fooperation\relate\EdgeEndBundleStar.obj
+1>EdgeEndBundleStar.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\relate\RelateComputer.cpp /Fooperation\relate\RelateComputer.obj
+1>RelateComputer.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\relate\RelateNode.cpp /Fooperation\relate\RelateNode.obj
+1>RelateNode.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\relate\RelateNodeFactory.cpp /Fooperation\relate\RelateNodeFactory.obj
+1>RelateNodeFactory.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\relate\RelateNodeGraph.cpp /Fooperation\relate\RelateNodeGraph.obj
+1>RelateNodeGraph.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\relate\RelateOp.cpp /Fooperation\relate\RelateOp.obj
+1>RelateOp.cpp
+1>c:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\memory(721) : warning C4150: deletion of pointer to incomplete type 'geos::geom::IntersectionMatrix'; no destructor called
+1>        ..\include\geos/geomgraph/GraphComponent.h(31) : see declaration of 'geos::geom::IntersectionMatrix'
+1>        c:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\memory(720) : while compiling class template member function 'std::auto_ptr<_Ty>::~auto_ptr(void)'
+1>        with
+1>        [
+1>            _Ty=geos::geom::IntersectionMatrix
+1>        ]
+1>        ..\include\geos/operation/relate/RelateComputer.h(91) : see reference to class template instantiation 'std::auto_ptr<_Ty>' being compiled
+1>        with
+1>        [
+1>            _Ty=geos::geom::IntersectionMatrix
+1>        ]
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\sharedpaths\SharedPathsOp.cpp /Fooperation\sharedpaths\SharedPathsOp.obj
+1>SharedPathsOp.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\union\CascadedPolygonUnion.cpp /Fooperation\union\CascadedPolygonUnion.obj
+1>CascadedPolygonUnion.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\union\CascadedUnion.cpp /Fooperation\union\CascadedUnion.obj
+1>CascadedUnion.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\union\PointGeometryUnion.cpp /Fooperation\union\PointGeometryUnion.obj
+1>PointGeometryUnion.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\union\UnaryUnionOp.cpp /Fooperation\union\UnaryUnionOp.obj
+1>UnaryUnionOp.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\valid\ConnectedInteriorTester.cpp /Fooperation\valid\ConnectedInteriorTester.obj
+1>ConnectedInteriorTester.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\valid\ConsistentAreaTester.cpp /Fooperation\valid\ConsistentAreaTester.obj
+1>ConsistentAreaTester.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\valid\IndexedNestedRingTester.cpp /Fooperation\valid\IndexedNestedRingTester.obj
+1>IndexedNestedRingTester.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\valid\IsValidOp.cpp /Fooperation\valid\IsValidOp.obj
+1>IsValidOp.cpp
+1>operation\valid\IsValidOp.cpp(74) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>operation\valid\IsValidOp.cpp(235) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>operation\valid\IsValidOp.cpp(288) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>operation\valid\IsValidOp.cpp(386) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+1>operation\valid\IsValidOp.cpp(450) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+1>operation\valid\IsValidOp.cpp(478) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>operation\valid\IsValidOp.cpp(528) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+1>operation\valid\IsValidOp.cpp(608) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>operation\valid\IsValidOp.cpp(629) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+1>operation\valid\IsValidOp.cpp(647) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\valid\QuadtreeNestedRingTester.cpp /Fooperation\valid\QuadtreeNestedRingTester.obj
+1>QuadtreeNestedRingTester.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\valid\RepeatedPointTester.cpp /Fooperation\valid\RepeatedPointTester.obj
+1>RepeatedPointTester.cpp
+1>operation\valid\RepeatedPointTester.cpp(87) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>operation\valid\RepeatedPointTester.cpp(119) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>operation\valid\RepeatedPointTester.cpp(130) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>operation\valid\RepeatedPointTester.cpp(141) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\valid\SimpleNestedRingTester.cpp /Fooperation\valid\SimpleNestedRingTester.obj
+1>SimpleNestedRingTester.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\valid\SweeplineNestedRingTester.cpp /Fooperation\valid\SweeplineNestedRingTester.obj
+1>SweeplineNestedRingTester.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c operation\valid\TopologyValidationError.cpp /Fooperation\valid\TopologyValidationError.obj
+1>TopologyValidationError.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c planargraph\DirectedEdge.cpp /Foplanargraph\DirectedEdge.obj
+1>DirectedEdge.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c planargraph\DirectedEdgeStar.cpp /Foplanargraph\DirectedEdgeStar.obj
+1>DirectedEdgeStar.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c planargraph\Edge.cpp /Foplanargraph\Edge.obj
+1>Edge.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c planargraph\Node.cpp /Foplanargraph\Node.obj
+1>Node.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c planargraph\NodeMap.cpp /Foplanargraph\NodeMap.obj
+1>NodeMap.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c planargraph\PlanarGraph.cpp /Foplanargraph\PlanarGraph.obj
+1>PlanarGraph.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c planargraph\Subgraph.cpp /Foplanargraph\Subgraph.obj
+1>Subgraph.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c planargraph\algorithm\ConnectedSubgraphFinder.cpp /Foplanargraph\algorithm\ConnectedSubgraphFinder.obj
+1>ConnectedSubgraphFinder.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c precision\CommonBits.cpp /Foprecision\CommonBits.obj
+1>CommonBits.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c precision\CommonBitsOp.cpp /Foprecision\CommonBitsOp.obj
+1>CommonBitsOp.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c precision\CommonBitsRemover.cpp /Foprecision\CommonBitsRemover.obj
+1>CommonBitsRemover.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c precision\EnhancedPrecisionOp.cpp /Foprecision\EnhancedPrecisionOp.obj
+1>EnhancedPrecisionOp.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c precision\SimpleGeometryPrecisionReducer.cpp /Foprecision\SimpleGeometryPrecisionReducer.obj
+1>SimpleGeometryPrecisionReducer.cpp
+1>precision\SimpleGeometryPrecisionReducer.cpp(72) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c simplify\DouglasPeuckerLineSimplifier.cpp /Fosimplify\DouglasPeuckerLineSimplifier.obj
+1>DouglasPeuckerLineSimplifier.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c simplify\DouglasPeuckerSimplifier.cpp /Fosimplify\DouglasPeuckerSimplifier.obj
+1>DouglasPeuckerSimplifier.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c simplify\LineSegmentIndex.cpp /Fosimplify\LineSegmentIndex.obj
+1>LineSegmentIndex.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c simplify\TaggedLineSegment.cpp /Fosimplify\TaggedLineSegment.obj
+1>TaggedLineSegment.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c simplify\TaggedLinesSimplifier.cpp /Fosimplify\TaggedLinesSimplifier.obj
+1>TaggedLinesSimplifier.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c simplify\TaggedLineString.cpp /Fosimplify\TaggedLineString.obj
+1>TaggedLineString.cpp
+1>simplify\TaggedLineString.cpp(89) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>simplify\TaggedLineString.cpp(179) : warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c simplify\TaggedLineStringSimplifier.cpp /Fosimplify\TaggedLineStringSimplifier.obj
+1>TaggedLineStringSimplifier.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c simplify\TopologyPreservingSimplifier.cpp /Fosimplify\TopologyPreservingSimplifier.obj
+1>TopologyPreservingSimplifier.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c util\Assert.cpp /Foutil\Assert.obj
+1>Assert.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c util\GeometricShapeFactory.cpp /Foutil\GeometricShapeFactory.obj
+1>GeometricShapeFactory.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c util\math.cpp /Foutil\math.obj
+1>math.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c util\Profiler.cpp /Foutil\Profiler.obj
+1>Profiler.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c linearref\ExtractLineByLocation.cpp /Folinearref\ExtractLineByLocation.obj
+1>ExtractLineByLocation.cpp
+1>linearref\ExtractLineByLocation.cpp(111) : warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c linearref\LengthIndexOfPoint.cpp /Folinearref\LengthIndexOfPoint.obj
+1>LengthIndexOfPoint.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c linearref\LengthIndexedLine.cpp /Folinearref\LengthIndexedLine.obj
+1>LengthIndexedLine.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c linearref\LengthLocationMap.cpp /Folinearref\LengthLocationMap.obj
+1>LengthLocationMap.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c linearref\LinearGeometryBuilder.cpp /Folinearref\LinearGeometryBuilder.obj
+1>LinearGeometryBuilder.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c linearref\LinearIterator.cpp /Folinearref\LinearIterator.obj
+1>LinearIterator.cpp
+1>linearref\LinearIterator.cpp(47) : warning C4267: 'initializing' : conversion from 'size_t' to 'const unsigned int', possible loss of data
+1>linearref\LinearIterator.cpp(57) : warning C4267: 'initializing' : conversion from 'size_t' to 'const unsigned int', possible loss of data
+1>linearref\LinearIterator.cpp(66) : warning C4267: 'initializing' : conversion from 'size_t' to 'const unsigned int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c linearref\LinearLocation.cpp /Folinearref\LinearLocation.obj
+1>LinearLocation.cpp
+1>linearref\LinearLocation.cpp(122) : warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>linearref\LinearLocation.cpp(155) : warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>linearref\LinearLocation.cpp(166) : warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>linearref\LinearLocation.cpp(168) : warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+1>linearref\LinearLocation.cpp(224) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c linearref\LocationIndexOfLine.cpp /Folinearref\LocationIndexOfLine.obj
+1>LocationIndexOfLine.cpp
+1>linearref\LocationIndexOfLine.cpp(54) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c linearref\LocationIndexOfPoint.cpp /Folinearref\LocationIndexOfPoint.obj
+1>LocationIndexOfPoint.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /D "GEOS_DLL_EXPORT" /c ..\capi\geos_c.cpp /Fo..\capi\geos_c.obj
+1>geos_c.cpp
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /D "GEOS_DLL_EXPORT" /c ..\capi\geos_ts_c.cpp /Fo..\capi\geos_ts_c.obj
+1>geos_ts_c.cpp
+1>..\include\geos/operation/buffer/OffsetSegmentString.h(175) : warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+1>..\capi\geos_ts_c.cpp(2581) : warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+1> cl  /nologo /MD /GR /O2 /W3 /EHs /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE" -I..\include -I..\capi /c inlines.cpp /Foinlines.obj
+1>inlines.cpp
+1> if exist geos.lib del geos.lib
+1> link.exe /lib /out:geos.lib algorithm\Angle.obj  algorithm\BoundaryNodeRule.obj  algorithm\CentroidArea.obj  algorithm\CentroidLine.obj  algorithm\CentroidPoint.obj  algorithm\CGAlgorithms.obj  algorithm\ConvexHull.obj  algorithm\HCoordinate.obj  algorithm\InteriorPointArea.obj  algorithm\InteriorPointLine.obj  algorithm\InteriorPointPoint.obj  algorithm\LineIntersector.obj  algorithm\MCPointInRing.obj  algorithm\MinimumDiameter.obj  algorithm\NotRepresentableException.obj  algorithm\PointLocator.obj  algorithm\RayCrossingCounter.obj  algorithm\RobustDeterminant.obj  algorithm\SimplePointInRing.obj  algorithm\SIRtreePointInRing.obj  algorithm\distance\DiscreteHausdorffDistance.obj  algorithm\distance\DistanceToPoint.obj  algorithm\locate\IndexedPointInAreaLocator.obj  algorithm\locate\PointOnGeometryLocator.obj  algorithm\locate\SimplePointInAreaLocator.obj  geom\Coordinate.obj  geom\CoordinateArraySequence.obj  geom\CoordinateArraySequenceFactory.obj  geom\CoordinateSequence.obj  geom\CoordinateSequenceFactory.obj  geom\Dimension.obj  geom\Envelope.obj  geom\Geometry.obj  geom\GeometryCollection.obj  geom\GeometryComponentFilter.obj  geom\GeometryFactory.obj  geom\GeometryList.obj  geom\IntersectionMatrix.obj  geom\LinearRing.obj  geom\LineSegment.obj  geom\LineString.obj  geom\Location.obj  geom\MultiLineString.obj  geom\MultiPoint.obj  geom\MultiPolygon.obj  geom\Point.obj  geom\Polygon.obj  geom\PrecisionModel.obj  geom\Triangle.obj  geom\util\ComponentCoordinateExtracter.obj  geom\util\CoordinateOperation.obj  geom\util\GeometryEditor.obj  geom\util\GeometryTransformer.obj  geom\util\GeometryCombiner.obj  geom\util\ShortCircuitedGeometryVisitor.obj  geom\util\SineStarFactory.obj  geom\prep\AbstractPreparedPolygonContains.obj  geom\prep\BasicPreparedGeometry.obj  geom\prep\PreparedGeometry.obj  geom\prep\PreparedGeometryFactory.obj  geom\prep\PreparedLineString.obj  geom\prep\PreparedLineStringIntersects.obj  geom\prep\PreparedPoint.obj  geom\prep\PreparedPolygon.obj  geom\prep\PreparedPolygonContains.obj  geom\prep\PreparedPolygonContainsProperly.obj  geom\prep\PreparedPolygonCovers.obj  geom\prep\PreparedPolygonIntersects.obj  geom\prep\PreparedPolygonPredicate.obj  geomgraph\Depth.obj  geomgraph\DirectedEdge.obj  geomgraph\DirectedEdgeStar.obj  geomgraph\Edge.obj  geomgraph\EdgeEnd.obj  geomgraph\EdgeEndStar.obj  geomgraph\EdgeIntersectionList.obj  geomgraph\EdgeList.obj  geomgraph\EdgeNodingValidator.obj  geomgraph\EdgeRing.obj  geomgraph\GeometryGraph.obj  geomgraph\GraphComponent.obj  geomgraph\Label.obj  geomgraph\Node.obj  geomgraph\NodeFactory.obj  geomgraph\NodeMap.obj  geomgraph\PlanarGraph.obj  geomgraph\Position.obj  geomgraph\Quadrant.obj  geomgraph\TopologyLocation.obj  geomgraph\index\MonotoneChainEdge.obj  geomgraph\index\MonotoneChainIndexer.obj  geomgraph\index\SegmentIntersector.obj  geomgraph\index\SimpleEdgeSetIntersector.obj  geomgraph\index\SimpleMCSweepLineIntersector.obj  geomgraph\index\SimpleSweepLineIntersector.obj  geomgraph\index\SweepLineEvent.obj  geomgraph\index\SweepLineSegment.obj  index\bintree\Bintree.obj  index\bintree\Interval.obj  index\bintree\Key.obj  index\bintree\Node.obj  index\bintree\NodeBase.obj  index\bintree\Root.obj  index\chain\MonotoneChain.obj  index\chain\MonotoneChainBuilder.obj  index\chain\MonotoneChainOverlapAction.obj  index\chain\MonotoneChainSelectAction.obj  index\intervalrtree\IntervalRTreeBranchNode.obj  index\intervalrtree\IntervalRTreeLeafNode.obj  index\intervalrtree\IntervalRTreeNode.obj  index\intervalrtree\SortedPackedIntervalRTree.obj  index\quadtree\DoubleBits.obj  index\quadtree\IntervalSize.obj  index\quadtree\Key.obj  index\quadtree\Node.obj  index\quadtree\NodeBase.obj  index\quadtree\Root.obj  index\quadtree\Quadtree.obj  index\strtree\AbstractNode.obj  index\strtree\AbstractSTRtree.obj  index\strtree\Interval.obj  index\strtree\ItemBoundable.obj  index\strtree\SIRtree.obj  index\strtree\STRtree.obj  index\sweepline\SweepLineEvent.obj  index\sweepline\SweepLineIndex.obj  index\sweepline\SweepLineInterval.obj  io\ByteOrderDataInStream.obj  io\ByteOrderValues.obj  io\CLocalizer.obj  io\ParseException.obj  io\StringTokenizer.obj  io\Unload.obj  io\WKBReader.obj  io\WKBWriter.obj  io\WKTReader.obj  io\WKTWriter.obj  io\Writer.obj  noding\BasicSegmentString.obj  noding\FastNodingValidator.obj  noding\FastSegmentSetIntersectionFinder.obj  noding\IntersectionAdder.obj  noding\IntersectionFinderAdder.obj  noding\IteratedNoder.obj  noding\MCIndexNoder.obj  noding\MCIndexSegmentSetMutualIntersector.obj  noding\NodedSegmentString.obj  noding\NodingValidator.obj  noding\Octant.obj  noding\OrientedCoordinateArray.obj  noding\ScaledNoder.obj  noding\SegmentIntersectionDetector.obj  noding\SegmentNode.obj  noding\SegmentNodeList.obj  noding\SegmentString.obj  noding\SegmentStringUtil.obj  noding\SimpleNoder.obj  noding\SingleInteriorIntersectionFinder.obj  noding\snapround\HotPixel.obj  noding\snapround\MCIndexPointSnapper.obj  noding\snapround\MCIndexSnapRounder.obj  noding\snapround\SimpleSnapRounder.obj  operation\GeometryGraphOperation.obj  operation\IsSimpleOp.obj  operation\buffer\BufferBuilder.obj  operation\buffer\BufferInputLineSimplifier.obj  operation\buffer\BufferParameters.obj  operation\buffer\BufferOp.obj  operation\buffer\BufferSubgraph.obj  operation\buffer\OffsetCurveBuilder.obj  operation\buffer\OffsetCurveSetBuilder.obj  operation\buffer\OffsetSegmentGenerator.obj  operation\buffer\RightmostEdgeFinder.obj  operation\buffer\SubgraphDepthLocater.obj  operation\distance\ConnectedElementLocationFilter.obj  operation\distance\ConnectedElementPointFilter.obj  operation\distance\DistanceOp.obj  operation\distance\GeometryLocation.obj  operation\linemerge\EdgeString.obj  operation\linemerge\LineMergeDirectedEdge.obj  operation\linemerge\LineMergeEdge.obj  operation\linemerge\LineMergeGraph.obj  operation\linemerge\LineMerger.obj  operation\linemerge\LineSequencer.obj  operation\overlay\EdgeSetNoder.obj  operation\overlay\ElevationMatrix.obj  operation\overlay\ElevationMatrixCell.obj  operation\overlay\LineBuilder.obj  operation\overlay\MaximalEdgeRing.obj  operation\overlay\MinimalEdgeRing.obj  operation\overlay\OverlayNodeFactory.obj  operation\overlay\OverlayOp.obj  operation\overlay\PointBuilder.obj  operation\overlay\PolygonBuilder.obj  operation\overlay\snap\GeometrySnapper.obj  operation\overlay\snap\LineStringSnapper.obj  operation\overlay\snap\SnapOverlayOp.obj  operation\overlay\snap\SnapIfNeededOverlayOp.obj  operation\overlay\validate\FuzzyPointLocator.obj  operation\overlay\validate\OffsetPointGenerator.obj  operation\overlay\validate\OverlayResultValidator.obj  operation\polygonize\PolygonizeDirectedEdge.obj  operation\polygonize\PolygonizeEdge.obj  operation\polygonize\EdgeRing.obj  operation\polygonize\PolygonizeGraph.obj  operation\polygonize\Polygonizer.obj  operation\predicate\RectangleContains.obj  operation\predicate\RectangleIntersects.obj  operation\predicate\SegmentIntersectionTester.obj  operation\relate\EdgeEndBuilder.obj  operation\relate\EdgeEndBundle.obj  operation\relate\EdgeEndBundleStar.obj  operation\relate\RelateComputer.obj  operation\relate\RelateNode.obj  operation\relate\RelateNodeFactory.obj  operation\relate\RelateNodeGraph.obj  operation\relate\RelateOp.obj  operation\sharedpaths\SharedPathsOp.obj  operation\union\CascadedPolygonUnion.obj  operation\union\CascadedUnion.obj  operation\union\PointGeometryUnion.obj  operation\union\UnaryUnionOp.obj  operation\valid\ConnectedInteriorTester.obj  operation\valid\ConsistentAreaTester.obj  operation\valid\IndexedNestedRingTester.obj  operation\valid\IsValidOp.obj  operation\valid\QuadtreeNestedRingTester.obj  operation\valid\RepeatedPointTester.obj  operation\valid\SimpleNestedRingTester.obj  operation\valid\SweeplineNestedRingTester.obj  operation\valid\TopologyValidationError.obj  planargraph\DirectedEdge.obj  planargraph\DirectedEdgeStar.obj  planargraph\Edge.obj  planargraph\Node.obj  planargraph\NodeMap.obj  planargraph\PlanarGraph.obj  planargraph\Subgraph.obj  planargraph\algorithm\ConnectedSubgraphFinder.obj  precision\CommonBits.obj  precision\CommonBitsOp.obj  precision\CommonBitsRemover.obj  precision\EnhancedPrecisionOp.obj  precision\SimpleGeometryPrecisionReducer.obj  simplify\DouglasPeuckerLineSimplifier.obj  simplify\DouglasPeuckerSimplifier.obj  simplify\LineSegmentIndex.obj  simplify\TaggedLineSegment.obj  simplify\TaggedLinesSimplifier.obj  simplify\TaggedLineString.obj  simplify\TaggedLineStringSimplifier.obj  simplify\TopologyPreservingSimplifier.obj  util\Assert.obj  util\GeometricShapeFactory.obj  util\math.obj  util\Profiler.obj  linearref\ExtractLineByLocation.obj  linearref\LengthIndexOfPoint.obj  linearref\LengthIndexedLine.obj  linearref\LengthLocationMap.obj  linearref\LinearGeometryBuilder.obj  linearref\LinearIterator.obj  linearref\LinearLocation.obj  linearref\LocationIndexOfLine.obj  linearref\LocationIndexOfPoint.obj  ..\capi\geos_c.obj  ..\capi\geos_ts_c.obj  inlines.obj
+1>Microsoft (R) Library Manager Version 9.00.30729.01
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>SegmentStringUtil.obj : warning LNK4221: no public symbols found; archive member will be inaccessible
+1>IntervalRTreeNode.obj : warning LNK4221: no public symbols found; archive member will be inaccessible
+1>PreparedGeometry.obj : warning LNK4221: no public symbols found; archive member will be inaccessible
+1>ComponentCoordinateExtracter.obj : warning LNK4221: no public symbols found; archive member will be inaccessible
+1> link.exe /dll /debug algorithm\Angle.obj  algorithm\BoundaryNodeRule.obj  algorithm\CentroidArea.obj  algorithm\CentroidLine.obj  algorithm\CentroidPoint.obj  algorithm\CGAlgorithms.obj  algorithm\ConvexHull.obj  algorithm\HCoordinate.obj  algorithm\InteriorPointArea.obj  algorithm\InteriorPointLine.obj  algorithm\InteriorPointPoint.obj  algorithm\LineIntersector.obj  algorithm\MCPointInRing.obj  algorithm\MinimumDiameter.obj  algorithm\NotRepresentableException.obj  algorithm\PointLocator.obj  algorithm\RayCrossingCounter.obj  algorithm\RobustDeterminant.obj  algorithm\SimplePointInRing.obj  algorithm\SIRtreePointInRing.obj  algorithm\distance\DiscreteHausdorffDistance.obj  algorithm\distance\DistanceToPoint.obj  algorithm\locate\IndexedPointInAreaLocator.obj  algorithm\locate\PointOnGeometryLocator.obj  algorithm\locate\SimplePointInAreaLocator.obj  geom\Coordinate.obj  geom\CoordinateArraySequence.obj  geom\CoordinateArraySequenceFactory.obj  geom\CoordinateSequence.obj  geom\CoordinateSequenceFactory.obj  geom\Dimension.obj  geom\Envelope.obj  geom\Geometry.obj  geom\GeometryCollection.obj  geom\GeometryComponentFilter.obj  geom\GeometryFactory.obj  geom\GeometryList.obj  geom\IntersectionMatrix.obj  geom\LinearRing.obj  geom\LineSegment.obj  geom\LineString.obj  geom\Location.obj  geom\MultiLineString.obj  geom\MultiPoint.obj  geom\MultiPolygon.obj  geom\Point.obj  geom\Polygon.obj  geom\PrecisionModel.obj  geom\Triangle.obj  geom\util\ComponentCoordinateExtracter.obj  geom\util\CoordinateOperation.obj  geom\util\GeometryEditor.obj  geom\util\GeometryTransformer.obj  geom\util\GeometryCombiner.obj  geom\util\ShortCircuitedGeometryVisitor.obj  geom\util\SineStarFactory.obj  geom\prep\AbstractPreparedPolygonContains.obj  geom\prep\BasicPreparedGeometry.obj  geom\prep\PreparedGeometry.obj  geom\prep\PreparedGeometryFactory.obj  geom\prep\PreparedLineString.obj  geom\prep\PreparedLineStringIntersects.obj  geom\prep\PreparedPoint.obj  geom\prep\PreparedPolygon.obj  geom\prep\PreparedPolygonContains.obj  geom\prep\PreparedPolygonContainsProperly.obj  geom\prep\PreparedPolygonCovers.obj  geom\prep\PreparedPolygonIntersects.obj  geom\prep\PreparedPolygonPredicate.obj  geomgraph\Depth.obj  geomgraph\DirectedEdge.obj  geomgraph\DirectedEdgeStar.obj  geomgraph\Edge.obj  geomgraph\EdgeEnd.obj  geomgraph\EdgeEndStar.obj  geomgraph\EdgeIntersectionList.obj  geomgraph\EdgeList.obj  geomgraph\EdgeNodingValidator.obj  geomgraph\EdgeRing.obj  geomgraph\GeometryGraph.obj  geomgraph\GraphComponent.obj  geomgraph\Label.obj  geomgraph\Node.obj  geomgraph\NodeFactory.obj  geomgraph\NodeMap.obj  geomgraph\PlanarGraph.obj  geomgraph\Position.obj  geomgraph\Quadrant.obj  geomgraph\TopologyLocation.obj  geomgraph\index\MonotoneChainEdge.obj  geomgraph\index\MonotoneChainIndexer.obj  geomgraph\index\SegmentIntersector.obj  geomgraph\index\SimpleEdgeSetIntersector.obj  geomgraph\index\SimpleMCSweepLineIntersector.obj  geomgraph\index\SimpleSweepLineIntersector.obj  geomgraph\index\SweepLineEvent.obj  geomgraph\index\SweepLineSegment.obj  index\bintree\Bintree.obj  index\bintree\Interval.obj  index\bintree\Key.obj  index\bintree\Node.obj  index\bintree\NodeBase.obj  index\bintree\Root.obj  index\chain\MonotoneChain.obj  index\chain\MonotoneChainBuilder.obj  index\chain\MonotoneChainOverlapAction.obj  index\chain\MonotoneChainSelectAction.obj  index\intervalrtree\IntervalRTreeBranchNode.obj  index\intervalrtree\IntervalRTreeLeafNode.obj  index\intervalrtree\IntervalRTreeNode.obj  index\intervalrtree\SortedPackedIntervalRTree.obj  index\quadtree\DoubleBits.obj  index\quadtree\IntervalSize.obj  index\quadtree\Key.obj  index\quadtree\Node.obj  index\quadtree\NodeBase.obj  index\quadtree\Root.obj  index\quadtree\Quadtree.obj  index\strtree\AbstractNode.obj  index\strtree\AbstractSTRtree.obj  index\strtree\Interval.obj  index\strtree\ItemBoundable.obj  index\strtree\SIRtree.obj  index\strtree\STRtree.obj  index\sweepline\SweepLineEvent.obj  index\sweepline\SweepLineIndex.obj  index\sweepline\SweepLineInterval.obj  io\ByteOrderDataInStream.obj  io\ByteOrderValues.obj  io\CLocalizer.obj  io\ParseException.obj  io\StringTokenizer.obj  io\Unload.obj  io\WKBReader.obj  io\WKBWriter.obj  io\WKTReader.obj  io\WKTWriter.obj  io\Writer.obj  noding\BasicSegmentString.obj  noding\FastNodingValidator.obj  noding\FastSegmentSetIntersectionFinder.obj  noding\IntersectionAdder.obj  noding\IntersectionFinderAdder.obj  noding\IteratedNoder.obj  noding\MCIndexNoder.obj  noding\MCIndexSegmentSetMutualIntersector.obj  noding\NodedSegmentString.obj  noding\NodingValidator.obj  noding\Octant.obj  noding\OrientedCoordinateArray.obj  noding\ScaledNoder.obj  noding\SegmentIntersectionDetector.obj  noding\SegmentNode.obj  noding\SegmentNodeList.obj  noding\SegmentString.obj  noding\SegmentStringUtil.obj  noding\SimpleNoder.obj  noding\SingleInteriorIntersectionFinder.obj  noding\snapround\HotPixel.obj  noding\snapround\MCIndexPointSnapper.obj  noding\snapround\MCIndexSnapRounder.obj  noding\snapround\SimpleSnapRounder.obj  operation\GeometryGraphOperation.obj  operation\IsSimpleOp.obj  operation\buffer\BufferBuilder.obj  operation\buffer\BufferInputLineSimplifier.obj  operation\buffer\BufferParameters.obj  operation\buffer\BufferOp.obj  operation\buffer\BufferSubgraph.obj  operation\buffer\OffsetCurveBuilder.obj  operation\buffer\OffsetCurveSetBuilder.obj  operation\buffer\OffsetSegmentGenerator.obj  operation\buffer\RightmostEdgeFinder.obj  operation\buffer\SubgraphDepthLocater.obj  operation\distance\ConnectedElementLocationFilter.obj  operation\distance\ConnectedElementPointFilter.obj  operation\distance\DistanceOp.obj  operation\distance\GeometryLocation.obj  operation\linemerge\EdgeString.obj  operation\linemerge\LineMergeDirectedEdge.obj  operation\linemerge\LineMergeEdge.obj  operation\linemerge\LineMergeGraph.obj  operation\linemerge\LineMerger.obj  operation\linemerge\LineSequencer.obj  operation\overlay\EdgeSetNoder.obj  operation\overlay\ElevationMatrix.obj  operation\overlay\ElevationMatrixCell.obj  operation\overlay\LineBuilder.obj  operation\overlay\MaximalEdgeRing.obj  operation\overlay\MinimalEdgeRing.obj  operation\overlay\OverlayNodeFactory.obj  operation\overlay\OverlayOp.obj  operation\overlay\PointBuilder.obj  operation\overlay\PolygonBuilder.obj  operation\overlay\snap\GeometrySnapper.obj  operation\overlay\snap\LineStringSnapper.obj  operation\overlay\snap\SnapOverlayOp.obj  operation\overlay\snap\SnapIfNeededOverlayOp.obj  operation\overlay\validate\FuzzyPointLocator.obj  operation\overlay\validate\OffsetPointGenerator.obj  operation\overlay\validate\OverlayResultValidator.obj  operation\polygonize\PolygonizeDirectedEdge.obj  operation\polygonize\PolygonizeEdge.obj  operation\polygonize\EdgeRing.obj  operation\polygonize\PolygonizeGraph.obj  operation\polygonize\Polygonizer.obj  operation\predicate\RectangleContains.obj  operation\predicate\RectangleIntersects.obj  operation\predicate\SegmentIntersectionTester.obj  operation\relate\EdgeEndBuilder.obj  operation\relate\EdgeEndBundle.obj  operation\relate\EdgeEndBundleStar.obj  operation\relate\RelateComputer.obj  operation\relate\RelateNode.obj  operation\relate\RelateNodeFactory.obj  operation\relate\RelateNodeGraph.obj  operation\relate\RelateOp.obj  operation\sharedpaths\SharedPathsOp.obj  operation\union\CascadedPolygonUnion.obj  operation\union\CascadedUnion.obj  operation\union\PointGeometryUnion.obj  operation\union\UnaryUnionOp.obj  operation\valid\ConnectedInteriorTester.obj  operation\valid\ConsistentAreaTester.obj  operation\valid\IndexedNestedRingTester.obj  operation\valid\IsValidOp.obj  operation\valid\QuadtreeNestedRingTester.obj  operation\valid\RepeatedPointTester.obj  operation\valid\SimpleNestedRingTester.obj  operation\valid\SweeplineNestedRingTester.obj  operation\valid\TopologyValidationError.obj  planargraph\DirectedEdge.obj  planargraph\DirectedEdgeStar.obj  planargraph\Edge.obj  planargraph\Node.obj  planargraph\NodeMap.obj  planargraph\PlanarGraph.obj  planargraph\Subgraph.obj  planargraph\algorithm\ConnectedSubgraphFinder.obj  precision\CommonBits.obj  precision\CommonBitsOp.obj  precision\CommonBitsRemover.obj  precision\EnhancedPrecisionOp.obj  precision\SimpleGeometryPrecisionReducer.obj  simplify\DouglasPeuckerLineSimplifier.obj  simplify\DouglasPeuckerSimplifier.obj  simplify\LineSegmentIndex.obj  simplify\TaggedLineSegment.obj  simplify\TaggedLinesSimplifier.obj  simplify\TaggedLineString.obj  simplify\TaggedLineStringSimplifier.obj  simplify\TopologyPreservingSimplifier.obj  util\Assert.obj  util\GeometricShapeFactory.obj  util\math.obj  util\Profiler.obj  linearref\ExtractLineByLocation.obj  linearref\LengthIndexOfPoint.obj  linearref\LengthIndexedLine.obj  linearref\LengthLocationMap.obj  linearref\LinearGeometryBuilder.obj  linearref\LinearIterator.obj  linearref\LinearLocation.obj  linearref\LocationIndexOfLine.obj  linearref\LocationIndexOfPoint.obj  ..\capi\geos_c.obj  ..\capi\geos_ts_c.obj  inlines.obj /out:geos.dll /implib:geos_i.lib
+1>Microsoft (R) Incremental Linker Version 9.00.30729.01
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>   Creating library geos_i.lib and object geos_i.exp
+1> if exist geos.dll.manifest mt -manifest geos.dll.manifest -outputresource:geos.dll;2
+1>Microsoft (R) Manifest Tool version 5.2.3790.2076
+1>Copyright (c) Microsoft Corporation 2005. 
+1>All rights reserved.
+1> link.exe /dll /debug ..\capi\geos_c.obj ..\capi\geos_ts_c.obj geos.lib /out:geos_c.dll /implib:geos_c_i.lib
+1>Microsoft (R) Incremental Linker Version 9.00.30729.01
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>   Creating library geos_c_i.lib and object geos_c_i.exp
+1> if exist geos_c.dll.manifest mt -manifest geos_c.dll.manifest -outputresource:geos_c.dll;2
+1>Microsoft (R) Manifest Tool version 5.2.3790.2076
+1>Copyright (c) Microsoft Corporation 2005. 
+1>All rights reserved.
+1> cd ..
+1>Microsoft (R) Program Maintenance Utility Version 9.00.30729.01
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>**********************************************************************
+1>*** GEOS Build Configuration ***
+1>*** Setting BUILD_DEBUG NO
+1>*** Setting ENABLE_INLINE NO
+1>*** Setting BUILD_BATCH NO
+1>*** Using Microsoft NMAKE version 9.00.30729.01
+1>*** Using Microsoft Visual C++ version 9.0
+1>*** Using Microsoft C/C++ version 1500
+1>*** Setting GEOS_INCLUDE -I..\include -I..\capi
+1>*** Setting INCLUDE c:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include;c:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc\include;C:\Program Files\Microsoft SDKs\Windows\v6.0A\\include;C:\Program Files\Microsoft SDKs\Windows\v6.0A\include
+1>*** Using CFLAGS /nologo /MD /GR /O2 /W3 /EHs
+1>*** Using CPPFLAGS /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE"
+1>**********************************************************************
+1> cd src
+1> nmake /f makefile.vc devinstall
+1>Microsoft (R) Program Maintenance Utility Version 9.00.30729.01
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>**********************************************************************
+1>*** GEOS Build Configuration ***
+1>*** Setting BUILD_DEBUG NO
+1>*** Setting ENABLE_INLINE NO
+1>*** Setting BUILD_BATCH NO
+1>*** Using Microsoft NMAKE version 9.00.30729.01
+1>*** Using Microsoft Visual C++ version 9.0
+1>*** Using Microsoft C/C++ version 1500
+1>*** Setting GEOS_INCLUDE -I..\include -I..\capi
+1>*** Setting INCLUDE c:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include;c:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc\include;C:\Program Files\Microsoft SDKs\Windows\v6.0A\\include;C:\Program Files\Microsoft SDKs\Windows\v6.0A\include
+1>*** Using CFLAGS /nologo /MD /GR /O2 /W3 /EHs
+1>*** Using CPPFLAGS /D "NDEBUG" /D "NOMINMAX" /D "WIN32_LEAN_AND_MEAN" /D "NOGDI" /D "WIN64" /D "GEOS_DLL_EXPORT" /D "_CRT_SECURE_NO_DEPRECATE" /D "_CRT_NONSTDC_NO_DEPRECATE" /D "_SCL_SECURE_NO_DEPRECATE"
+1>**********************************************************************
+1>"*** copy lib, dll and headers to main folder"
+1> copy ..\src\geos_c.dll ..\..\..\bin\x64
+1>        1 file(s) copied.
+1> copy ..\src\geos_c_i.lib ..\..\..\lib\x64
+1>        1 file(s) copied.
+1> copy ..\capi\geos_c.h ..\..\..\include
+1>        1 file(s) copied.
+1> copy ..\include\geos\version.h ..\..\..\include\geos_version.h
+1>        1 file(s) copied.
+1> copy ..\include\geos\version.h ..\capi\geos_version.h
+1>        1 file(s) copied.
+1> copy ..\include\geos\export.h ..\..\..\include\geos_export.h
+1>        1 file(s) copied.
+1> copy ..\include\geos\export.h ..\capi\geos_export.h
+1>        1 file(s) copied.
+1> cd ..
+1>Build log was saved at "file://c:\dev\SupportLibraries\GDAL\Geos\x64\Release\BuildLog.htm"
+1>makegeos - 0 error(s), 143 warning(s)
+========== Rebuild All: 1 succeeded, 0 failed, 0 skipped ==========

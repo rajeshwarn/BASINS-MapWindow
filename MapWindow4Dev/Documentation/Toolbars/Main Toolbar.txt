@@ -1,0 +1,79 @@
+Listed below are the basic functions of Main Toolbar tools. For easy visual reference, images of each tool are included. To use a tool, simply click on that tool in your MapWindow application <i>(Note: to learn more about Attribute Table Editor Toolbars <img src="../General Help/Attribute Table Editor Toolbar.bmp">, click <a href="General Help/Attribute Table Editor">here</a>)</i>.
+<ul>
+<li><img src="NewProject.bmp"> <b>New Project</b> - Opens a blank MapWindow project.
+<li><img src="OpenProject.bmp"> <b>Open Project</b> - Opens an existing MapWindow project.
+<li><img src="Save.bmp"> <b>Save Project</b> - Saves your current MapWindow project <i>(Note: to learn more about MapWindow projects, click <a href="Menus\File">here</a>).</i>
+<li><img src="Print.bmp"> <b>Print</b> - Opens the Print dialog box and allows you to select printing options.
+<p>
+<li><b>Add/Remove/Clear Layers</b> - Listed below are the Add/Remove/Clear Layers options.
+  <ul>
+  <li><img src="AddLayer.bmp"> <b>Add Layer</b> - Opens a dialog box to add vector or raster layers<i>(Note: to learn more about adding layers, click <a href="General Help\Legend">here</a>).</i>
+  <li><img src="RemoveLayer.bmp"> <b>Remove Layer</b> - Removes the highlighted layer from the Legend <i>(Note: to learn more about removing layers, click <a href="General Help\Legend">here</a>).</i>
+  <li><img src="ClearLayers.bmp"> <b>Clear Layers</b> - Removes all layers from the Legend <i>(Note: to learn more about clearing layers, click <a href="General Help\Legend">here</a>).</i>
+  </ul></ul>
+<ul>
+<li><img src="Pan.bmp"> <b>Pan</b> - Allows you to click and drag the <a href="General Help\Glossary of GIS Terms">map display</a>, which changes your map perspective. The mouse cursor will change to a hand.
+<li><img src="Select.bmp"> <b>Select</b> - Allows you to click and select vector data (points, lines, and polygons) on the map display.
+<ol>
+<li>Highlight the layer in the <a href="General Help\Legend">Legend</a> to select from the layer.
+<li>Click one of the layer's shapes and it will highlight.
+<li>Select multiple shapes by holding down the Ctrl button on your keyboard and then click on the next shape.</ol>
+<li><img src="MeasureDistance.bmp"> <b>Measure Distance</b> - Allows you to measure the distance between two locations, or measure a sequence of multiple locations.
+<ol>
+<li>Click on two or more locations on the map display and the distance will be shown in the bottom-left corner of the MapWindow application.
+<li>Right click to start a new measurement.</ol>
+<li><img src="MeasureArea.bmp"> <b>Measure Area</b> - Allows you to measure the area of some area of interest on the map display.
+<ol>
+<li>Click on the edges of the area of interest on the map display and lines will appear that delineate the area.
+<li>Right click when you have finished delineating around the area of interest and a dialog box will appear and display the measured area.</ol>
+<li><img src="ZoomIn.bmp"> <b>Zoom In</b> - Allows you to view the layers in the map display closer.
+<ol>
+<li>Click on the location that you would like to view closer and the layers will appear closer.
+<li>Right click to view in the opposite direction (further away).</ol>
+<li><img src="ZoomOut.bmp"> <b>Zoom Out</b> - Allows you to view the layers in the map display further away.
+<ol>
+<li>Click on the location that you would like to view further away and the layers will appear further away.
+<li>Right click to view in the opposite direction (closer).</ol>
+<p>
+<li> <b>Zoom (options)</b> - Listed below are the available zoom options.
+<ul> 
+<li><img src="ZoomPrevious.bmp"> <b>Previous</b> - Allows you to view the previous location of the map display.
+<li><img src="ZoomNext.bmp"> <b>Next</b> - Allows you to return to the view in the map display where you started, after you use the Previous button. For example, use the Zoom In button for a closer view of a road, use Previous to zoom back out, and then use Next to zoom back in.
+<li><img src="ZoomToPreviewMapExtents.bmp"> <b>Zoom to Preview Map Extents</b> - Allows you to change the map display to the current extents of the Preview Map <i>(Note: to learn how to set the Preview Map extents, click <a href="General Help\Preview Map">here</a>)</i>.
+<li><img src="ZoomFullExtents.bmp"> <b>Full Extents</b> - Allows you to view the map display according the greatest spatial extent of all layers in your Legend.
+<li><img src="ZoomToLayer.bmp"> <b>Layer</b> - Allows you to view the map display according to the spatial extent of the highlighted layer in your Legend <i>(Note: to learn how to Zoom to Layer, click <a href="General Help\Legend">here</a>)</i>.
+<li><img src="ZoomToSelected.bmp"> <b>Selected</b> - Allows you to view the map display according to the greatest spatial extent of your selected shapes. For example, if you select two points such as New York City and Washington D.C., and then click the button Selected, the map display will zoom to where both New York City and Washington D.C. are in view.</ul>
+<li><img src="IdentifierTool.bmp"> <b>Identifier Tool</b> - Allows you to view the attributes of a vector or raster layer depending on what layer is highlighted and where you click on the map display.
+<ol>
+<li>Click on the shape's layer in the Legend that you would like to identify and it will highlight.
+<li>Click on the Identifier Tool button and a dialog box appears titled Identifier.
+<li>Click on the shape(s) you would like to identify and the attributes of these shapes will appear in the Identifier dialog box. <i>(Note: the mouse cursor changes to the plus symbol and the letter i).</i></ol>
+<li><img src="TableEditor.bmp"> <b>Table Editor</b> - Allows you to view the attributes of a vector or raster layer.
+<ol>
+<li>Click on a layer in the Legend and it will highlight.
+<li>Click on the Table Editor button and a dialog box appears titled Attribute Table Editor which displays the attributes of the highlighted layer. <i>(Note: For more 
+formation about the Attribute Table Editor, click <a href="General Help\Attribute Table Editor">here</a>)</i>.</ol></ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

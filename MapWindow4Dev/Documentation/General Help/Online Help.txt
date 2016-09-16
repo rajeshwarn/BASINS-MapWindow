@@ -1,0 +1,17 @@
+Questions from MapWindow users occur all the time, and some of these questions are stored on an online message center called a <a href'http://www.mapwindow.org/phorum'>forum</a>. 
+<p>
+A user can search the forum for answers related to their own question or a user can ask a question of their own that they would like answered. A typical response is a paragraph explaining the answer to a question, or the response references an earlier-similar question, or the response is a link to the requested data or some other online reference.
+<p>
+See also:
+<p>
+<ul>
+<li><a href="http://www.mapwindow.org/opensource.php">Read the MapWindow Open Source license</a></ul>
+<ul>
+<li><a href="http://www.mapwindow.org/documentation/MapWinGIS.chm">MapWinGIS documentation (Programming Objects and Enumerations)</a></ul>
+<ul>
+<li><a href="http://www.mapwindow.org/documentation/MapWinInterfaces.chm">MapWindow Plug-in Interfaces Documentation</a></ul>			
+<ul>
+<li><a href="http://www.mapwindow.org/phorum/index.php">Go to the plug-in developer forum</a></ul>
+
+
+

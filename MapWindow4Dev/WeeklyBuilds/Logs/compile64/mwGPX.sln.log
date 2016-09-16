@@ -1,0 +1,20 @@
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: mwGPX, Configuration: Debug x64 ------
+C:\Windows\Microsoft.NET\Framework\v3.5\Vbc.exe /noconfig /imports:Microsoft.VisualBasic,System,System.Collections,System.Collections.Generic,System.Diagnostics /nowarn:42016,41999,42017,42018,42019,42032,42036,42020,42021,42022 /platform:x64 /rootnamespace:mwGPX /doc:obj\x64\Debug\mwGPX.xml /define:"CONFIG=\"Debug\",DEBUG=-1,TRACE=-1,_MyType=\"Windows\",PLATFORM=\"x64\"" /reference:..\..\MapWindow4Dev\Bin\Interop.MapWinGIS.dll,..\..\MapWindow4Dev\Bin\MapWinGeoProc.dll,..\..\MapWindow4Dev\Bin\MapWinInterfaces.dll,..\..\MapWindow4Dev\Bin\MapWinUtility.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /debug+ /debug:full /out:obj\x64\Debug\mwGPX.dll /resource:obj\x64\Debug\mwGPX.Resources.resources /target:library mwGPX.vb clsGPX.vb "My Project\AssemblyInfo.vb" "My Project\Application.Designer.vb" "My Project\Resources.Designer.vb" "My Project\Settings.Designer.vb"
+vbc : warning BC40010: Possible problem detected while building assembly 'mwGPX': Referenced assembly 'mscorlib.dll' targets a different processor
+mwGPX -> C:\dev\MapWindow4Dev\Bin64\Plugins\GPS\mwGPX.dll
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: mwGPX, Configuration: Debug x64 ------
+mwGPX -> C:\dev\MapWindow4Dev\Bin64\Plugins\GPS\mwGPX.dll
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: mwGPX, Configuration: Debug x64 ------
+mwGPX -> C:\dev\MapWindow4Dev\Bin64\Plugins\GPS\mwGPX.dll
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========

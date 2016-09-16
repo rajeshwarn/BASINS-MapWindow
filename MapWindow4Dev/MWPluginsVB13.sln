@@ -1,0 +1,61 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "mwTableEditor13", "TableEditor\mwTableEditor\mwTableEditor13.vbproj", "{B0D5895E-B243-43BE-A907-6021CAF391DB}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ArchiveTool13", "ArchiveTool\ArchiveTool13.vbproj", "{8A11C532-41D2-465F-A9DE-B1E59CC51732}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BASINS-MapWinUtility13", "..\..\MapWindow4Plugins\MapWinUtility\BASINS-MapWinUtility13.vbproj", "{33E88992-742F-4D13-823F-35D6A07B1AA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0D5895E-B243-43BE-A907-6021CAF391DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0D5895E-B243-43BE-A907-6021CAF391DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0D5895E-B243-43BE-A907-6021CAF391DB}.Debug|x64.ActiveCfg = Debug|x64
+		{B0D5895E-B243-43BE-A907-6021CAF391DB}.Debug|x64.Build.0 = Debug|x64
+		{B0D5895E-B243-43BE-A907-6021CAF391DB}.Debug|x86.ActiveCfg = Debug|x86
+		{B0D5895E-B243-43BE-A907-6021CAF391DB}.Debug|x86.Build.0 = Debug|x86
+		{B0D5895E-B243-43BE-A907-6021CAF391DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0D5895E-B243-43BE-A907-6021CAF391DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0D5895E-B243-43BE-A907-6021CAF391DB}.Release|x64.ActiveCfg = Release|x64
+		{B0D5895E-B243-43BE-A907-6021CAF391DB}.Release|x64.Build.0 = Release|x64
+		{B0D5895E-B243-43BE-A907-6021CAF391DB}.Release|x86.ActiveCfg = Release|x86
+		{B0D5895E-B243-43BE-A907-6021CAF391DB}.Release|x86.Build.0 = Release|x86
+		{8A11C532-41D2-465F-A9DE-B1E59CC51732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A11C532-41D2-465F-A9DE-B1E59CC51732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A11C532-41D2-465F-A9DE-B1E59CC51732}.Debug|x64.ActiveCfg = Debug|x64
+		{8A11C532-41D2-465F-A9DE-B1E59CC51732}.Debug|x64.Build.0 = Debug|x64
+		{8A11C532-41D2-465F-A9DE-B1E59CC51732}.Debug|x86.ActiveCfg = Debug|x86
+		{8A11C532-41D2-465F-A9DE-B1E59CC51732}.Debug|x86.Build.0 = Debug|x86
+		{8A11C532-41D2-465F-A9DE-B1E59CC51732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A11C532-41D2-465F-A9DE-B1E59CC51732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A11C532-41D2-465F-A9DE-B1E59CC51732}.Release|x64.ActiveCfg = Release|x64
+		{8A11C532-41D2-465F-A9DE-B1E59CC51732}.Release|x64.Build.0 = Release|x64
+		{8A11C532-41D2-465F-A9DE-B1E59CC51732}.Release|x86.ActiveCfg = Release|x86
+		{8A11C532-41D2-465F-A9DE-B1E59CC51732}.Release|x86.Build.0 = Release|x86
+		{33E88992-742F-4D13-823F-35D6A07B1AA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33E88992-742F-4D13-823F-35D6A07B1AA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33E88992-742F-4D13-823F-35D6A07B1AA1}.Debug|x64.ActiveCfg = Debug|x64
+		{33E88992-742F-4D13-823F-35D6A07B1AA1}.Debug|x64.Build.0 = Debug|x64
+		{33E88992-742F-4D13-823F-35D6A07B1AA1}.Debug|x86.ActiveCfg = Debug|x86
+		{33E88992-742F-4D13-823F-35D6A07B1AA1}.Debug|x86.Build.0 = Debug|x86
+		{33E88992-742F-4D13-823F-35D6A07B1AA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33E88992-742F-4D13-823F-35D6A07B1AA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33E88992-742F-4D13-823F-35D6A07B1AA1}.Release|x64.ActiveCfg = Release|x64
+		{33E88992-742F-4D13-823F-35D6A07B1AA1}.Release|x64.Build.0 = Release|x64
+		{33E88992-742F-4D13-823F-35D6A07B1AA1}.Release|x86.ActiveCfg = Release|x86
+		{33E88992-742F-4D13-823F-35D6A07B1AA1}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

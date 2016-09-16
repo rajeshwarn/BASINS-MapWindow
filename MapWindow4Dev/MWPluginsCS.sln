@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapefileEditor", "ShapefileEditor\ShapefileEditor.csproj", "{29126229-CB94-4883-88C4-C7D6BCBC9F75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mwIdentifier", "Identifier\mwIdentifier.csproj", "{0DAF4107-5CEE-4EFA-90E6-DC7D7FE85EE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29126229-CB94-4883-88C4-C7D6BCBC9F75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29126229-CB94-4883-88C4-C7D6BCBC9F75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29126229-CB94-4883-88C4-C7D6BCBC9F75}.Debug|x64.ActiveCfg = Debug|x64
+		{29126229-CB94-4883-88C4-C7D6BCBC9F75}.Debug|x64.Build.0 = Debug|x64
+		{29126229-CB94-4883-88C4-C7D6BCBC9F75}.Debug|x86.ActiveCfg = Debug|x86
+		{29126229-CB94-4883-88C4-C7D6BCBC9F75}.Debug|x86.Build.0 = Debug|x86
+		{29126229-CB94-4883-88C4-C7D6BCBC9F75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29126229-CB94-4883-88C4-C7D6BCBC9F75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29126229-CB94-4883-88C4-C7D6BCBC9F75}.Release|x64.ActiveCfg = Release|x64
+		{29126229-CB94-4883-88C4-C7D6BCBC9F75}.Release|x64.Build.0 = Release|x64
+		{29126229-CB94-4883-88C4-C7D6BCBC9F75}.Release|x86.ActiveCfg = Release|x86
+		{29126229-CB94-4883-88C4-C7D6BCBC9F75}.Release|x86.Build.0 = Release|x86
+		{0DAF4107-5CEE-4EFA-90E6-DC7D7FE85EE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DAF4107-5CEE-4EFA-90E6-DC7D7FE85EE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DAF4107-5CEE-4EFA-90E6-DC7D7FE85EE8}.Debug|x64.ActiveCfg = Debug|x64
+		{0DAF4107-5CEE-4EFA-90E6-DC7D7FE85EE8}.Debug|x64.Build.0 = Debug|x64
+		{0DAF4107-5CEE-4EFA-90E6-DC7D7FE85EE8}.Debug|x86.ActiveCfg = Debug|x86
+		{0DAF4107-5CEE-4EFA-90E6-DC7D7FE85EE8}.Debug|x86.Build.0 = Debug|x86
+		{0DAF4107-5CEE-4EFA-90E6-DC7D7FE85EE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DAF4107-5CEE-4EFA-90E6-DC7D7FE85EE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DAF4107-5CEE-4EFA-90E6-DC7D7FE85EE8}.Release|x64.ActiveCfg = Release|x64
+		{0DAF4107-5CEE-4EFA-90E6-DC7D7FE85EE8}.Release|x64.Build.0 = Release|x64
+		{0DAF4107-5CEE-4EFA-90E6-DC7D7FE85EE8}.Release|x86.ActiveCfg = Release|x86
+		{0DAF4107-5CEE-4EFA-90E6-DC7D7FE85EE8}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

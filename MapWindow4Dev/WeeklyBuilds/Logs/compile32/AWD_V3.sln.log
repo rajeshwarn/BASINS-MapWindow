@@ -1,0 +1,112 @@
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: MWTaudem, Configuration: Debug x86 ------
+C:\Windows\Microsoft.NET\Framework\v3.5\Vbc.exe /noconfig /imports:Microsoft.VisualBasic,Microsoft.VisualBasic.Compatibility,System,System.Collections,System.Diagnostics,System.Drawing,System.Windows.Forms /optioncompare:Binary /optionexplicit+ /optionstrict+ /nowarn:42016,42017,42018,42019,42032 /optioninfer+ /platform:x86 /removeintchecks- /rootnamespace:mwTauDem /doc:obj\x86\Debug\mwTauDem.xml /define:"CONFIG=\"Debug\",DEBUG=-1,TRACE=-1,_MyType=\"Windows\",PLATFORM=\"x86\",Win32=True" /reference:C:\Dev\MapWindow4Dev\Bin\Interop.MapWinGIS.dll,C:\Dev\MapWindow4Dev\Bin\MapWinGeoProc.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\Microsoft.VisualBasic.Compatibility.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll /debug+ /debug:Full /optimize- /out:obj\x86\Debug\mwTauDem.dll /resource:obj\x86\Debug\mwTauDem.frmAvalanche.resources /resource:obj\x86\Debug\mwTauDem.frmD8FlowPathExtremeUp.resources /resource:obj\x86\Debug\mwTauDem.frmDinfDistDown.resources /resource:obj\x86\Debug\mwTauDem.frmDinfDistUp.resources /resource:obj\x86\Debug\mwTauDem.frmDropAnalysis.resources /resource:obj\x86\Debug\mwTauDem.frmDropAnalysisStreamDef.resources /resource:obj\x86\Debug\mwTauDem.frmLengthArea.resources /resource:obj\x86\Debug\mwTauDem.frmMoveOutlets.resources /resource:obj\x86\Debug\mwTauDem.frmPK.resources /resource:obj\x86\Debug\mwTauDem.frmPKStreamDef.resources /resource:obj\x86\Debug\mwTauDem.frmSlopeArea.resources /resource:obj\x86\Debug\mwTauDem.frmSlopeAreaStreamDef.resources /resource:obj\x86\Debug\mwTauDem.frmSlopeAverageDown.resources /resource:obj\x86\Debug\mwTauDem.frmThreshold.resources /resource:obj\x86\Debug\mwTauDem.frmAbout.resources /resource:obj\x86\Debug\mwTauDem.frmADinfDecay.resources /resource:obj\x86\Debug\mwTauDem.frmAGOutlets.resources /resource:obj\x86\Debug\mwTauDem.frmAreaD8.resources /resource:obj\x86\Debug\mwTauDem.frmAreaDinf.resources /resource:obj\x86\Debug\mwTauDem.frmSlopeOverArea.resources /resource:obj\x86\Debug\mwTauDem.frmD8.resources /resource:obj\x86\Debug\mwTauDem.frmDependence.resources /resource:obj\x86\Debug\mwTauDem.frmDinf.resources /resource:obj\x86\Debug\mwTauDem.frmDistance.resources /resource:obj\x86\Debug\mwTauDem.frmDoAll.resources /resource:obj\x86\Debug\mwTauDem.frmFill.resources /resource:obj\x86\Debug\mwTauDem.frmGridNet.resources /resource:obj\x86\Debug\mwTauDem.frmStreamNet.resources /resource:obj\x86\Debug\mwTauDem.frmRevAccum.resources /resource:obj\x86\Debug\mwTauDem.frmSelDEM.resources /resource:obj\x86\Debug\mwTauDem.frmCLAccum.resources /resource:obj\x86\Debug\mwTauDem.frmTLAccum.resources /resource:obj\x86\Debug\mwTauDem.frmWaterShedtoPoly.resources /target:library /warnaserror- /win32icon:MWTaudem.ico clsEventDispatch.vb frmDinfDistDown.Designer.vb frmDinfDistDown.vb frmAvalanche.Designer.vb frmAvalanche.vb frmD8FlowPathExtremeUp.Designer.vb frmD8FlowPathExtremeUp.vb frmDinfDistUp.Designer.vb frmDinfDistUp.vb frmDropAnalysis.Designer.vb frmDropAnalysis.vb frmDropAnalysisStreamDef.Designer.vb frmDropAnalysisStreamDef.vb frmLengthArea.Designer.vb frmLengthArea.vb frmMoveOutlets.Designer.vb frmMoveOutlets.vb frmPK.Designer.vb frmPK.vb frmPKStreamDef.Designer.vb frmPKStreamDef.vb frmSlopeArea.Designer.vb frmSlopeArea.vb frmSlopeAreaStreamDef.Designer.vb frmSlopeAreaStreamDef.vb frmSlopeAverageDown.Designer.vb frmSlopeAverageDown.vb frmThreshold.Designer.vb frmThreshold.vb modPublic.vb AssemblyInfo.vb frmAbout.Designer.vb frmAbout.vb frmADinfDecay.Designer.vb frmADinfDecay.vb frmAGOutlets.Designer.vb frmAGOutlets.vb frmAreaD8.Designer.vb frmAreaD8.vb frmAreaDinf.Designer.vb frmAreaDinf.vb frmSlopeOverArea.Designer.vb frmSlopeOverArea.vb frmD8.Designer.vb frmD8.vb frmDependence.Designer.vb frmDependence.vb frmDinf.Designer.vb frmDinf.vb frmDistance.Designer.vb frmDistance.vb frmDoAll.Designer.vb frmDoAll.vb frmFill.Designer.vb frmFill.vb frmGridNet.Designer.vb frmGridNet.vb frmStreamNet.Designer.vb frmStreamNet.vb frmRevAccum.Designer.vb frmRevAccum.vb frmSelDEM.Designer.vb frmSelDEM.vb frmCLAccum.Designer.vb frmCLAccum.vb frmTLAccum.Designer.vb frmTLAccum.vb frmWaterShedtoPoly.Designer.vb frmWaterShedtoPoly.vb gVariables.vb modIODefs.vb modMWSpecific.vb mTardem.vb mwTaudemInterface.vb OpenTools.vb
+MWTaudem -> C:\dev\mapwindow4dev\bin\Plugins\Watershed_delin\mwTauDem.dll
+------ Build started: Project: AWD_V3, Configuration: Debug x86 ------
+C:\Windows\Microsoft.NET\Framework\v3.5\Vbc.exe /noconfig /baseaddress:400000 /imports:Microsoft.VisualBasic,System,System.Collections,System.Collections.Generic,System.Diagnostics /optioncompare:Binary /optionexplicit+ /optionstrict- /optioninfer+ /platform:x86 /removeintchecks- /rootnamespace:mwTaudemBasinsWrap /define:"CONFIG=\"Debug\",_MyType=\"Windows\",PLATFORM=\"x86\",DEBUG=1,TRACE=1" /reference:C:\dev\MapWindow4Dev\Bin\AxInterop.MapWinGIS.dll,C:\dev\MapWindow4Dev\Bin\Interop.MapWinGIS.dll,C:\dev\MapWindow4Dev\Bin\MapWinGeoProc.dll,C:\dev\MapWindow4Dev\Bin\MapWinInterfaces.dll,C:\dev\MapWindow4Dev\Bin\MapWinUtility.dll,C:\dev\mapwindow4dev\bin\Plugins\Watershed_delin\mwTauDem.dll,"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll",C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll,"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.dll" /debug+ /debug:Full /optimize- /out:obj\x86\Debug\mwTaudemBasinsWrapper.dll /resource:obj\x86\Debug\mwTaudemBasinsWrap.frmAbout_v3.resources /resource:obj\x86\Debug\mwTaudemBasinsWrap.frmAdvancedOptions_v3.resources /resource:obj\x86\Debug\mwTaudemBasinsWrap.frmAutomatic_v3.resources /resource:obj\x86\Debug\mwTaudemBasinsWrap.frmDrawSelectShape_v3.resources /resource:obj\x86\Debug\mwTaudemBasinsWrap.frmLoadDelinOutputs.resources /resource:obj\x86\Debug\mwTaudemBasinsWrap.frmLoadOutputs.resources /target:library /warnaserror- Classes\mwTaudemBASINSWrapper_v3.vb Classes\tdbChoices_v3.vb Classes\tdbFileTypes_v3.vb Forms\frmAbout_v3.vb Forms\frmAdvancedOptions_v3.Designer.vb Forms\frmAdvancedOptions_v3.vb Forms\frmAutomatic_v3.vb Forms\frmDrawSelectShape_v3.Designer.vb Forms\frmDrawSelectShape_v3.vb Forms\frmLoadDelinOutputs.Designer.vb Forms\frmLoadDelinOutputs.vb Forms\frmLoadOutputs.Designer.vb Forms\frmLoadOutputs.vb Modules\Globals_v3.vb Properties\AssemblyInfo.vb
+vbc : warning BC42206: Maximum number of warnings has been exceeded.
+C:\dev\MapWindow4Plugins\AWD_V3\Classes\mwTaudemBASINSWrapper_v3.vb(145) : warning BC42016: Implicit conversion from 'Date' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Classes\mwTaudemBASINSWrapper_v3.vb(164) : warning BC42016: Implicit conversion from 'Integer' to 'System.IntPtr'.
+C:\dev\MapWindow4Plugins\AWD_V3\Classes\mwTaudemBASINSWrapper_v3.vb(165) : warning BC42016: Implicit conversion from 'System.Windows.Forms.Control' to 'System.Windows.Forms.Form'.
+C:\dev\MapWindow4Plugins\AWD_V3\Classes\mwTaudemBASINSWrapper_v3.vb(357) : warning BC42016: Implicit conversion from 'Integer' to 'System.IntPtr'.
+C:\dev\MapWindow4Plugins\AWD_V3\Classes\mwTaudemBASINSWrapper_v3.vb(358) : warning BC42016: Implicit conversion from 'System.Windows.Forms.Control' to 'System.Windows.Forms.Form'.
+C:\dev\MapWindow4Plugins\AWD_V3\Classes\mwTaudemBASINSWrapper_v3.vb(670) : warning BC42016: Implicit conversion from 'Boolean' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Classes\mwTaudemBASINSWrapper_v3.vb(770) : warning BC42016: Implicit conversion from 'Object' to 'MapWinGIS.Shapefile'.
+C:\dev\MapWindow4Plugins\AWD_V3\Classes\mwTaudemBASINSWrapper_v3.vb(881) : warning BC42016: Implicit conversion from 'Object' to 'Integer'.
+C:\dev\MapWindow4Plugins\AWD_V3\Classes\mwTaudemBASINSWrapper_v3.vb(881) : warning BC42016: Implicit conversion from 'Object' to 'Integer'.
+C:\dev\MapWindow4Plugins\AWD_V3\Classes\mwTaudemBASINSWrapper_v3.vb(881) : warning BC42016: Implicit conversion from 'Object' to 'Integer'.
+C:\dev\MapWindow4Plugins\AWD_V3\Classes\mwTaudemBASINSWrapper_v3.vb(881) : warning BC42016: Implicit conversion from 'Object' to 'Integer'.
+C:\dev\MapWindow4Plugins\AWD_V3\Classes\mwTaudemBASINSWrapper_v3.vb(901) : warning BC42016: Implicit conversion from 'Object' to 'MapWinGIS.Point'.
+C:\dev\MapWindow4Plugins\AWD_V3\Classes\mwTaudemBASINSWrapper_v3.vb(904) : warning BC42016: Implicit conversion from 'Object' to 'MapWinGIS.Point'.
+C:\dev\MapWindow4Plugins\AWD_V3\Classes\mwTaudemBASINSWrapper_v3.vb(906) : warning BC42016: Implicit conversion from 'Object' to 'MapWinGIS.Shapefile'.
+C:\dev\MapWindow4Plugins\AWD_V3\Classes\mwTaudemBASINSWrapper_v3.vb(997) : warning BC42016: Implicit conversion from 'Object' to 'Double'.
+C:\dev\MapWindow4Plugins\AWD_V3\Classes\mwTaudemBASINSWrapper_v3.vb(997) : warning BC42016: Implicit conversion from 'Object' to 'Double'.
+C:\dev\MapWindow4Plugins\AWD_V3\Classes\mwTaudemBASINSWrapper_v3.vb(1006) : warning BC42016: Implicit conversion from 'Object' to 'MapWinGIS.Shapefile'.
+C:\dev\MapWindow4Plugins\AWD_V3\Classes\mwTaudemBASINSWrapper_v3.vb(1034) : warning BC42016: Implicit conversion from 'Object' to 'MapWinGIS.Shapefile'.
+C:\dev\MapWindow4Plugins\AWD_V3\Classes\mwTaudemBASINSWrapper_v3.vb(1233) : warning BC42016: Implicit conversion from 'Integer' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Classes\mwTaudemBASINSWrapper_v3.vb(1246) : warning BC42016: Implicit conversion from 'Integer' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Classes\mwTaudemBASINSWrapper_v3.vb(1262) : warning BC42016: Implicit conversion from 'Integer' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Classes\mwTaudemBASINSWrapper_v3.vb(1309) : warning BC42016: Implicit conversion from 'Single' to 'Integer'.
+C:\dev\MapWindow4Plugins\AWD_V3\Classes\mwTaudemBASINSWrapper_v3.vb(1309) : warning BC42016: Implicit conversion from 'Single' to 'Integer'.
+C:\dev\MapWindow4Plugins\AWD_V3\Classes\mwTaudemBASINSWrapper_v3.vb(1309) : warning BC42016: Implicit conversion from 'Single' to 'Integer'.
+C:\dev\MapWindow4Plugins\AWD_V3\Classes\mwTaudemBASINSWrapper_v3.vb(1314) : warning BC42016: Implicit conversion from 'Integer' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Classes\mwTaudemBASINSWrapper_v3.vb(1325) : warning BC42016: Implicit conversion from 'Integer' to 'MapWinGIS.ColoringType'.
+C:\dev\MapWindow4Plugins\AWD_V3\Classes\mwTaudemBASINSWrapper_v3.vb(1333) : warning BC42016: Implicit conversion from 'Integer' to 'MapWinGIS.ColoringType'.
+C:\dev\MapWindow4Plugins\AWD_V3\Classes\mwTaudemBASINSWrapper_v3.vb(1343) : warning BC42016: Implicit conversion from 'Single' to 'Integer'.
+C:\dev\MapWindow4Plugins\AWD_V3\Classes\mwTaudemBASINSWrapper_v3.vb(1343) : warning BC42016: Implicit conversion from 'Single' to 'Integer'.
+C:\dev\MapWindow4Plugins\AWD_V3\Classes\mwTaudemBASINSWrapper_v3.vb(1343) : warning BC42016: Implicit conversion from 'Single' to 'Integer'.
+C:\dev\MapWindow4Plugins\AWD_V3\Classes\mwTaudemBASINSWrapper_v3.vb(1343) : warning BC42016: Implicit conversion from 'Single' to 'Integer'.
+C:\dev\MapWindow4Plugins\AWD_V3\Classes\mwTaudemBASINSWrapper_v3.vb(1343) : warning BC42016: Implicit conversion from 'Single' to 'Integer'.
+C:\dev\MapWindow4Plugins\AWD_V3\Classes\mwTaudemBASINSWrapper_v3.vb(1343) : warning BC42016: Implicit conversion from 'Single' to 'Integer'.
+C:\dev\MapWindow4Plugins\AWD_V3\Classes\tdbChoices_v3.vb(177) : warning BC42016: Implicit conversion from 'Double' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Classes\tdbChoices_v3.vb(443) : warning BC42016: Implicit conversion from 'String' to 'Boolean'.
+C:\dev\MapWindow4Plugins\AWD_V3\Classes\tdbChoices_v3.vb(446) : warning BC42016: Implicit conversion from 'String' to 'Boolean'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(1110) : warning BC42016: Implicit conversion from 'Object' to 'AxMapWinGIS.AxMap'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(1305) : warning BC42016: Implicit conversion from 'Object' to 'AxMapWinGIS.AxMap'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(1343) : warning BC42016: Implicit conversion from 'Object' to 'AxMapWinGIS.AxMap'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(1381) : warning BC42016: Implicit conversion from 'Object' to 'AxMapWinGIS.AxMap'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(1419) : warning BC42016: Implicit conversion from 'Object' to 'AxMapWinGIS.AxMap'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(1456) : warning BC42016: Implicit conversion from 'Object' to 'AxMapWinGIS.AxMap'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(1499) : warning BC42016: Implicit conversion from 'Long' to 'Integer'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(1499) : warning BC42016: Implicit conversion from 'Double' to 'Long'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(1499) : warning BC42016: Implicit conversion from 'Double' to 'Long'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(1499) : warning BC42016: Implicit conversion from 'Double' to 'Long'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(1499) : warning BC42016: Implicit conversion from 'Double' to 'Long'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(1505) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(1512) : warning BC42016: Implicit conversion from 'Double' to 'Integer'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(1512) : warning BC42016: Implicit conversion from 'Object' to 'Integer'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(1527) : warning BC42032: Operands of type Object used for operator '<>'; use the 'IsNot' operator to test object identity.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(1527) : warning BC42032: Operands of type Object used for operator '<>'; use the 'IsNot' operator to test object identity.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(1569) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(1574) : warning BC42016: Implicit conversion from 'Double' to 'Integer'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(1575) : warning BC42016: Implicit conversion from 'Double' to 'Integer'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(1576) : warning BC42016: Implicit conversion from 'Double' to 'Integer'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(1595) : warning BC42016: Implicit conversion from 'Integer' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(1599) : warning BC42016: Implicit conversion from 'Integer' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(1603) : warning BC42016: Implicit conversion from 'String' to 'Single'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(1607) : warning BC42016: Implicit conversion from 'Integer' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(1681) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(1780) : warning BC42016: Implicit conversion from 'Double' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(1862) : warning BC42016: Implicit conversion from 'Object' to 'Integer'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(1923) : warning BC42018: Operands of type Object used for operator '='; use the 'Is' operator to test object identity.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(1923) : warning BC42016: Implicit conversion from 'Object' to 'Integer'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(1924) : warning BC42016: Implicit conversion from 'Object' to 'Integer'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(1926) : warning BC42016: Implicit conversion from 'Object' to 'Integer'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(1959) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(1964) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(1969) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(1974) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(2252) : warning BC42032: Operands of type Object used for operator '<>'; use the 'IsNot' operator to test object identity.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(2253) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(2258) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(2295) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(2320) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(2327) : warning BC42016: Implicit conversion from 'Object' to 'Integer'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(2393) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(2401) : warning BC42016: Implicit conversion from 'Object' to 'Integer'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(2809) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(2836) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(2892) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(2901) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(2977) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(3009) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(3057) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(3065) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(3108) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(3376) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(3443) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(3515) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(3595) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(3662) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(3734) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(3761) : warning BC42016: Implicit conversion from 'Object' to 'String'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(4122) : warning BC42016: Implicit conversion from 'Single' to 'Integer'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(4256) : warning BC42016: Implicit conversion from 'Integer' to 'MapWinGeoProc.Hydrology.ElevationUnits'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(4306) : warning BC42016: Implicit conversion from 'Integer' to 'Boolean'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(4310) : warning BC42016: Implicit conversion from 'Integer' to 'MapWinGeoProc.Hydrology.ElevationUnits'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(4346) : warning BC42016: Implicit conversion from 'Integer' to 'MapWinGeoProc.Hydrology.ElevationUnits'.
+C:\dev\MapWindow4Plugins\AWD_V3\Forms\frmAutomatic_v3.vb(4347) : warning BC42016: Implicit conversion from 'Integer' to 'MapWinGeoProc.Hydrology.ElevationUnits'.
+AWD_V3 -> C:\dev\mapwindow4dev\bin\Plugins\Watershed_delin\mwTaudemBasinsWrapper.dll
+========== Build: 2 succeeded or up-to-date, 0 failed, 0 skipped ==========

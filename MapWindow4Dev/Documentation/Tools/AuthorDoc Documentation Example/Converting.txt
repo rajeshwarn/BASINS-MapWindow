@@ -1,0 +1,10 @@
+Any time AuthorDoc converts source into another format, the resulting files are placed in a 
+directory named Out in the directory containing the project file basename.txt. Do not directly 
+edit files in the Out directory because they may be overwritten next time a conversion is made.
+After all necessary edits have been made to the source and some output has been made in Out, 
+move the output to another directory before any manual editing is done.
+
+<toc>
+
+
+

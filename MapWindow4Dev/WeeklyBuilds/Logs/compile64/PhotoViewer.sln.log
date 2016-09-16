@@ -1,0 +1,35 @@
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: PhotoViewer, Configuration: Debug x64 ------
+C:\Windows\Microsoft.NET\Framework\v3.5\Vbc.exe /noconfig /baseaddress:11000000 /imports:Microsoft.VisualBasic,System,System.Collections,System.Data,System.Diagnostics /optioncompare:Binary /optionexplicit+ /optionstrict:custom /nowarn:42016,42017,42018,42019,42032 /platform:x64 /rootnamespace:PhotoViewer /doc:obj\x64\Debug\mwPhotoViewer.xml /define:"CONFIG=\"Debug\",DEBUG=-1,TRACE=-1,_MyType=\"Windows\",PLATFORM=\"x64\"" /reference:C:\dev\MapWindow4Dev\Bin\AxInterop.MapWinGIS.dll,C:\dev\MapWindow4Dev\Bin\Interop.MapWinGIS.dll,C:\dev\MapWindow4Dev\Bin\MapWinInterfaces.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Design.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll,C:\Windows\assembly\GAC\stdole\7.0.3300.0__b03f5f7f11d50a3a\stdole.dll /debug+ /debug:full /out:obj\x64\Debug\mwPhotoViewer.dll /resource:obj\x64\Debug\PhotoViewer.frmCommentAdder.resources /resource:obj\x64\Debug\PhotoViewer.frmCommentViewer.resources /resource:obj\x64\Debug\PhotoViewer.frmConfiguration.resources /resource:obj\x64\Debug\PhotoViewer.frmDBConnection.resources /resource:obj\x64\Debug\PhotoViewer.frmLocationAdder.resources /resource:obj\x64\Debug\PhotoViewer.frmPhotoAdder.resources /resource:obj\x64\Debug\PhotoViewer.frmPhotoViewer.resources /resource:obj\x64\Debug\PhotoViewer.frmPluginKey.resources /resource:obj\x64\Debug\PhotoViewer.frmSelectLayer.resources /resource:obj\x64\Debug\PhotoViewer.frmViewer2.resources /resource:icons\camera.bmp,PhotoViewer.camera.bmp /resource:icons\camera.ico,PhotoViewer.camera.ico /target:library AssemblyInfo.vb Classes\clsMainMWI.vb Classes\FolderUtils.vb Classes\ImageConverter.vb Classes\PluginInfo.vb Forms\frmCommentAdder.vb Forms\frmCommentViewer.vb Forms\frmConfiguration.vb Forms\frmDBConnection.vb Forms\frmLocationAdder.vb Forms\frmPhotoAdder.vb Forms\frmPhotoViewer.vb Forms\frmPluginKey.vb Forms\frmSelectLayer.vb Forms\frmViewer2.vb Modules\globalFunctions.vb Modules\globalStructs.vb Modules\globalVariables.vb
+vbc : warning BC40010: Possible problem detected while building assembly 'mwPhotoViewer': Referenced assembly 'mscorlib.dll' targets a different processor
+vbc : warning BC40010: Possible problem detected while building assembly 'mwPhotoViewer': Referenced assembly 'System.Data.dll' targets a different processor
+C:\dev\MapWindow4Plugins\mwPhotoViewer\Classes\ImageConverter.vb(19) : warning BC42025: Access of shared member, constant member, enum member or nested type through an instance; qualifying expression will not be evaluated.
+C:\dev\MapWindow4Plugins\mwPhotoViewer\Classes\ImageConverter.vb(27) : warning BC42025: Access of shared member, constant member, enum member or nested type through an instance; qualifying expression will not be evaluated.
+C:\dev\MapWindow4Plugins\mwPhotoViewer\Classes\clsMainMWI.vb(6) : warning BC40025: Type of member 'm_MapImage' is not CLS-compliant.
+C:\dev\MapWindow4Plugins\mwPhotoViewer\Classes\clsMainMWI.vb(34) : warning BC40028: Type of parameter 'MapWin' is not CLS-compliant.
+C:\dev\MapWindow4Plugins\mwPhotoViewer\Classes\clsMainMWI.vb(210) : warning BC40028: Type of parameter 'Layers' is not CLS-compliant.
+C:\dev\MapWindow4Plugins\mwPhotoViewer\Classes\clsMainMWI.vb(226) : warning BC40028: Type of parameter 'Location' is not CLS-compliant.
+C:\dev\MapWindow4Plugins\mwPhotoViewer\Classes\clsMainMWI.vb(230) : warning BC40028: Type of parameter 'Location' is not CLS-compliant.
+C:\dev\MapWindow4Plugins\mwPhotoViewer\Classes\clsMainMWI.vb(234) : warning BC40028: Type of parameter 'Location' is not CLS-compliant.
+C:\dev\MapWindow4Plugins\mwPhotoViewer\Classes\clsMainMWI.vb(305) : warning BC40028: Type of parameter 'SelectInfo' is not CLS-compliant.
+C:\dev\MapWindow4Plugins\mwPhotoViewer\Forms\frmPluginKey.vb(160) : warning BC42024: Unused local variable: 'assemblyName'.
+C:\dev\MapWindow4Plugins\mwPhotoViewer\Forms\frmPluginKey.vb(161) : warning BC42024: Unused local variable: 'key'.
+C:\dev\MapWindow4Plugins\mwPhotoViewer\Forms\frmPluginKey.vb(162) : warning BC42024: Unused local variable: 'genKey'.
+C:\dev\MapWindow4Plugins\mwPhotoViewer\Forms\frmPluginKey.vb(330) : warning BC42104: Variable 'bytEncoded' is used before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Plugins\mwPhotoViewer\Modules\globalFunctions.vb(364) : warning BC42104: Variable 'GetRelativePath' is used before it has been assigned a value. A null reference exception could result at runtime.
+PhotoViewer -> C:\dev\MapWindow4Dev\Bin64\Plugins\mwPhotoViewer.dll
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: PhotoViewer, Configuration: Debug x64 ------
+PhotoViewer -> C:\dev\MapWindow4Dev\Bin64\Plugins\mwPhotoViewer.dll
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: PhotoViewer, Configuration: Debug x64 ------
+PhotoViewer -> C:\dev\MapWindow4Dev\Bin64\Plugins\mwPhotoViewer.dll
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========

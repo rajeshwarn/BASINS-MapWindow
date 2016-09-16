@@ -1,0 +1,37 @@
+
+Microsoft (R) Visual Studio Version 10.0.30319.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: atcUtility-D4EM10, Configuration: Debug x64 ------
+  atcUtility-D4EM10 -> C:\dev\BASINS40\Bin64\atcUtility.dll
+------ Build started: Project: atcControls-D4EM10, Configuration: Debug x64 ------
+  atcControls-D4EM10 -> C:\dev\BASINS40\Bin64\atcControls.dll
+------ Build started: Project: atcMwGisUtility10, Configuration: Debug x64 ------
+  atcMwGisUtility10 -> C:\dev\D4EM\Bin64\atcMwGisUtility.dll
+------ Build started: Project: atcData-D4EM10, Configuration: Debug x64 ------
+  atcData-D4EM10 -> C:\dev\BASINS40\Bin64\atcData.dll
+------ Build started: Project: BASINS-D4EMDataManager10, Configuration: Debug x64 ------
+  BASINS-D4EMDataManager10 -> C:\dev\BASINS40\Bin64\D4EMDataManager.dll
+------ Build started: Project: atcWDM-D4EM10, Configuration: Debug x64 ------
+  atcWDM-D4EM10 -> C:\dev\BASINS40\Bin64\atcWDM.dll
+------ Build started: Project: BASINS-D4EMSTORETDataExtension10, Configuration: Debug x64 ------
+  BASINS-D4EMSTORETDataExtension10 -> C:\dev\BASINS40\Bin64\D4EMSTORETDataExtension.dll
+------ Build started: Project: BASINS-D4EMTerraServerDataExtension10, Configuration: Debug x64 ------
+  BASINS-D4EMTerraServerDataExtension10 -> C:\dev\BASINS40\Bin64\D4EMTerraServerDataExtension.dll
+------ Build started: Project: BASINS-D4EMNHDPlusDataExtension10, Configuration: Debug x64 ------
+  BASINS-D4EMNHDPlusDataExtension10 -> C:\dev\BASINS40\Bin64\D4EMNHDPlusDataExtension.dll
+------ Build started: Project: BASINS-D4EMNLCD2001-10, Configuration: Debug x64 ------
+C:\dev\D4EM\DataManager\NLCD2001DataExtension\NLCD2001DataExtension.vb(171) : warning BC42024: Unused local variable: 'lClip'.
+  BASINS-D4EMNLCD2001-10 -> C:\dev\BASINS40\Bin64\D4EMNLCD2001DataExtension.dll
+------ Build started: Project: atcTimeseriesGDS10, Configuration: Debug x64 ------
+  atcTimeseriesGDS10 -> C:\dev\D4EM\Bin64\atcTimeseriesGDS.dll
+------ Build started: Project: atcTimeseriesRDB10, Configuration: Debug x64 ------
+  atcTimeseriesRDB10 -> C:\dev\BASINS40\Bin64\atcTimeseriesRDB.dll
+------ Build started: Project: BASINS-D4EMBasinsDataExtension10, Configuration: Debug x64 ------
+  BASINS-D4EMBasinsDataExtension10 -> C:\dev\BASINS40\Bin64\D4EMBasinsDataExtension.dll
+------ Build started: Project: BASINS-D4EMNLDASDataExtension10, Configuration: Debug x64 ------
+  BASINS-D4EMNLDASDataExtension10 -> C:\dev\BASINS40\Bin64\NLDASDataExtension.dll
+------ Build started: Project: BASINS-D4EMNWISDataExtension10, Configuration: Debug x64 ------
+  BASINS-D4EMNWISDataExtension10 -> C:\dev\BASINS40\Bin64\D4EMNWISDataExtension.dll
+------ Skipped Build: Project: BASINS-D4EMPCSDataExtension10, Configuration: Debug x64 ------
+Project not selected to build for this solution configuration 
+========== Build: 15 succeeded or up-to-date, 0 failed, 1 skipped ==========

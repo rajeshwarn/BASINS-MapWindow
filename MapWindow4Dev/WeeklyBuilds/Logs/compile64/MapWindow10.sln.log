@@ -1,0 +1,27 @@
+
+Microsoft (R) Visual Studio Version 10.0.30319.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: MapWindow10, Configuration: Debug x64 ------
+C:\dev\MapWindow4Dev\MapWindow\Classes\clsPluginManager.vb(2039) : warning BC42104: Variable 'tPlugin' is used before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\MapWindow\Classes\clsXMLLayerFile.vb(929) : warning BC42024: Unused local variable: 'cat'.
+ALINK : warning AL1073: Referenced assembly 'mscorlib.dll' targets a different processor
+ALINK : warning AL1073: Referenced assembly 'mscorlib.dll' targets a different processor
+ALINK : warning AL1073: Referenced assembly 'mscorlib.dll' targets a different processor
+ALINK : warning AL1073: Referenced assembly 'mscorlib.dll' targets a different processor
+ALINK : warning AL1073: Referenced assembly 'mscorlib.dll' targets a different processor
+ALINK : warning AL1073: Referenced assembly 'mscorlib.dll' targets a different processor
+ALINK : warning AL1073: Referenced assembly 'mscorlib.dll' targets a different processor
+ALINK : warning AL1073: Referenced assembly 'mscorlib.dll' targets a different processor
+ALINK : warning AL1073: Referenced assembly 'mscorlib.dll' targets a different processor
+ALINK : warning AL1073: Referenced assembly 'mscorlib.dll' targets a different processor
+ALINK : warning AL1073: Referenced assembly 'mscorlib.dll' targets a different processor
+ALINK : warning AL1073: Referenced assembly 'mscorlib.dll' targets a different processor
+ALINK : warning AL1073: Referenced assembly 'mscorlib.dll' targets a different processor
+ALINK : warning AL1073: Referenced assembly 'mscorlib.dll' targets a different processor
+ALINK : warning AL1073: Referenced assembly 'mscorlib.dll' targets a different processor
+ALINK : warning AL1073: Referenced assembly 'mscorlib.dll' targets a different processor
+ALINK : warning AL1073: Referenced assembly 'mscorlib.dll' targets a different processor
+ALINK : warning AL1073: Referenced assembly 'mscorlib.dll' targets a different processor
+ALINK : warning AL1073: Referenced assembly 'mscorlib.dll' targets a different processor
+  MapWindow10 -> C:\dev\MapWindow4Dev\bin64\MapWindow.exe
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========

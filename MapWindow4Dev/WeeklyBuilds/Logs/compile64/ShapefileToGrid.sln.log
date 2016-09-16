@@ -1,0 +1,26 @@
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: ShapefileToGrid, Configuration: Debug x64 ------
+C:\Windows\Microsoft.NET\Framework\v3.5\Csc.exe /noconfig /nowarn:1701,1702 /platform:x64 /errorreport:prompt /define:DEBUG;TRACE /reference:..\..\..\MapWindow4Dev\Bin\Interop.MapWinGIS.dll /reference:..\..\..\..\..\dev\MapWindow4Dev\Bin\MapWinGeoProc.dll /reference:..\..\..\..\..\dev\MapWindow4Dev\Bin\MapWinInterfaces.dll /reference:..\..\..\..\..\dev\MapWindow4Dev\Bin\MapWinUtility.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\Microsoft.VisualBasic.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll" /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /reference:C:\Windows\assembly\GAC\stdole\7.0.3300.0__b03f5f7f11d50a3a\stdole.dll /debug+ /debug:full /out:obj\x64\Debug\ShapefileToGrid.dll /resource:obj\x64\Debug\jk.ShapefileToGrid.frmGrid.resources /resource:obj\x64\Debug\jk.ShapefileToGrid.frmProgress.resources /resource:obj\x64\Debug\jk.ShapefileToGrid.frmShapefile.resources /resource:obj\x64\Debug\ShapefileToGrid.Properties.Resources.resources /resource:obj\x64\Debug\ShapefileToGrid.Resource.resources /resource:Resources\shp2grid6.ico,ShapefileToGrid.Resources.shp2grid6.ico /target:library /win32icon:Resources\shp2grid6.ico Classes\clsMain.cs Classes\clsResources.cs Classes\LineEdge.cs Classes\Rasterizer.cs Classes\ShapeGridInfo.cs Classes\Utils.cs Forms\frmGrid.cs Forms\frmGrid.designer.cs Forms\frmProgress.cs Forms\frmProgress.designer.cs Forms\frmShapefile.cs Forms\frmShapefile.designer.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs Resource.Designer.cs
+warning CS1607: Assembly generation -- Referenced assembly 'System.Data.dll' targets a different processor
+warning CS1607: Assembly generation -- Referenced assembly 'mscorlib.dll' targets a different processor
+C:\dev\MapWindow4Plugins\mwShapefileToGrid\ShapefileToGrid\Classes\Rasterizer.cs(223,29): warning CS0219: The variable 'i' is assigned but its value is never used
+C:\dev\MapWindow4Plugins\mwShapefileToGrid\ShapefileToGrid\Classes\Rasterizer.cs(848,26): warning CS0168: The variable 'ex' is declared but never used
+C:\dev\MapWindow4Plugins\mwShapefileToGrid\ShapefileToGrid\Forms\frmShapefile.cs(24,37): warning CS0649: Field 'jk.ShapefileToGrid.frmShapefile.m_FieldType' is never assigned to, and will always have its default value 0
+
+Compile complete -- 0 errors, 5 warnings
+ShapefileToGrid -> C:\dev\MapWindow4Dev\Bin64\Plugins\ShapefileToGrid.dll
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: ShapefileToGrid, Configuration: Debug x64 ------
+ShapefileToGrid -> C:\dev\MapWindow4Dev\Bin64\Plugins\ShapefileToGrid.dll
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: ShapefileToGrid, Configuration: Debug x64 ------
+ShapefileToGrid -> C:\dev\MapWindow4Dev\Bin64\Plugins\ShapefileToGrid.dll
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========

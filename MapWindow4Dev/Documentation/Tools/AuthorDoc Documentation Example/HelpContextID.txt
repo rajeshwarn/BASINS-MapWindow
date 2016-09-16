@@ -1,0 +1,21 @@
+Help Context IDs are used in both HTML Help and old-style Help.
+These IDs are mappings between section names and numbers. 
+The numbers can be used for linking sections of help directly 
+to parts of the interface of a program. If there is no need to be 
+able to open a particular help section from a program (often when
+the user presses F1 for help) then Help Context IDs are unnecessary.
+<p>
+The numbers are never visible in AuthorDoc or to the help user.
+If Help Context IDs are generated while creating HTML Help output, they
+will be placed in the basename.ID file and a corresponding section called 
+[ALIAS] will appear in the basename.hhp file that is generated.
+<p>
+After the IDs have started being used in a program, copy basename.ID 
+somewhere outside the Out directory in case it gets overwritten.
+<p>
+If new sections are added to the project or section names are changed after the 
+IDs have started being used in a program, generate a new basename.ID file and manually merge the new entries into the old ID file. 
+Keep all the old IDs, but update section names if they have changed and add
+new sections at the end, giving them new IDs. After this is done, copy the 
+newly edited basename.ID file into the Out directory, open HTML Help Workshop 
+and compile basename.hhp into basename.chm.

@@ -1,0 +1,11 @@
+
+Microsoft (R) Visual Studio Version 10.0.30319.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: mwLayout10, Configuration: Debug x64 ------
+C:\dev\MapWindow4Plugins\mwLayout\mwLayout\Forms\GenerateLayouts.vb(303) : warning BC42349: Using DirectCast operator to cast a value-type to the same type is obsolete.
+C:\dev\MapWindow4Plugins\mwLayout\mwLayout\Forms\GenerateLayouts.vb(315) : warning BC42349: Using DirectCast operator to cast a value-type to the same type is obsolete.
+C:\dev\MapWindow4Plugins\mwLayout\mwLayout\Forms\GenerateLayouts.vb(455) : warning BC42349: Using DirectCast operator to cast a value-type to the same type is obsolete.
+C:\dev\MapWindow4Plugins\mwLayout\mwLayout\Forms\GenerateLayouts.vb(509) : warning BC42349: Using DirectCast operator to cast a value-type to the same type is obsolete.
+C:\dev\MapWindow4Plugins\mwLayout\mwLayout\Forms\GenerateLayouts.vb(590) : warning BC42349: Using DirectCast operator to cast a value-type to the same type is obsolete.
+  mwLayout10 -> C:\dev\MapWindow4Dev\Bin64\ApplicationPlugins\mwLayout\mwLayout.dll
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========

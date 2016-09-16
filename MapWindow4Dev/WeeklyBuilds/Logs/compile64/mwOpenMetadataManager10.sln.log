@@ -1,0 +1,8 @@
+
+Microsoft (R) Visual Studio Version 10.0.30319.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: mwOpenMetadataManagerControls10, Configuration: Debug x64 ------
+  mwOpenMetadataManagerControls10 -> C:\dev\MapWindow4Plugins\mwOpenMetadataManager\mwOpenMetadataManagerControls\bin\x64\Debug\mwOpenMetadataManagerControls.dll
+------ Build started: Project: mwOpenMetadataManager10, Configuration: Debug x64 ------
+  mwOpenMetadataManager10 -> C:\dev\MapWindow4Dev\Bin64\Plugins\OpenMetadataManager\mwOpenMetadataManager.dll
+========== Build: 2 succeeded or up-to-date, 0 failed, 0 skipped ==========

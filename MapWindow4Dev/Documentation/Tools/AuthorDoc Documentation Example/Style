@@ -1,0 +1,125 @@
+Most documentation is simply plain text. Formatting is accomplished by inserting
+tags into the text. AuthorDoc uses a few HTML tags that will be familiar to some
+and easy to understand for all. The first tag of interest is the paragraph tag.
+As in HTML, it is not usually important in AuthorDoc where you break lines while typing.
+All carriage returns will be removed during conversion and only paragraph and break tags 
+will break lines in the output.
+<p>
+Paragraphs are separated with the paragraph tag &lt;p&gt;<p>
+This tag breaks the line and leaves a little vertical space before starting the next line. 
+<p>
+The break tag &lt;br&gt;<br>
+breaks a line without without leaving added vertical space. 
+<p>
+Capitalization of tags is not important. &lt;br&gt; and &lt;BR&gt; do exactly the same thing.
+AuthorDoc conversion recognizes several other tags:
+<p>
+&lt;h&gt;Header of Section&lt;/h&gt;<br>
+Headers are included in the table of contents and index in the output.
+Usually there should be just one header in each file, at the top.
+If a file does not contain a header, a default one will be inserted 
+based on the filename. For example, if the file Abstract.txt just contains 
+a paragraph of abstract and no &lt;h&gt; tag, the string 
+&lt;h&gt;Abstract&lt;/h&gt; will be inserted at the top of the file
+during conversion. Many sections have the same name as the file, so this saves 
+some typing. See the top of this page for an example of a header. See the 
+<a href="Style">Style</a> section for information about changing header appearance.
+<p>
+&lt;i&gt;italics&lt;/i&gt;<br>
+<i>italics</i> 
+<p>
+&lt;b&gt;bold&lt;/b&gt;<br>
+<b>bold</b> 
+<p>
+&lt;u&gt;underline&lt;/u&gt;<br>
+<u>underline</u> 
+<p>
+&lt;ul&gt;<br>
+&lt;li&gt;List<br>
+&lt;li&gt;Of<br>
+&lt;li&gt;Bullets<br>
+&lt;/ul&gt;<br>
+<ul>
+<li>List
+<li>Of
+<li>Bullets
+</ul>
+<p>
+&lt;ol&gt;<br>
+&lt;li&gt;Numbered<br>
+&lt;li&gt;List<br>
+&lt;li&gt;Of<br>
+&lt;li&gt;Points<br>
+&lt;/ol&gt;<br>
+<ol>
+<li>Numbered
+<li>List
+<li>Of
+<li>Points
+</ol>
+<p>
+&lt;pre&gt;...&lt;/pre&gt;<br>
+Text to display in Courier fixed-width font, preserving line
+breaks as they are typed. Helpful for text tables like:
+<pre>
+DSN   Filename
+  1   One.wdm
+ 10   Ten.wdm
+134   OneThreeFour.wdm
+</pre>
+Also helpful for displaying code samples.
+<p>
+&lt;figure&gt;Label for a figure, to be included in table of figures&lt;/figure&gt;
+<p>
+&lt;img src="Screenshot.png"&gt;<br>
+<img src="Screenshot.png"><br>
+Include an image. If the image is not in the same directory, use relative
+paths such as &lt;img src="../images/Screenshot.gif"&gt;
+<p>
+&lt;toc&gt;<br>
+Builds a table of contents of the topics that are "children" of this one.
+<p>
+&lt;indexword="WDM"&gt;<br>
+<indexword="WDM">
+Creates a word in the HTML Help index that refers to this section
+<p>
+&lt;keyword="Introduction"&gt;<br>
+<keyword="Introduction"><br>
+Creates the same index entry that indexword creates, plus creates a 
+button in HTML Help that pops open a window with links to all 
+the other topics that share this keyword.
+<p>
+&lt;body bgcolor="0xffffff" background="SubtleLogo.gif"&gt;<br>
+Override the current body style (if any) just for this file.
+This is standard HTML and only has an effect in HTML and HTMLHelp.
+<p>
+<b>HYPERLINKS</b>
+<p>
+&lt;a href="Introduction"&gt;See Intro&lt;/a&gt;<br>
+<a href="Introduction">See Intro</a><br>
+Hypertext link to another section. Relative paths can be used such as
+&lt;a href="../OtherSection/Filename"&gt;Link Text&lt;/a&gt;
+<p>
+If the path starts with a slash, the correct relative path will be generated
+during convert: &lt;a href="/icons/x.gif"&gt; might become &lt;a href="../../icons/x.gif"&gt;
+If you are linking to a web page: &lt;a href="http://epa.gov/index.html"&gt;
+If you want the web page to open in a separate browser window instead of the
+help viewer: &lt;a href="http://foo.gov/index.html" target="_blank"&gt;
+<p>
+
+Do not include the following in your source files, they will confuse the converter:<br>
+&lt;html&gt;<br>
+&lt;head&gt;<br>
+&lt;form&gt;<br>
+
+Other HTML tags will be preserved in the HTML and HTML Help output
+but will be lost in the printable document and old-style Windows
+help file.
+
+
+
+
+
+
+
+

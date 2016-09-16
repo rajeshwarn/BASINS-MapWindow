@@ -1,0 +1,96 @@
+
+Microsoft (R) Visual Studio Version 10.0.30319.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: mwTableEditor10, Configuration: Debug x64 ------
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(20) : warning BC40056: Namespace or type specified in the Imports 'Microsoft.VisualBasic.Compatibility' doesn't contain any public member or cannot be found. Make sure the namespace or the type is defined and contains at least one public member. Make sure the imported element name doesn't use any aliases.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(381) : warning BC42020: Variable declaration without an 'As' clause; type of Object assumed.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(546) : warning BC42021: Function without an 'As' clause; return type of Object assumed.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(848) : warning BC42104: Variable 'LogicSymb' is used before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(967) : warning BC42030: Variable 'arrPriLvl' is passed by reference before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(973) : warning BC42030: Variable 'Node_Cond' is passed by reference before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(973) : warning BC42030: Variable 'Node_Switch' is passed by reference before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(1949) : warning BC42024: Unused local variable: 'VarName'.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(1959) : warning BC42021: Function without an 'As' clause; return type of Object assumed.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2196) : warning BC42020: Variable declaration without an 'As' clause; type of Object assumed.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2197) : warning BC42104: Variable 'y' is used before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2335) : warning BC42020: Variable declaration without an 'As' clause; type of Object assumed.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2335) : warning BC42020: Variable declaration without an 'As' clause; type of Object assumed.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2335) : warning BC42020: Variable declaration without an 'As' clause; type of Object assumed.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2355) : warning BC42020: Variable declaration without an 'As' clause; type of Object assumed.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2475) : warning BC42030: Variable 'MSG' is passed by reference before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2484) : warning BC42030: Variable 'ErrorMsg' is passed by reference before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2500) : warning BC42030: Variable 'BJ' is passed by reference before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2500) : warning BC42030: Variable 'DJ' is passed by reference before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2500) : warning BC42030: Variable 'BY' is passed by reference before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2500) : warning BC42030: Variable 'DY' is passed by reference before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2513) : warning BC42030: Variable 'BJ' is passed by reference before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2513) : warning BC42030: Variable 'DJ' is passed by reference before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2513) : warning BC42030: Variable 'BY' is passed by reference before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2513) : warning BC42030: Variable 'DY' is passed by reference before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2526) : warning BC42030: Variable 'BJ' is passed by reference before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2526) : warning BC42030: Variable 'DJ' is passed by reference before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2526) : warning BC42030: Variable 'BY' is passed by reference before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2526) : warning BC42030: Variable 'DY' is passed by reference before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2539) : warning BC42030: Variable 'BJ' is passed by reference before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2539) : warning BC42030: Variable 'DJ' is passed by reference before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2539) : warning BC42030: Variable 'BY' is passed by reference before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2539) : warning BC42030: Variable 'DY' is passed by reference before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2552) : warning BC42030: Variable 'BI' is passed by reference before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2552) : warning BC42030: Variable 'DI' is passed by reference before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2552) : warning BC42030: Variable 'BK' is passed by reference before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2552) : warning BC42030: Variable 'DK' is passed by reference before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2565) : warning BC42030: Variable 'BI' is passed by reference before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2565) : warning BC42030: Variable 'DI' is passed by reference before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2565) : warning BC42030: Variable 'BK' is passed by reference before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2565) : warning BC42030: Variable 'DK' is passed by reference before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2578) : warning BC42030: Variable 'BI' is passed by reference before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2578) : warning BC42030: Variable 'DI' is passed by reference before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2578) : warning BC42030: Variable 'BK' is passed by reference before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2578) : warning BC42030: Variable 'DK' is passed by reference before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2591) : warning BC42030: Variable 'BI' is passed by reference before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2591) : warning BC42030: Variable 'DI' is passed by reference before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2591) : warning BC42030: Variable 'BK' is passed by reference before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2591) : warning BC42030: Variable 'DK' is passed by reference before it has been assigned a value. A null reference exception could result at runtime.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2653) : warning BC42024: Unused local variable: 'y'.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2659) : warning BC42024: Unused local variable: 'y'.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2681) : warning BC42020: Variable declaration without an 'As' clause; type of Object assumed.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2681) : warning BC42020: Variable declaration without an 'As' clause; type of Object assumed.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2681) : warning BC42020: Variable declaration without an 'As' clause; type of Object assumed.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2695) : warning BC42020: Variable declaration without an 'As' clause; type of Object assumed.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2695) : warning BC42020: Variable declaration without an 'As' clause; type of Object assumed.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2802) : warning BC42021: Function without an 'As' clause; return type of Object assumed.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2802) : warning BC42020: Variable declaration without an 'As' clause; type of Object assumed.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2802) : warning BC42020: Variable declaration without an 'As' clause; type of Object assumed.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2802) : warning BC42020: Variable declaration without an 'As' clause; type of Object assumed.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2802) : warning BC42020: Variable declaration without an 'As' clause; type of Object assumed.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2802) : warning BC42020: Variable declaration without an 'As' clause; type of Object assumed.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2803) : warning BC42024: Unused local variable: 'i'.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2803) : warning BC42024: Unused local variable: 'p'.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2803) : warning BC42020: Variable declaration without an 'As' clause; type of Object assumed.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2813) : warning BC42020: Variable declaration without an 'As' clause; type of Object assumed.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2813) : warning BC42020: Variable declaration without an 'As' clause; type of Object assumed.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2822) : warning BC42020: Variable declaration without an 'As' clause; type of Object assumed.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2946) : warning BC42021: Function without an 'As' clause; return type of Object assumed.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2946) : warning BC42020: Variable declaration without an 'As' clause; type of Object assumed.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2955) : warning BC42020: Variable declaration without an 'As' clause; type of Object assumed.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2955) : warning BC42020: Variable declaration without an 'As' clause; type of Object assumed.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(2955) : warning BC42020: Variable declaration without an 'As' clause; type of Object assumed.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(3708) : warning BC42024: Unused local variable: 'T1'.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(4271) : warning BC42020: Variable declaration without an 'As' clause; type of Object assumed.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(4271) : warning BC42020: Variable declaration without an 'As' clause; type of Object assumed.
+C:\dev\MapWindow4Dev\TableEditor\mwTableEditor\clsMathParser.vb(4271) : warning BC42020: Variable declaration without an 'As' clause; type of Object assumed.
+ALINK : warning AL1073: Referenced assembly 'mscorlib.dll' targets a different processor
+ALINK : warning AL1073: Referenced assembly 'mscorlib.dll' targets a different processor
+ALINK : warning AL1073: Referenced assembly 'mscorlib.dll' targets a different processor
+ALINK : warning AL1073: Referenced assembly 'mscorlib.dll' targets a different processor
+ALINK : warning AL1073: Referenced assembly 'mscorlib.dll' targets a different processor
+  mwTableEditor10 -> C:\dev\MapWindow4Dev\Bin64\ApplicationPlugins\TableEditor.dll
+------ Build started: Project: GISTools10, Configuration: Debug x64 ------
+ALINK : warning AL1073: Referenced assembly 'mscorlib.dll' targets a different processor
+ALINK : warning AL1073: Referenced assembly 'mscorlib.dll' targets a different processor
+ALINK : warning AL1073: Referenced assembly 'mscorlib.dll' targets a different processor
+ALINK : warning AL1073: Referenced assembly 'mscorlib.dll' targets a different processor
+  GISTools10 -> C:\dev\MapWindow4Dev\Bin64\Plugins\GISTools.dll
+------ Build started: Project: ArchiveTool10, Configuration: Debug x64 ------
+  ArchiveTool10 -> C:\dev\MapWindow4Dev\Bin64\Plugins\ArchiveTool.dll
+========== Build: 3 succeeded or up-to-date, 0 failed, 0 skipped ==========

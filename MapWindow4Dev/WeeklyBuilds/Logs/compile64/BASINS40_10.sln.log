@@ -1,0 +1,131 @@
+
+Microsoft (R) Visual Studio Version 10.0.30319.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: atcUtility10, Configuration: Debug x64 ------
+  atcUtility10 -> C:\dev\BASINS40\Bin64\atcUtility.dll
+------ Build started: Project: HTMLBuilder10, Configuration: Debug x64 ------
+  HTMLBuilder10 -> C:\dev\BASINS40\Bin64\HTMLBuilder.dll
+------ Build started: Project: SwatObject10, Configuration: Debug x64 ------
+  SwatObject10 -> C:\dev\BASINS40\Bin64\SwatObject.dll
+------ Build started: Project: atcStatusMonitor10, Configuration: Debug x64 ------
+  atcStatusMonitor10 -> C:\dev\BASINS40\Bin64\StatusMonitor.exe
+------ Build started: Project: atcControls10, Configuration: Debug x64 ------
+  atcControls10 -> C:\dev\BASINS40\Bin64\atcControls.dll
+------ Build started: Project: atcSegmentation10, Configuration: Debug x64 ------
+  atcSegmentation10 -> C:\dev\BASINS40\Bin64\atcSegmentation.dll
+------ Build started: Project: atcProjector10, Configuration: Debug x64 ------
+  atcProjector10 -> C:\dev\BASINS40\Bin64\atcProjector.dll
+------ Build started: Project: atcMwGisUtility10, Configuration: Debug x64 ------
+  atcMwGisUtility10 -> C:\dev\D4EM\Bin64\atcMwGisUtility.dll
+------ Build started: Project: atcLookup10, Configuration: Debug x64 ------
+  atcLookup10 -> C:\dev\BASINS40\Bin64\atcLookup.dll
+------ Build started: Project: atcManDelin10, Configuration: Debug x64 ------
+  atcManDelin10 -> C:\dev\BASINS40\Bin64\atcManDelin.dll
+------ Build started: Project: atcLandUse10, Configuration: Debug x64 ------
+  atcLandUse10 -> C:\dev\BASINS40\Bin64\atcLandUse.dll
+------ Build started: Project: atcModelSegmentation10, Configuration: Debug x64 ------
+  atcModelSegmentation10 -> C:\dev\BASINS40\Bin64\atcModelSegmentation.dll
+------ Build started: Project: atcData10, Configuration: Debug x64 ------
+  atcData10 -> C:\dev\BASINS40\Bin64\atcData.dll
+------ Build started: Project: atcTimeseriesMath10, Configuration: Debug x64 ------
+  atcTimeseriesMath10 -> C:\dev\BASINS40\Bin64\atcTimeseriesMath.dll
+------ Build started: Project: atcMetCmp10, Configuration: Debug x64 ------
+  atcMetCmp10 -> C:\dev\BASINS40\Bin64\atcMetCmp.dll
+------ Build started: Project: atcWDM10, Configuration: Debug x64 ------
+  atcWDM10 -> C:\dev\BASINS40\Bin64\atcWDM.dll
+------ Build started: Project: atcCligenOutput10, Configuration: Debug x64 ------
+  atcCligenOutput10 -> C:\dev\BASINS40\Bin64\atcCligenOutput.dll
+------ Build started: Project: atcUCI10, Configuration: Debug x64 ------
+  atcUCI10 -> C:\dev\BASINS40\Bin64\atcUCI.dll
+------ Build started: Project: atcGraph10, Configuration: Debug x64 ------
+  atcGraph10 -> C:\dev\BASINS40\Bin64\atcGraph.dll
+------ Build started: Project: atcEvents10, Configuration: Debug x64 ------
+  atcEvents10 -> C:\dev\BASINS40\Bin64\atcEvents.dll
+------ Build started: Project: BASINS10, Configuration: Debug x64 ------
+  BASINS10 -> C:\dev\BASINS40\Bin64\BASINS.dll
+------ Build started: Project: atcList10, Configuration: Debug x64 ------
+  atcList10 -> C:\dev\BASINS40\Bin64\atcList.dll
+------ Build started: Project: atcTimeseriesNdayHighLow10, Configuration: Debug x64 ------
+  atcTimeseriesNdayHighLow10 -> C:\dev\BASINS40\Bin64\atcTimeseriesNdayHighLow.dll
+------ Build started: Project: atcDurationCompare10, Configuration: Debug x64 ------
+  atcDurationCompare10 -> C:\dev\BASINS40\Bin64\atcDurationCompare.dll
+------ Build started: Project: atcSeasons10, Configuration: Debug x64 ------
+  atcSeasons10 -> C:\dev\BASINS40\Bin64\atcSeasons.dll
+------ Build started: Project: atcTimeserieSWMM5Output10, Configuration: Debug x64 ------
+  atcTimeserieSWMM5Output10 -> C:\dev\BASINS40\Bin64\atcTimeseriesSWMM5Output.dll
+------ Build started: Project: atcTimeseriesSWAT10, Configuration: Debug x64 ------
+  atcTimeseriesSWAT10 -> C:\dev\BASINS40\Bin64\atcTimeseriesSWAT.dll
+------ Build started: Project: atcReport10, Configuration: Debug x64 ------
+  atcReport10 -> C:\dev\BASINS40\Bin64\atcReport.dll
+------ Build started: Project: atcSWMM10, Configuration: Debug x64 ------
+  atcSWMM10 -> C:\dev\BASINS40\Bin64\atcSWMM.dll
+------ Build started: Project: atcCligen10, Configuration: Debug x64 ------
+  atcCligen10 -> C:\dev\BASINS40\Bin64\atcCligen.dll
+------ Build started: Project: atcWASP10, Configuration: Debug x64 ------
+  atcWASP10 -> C:\dev\BASINS40\Bin64\atcWASP.dll
+------ Build started: Project: atcHspfBinOut10, Configuration: Debug x64 ------
+  atcHspfBinOut10 -> C:\dev\BASINS40\Bin64\atcHspfBinOut.dll
+------ Build started: Project: atcSynopticAnalysis10, Configuration: Debug x64 ------
+  atcSynopticAnalysis10 -> C:\dev\BASINS40\Bin64\atcSynopticAnalysis.dll
+------ Build started: Project: atcTimeseriesD4EM10, Configuration: Debug x64 ------
+  atcTimeseriesD4EM10 -> C:\dev\BASINS40\Bin64\atcTimeseriesD4EM.dll
+------ Build started: Project: atcTimeseriesDbf10, Configuration: Debug x64 ------
+  atcTimeseriesDbf10 -> C:\dev\BASINS40\Bin64\atcTimeseriesDbf.dll
+------ Build started: Project: atcGisUtilities10, Configuration: Debug x64 ------
+  atcGisUtilities10 -> C:\dev\BASINS40\Bin64\atcGisUtilities.dll
+------ Build started: Project: atcHspfSupport10, Configuration: Debug x64 ------
+  atcHspfSupport10 -> C:\dev\BASINS40\Bin64\atcHspfSupport.dll
+------ Build started: Project: atcTimeseriesWRDB10, Configuration: Debug x64 ------
+  atcTimeseriesWRDB10 -> C:\dev\BASINS40\Bin64\atcTimeseriesWRDB.dll
+------ Build started: Project: atcPollutantLoading10, Configuration: Debug x64 ------
+  atcPollutantLoading10 -> C:\dev\BASINS40\Bin64\atcPollutantLoading.dll
+------ Build started: Project: atcNOAAISH10, Configuration: Debug x64 ------
+  atcNOAAISH10 -> C:\dev\BASINS40\Bin64\atcNOAAISH.dll
+------ Build started: Project: atcTimeseriesStatistics10, Configuration: Debug x64 ------
+  atcTimeseriesStatistics10 -> C:\dev\BASINS40\Bin64\atcTimeseriesStatistics.dll
+------ Build started: Project: atcNOAA10, Configuration: Debug x64 ------
+  atcNOAA10 -> C:\dev\BASINS40\Bin64\atcTimeseriesNOAA.dll
+------ Build started: Project: atcClimateAssessmentTool10, Configuration: Debug x64 ------
+  atcClimateAssessmentTool10 -> C:\dev\BASINS40\Bin64\atcClimateAssessmentTool.dll
+------ Build started: Project: DFLOWAnalysis10, Configuration: Debug x64 ------
+  DFLOWAnalysis10 -> C:\dev\BASINS40\Bin64\DFLOWAnalysis.dll
+------ Build started: Project: atcWASPPlugIn10, Configuration: Debug x64 ------
+  atcWASPPlugIn10 -> C:\dev\BASINS40\Bin64\atcWASPPlugIN.dll
+------ Build started: Project: atcSWMMPlugIn10, Configuration: Debug x64 ------
+  atcSWMMPlugIn10 -> C:\dev\BASINS40\Bin64\atcSWMMPlugIN.dll
+------ Build started: Project: atcSWATDBF10, Configuration: Debug x64 ------
+  atcSWATDBF10 -> C:\dev\BASINS40\Bin64\atcSWATDBF.dll
+------ Build started: Project: atcBasinsObsWQ10, Configuration: Debug x64 ------
+  atcBasinsObsWQ10 -> C:\dev\BASINS40\Bin64\atcBasinsObsWQ.dll
+------ Build started: Project: atcModelSetup10, Configuration: Debug x64 ------
+  atcModelSetup10 -> C:\dev\BASINS40\Bin64\atcModelSetup.dll
+------ Build started: Project: atcDataTree10, Configuration: Debug x64 ------
+  atcDataTree10 -> C:\dev\BASINS40\Bin64\atcDataTree.dll
+------ Build started: Project: atcSWSTAT10, Configuration: Debug x64 ------
+  atcSWSTAT10 -> C:\dev\BASINS40\Bin64\atcSWSTAT.dll
+------ Build started: Project: atcSynopInput10, Configuration: Debug x64 ------
+  atcSynopInput10 -> C:\dev\BASINS40\Bin64\atcSynopInput.dll
+------ Build started: Project: atcFrequencyGrid10, Configuration: Debug x64 ------
+  atcFrequencyGrid10 -> C:\dev\BASINS40\Bin64\atcFrequencyGrid.dll
+------ Build started: Project: atcSeasonalAttributes10, Configuration: Debug x64 ------
+  atcSeasonalAttributes10 -> C:\dev\BASINS40\Bin64\atcSeasonalAttributes.dll
+------ Build started: Project: atcHspfReadWrite10, Configuration: Debug x64 ------
+  atcHspfReadWrite10 -> C:\dev\BASINS40\Bin64\atcHspfReadWrite.exe
+------ Build started: Project: atcTimeseriesSTORET10, Configuration: Debug x64 ------
+  atcTimeseriesSTORET10 -> C:\dev\BASINS40\Bin64\atcTimeseriesSTORET.dll
+------ Build started: Project: atcNOAAHPD10, Configuration: Debug x64 ------
+  atcNOAAHPD10 -> C:\dev\BASINS40\Bin64\atcNOAAHPD.dll
+------ Build started: Project: atcSediment10, Configuration: Debug x64 ------
+  atcSediment10 -> C:\dev\BASINS40\Bin64\atcSediment.dll
+------ Build started: Project: atcWCS10, Configuration: Debug x64 ------
+vbc : warning BC40010: Possible problem detected while building assembly 'atcWCS': Referenced assembly 'IniFile.dll' targets a different processor
+  atcWCS10 -> C:\dev\BASINS40\Bin64\atcWCS.dll
+------ Build started: Project: atcUCIForms10, Configuration: Debug x64 ------
+  atcUCIForms10 -> C:\dev\BASINS40\Bin64\atcUCIForms.dll
+------ Build started: Project: atcTimeseriesScript10, Configuration: Debug x64 ------
+  atcTimeseriesScript10 -> C:\dev\BASINS40\Bin64\atcTimeseriesScript.dll
+------ Build started: Project: D4EMDownloadData10, Configuration: Debug x64 ------
+  D4EMDownloadData10 -> C:\dev\BASINS40\Bin64\D4EMDataDownload.dll
+------ Build started: Project: BasinsAll, Configuration: Debug x64 ------
+  BasinsAll -> C:\dev\BASINS40\Bin64\BasinsAll.exe
+========== Build: 63 succeeded or up-to-date, 0 failed, 0 skipped ==========

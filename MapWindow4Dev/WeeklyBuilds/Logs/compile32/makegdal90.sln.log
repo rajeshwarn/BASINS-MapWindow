@@ -1,0 +1,1698 @@
+[vr 09-10-2009 15:42:52,04] Start compiling makegdal90.sln 
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: makegdal, Configuration: Release Win32 ------
+Performing Makefile project actions
+Microsoft (R) Program Maintenance Utility Version 9.00.30729.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+ cd port
+ nmake /nologo /f makefile.vc
+ cd ..
+ cd frmts/iso8211
+ nmake /nologo /f makefile.vc
+ lib /out:libiso8211.lib ddfmodule.obj ddfutils.obj ddffielddefn.obj ddfrecord.obj  ddffield.obj ddfsubfielddefn.obj
+Microsoft (R) Library Manager Version 9.00.30729.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+ cd ..\sdts
+ nmake /nologo /f makefile.vc
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+ cd ..\..\ogr
+ nmake /nologo /f makefile.vc ogr.lib frmts
+'ogr.lib' is up-to-date
+ cd ogrsf_frmts
+ nmake /nologo /f makefile.vc
+ for %d in ( generic geojson shape ntf sdts tiger s57 dgn mitab gml  avc rec mem vrt csv gmt bna kml gpx  geoconcept xplane     pg   odbc pgeo         ) do  cd %d  && nmake /NOLOGO /f makefile.vc  && cd ..
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd generic   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd geojson   && nmake /NOLOGO /f makefile.vc   && cd .. 
+ cd jsonc
+ nmake /f makefile.vc
+Microsoft (R) Program Maintenance Utility Version 9.00.30729.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+ cd ..
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd shape   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd ntf   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd sdts   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd tiger   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd s57   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd dgn   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd mitab   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd gml   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd avc   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd rec   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd mem   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd vrt   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd csv   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd gmt   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd bna   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd kml   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd gpx   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd geoconcept   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd xplane   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd pg   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd odbc   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd pgeo   && nmake /NOLOGO /f makefile.vc   && cd .. 
+ lib /out:ogrsf_frmts.lib generic\*.obj shape\*.obj ntf\*.obj  sdts\*.obj s57\*.obj tiger\*.obj gml\*.obj  mitab\*.obj dgn\*.obj avc\*.obj mem\*.obj  vrt\*.obj csv\*.obj rec\*.obj kml\*.obj  gmt\*.obj bna\*.obj geoconcept\*.obj  geojson\*.obj geojson\jsonc\*.obj  gpx\*.obj xplane\*.obj   odbc\*.obj pgeo\*.obj     pg\*.obj         
+Microsoft (R) Library Manager Version 9.00.30729.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+ lib /out:ogrsf_frmts_sup.lib  ..\..\frmts\iso8211\*.obj  ..\..\frmts\sdts\sdtsattrreader.obj  ..\..\frmts\sdts\sdtscatd.obj  ..\..\frmts\sdts\sdtsiref.obj  ..\..\frmts\sdts\sdtslib.obj  ..\..\frmts\sdts\sdtslinereader.obj  ..\..\frmts\sdts\sdtspointreader.obj  ..\..\frmts\sdts\sdtspolygonreader.obj  ..\..\frmts\sdts\sdtsrasterreader.obj  ..\..\frmts\sdts\sdtstransfer.obj  ..\..\frmts\sdts\sdtsindexedreader.obj  ..\..\frmts\sdts\sdtsxref.obj
+Microsoft (R) Library Manager Version 9.00.30729.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+ cd ..
+ cd ..
+ cd gcore
+ nmake /nologo /f makefile.vc
+ cd ..\alg
+ nmake /nologo /f makefile.vc
+ cd ..
+ cd frmts
+ nmake /nologo /f makefile.vc
+ for %d in ( ceos aigrid elas hfa gtiff sdts raw gxf ceos2 png  dted mem jdem gif  envisat aaigrid usgsdem l1b  fit vrt xpm bmp rmf  nitf pcidsk airsar rs2  ilwis msgn rik pcraster  leveller sgi srtmhgt idrisi  jaxapalsar ers ingr dimap  gff terragen gsg cosar pds  adrg coasp tsx blx jpeg bsb zlib ecw mrsid grib ) do  cd %d  && nmake /nologo /f makefile.vc  && cd ..
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd ceos   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd aigrid   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd elas   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd hfa   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd gtiff   && nmake /nologo /f makefile.vc   && cd .. 
+ cd libtiff
+ nmake /nologo /f makefile.vc
+ xcopy /D  /Y *.obj ..\..\o
+0 bestand(en) gekopieerd
+ cd ..
+ cd libgeotiff
+ nmake /nologo /f makefile.vc
+ xcopy /D  /Y *.obj ..\..\o
+0 bestand(en) gekopieerd
+ cd ..
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd sdts   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd raw   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd gxf   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd ceos2   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd png   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+ cd libpng
+ nmake /nologo /f makefile.vc
+ xcopy /D  /Y *.obj ..\..\o
+0 bestand(en) gekopieerd
+ cd ..
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd dted   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd mem   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd jdem   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd gif   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+ cd libungif
+ nmake /nologo /f makefile.vc
+ xcopy /D  /Y *.obj ..\..\o
+0 bestand(en) gekopieerd
+ cd ..
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd envisat   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd aaigrid   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd usgsdem   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd l1b   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd fit   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd vrt   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd xpm   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd bmp   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd rmf   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd nitf   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd pcidsk   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd airsar   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd rs2   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd ilwis   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd msgn   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd rik   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd pcraster   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj  ..\o
+0 bestand(en) gekopieerd
+ cd libcsf
+ nmake /nologo /f makefile.vc
+ xcopy /D  /Y *.obj ..\..\o
+0 bestand(en) gekopieerd
+ cd ..
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd leveller   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd sgi   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd srtmhgt   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd idrisi   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+ cd ..
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd jaxapalsar   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd ers   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd ingr   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+ cd ..
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd dimap   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd gff   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd terragen   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd gsg   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd cosar   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd pds   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd adrg   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd coasp   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd tsx   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd blx   && nmake /nologo /f makefile.vc   && cd .. 
+ copy *.obj ..\o
+blx.obj
+blxdataset.obj
+        2 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd jpeg   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+ cd libjpeg
+ nmake /nologo /f makefile.vc
+ lib /out:libjpeg.lib jcapimin.obj jcapistd.obj jccoefct.obj jccolor.obj jcdctmgr.obj jchuff.obj  jcinit.obj jcmainct.obj jcmarker.obj jcmaster.obj jcomapi.obj jcparam.obj  jcphuff.obj jcprepct.obj jcsample.obj jctrans.obj jdapimin.obj jdapistd.obj  jdatadst.obj jdatasrc.obj jdcoefct.obj jdcolor.obj jddctmgr.obj jdhuff.obj  jdinput.obj jdmainct.obj jdmarker.obj jdmaster.obj jdmerge.obj jdphuff.obj  jdpostct.obj jdsample.obj jdtrans.obj jerror.obj jfdctflt.obj jfdctfst.obj  jfdctint.obj jidctflt.obj jidctfst.obj jidctint.obj jidctred.obj jquant1.obj  jquant2.obj jutils.obj jmemmgr.obj jmemansi.obj
+Microsoft (R) Library Manager Version 9.00.30729.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+ xcopy /D  /Y *.obj ..\..\o
+0 bestand(en) gekopieerd
+ cd ..
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd bsb   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd zlib   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd ecw   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /y /r /d /f *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd mrsid   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /y /r /d /f *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd grib   && nmake /nologo /f makefile.vc   && cd .. 
+ cd degrib18 && nmake /NOLOGO /f makefile.vc && cd ..
+ cd degrib && nmake /NOLOGO /f makefile.vc && cd ..
+ xcopy /D /Y *.obj ..\..\..\o
+0 bestand(en) gekopieerd
+ cd g2clib-1.0.4 && nmake /NOLOGO /f makefile.vc && cd ..
+ xcopy /D /Y *.obj ..\..\..\o
+0 bestand(en) gekopieerd
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+ cd ..
+ if exist gdal.lib del gdal.lib
+ lib /nologo /out:gdal.lib port\*.obj gcore\*.obj alg\*.obj frmts\o\*.obj ogr\ogrsf_frmts\ogrsf_frmts.lib ogr\ogr.lib 
+ link /nologo /dll /INCLUDE:_OGRFeatureStylePuller  /INCLUDE:_OSRValidate  /INCLUDE:_OPTGetProjectionMethods  /INCLUDE:_OGR_G_GetPointCount  /INCLUDE:_OGRRegisterAll /INCLUDE:_GDALSimpleImageWarp@36  /INCLUDE:_GDALReprojectImage@48  /INCLUDE:_GDALComputeMedianCutPCT@32  /INCLUDE:_GDALDitherRGB2PCT@28  /INCLUDE:_OCTNewCoordinateTransformation@8  port\*.obj gcore\*.obj alg\*.obj frmts\o\*.obj ogr\ogrsf_frmts\ogrsf_frmts.lib ogr\ogr.lib    C:\Dev\SupportLibraries\GDAL\xerces-c\Build\Win32\VC9\Release\xerces-c_3.lib   C:\Dev\SupportLibraries\GDAL\pgsql\lib\libpqdll.lib wsock32.lib odbc32.lib odbccp32.lib user32.lib  C:\Dev\SupportLibraries\GDAL\libecwj2-3.3\lib\libecwj2.lib    C:\Dev\SupportLibraries\GDAL\Geo_DSDK-7.0.0.2167\lib\Release_md\lti_dsdk_dll.lib advapi32.lib user32.lib              C:\dev\SupportLibraries\GDAL\geos-cvs-x86/source/geos_c_i.lib         gcore\Version.res  /out:gdal16.dll /implib:gdal_i.lib  
+   Creating library gdal_i.lib and object gdal_i.exp
+ if exist gdal16.dll.manifest mt -manifest gdal16.dll.manifest -outputresource:gdal16.dll;2
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cd frmts
+ nmake /nologo /f makefile.vc plugindirs
+ for %d in (  ) do  cd %d  && nmake /nologo /f makefile.vc plugin  && cd ..
+ cd ..
+ cd apps
+ nmake /nologo /f makefile.vc
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdal_translate.cpp  ..\gdal_i.lib  /link  
+gdal_translate.cpp
+   Creating library gdal_translate.lib and object gdal_translate.exp
+ if exist gdal_translate.exe.manifest mt -manifest gdal_translate.exe.manifest -outputresource:gdal_translate.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdalinfo.c  ..\gdal_i.lib  /link  
+gdalinfo.c
+ if exist gdalinfo.exe.manifest mt -manifest gdalinfo.exe.manifest -outputresource:gdalinfo.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdaladdo.cpp  ..\gdal_i.lib  /link  
+gdaladdo.cpp
+   Creating library gdaladdo.lib and object gdaladdo.exp
+ if exist gdaladdo.exe.manifest mt -manifest gdaladdo.exe.manifest -outputresource:gdaladdo.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdalwarp.cpp  ..\gdal_i.lib  /link  
+gdalwarp.cpp
+   Creating library gdalwarp.lib and object gdalwarp.exp
+ if exist gdalwarp.exe.manifest mt -manifest gdalwarp.exe.manifest -outputresource:gdalwarp.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts nearblack.cpp  ..\gdal_i.lib  /link  
+nearblack.cpp
+ if exist nearblack.exe.manifest mt -manifest nearblack.exe.manifest -outputresource:nearblack.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdalmanage.cpp  ..\gdal_i.lib  /link  
+gdalmanage.cpp
+   Creating library gdalmanage.lib and object gdalmanage.exp
+ if exist gdalmanage.exe.manifest mt -manifest gdalmanage.exe.manifest -outputresource:gdalmanage.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdalenhance.cpp  ..\gdal_i.lib  /link  
+gdalenhance.cpp
+gdalenhance.cpp(610) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+   Creating library gdalenhance.lib and object gdalenhance.exp
+ if exist gdalenhance.exe.manifest mt -manifest gdalenhance.exe.manifest -outputresource:gdalenhance.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdaltransform.cpp  ..\gdal_i.lib  /link  
+gdaltransform.cpp
+   Creating library gdaltransform.lib and object gdaltransform.exp
+ if exist gdaltransform.exe.manifest mt -manifest gdaltransform.exe.manifest -outputresource:gdaltransform.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdal_contour.cpp  ..\gdal_i.lib  /link  
+gdal_contour.cpp
+   Creating library gdal_contour.lib and object gdal_contour.exp
+ if exist gdal_contour.exe.manifest mt -manifest gdal_contour.exe.manifest -outputresource:gdal_contour.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /I.. /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdaltindex.c   ..\gdal_i.lib /link  
+gdaltindex.c
+ if exist gdaltindex.exe.manifest mt -manifest gdaltindex.exe.manifest -outputresource:gdaltindex.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdal_rasterize.cpp  ..\gdal_i.lib  /link  
+gdal_rasterize.cpp
+   Creating library gdal_rasterize.lib and object gdal_rasterize.exp
+ if exist gdal_rasterize.exe.manifest mt -manifest gdal_rasterize.exe.manifest -outputresource:gdal_rasterize.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdal_grid.cpp  ..\gdal_i.lib  /link  
+gdal_grid.cpp
+   Creating library gdal_grid.lib and object gdal_grid.exp
+ if exist gdal_grid.exe.manifest mt -manifest gdal_grid.exe.manifest -outputresource:gdal_grid.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts ogrinfo.cpp  ..\gdal_i.lib  /link  
+ogrinfo.cpp
+   Creating library ogrinfo.lib and object ogrinfo.exp
+ if exist ogrinfo.exe.manifest mt -manifest ogrinfo.exe.manifest -outputresource:ogrinfo.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts ogr2ogr.cpp  ..\gdal_i.lib  /link  
+ogr2ogr.cpp
+   Creating library ogr2ogr.lib and object ogr2ogr.exp
+ if exist ogr2ogr.exe.manifest mt -manifest ogr2ogr.exe.manifest -outputresource:ogr2ogr.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts ogrtindex.cpp  ..\gdal_i.lib  /link  
+ogrtindex.cpp
+   Creating library ogrtindex.lib and object ogrtindex.exp
+ if exist ogrtindex.exe.manifest mt -manifest ogrtindex.exe.manifest -outputresource:ogrtindex.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cd ..
+ cd pymod
+ if exist "C:\Software\Python24"\python.exe nmake /nologo /f makefile.vc
+ cd ..
+Microsoft (R) Program Maintenance Utility Version 9.00.30729.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+ if exist gdal.lib del gdal.lib
+ lib /nologo /out:gdal.lib port\*.obj gcore\*.obj alg\*.obj frmts\o\*.obj ogr\ogrsf_frmts\ogrsf_frmts.lib ogr\ogr.lib 
+ link /nologo /dll /INCLUDE:_OGRFeatureStylePuller  /INCLUDE:_OSRValidate  /INCLUDE:_OPTGetProjectionMethods  /INCLUDE:_OGR_G_GetPointCount  /INCLUDE:_OGRRegisterAll /INCLUDE:_GDALSimpleImageWarp@36  /INCLUDE:_GDALReprojectImage@48  /INCLUDE:_GDALComputeMedianCutPCT@32  /INCLUDE:_GDALDitherRGB2PCT@28  /INCLUDE:_OCTNewCoordinateTransformation@8  port\*.obj gcore\*.obj alg\*.obj frmts\o\*.obj ogr\ogrsf_frmts\ogrsf_frmts.lib ogr\ogr.lib    C:\Dev\SupportLibraries\GDAL\xerces-c\Build\Win32\VC9\Release\xerces-c_3.lib   C:\Dev\SupportLibraries\GDAL\pgsql\lib\libpqdll.lib wsock32.lib odbc32.lib odbccp32.lib user32.lib  C:\Dev\SupportLibraries\GDAL\libecwj2-3.3\lib\libecwj2.lib    C:\Dev\SupportLibraries\GDAL\Geo_DSDK-7.0.0.2167\lib\Release_md\lti_dsdk_dll.lib advapi32.lib user32.lib              C:\dev\SupportLibraries\GDAL\geos-cvs-x86/source/geos_c_i.lib         gcore\Version.res  /out:gdal16.dll /implib:gdal_i.lib  
+   Creating library gdal_i.lib and object gdal_i.exp
+ if exist gdal16.dll.manifest mt -manifest gdal16.dll.manifest -outputresource:gdal16.dll;2
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cd frmts
+ nmake /nologo /f makefile.vc plugindirs
+ for %d in (  ) do  cd %d  && nmake /nologo /f makefile.vc plugin  && cd ..
+ cd ..
+ cd apps
+ nmake /nologo /f makefile.vc
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdal_translate.cpp  ..\gdal_i.lib  /link  
+gdal_translate.cpp
+   Creating library gdal_translate.lib and object gdal_translate.exp
+ if exist gdal_translate.exe.manifest mt -manifest gdal_translate.exe.manifest -outputresource:gdal_translate.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdalinfo.c  ..\gdal_i.lib  /link  
+gdalinfo.c
+ if exist gdalinfo.exe.manifest mt -manifest gdalinfo.exe.manifest -outputresource:gdalinfo.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdaladdo.cpp  ..\gdal_i.lib  /link  
+gdaladdo.cpp
+   Creating library gdaladdo.lib and object gdaladdo.exp
+ if exist gdaladdo.exe.manifest mt -manifest gdaladdo.exe.manifest -outputresource:gdaladdo.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdalwarp.cpp  ..\gdal_i.lib  /link  
+gdalwarp.cpp
+   Creating library gdalwarp.lib and object gdalwarp.exp
+ if exist gdalwarp.exe.manifest mt -manifest gdalwarp.exe.manifest -outputresource:gdalwarp.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts nearblack.cpp  ..\gdal_i.lib  /link  
+nearblack.cpp
+ if exist nearblack.exe.manifest mt -manifest nearblack.exe.manifest -outputresource:nearblack.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdalmanage.cpp  ..\gdal_i.lib  /link  
+gdalmanage.cpp
+   Creating library gdalmanage.lib and object gdalmanage.exp
+ if exist gdalmanage.exe.manifest mt -manifest gdalmanage.exe.manifest -outputresource:gdalmanage.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdalenhance.cpp  ..\gdal_i.lib  /link  
+gdalenhance.cpp
+gdalenhance.cpp(610) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+   Creating library gdalenhance.lib and object gdalenhance.exp
+ if exist gdalenhance.exe.manifest mt -manifest gdalenhance.exe.manifest -outputresource:gdalenhance.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdaltransform.cpp  ..\gdal_i.lib  /link  
+gdaltransform.cpp
+   Creating library gdaltransform.lib and object gdaltransform.exp
+ if exist gdaltransform.exe.manifest mt -manifest gdaltransform.exe.manifest -outputresource:gdaltransform.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdal_contour.cpp  ..\gdal_i.lib  /link  
+gdal_contour.cpp
+   Creating library gdal_contour.lib and object gdal_contour.exp
+ if exist gdal_contour.exe.manifest mt -manifest gdal_contour.exe.manifest -outputresource:gdal_contour.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /I.. /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdaltindex.c   ..\gdal_i.lib /link  
+gdaltindex.c
+ if exist gdaltindex.exe.manifest mt -manifest gdaltindex.exe.manifest -outputresource:gdaltindex.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdal_rasterize.cpp  ..\gdal_i.lib  /link  
+gdal_rasterize.cpp
+   Creating library gdal_rasterize.lib and object gdal_rasterize.exp
+ if exist gdal_rasterize.exe.manifest mt -manifest gdal_rasterize.exe.manifest -outputresource:gdal_rasterize.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdal_grid.cpp  ..\gdal_i.lib  /link  
+gdal_grid.cpp
+   Creating library gdal_grid.lib and object gdal_grid.exp
+ if exist gdal_grid.exe.manifest mt -manifest gdal_grid.exe.manifest -outputresource:gdal_grid.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts ogrinfo.cpp  ..\gdal_i.lib  /link  
+ogrinfo.cpp
+   Creating library ogrinfo.lib and object ogrinfo.exp
+ if exist ogrinfo.exe.manifest mt -manifest ogrinfo.exe.manifest -outputresource:ogrinfo.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts ogr2ogr.cpp  ..\gdal_i.lib  /link  
+ogr2ogr.cpp
+   Creating library ogr2ogr.lib and object ogr2ogr.exp
+ if exist ogr2ogr.exe.manifest mt -manifest ogr2ogr.exe.manifest -outputresource:ogr2ogr.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts ogrtindex.cpp  ..\gdal_i.lib  /link  
+ogrtindex.cpp
+   Creating library ogrtindex.lib and object ogrtindex.exp
+ if exist ogrtindex.exe.manifest mt -manifest ogrtindex.exe.manifest -outputresource:ogrtindex.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cd ..
+ cd pymod
+ if exist "C:\Software\Python24"\python.exe nmake /nologo /f makefile.vc
+ cd ..
+ mkdir "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"..\..\bin\Win32
+Er bestaat al een submap of bestand C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\..\..\bin\Win32.
+ mkdir "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\data
+Er bestaat al een submap of bestand C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\\data.
+ xcopy /y /r /d /f gdal16.dll "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"..\..\bin\Win32
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\gdal16.dll -> C:\Dev\SupportLibraries\bin\Win32\gdal16.dll
+1 bestand(en) gekopieerd
+ cd frmts
+ nmake /nologo /f makefile.vc plugins-install
+ for %d in (  ) do  cd %d  && nmake /nologo /f makefile.vc plugin-install  && cd ..
+ cd ..\apps
+ nmake /nologo /f makefile.vc install
+ copy *.exe "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"..\..\bin\Win32
+gdaladdo.exe
+gdalenhance.exe
+gdalinfo.exe
+gdalmanage.exe
+gdaltindex.exe
+gdaltransform.exe
+gdalwarp.exe
+gdal_contour.exe
+gdal_grid.exe
+gdal_rasterize.exe
+gdal_translate.exe
+nearblack.exe
+ogr2ogr.exe
+ogrinfo.exe
+ogrtindex.exe
+       15 bestand(en) gekopieerd.
+ cd ..\pymod
+ if exist "C:\Software\Python24"\python.exe nmake /nologo /f makefile.vc install
+ cd ..
+ xcopy /y /r /d /f data\*.* "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\data
+0 bestand(en) gekopieerd
+ xcopy /y /r /d /f LICENSE.TXT "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\data
+0 bestand(en) gekopieerd
+ mkdir "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html
+Er bestaat al een submap of bestand C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\\html.
+ cd frmts
+ nmake /nologo /f makefile.vc html-install
+ copy *.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html
+formats_list.html
+frmt_various.html
+        2 bestand(en) gekopieerd.
+ for %d in ( ceos aigrid elas hfa gtiff sdts raw gxf ceos2 png  dted mem jdem gif  envisat aaigrid usgsdem l1b  fit vrt xpm bmp rmf  nitf pcidsk airsar rs2  ilwis msgn rik pcraster  leveller sgi srtmhgt idrisi  jaxapalsar ers ingr dimap  gff terragen gsg cosar pds  adrg coasp tsx blx jpeg bsb zlib ecw mrsid grib ) do  copy %d\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy ceos\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+ceos\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy aigrid\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+aigrid\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy elas\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+elas\frmt_elas.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy hfa\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+hfa\frmt_hfa.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy gtiff\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+gtiff\frmt_gtiff.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy sdts\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+sdts\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy raw\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+raw\frmt_fast.html
+raw\frmt_lcp.html
+raw\frmt_mff2.html
+        3 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy gxf\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+gxf\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy ceos2\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+ceos2\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy png\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+png\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy dted\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+dted\frmt_dted.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy mem\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+mem\frmt_mem.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy jdem\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+jdem\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy gif\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+gif\frmt_gif.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy envisat\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+envisat\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy aaigrid\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+aaigrid\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy usgsdem\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+usgsdem\frmt_usgsdem.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy l1b\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+l1b\frmt_l1b.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy fit\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+fit\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy vrt\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+vrt\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy xpm\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+xpm\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy bmp\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+bmp\frmt_bmp.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy rmf\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+rmf\frmt_rmf.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy nitf\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+nitf\frmt_nitf.html
+nitf\frmt_nitf_advanced.html
+        2 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy pcidsk\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+pcidsk\frmt_pcidsk.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy airsar\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+airsar\frmt_airsar.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy rs2\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+rs2\frmt_rs2.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy ilwis\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+ilwis\frmt_ilwis.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy msgn\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+msgn\frmt_msgn.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy rik\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+rik\frmt_rik.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy pcraster\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+pcraster\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy leveller\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+leveller\frmt_leveller.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy sgi\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+sgi\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy srtmhgt\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+srtmhgt\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy idrisi\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+idrisi\frmt_Idrisi.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy jaxapalsar\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+jaxapalsar\frmt_palsar.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy ers\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+ers\frmt_ers.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy ingr\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+ingr\frmt_intergraphraster.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy dimap\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+dimap\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy gff\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+gff\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy terragen\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+terragen\frmt_terragen.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy gsg\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+gsg\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy cosar\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+cosar\frmt_cosar.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy pds\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+pds\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy adrg\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+adrg\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy coasp\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+coasp\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy tsx\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+tsx\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy blx\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+blx\frmt_blx.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy jpeg\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+jpeg\frmt_jpeg.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy bsb\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+bsb\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy zlib\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+zlib\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy ecw\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+ecw\frmt_ecw.html
+ecw\frmt_jp2ecw.html
+        2 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy mrsid\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+mrsid\frmt_jp2mrsid.html
+mrsid\frmt_mrsid.html
+        2 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy grib\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+grib\frmt_grib.html
+        1 bestand(en) gekopieerd.
+ cd ..
+ cd ogr
+ nmake /nologo /f makefile.vc install
+ cd ..
+ cd ogr\ogrsf_frmts
+ nmake /nologo /f makefile.vc html-install
+ copy *.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html
+ogr_formats.html
+        1 bestand(en) gekopieerd.
+ for %d in ( generic geojson shape ntf sdts tiger s57 dgn mitab gml  avc rec mem vrt csv gmt bna kml gpx  geoconcept xplane     pg   odbc pgeo         ) do  copy %d\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy generic\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+generic\drv_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy geojson\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+geojson\drv_geojson.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy shape\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+shape\drv_shapefile.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy ntf\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+ntf\drv_ntf.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy sdts\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+sdts\drv_sdts.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy tiger\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+tiger\drv_tiger.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy s57\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+s57\drv_s57.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy dgn\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+dgn\drv_dgn.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy mitab\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+mitab\drv_mitab.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy gml\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+gml\drv_gml.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy avc\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+avc\drv_avcbin.html
+avc\drv_avce00.html
+        2 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy rec\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+rec\drv_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy mem\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+mem\drv_memory.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy vrt\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+vrt\drv_vrt.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy csv\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+csv\drv_csv.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy gmt\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+gmt\drv_gmt.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy bna\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+bna\drv_bna.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy kml\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+kml\drv_kml.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy gpx\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+gpx\drv_gpx.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy geoconcept\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+geoconcept\drv_geoconcept.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy xplane\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+xplane\drv_xplane.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy pg\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+pg\drv_pg.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy odbc\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+odbc\drv_odbc.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy pgeo\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+pgeo\drv_pgeo.html
+        1 bestand(en) gekopieerd.
+ cd ..\..
+Build log was saved at "file://c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\Release\BuildLog.htm"
+makegdal - 0 error(s), 2 warning(s)
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+[vr 09-10-2009 15:49:58,82] Start compiling makegdal90.sln 
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: makegdal, Configuration: Release Win32 ------
+Performing Makefile project actions
+Microsoft (R) Program Maintenance Utility Version 9.00.30729.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+ cd port
+ nmake /nologo /f makefile.vc
+ cd ..
+ cd frmts/iso8211
+ nmake /nologo /f makefile.vc
+ lib /out:libiso8211.lib ddfmodule.obj ddfutils.obj ddffielddefn.obj ddfrecord.obj  ddffield.obj ddfsubfielddefn.obj
+Microsoft (R) Library Manager Version 9.00.30729.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+ cd ..\sdts
+ nmake /nologo /f makefile.vc
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+ cd ..\..\ogr
+ nmake /nologo /f makefile.vc ogr.lib frmts
+'ogr.lib' is up-to-date
+ cd ogrsf_frmts
+ nmake /nologo /f makefile.vc
+ for %d in ( generic geojson shape ntf sdts tiger s57 dgn mitab gml  avc rec mem vrt csv gmt bna kml gpx  geoconcept xplane     pg   odbc pgeo         ) do  cd %d  && nmake /NOLOGO /f makefile.vc  && cd ..
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd generic   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd geojson   && nmake /NOLOGO /f makefile.vc   && cd .. 
+ cd jsonc
+ nmake /f makefile.vc
+Microsoft (R) Program Maintenance Utility Version 9.00.30729.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+ cd ..
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd shape   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd ntf   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd sdts   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd tiger   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd s57   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd dgn   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd mitab   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd gml   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd avc   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd rec   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd mem   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd vrt   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd csv   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd gmt   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd bna   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd kml   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd gpx   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd geoconcept   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd xplane   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd pg   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd odbc   && nmake /NOLOGO /f makefile.vc   && cd .. 
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>cd pgeo   && nmake /NOLOGO /f makefile.vc   && cd .. 
+ lib /out:ogrsf_frmts.lib generic\*.obj shape\*.obj ntf\*.obj  sdts\*.obj s57\*.obj tiger\*.obj gml\*.obj  mitab\*.obj dgn\*.obj avc\*.obj mem\*.obj  vrt\*.obj csv\*.obj rec\*.obj kml\*.obj  gmt\*.obj bna\*.obj geoconcept\*.obj  geojson\*.obj geojson\jsonc\*.obj  gpx\*.obj xplane\*.obj   odbc\*.obj pgeo\*.obj     pg\*.obj         
+Microsoft (R) Library Manager Version 9.00.30729.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+ lib /out:ogrsf_frmts_sup.lib  ..\..\frmts\iso8211\*.obj  ..\..\frmts\sdts\sdtsattrreader.obj  ..\..\frmts\sdts\sdtscatd.obj  ..\..\frmts\sdts\sdtsiref.obj  ..\..\frmts\sdts\sdtslib.obj  ..\..\frmts\sdts\sdtslinereader.obj  ..\..\frmts\sdts\sdtspointreader.obj  ..\..\frmts\sdts\sdtspolygonreader.obj  ..\..\frmts\sdts\sdtsrasterreader.obj  ..\..\frmts\sdts\sdtstransfer.obj  ..\..\frmts\sdts\sdtsindexedreader.obj  ..\..\frmts\sdts\sdtsxref.obj
+Microsoft (R) Library Manager Version 9.00.30729.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+ cd ..
+ cd ..
+ cd gcore
+ nmake /nologo /f makefile.vc
+ cd ..\alg
+ nmake /nologo /f makefile.vc
+ cd ..
+ cd frmts
+ nmake /nologo /f makefile.vc
+ for %d in ( ceos aigrid elas hfa gtiff sdts raw gxf ceos2 png  dted mem jdem gif  envisat aaigrid usgsdem l1b  fit vrt xpm bmp rmf  nitf pcidsk airsar rs2  ilwis msgn rik pcraster  leveller sgi srtmhgt idrisi  jaxapalsar ers ingr dimap  gff terragen gsg cosar pds  adrg coasp tsx blx jpeg bsb zlib ecw mrsid grib ) do  cd %d  && nmake /nologo /f makefile.vc  && cd ..
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd ceos   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd aigrid   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd elas   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd hfa   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd gtiff   && nmake /nologo /f makefile.vc   && cd .. 
+ cd libtiff
+ nmake /nologo /f makefile.vc
+ xcopy /D  /Y *.obj ..\..\o
+0 bestand(en) gekopieerd
+ cd ..
+ cd libgeotiff
+ nmake /nologo /f makefile.vc
+ xcopy /D  /Y *.obj ..\..\o
+0 bestand(en) gekopieerd
+ cd ..
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd sdts   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd raw   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd gxf   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd ceos2   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd png   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+ cd libpng
+ nmake /nologo /f makefile.vc
+ xcopy /D  /Y *.obj ..\..\o
+0 bestand(en) gekopieerd
+ cd ..
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd dted   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd mem   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd jdem   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd gif   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+ cd libungif
+ nmake /nologo /f makefile.vc
+ xcopy /D  /Y *.obj ..\..\o
+0 bestand(en) gekopieerd
+ cd ..
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd envisat   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd aaigrid   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd usgsdem   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd l1b   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd fit   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd vrt   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd xpm   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd bmp   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd rmf   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd nitf   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd pcidsk   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd airsar   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd rs2   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd ilwis   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd msgn   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd rik   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd pcraster   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj  ..\o
+0 bestand(en) gekopieerd
+ cd libcsf
+ nmake /nologo /f makefile.vc
+ xcopy /D  /Y *.obj ..\..\o
+0 bestand(en) gekopieerd
+ cd ..
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd leveller   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd sgi   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd srtmhgt   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd idrisi   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+ cd ..
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd jaxapalsar   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd ers   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd ingr   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+ cd ..
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd dimap   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd gff   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd terragen   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd gsg   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd cosar   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd pds   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd adrg   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd coasp   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd tsx   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd blx   && nmake /nologo /f makefile.vc   && cd .. 
+ copy *.obj ..\o
+blx.obj
+blxdataset.obj
+        2 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd jpeg   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+ cd libjpeg
+ nmake /nologo /f makefile.vc
+ lib /out:libjpeg.lib jcapimin.obj jcapistd.obj jccoefct.obj jccolor.obj jcdctmgr.obj jchuff.obj  jcinit.obj jcmainct.obj jcmarker.obj jcmaster.obj jcomapi.obj jcparam.obj  jcphuff.obj jcprepct.obj jcsample.obj jctrans.obj jdapimin.obj jdapistd.obj  jdatadst.obj jdatasrc.obj jdcoefct.obj jdcolor.obj jddctmgr.obj jdhuff.obj  jdinput.obj jdmainct.obj jdmarker.obj jdmaster.obj jdmerge.obj jdphuff.obj  jdpostct.obj jdsample.obj jdtrans.obj jerror.obj jfdctflt.obj jfdctfst.obj  jfdctint.obj jidctflt.obj jidctfst.obj jidctint.obj jidctred.obj jquant1.obj  jquant2.obj jutils.obj jmemmgr.obj jmemansi.obj
+Microsoft (R) Library Manager Version 9.00.30729.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+ xcopy /D  /Y *.obj ..\..\o
+0 bestand(en) gekopieerd
+ cd ..
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd bsb   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd zlib   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd ecw   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /y /r /d /f *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd mrsid   && nmake /nologo /f makefile.vc   && cd .. 
+ xcopy /y /r /d /f *.obj ..\o
+0 bestand(en) gekopieerd
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>cd grib   && nmake /nologo /f makefile.vc   && cd .. 
+ cd degrib18 && nmake /NOLOGO /f makefile.vc && cd ..
+ cd degrib && nmake /NOLOGO /f makefile.vc && cd ..
+ xcopy /D /Y *.obj ..\..\..\o
+0 bestand(en) gekopieerd
+ cd g2clib-1.0.4 && nmake /NOLOGO /f makefile.vc && cd ..
+ xcopy /D /Y *.obj ..\..\..\o
+0 bestand(en) gekopieerd
+ xcopy /D  /Y *.obj ..\o
+0 bestand(en) gekopieerd
+ cd ..
+ if exist gdal.lib del gdal.lib
+ lib /nologo /out:gdal.lib port\*.obj gcore\*.obj alg\*.obj frmts\o\*.obj ogr\ogrsf_frmts\ogrsf_frmts.lib ogr\ogr.lib 
+ link /nologo /dll /INCLUDE:_OGRFeatureStylePuller  /INCLUDE:_OSRValidate  /INCLUDE:_OPTGetProjectionMethods  /INCLUDE:_OGR_G_GetPointCount  /INCLUDE:_OGRRegisterAll /INCLUDE:_GDALSimpleImageWarp@36  /INCLUDE:_GDALReprojectImage@48  /INCLUDE:_GDALComputeMedianCutPCT@32  /INCLUDE:_GDALDitherRGB2PCT@28  /INCLUDE:_OCTNewCoordinateTransformation@8  port\*.obj gcore\*.obj alg\*.obj frmts\o\*.obj ogr\ogrsf_frmts\ogrsf_frmts.lib ogr\ogr.lib    C:\Dev\SupportLibraries\GDAL\xerces-c\Build\Win32\VC9\Release\xerces-c_3.lib   C:\Dev\SupportLibraries\GDAL\pgsql\lib\libpqdll.lib wsock32.lib odbc32.lib odbccp32.lib user32.lib  C:\Dev\SupportLibraries\GDAL\libecwj2-3.3\lib\libecwj2.lib    C:\Dev\SupportLibraries\GDAL\Geo_DSDK-7.0.0.2167\lib\Release_md\lti_dsdk_dll.lib advapi32.lib user32.lib              C:\dev\SupportLibraries\GDAL\geos-cvs-x86/source/geos_c_i.lib         gcore\Version.res  /out:gdal16.dll /implib:gdal_i.lib  
+   Creating library gdal_i.lib and object gdal_i.exp
+ if exist gdal16.dll.manifest mt -manifest gdal16.dll.manifest -outputresource:gdal16.dll;2
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cd frmts
+ nmake /nologo /f makefile.vc plugindirs
+ for %d in (  ) do  cd %d  && nmake /nologo /f makefile.vc plugin  && cd ..
+ cd ..
+ cd apps
+ nmake /nologo /f makefile.vc
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdal_translate.cpp  ..\gdal_i.lib  /link  
+gdal_translate.cpp
+   Creating library gdal_translate.lib and object gdal_translate.exp
+ if exist gdal_translate.exe.manifest mt -manifest gdal_translate.exe.manifest -outputresource:gdal_translate.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdalinfo.c  ..\gdal_i.lib  /link  
+gdalinfo.c
+ if exist gdalinfo.exe.manifest mt -manifest gdalinfo.exe.manifest -outputresource:gdalinfo.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdaladdo.cpp  ..\gdal_i.lib  /link  
+gdaladdo.cpp
+   Creating library gdaladdo.lib and object gdaladdo.exp
+ if exist gdaladdo.exe.manifest mt -manifest gdaladdo.exe.manifest -outputresource:gdaladdo.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdalwarp.cpp  ..\gdal_i.lib  /link  
+gdalwarp.cpp
+   Creating library gdalwarp.lib and object gdalwarp.exp
+ if exist gdalwarp.exe.manifest mt -manifest gdalwarp.exe.manifest -outputresource:gdalwarp.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts nearblack.cpp  ..\gdal_i.lib  /link  
+nearblack.cpp
+ if exist nearblack.exe.manifest mt -manifest nearblack.exe.manifest -outputresource:nearblack.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdalmanage.cpp  ..\gdal_i.lib  /link  
+gdalmanage.cpp
+   Creating library gdalmanage.lib and object gdalmanage.exp
+ if exist gdalmanage.exe.manifest mt -manifest gdalmanage.exe.manifest -outputresource:gdalmanage.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdalenhance.cpp  ..\gdal_i.lib  /link  
+gdalenhance.cpp
+gdalenhance.cpp(610) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+   Creating library gdalenhance.lib and object gdalenhance.exp
+ if exist gdalenhance.exe.manifest mt -manifest gdalenhance.exe.manifest -outputresource:gdalenhance.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdaltransform.cpp  ..\gdal_i.lib  /link  
+gdaltransform.cpp
+   Creating library gdaltransform.lib and object gdaltransform.exp
+ if exist gdaltransform.exe.manifest mt -manifest gdaltransform.exe.manifest -outputresource:gdaltransform.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdal_contour.cpp  ..\gdal_i.lib  /link  
+gdal_contour.cpp
+   Creating library gdal_contour.lib and object gdal_contour.exp
+ if exist gdal_contour.exe.manifest mt -manifest gdal_contour.exe.manifest -outputresource:gdal_contour.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /I.. /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdaltindex.c   ..\gdal_i.lib /link  
+gdaltindex.c
+ if exist gdaltindex.exe.manifest mt -manifest gdaltindex.exe.manifest -outputresource:gdaltindex.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdal_rasterize.cpp  ..\gdal_i.lib  /link  
+gdal_rasterize.cpp
+   Creating library gdal_rasterize.lib and object gdal_rasterize.exp
+ if exist gdal_rasterize.exe.manifest mt -manifest gdal_rasterize.exe.manifest -outputresource:gdal_rasterize.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdal_grid.cpp  ..\gdal_i.lib  /link  
+gdal_grid.cpp
+   Creating library gdal_grid.lib and object gdal_grid.exp
+ if exist gdal_grid.exe.manifest mt -manifest gdal_grid.exe.manifest -outputresource:gdal_grid.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts ogrinfo.cpp  ..\gdal_i.lib  /link  
+ogrinfo.cpp
+   Creating library ogrinfo.lib and object ogrinfo.exp
+ if exist ogrinfo.exe.manifest mt -manifest ogrinfo.exe.manifest -outputresource:ogrinfo.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts ogr2ogr.cpp  ..\gdal_i.lib  /link  
+ogr2ogr.cpp
+   Creating library ogr2ogr.lib and object ogr2ogr.exp
+ if exist ogr2ogr.exe.manifest mt -manifest ogr2ogr.exe.manifest -outputresource:ogr2ogr.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts ogrtindex.cpp  ..\gdal_i.lib  /link  
+ogrtindex.cpp
+   Creating library ogrtindex.lib and object ogrtindex.exp
+ if exist ogrtindex.exe.manifest mt -manifest ogrtindex.exe.manifest -outputresource:ogrtindex.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cd ..
+ cd pymod
+ if exist "C:\Software\Python24"\python.exe nmake /nologo /f makefile.vc
+ cd ..
+Microsoft (R) Program Maintenance Utility Version 9.00.30729.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+ if exist gdal.lib del gdal.lib
+ lib /nologo /out:gdal.lib port\*.obj gcore\*.obj alg\*.obj frmts\o\*.obj ogr\ogrsf_frmts\ogrsf_frmts.lib ogr\ogr.lib 
+ link /nologo /dll /INCLUDE:_OGRFeatureStylePuller  /INCLUDE:_OSRValidate  /INCLUDE:_OPTGetProjectionMethods  /INCLUDE:_OGR_G_GetPointCount  /INCLUDE:_OGRRegisterAll /INCLUDE:_GDALSimpleImageWarp@36  /INCLUDE:_GDALReprojectImage@48  /INCLUDE:_GDALComputeMedianCutPCT@32  /INCLUDE:_GDALDitherRGB2PCT@28  /INCLUDE:_OCTNewCoordinateTransformation@8  port\*.obj gcore\*.obj alg\*.obj frmts\o\*.obj ogr\ogrsf_frmts\ogrsf_frmts.lib ogr\ogr.lib    C:\Dev\SupportLibraries\GDAL\xerces-c\Build\Win32\VC9\Release\xerces-c_3.lib   C:\Dev\SupportLibraries\GDAL\pgsql\lib\libpqdll.lib wsock32.lib odbc32.lib odbccp32.lib user32.lib  C:\Dev\SupportLibraries\GDAL\libecwj2-3.3\lib\libecwj2.lib    C:\Dev\SupportLibraries\GDAL\Geo_DSDK-7.0.0.2167\lib\Release_md\lti_dsdk_dll.lib advapi32.lib user32.lib              C:\dev\SupportLibraries\GDAL\geos-cvs-x86/source/geos_c_i.lib         gcore\Version.res  /out:gdal16.dll /implib:gdal_i.lib  
+   Creating library gdal_i.lib and object gdal_i.exp
+ if exist gdal16.dll.manifest mt -manifest gdal16.dll.manifest -outputresource:gdal16.dll;2
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cd frmts
+ nmake /nologo /f makefile.vc plugindirs
+ for %d in (  ) do  cd %d  && nmake /nologo /f makefile.vc plugin  && cd ..
+ cd ..
+ cd apps
+ nmake /nologo /f makefile.vc
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdal_translate.cpp  ..\gdal_i.lib  /link  
+gdal_translate.cpp
+   Creating library gdal_translate.lib and object gdal_translate.exp
+ if exist gdal_translate.exe.manifest mt -manifest gdal_translate.exe.manifest -outputresource:gdal_translate.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdalinfo.c  ..\gdal_i.lib  /link  
+gdalinfo.c
+ if exist gdalinfo.exe.manifest mt -manifest gdalinfo.exe.manifest -outputresource:gdalinfo.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdaladdo.cpp  ..\gdal_i.lib  /link  
+gdaladdo.cpp
+   Creating library gdaladdo.lib and object gdaladdo.exp
+ if exist gdaladdo.exe.manifest mt -manifest gdaladdo.exe.manifest -outputresource:gdaladdo.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdalwarp.cpp  ..\gdal_i.lib  /link  
+gdalwarp.cpp
+   Creating library gdalwarp.lib and object gdalwarp.exp
+ if exist gdalwarp.exe.manifest mt -manifest gdalwarp.exe.manifest -outputresource:gdalwarp.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts nearblack.cpp  ..\gdal_i.lib  /link  
+nearblack.cpp
+ if exist nearblack.exe.manifest mt -manifest nearblack.exe.manifest -outputresource:nearblack.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdalmanage.cpp  ..\gdal_i.lib  /link  
+gdalmanage.cpp
+   Creating library gdalmanage.lib and object gdalmanage.exp
+ if exist gdalmanage.exe.manifest mt -manifest gdalmanage.exe.manifest -outputresource:gdalmanage.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdalenhance.cpp  ..\gdal_i.lib  /link  
+gdalenhance.cpp
+gdalenhance.cpp(610) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+   Creating library gdalenhance.lib and object gdalenhance.exp
+ if exist gdalenhance.exe.manifest mt -manifest gdalenhance.exe.manifest -outputresource:gdalenhance.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdaltransform.cpp  ..\gdal_i.lib  /link  
+gdaltransform.cpp
+   Creating library gdaltransform.lib and object gdaltransform.exp
+ if exist gdaltransform.exe.manifest mt -manifest gdaltransform.exe.manifest -outputresource:gdaltransform.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdal_contour.cpp  ..\gdal_i.lib  /link  
+gdal_contour.cpp
+   Creating library gdal_contour.lib and object gdal_contour.exp
+ if exist gdal_contour.exe.manifest mt -manifest gdal_contour.exe.manifest -outputresource:gdal_contour.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /I.. /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdaltindex.c   ..\gdal_i.lib /link  
+gdaltindex.c
+ if exist gdaltindex.exe.manifest mt -manifest gdaltindex.exe.manifest -outputresource:gdaltindex.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdal_rasterize.cpp  ..\gdal_i.lib  /link  
+gdal_rasterize.cpp
+   Creating library gdal_rasterize.lib and object gdal_rasterize.exp
+ if exist gdal_rasterize.exe.manifest mt -manifest gdal_rasterize.exe.manifest -outputresource:gdal_rasterize.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts gdal_grid.cpp  ..\gdal_i.lib  /link  
+gdal_grid.cpp
+   Creating library gdal_grid.lib and object gdal_grid.exp
+ if exist gdal_grid.exe.manifest mt -manifest gdal_grid.exe.manifest -outputresource:gdal_grid.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts ogrinfo.cpp  ..\gdal_i.lib  /link  
+ogrinfo.cpp
+   Creating library ogrinfo.lib and object ogrinfo.exp
+ if exist ogrinfo.exe.manifest mt -manifest ogrinfo.exe.manifest -outputresource:ogrinfo.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts ogr2ogr.cpp  ..\gdal_i.lib  /link  
+ogr2ogr.cpp
+   Creating library ogr2ogr.lib and object ogr2ogr.exp
+ if exist ogr2ogr.exe.manifest mt -manifest ogr2ogr.exe.manifest -outputresource:ogr2ogr.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cl /nologo /MD /EHsc /Ox /W3 /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE /DNDEBUG -I..\port -I..\ogr -I..\gcore  -I..\alg -I..\ogr\ogrsf_frmts   -I..\frmts -I..\alg -I..\ogr -I..\ogr\ogrsf_frmts ogrtindex.cpp  ..\gdal_i.lib  /link  
+ogrtindex.cpp
+   Creating library ogrtindex.lib and object ogrtindex.exp
+ if exist ogrtindex.exe.manifest mt -manifest ogrtindex.exe.manifest -outputresource:ogrtindex.exe;1
+Microsoft (R) Manifest Tool version 5.2.3790.2076
+Copyright (c) Microsoft Corporation 2005. 
+All rights reserved.
+ cd ..
+ cd pymod
+ if exist "C:\Software\Python24"\python.exe nmake /nologo /f makefile.vc
+ cd ..
+ mkdir "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"..\..\bin\Win32
+Er bestaat al een submap of bestand C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\..\..\bin\Win32.
+ mkdir "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\data
+Er bestaat al een submap of bestand C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\\data.
+ xcopy /y /r /d /f gdal16.dll "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"..\..\bin\Win32
+C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\gdal16.dll -> C:\Dev\SupportLibraries\bin\Win32\gdal16.dll
+1 bestand(en) gekopieerd
+ cd frmts
+ nmake /nologo /f makefile.vc plugins-install
+ for %d in (  ) do  cd %d  && nmake /nologo /f makefile.vc plugin-install  && cd ..
+ cd ..\apps
+ nmake /nologo /f makefile.vc install
+ copy *.exe "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"..\..\bin\Win32
+gdaladdo.exe
+gdalenhance.exe
+gdalinfo.exe
+gdalmanage.exe
+gdaltindex.exe
+gdaltransform.exe
+gdalwarp.exe
+gdal_contour.exe
+gdal_grid.exe
+gdal_rasterize.exe
+gdal_translate.exe
+nearblack.exe
+ogr2ogr.exe
+ogrinfo.exe
+ogrtindex.exe
+       15 bestand(en) gekopieerd.
+ cd ..\pymod
+ if exist "C:\Software\Python24"\python.exe nmake /nologo /f makefile.vc install
+ cd ..
+ xcopy /y /r /d /f data\*.* "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\data
+0 bestand(en) gekopieerd
+ xcopy /y /r /d /f LICENSE.TXT "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\data
+0 bestand(en) gekopieerd
+ mkdir "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html
+Er bestaat al een submap of bestand C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\\html.
+ cd frmts
+ nmake /nologo /f makefile.vc html-install
+ copy *.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html
+formats_list.html
+frmt_various.html
+        2 bestand(en) gekopieerd.
+ for %d in ( ceos aigrid elas hfa gtiff sdts raw gxf ceos2 png  dted mem jdem gif  envisat aaigrid usgsdem l1b  fit vrt xpm bmp rmf  nitf pcidsk airsar rs2  ilwis msgn rik pcraster  leveller sgi srtmhgt idrisi  jaxapalsar ers ingr dimap  gff terragen gsg cosar pds  adrg coasp tsx blx jpeg bsb zlib ecw mrsid grib ) do  copy %d\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy ceos\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+ceos\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy aigrid\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+aigrid\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy elas\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+elas\frmt_elas.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy hfa\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+hfa\frmt_hfa.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy gtiff\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+gtiff\frmt_gtiff.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy sdts\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+sdts\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy raw\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+raw\frmt_fast.html
+raw\frmt_lcp.html
+raw\frmt_mff2.html
+        3 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy gxf\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+gxf\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy ceos2\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+ceos2\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy png\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+png\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy dted\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+dted\frmt_dted.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy mem\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+mem\frmt_mem.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy jdem\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+jdem\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy gif\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+gif\frmt_gif.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy envisat\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+envisat\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy aaigrid\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+aaigrid\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy usgsdem\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+usgsdem\frmt_usgsdem.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy l1b\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+l1b\frmt_l1b.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy fit\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+fit\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy vrt\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+vrt\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy xpm\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+xpm\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy bmp\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+bmp\frmt_bmp.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy rmf\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+rmf\frmt_rmf.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy nitf\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+nitf\frmt_nitf.html
+nitf\frmt_nitf_advanced.html
+        2 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy pcidsk\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+pcidsk\frmt_pcidsk.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy airsar\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+airsar\frmt_airsar.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy rs2\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+rs2\frmt_rs2.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy ilwis\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+ilwis\frmt_ilwis.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy msgn\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+msgn\frmt_msgn.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy rik\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+rik\frmt_rik.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy pcraster\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+pcraster\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy leveller\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+leveller\frmt_leveller.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy sgi\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+sgi\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy srtmhgt\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+srtmhgt\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy idrisi\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+idrisi\frmt_Idrisi.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy jaxapalsar\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+jaxapalsar\frmt_palsar.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy ers\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+ers\frmt_ers.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy ingr\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+ingr\frmt_intergraphraster.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy dimap\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+dimap\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy gff\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+gff\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy terragen\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+terragen\frmt_terragen.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy gsg\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+gsg\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy cosar\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+cosar\frmt_cosar.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy pds\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+pds\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy adrg\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+adrg\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy coasp\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+coasp\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy tsx\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+tsx\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy blx\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+blx\frmt_blx.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy jpeg\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+jpeg\frmt_jpeg.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy bsb\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+bsb\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy zlib\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+zlib\frmt_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy ecw\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+ecw\frmt_ecw.html
+ecw\frmt_jp2ecw.html
+        2 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy mrsid\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+mrsid\frmt_jp2mrsid.html
+mrsid\frmt_mrsid.html
+        2 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\frmts>copy grib\frmt_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+grib\frmt_grib.html
+        1 bestand(en) gekopieerd.
+ cd ..
+ cd ogr
+ nmake /nologo /f makefile.vc install
+ cd ..
+ cd ogr\ogrsf_frmts
+ nmake /nologo /f makefile.vc html-install
+ copy *.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html
+ogr_formats.html
+        1 bestand(en) gekopieerd.
+ for %d in ( generic geojson shape ntf sdts tiger s57 dgn mitab gml  avc rec mem vrt csv gmt bna kml gpx  geoconcept xplane     pg   odbc pgeo         ) do  copy %d\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy generic\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+generic\drv_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy geojson\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+geojson\drv_geojson.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy shape\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+shape\drv_shapefile.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy ntf\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+ntf\drv_ntf.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy sdts\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+sdts\drv_sdts.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy tiger\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+tiger\drv_tiger.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy s57\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+s57\drv_s57.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy dgn\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+dgn\drv_dgn.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy mitab\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+mitab\drv_mitab.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy gml\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+gml\drv_gml.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy avc\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+avc\drv_avcbin.html
+avc\drv_avce00.html
+        2 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy rec\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+rec\drv_*.html 
+Het systeem kan het opgegeven bestand niet vinden.
+        0 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy mem\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+mem\drv_memory.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy vrt\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+vrt\drv_vrt.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy csv\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+csv\drv_csv.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy gmt\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+gmt\drv_gmt.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy bna\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+bna\drv_bna.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy kml\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+kml\drv_kml.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy gpx\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+gpx\drv_gpx.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy geoconcept\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+geoconcept\drv_geoconcept.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy xplane\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+xplane\drv_xplane.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy pg\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+pg\drv_pg.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy odbc\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+odbc\drv_odbc.html
+        1 bestand(en) gekopieerd.
+c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\ogr\ogrsf_frmts>copy pgeo\drv_*.html "C:\Dev\SupportLibraries\GDAL\gdal-1.6.0\"\html 
+pgeo\drv_pgeo.html
+        1 bestand(en) gekopieerd.
+ cd ..\..
+Build log was saved at "file://c:\Dev\SupportLibraries\GDAL\gdal-1.6.0\Release\BuildLog.htm"
+makegdal - 0 error(s), 2 warning(s)
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

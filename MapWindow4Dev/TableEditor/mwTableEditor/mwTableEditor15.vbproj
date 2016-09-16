@@ -1,0 +1,517 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B0D5895E-B243-43BE-A907-6021CAF391DB}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>TableEditor</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>mwTableEditor</RootNamespace>
+    <StartupObject>mwTableEditor.%28None%29</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>http://localhost/TableEditor/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\..\Bin\ApplicationPlugins\</OutputPath>
+    <DocumentationFile>TableEditor.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>Full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\..\Bin\ApplicationPlugins\</OutputPath>
+    <DocumentationFile>TableEditor.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\Bin64\ApplicationPlugins\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>TableEditor.xml</DocumentationFile>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>Full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\Bin64\ApplicationPlugins\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>TableEditor.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\Bin\ApplicationPlugins\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>TableEditor.xml</DocumentationFile>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>Full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\Bin\ApplicationPlugins\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>TableEditor.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.MapWinGIS">
+      <Name>Interop.MapWinGIS</Name>
+      <HintPath>..\..\Bin\Interop.MapWinGIS.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.Compatibility" />
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsDataGridComboBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="clsDataGridMaskedColumn.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="clsDataGridNumericRangeLimit.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="clsMathParser.vb" />
+    <Compile Include="frmFieldSep.Designer.vb">
+      <DependentUpon>frmFieldSep.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFieldSep.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTableEditor.Designer.vb">
+      <DependentUpon>frmTableEditor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTextCalculator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeleteField.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFieldCalculator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNewField.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQueryBuilder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRenameField.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReplace.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStatistics.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTableEditor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mPublics.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="mwTableEditorClass.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resource.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resource.lt.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.lt.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmDeleteField.resx">
+      <DependentUpon>frmDeleteField.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFieldCalculator.resx">
+      <DependentUpon>frmFieldCalculator.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHelp.resx">
+      <DependentUpon>frmHelp.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNewField.resx">
+      <DependentUpon>frmNewField.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQueryBuilder.resx">
+      <DependentUpon>frmQueryBuilder.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRenameField.resx">
+      <DependentUpon>frmRenameField.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReplace.resx">
+      <DependentUpon>frmReplace.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStatistics.resx">
+      <DependentUpon>frmStatistics.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTableEditor.resx">
+      <DependentUpon>frmTableEditor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTableEditor.es-ES.resx">
+      <DependentUpon>frmTableEditor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTableEditor.ToolbarManager.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmDeleteField.th.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDeleteField.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFieldCalculator.th.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmFieldCalculator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHelp.th.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNewField.th.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmNewField.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQueryBuilder.th.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmQueryBuilder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRenameField.th.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmRenameField.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReplace.th.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReplace.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStatistics.th.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmStatistics.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTableEditor.th.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTableEditor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTextCalculator.resx">
+      <DependentUpon>frmTextCalculator.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTextCalculator.th.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTextCalculator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeleteField.cs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDeleteField.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFieldCalculator.cs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmFieldCalculator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHelp.cs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNewField.cs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmNewField.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQueryBuilder.cs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmQueryBuilder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRenameField.cs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmRenameField.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReplace.cs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReplace.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStatistics.cs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmStatistics.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTableEditor.cs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTableEditor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTextCalculator.cs.resx">
+      <DependentUpon>frmTextCalculator.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolbarIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmDeleteField.de.resx">
+      <DependentUpon>frmDeleteField.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeleteField.lt.resx">
+      <DependentUpon>frmDeleteField.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFieldCalculator.de.resx">
+      <DependentUpon>frmFieldCalculator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFieldCalculator.lt.resx">
+      <DependentUpon>frmFieldCalculator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFieldSep.lt.resx">
+      <DependentUpon>frmFieldSep.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFieldSep.resx">
+      <DependentUpon>frmFieldSep.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHelp.de.resx">
+      <DependentUpon>frmHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHelp.lt.resx">
+      <DependentUpon>frmHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNewField.de.resx">
+      <DependentUpon>frmNewField.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNewField.lt.resx">
+      <DependentUpon>frmNewField.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQueryBuilder.de.resx">
+      <DependentUpon>frmQueryBuilder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQueryBuilder.lt.resx">
+      <DependentUpon>frmQueryBuilder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRenameField.de.resx">
+      <DependentUpon>frmRenameField.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRenameField.lt.resx">
+      <DependentUpon>frmRenameField.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReplace.de.resx">
+      <DependentUpon>frmReplace.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReplace.lt.resx">
+      <DependentUpon>frmReplace.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStatistics.de.resx">
+      <DependentUpon>frmStatistics.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStatistics.lt.resx">
+      <DependentUpon>frmStatistics.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTableEditor.de.resx">
+      <DependentUpon>frmTableEditor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTableEditor.lt.resx">
+      <DependentUpon>frmTableEditor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTextCalculator.de.resx">
+      <DependentUpon>frmTextCalculator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTextCalculator.lt.resx">
+      <DependentUpon>frmTextCalculator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource.lt.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.lt.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolbarIconNew.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="tableNew.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="filter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="table-editor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\MapWindow4Plugins\MapWinUtility\BASINS-MapWinUtility15.vbproj">
+      <Project>{33e88992-742f-4d13-823f-35d6a07b1aa1}</Project>
+      <Name>BASINS-MapWinUtility15</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Controls\mwControls15.csproj">
+      <Project>{c57f9b4f-b807-4b1a-acc7-87fd29fce7dc}</Project>
+      <Name>mwControls15</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\MapWinGeoProc\MapWinGeoProc15.csproj">
+      <Project>{7ae7b1df-7d39-4326-9a62-2ef9d62deb98}</Project>
+      <Name>MapWinGeoProc15</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\MapWinInterfaces\MapWinInterfaces15.csproj">
+      <Project>{e880aab1-98b5-45b8-a3b8-cb3d0db8b317}</Project>
+      <Name>MapWinInterfaces15</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

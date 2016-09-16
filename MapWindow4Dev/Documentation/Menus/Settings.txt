@@ -1,0 +1,27 @@
+<ul>
+<li>Coordinate Display allows you to select the displayed map units which appear at bottom left corner of the map. Simply click inside the Coordinate Display box and type the map unit name (e.g. Meters - <i>be sure to capitalize first letter of the unit name</i>) or click on the bolded map unit name and select the desired map unit from the dropdown list. Show Map Data Units can similarly be turned off (select or type False) or on (select or type True).</ul>
+<ul>
+<li>Debug Log File allows you to select the output location to save a <a href="General Help\Glossary of Terms">log file</a>.</ul>
+<ul>
+<li>Display Options allows you to select the Map Background Color and the Mouse Wheel Zoom options. Map Background Color allows you to set the background color of your map. To do this, simply click inside the Display Options box and type the color name (i.e Blue - <i>be sure to capitalize first letter of the color name</i>) or click on the bolded color name and select the desired color from the dropdown list. Mouse Wheel Zoom allows you to select how the wheel on your mouse behaves and can be set to zoom in when you push the wheel forward (select or type WheelUpZoomsIn), zoom out when you pull the wheel backward (select or type WheelUpZoomsOut), or nothing happens (select or type NoAction).</ul>
+<ul>
+<li>File Formats allows you to select ArcInfo Grid Loading Behavior and TIFF/IMG Loading Behavior options. ArcInfo Grid Loading Behavior allows you to load the ArcInfo Grid as a grid (select or type LoadAsGrid - <i>be sure to capitalize first letters of each word with no spaces</i>) or as an image (select or type LoadAsImage). TIFF/IMG Loading Behavior allows you to load a TIFF or IMG file format as a grid (select or type LoadAsGrid), as an image (select or type LoadAsImage), or the program will automatically detect the data type (select or type Automatic). If Automatic is selected, the program decides if the data have three bands that each range in values from 0 to 255, and if so, it will load the data as an image, otherwise it will load the data as a grid.</ul>
+<ul>
+<li>Map Behavior allows you to manually set the lat/lon bounds independent of height/width.</ul>
+<ul>
+<li> Project Projection allows you to set the projection of your MapWindow session. A specific order is recommended to use Project Projection including:
+<ol>
+<li>Category is the projection of your MapWindow session and should be set first. Options include Geographic Coordinate System, Projected Coordinate System, and Custom Projection. The first two options include many common geographic and projected coordinate systems that are used for geospatial data, or you can customize your own.</ol>
+<ol>
+<li> Group is the </ol>
+<ol>
+<li> Name is the </ol>
+<ol>
+<li> Use Projection Info.? is used to turn on (select or type True <i>be sure to capitalize first letter of the option True</i>) or off (select or type False) the above projection information. Set this option last.</ol>
+<ol>
+<li>Show Mismatch Warning? is used to turn on (select or type True) or off (select or type False) a warning dialog box that informs you when you try to add data from a different projection.</ol></ul>
+<ul>
+<li>Welcome screen allows you select if the welcome screen appears each time you open a new MapWindow project. You can turn the Welcome Screen on (select or type True <i>be sure to capitalize first letter of the option True</i>) or off (select or type False).</ul>
+
+
+

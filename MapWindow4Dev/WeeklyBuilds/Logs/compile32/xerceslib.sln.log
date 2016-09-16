@@ -1,0 +1,20 @@
+[vr 09-10-2009 15:42:44,63] Start compiling xerces-all.sln 
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: all, Configuration: Release Win32 ------
+Performing Post-Build Event...
+        1 bestand(en) gekopieerd.
+Build log was saved at "file://c:\Dev\SupportLibraries\GDAL\xerces-c\Build\Win32\VC9\Release\obj\all\BuildLog.htm"
+all - 0 error(s), 0 warning(s)
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+[vr 09-10-2009 15:49:53,85] Start compiling xerces-all.sln 
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: all, Configuration: Release Win32 ------
+Performing Post-Build Event...
+        1 bestand(en) gekopieerd.
+Build log was saved at "file://c:\Dev\SupportLibraries\GDAL\xerces-c\Build\Win32\VC9\Release\obj\all\BuildLog.htm"
+all - 0 error(s), 0 warning(s)
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

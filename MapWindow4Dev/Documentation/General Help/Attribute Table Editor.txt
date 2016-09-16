@@ -1,0 +1,145 @@
+The Attribute Table Editor allows you to edit the attributes of vector data, including points, line, and polygons. All funtionality is listed below and includes manual attribute updates, field calculations, and selection options.
+<p>
+<b>Toolbar Functions</b> 
+<ul>
+<li><img src="Zoom to Selected Shape.bmp"> <b>Zoom to Selected Shape</b> - Zooms in the Map Display according to the selected shapes from the attribute table.
+<ol>
+<li>Select a shape by clicking in the Attribute Table Editor at the extreme left (blank) column associated with the shape.
+<li>Click the Zoom to Selected Shape button and the Map Display will zoom to the shape(s) <i>(Note: to select many shapes, hold down on the keyboard Ctrl key and then click additional shapes)</i>.</ol>
+<li><img src="Show Only Selected Shapes.bmp"> <b>Show Only Selected Shapes</b> - Shows only the shapes selected in the Attribute Table Editor.
+<ol>
+<li>Select a shape by clicking in the Attribute Table Editor at the extreme left (blank) column associated with the shape.
+<li>Click the Show Only Selected Shapes button and the Attribute Table Editor will display only the selected shape(s) <i>(Note: to select many shapes, hold down on the keyboard Ctrl key and then click additional shapes)</i></ol>.
+<li><img src="Import Field Definitions from DBF.bmp"> <b>Import Field Definitions from DBF</b> - 
+<li><img src="Field Calculator Tool.bmp"> <b>Field Calculator Tool</b> - Calculates values for the selected shape(s) in the Attribute Table Editor according to your specified input equation.
+<ol>
+<li>Select the shape(s) to calculate or do not select any to calculate for all shapes.
+<li>Click the Field Calculator Tool button and a dialog box opens.
+<li>Click the drop-down list titled Destination Table Field to highlight the field for which you will populate with an equation.
+<li>Type an equation into the lowest white box <i>(Note: you can type directly into the box, or to add Table Fields and Functions simply double-click them)</i>.
+<li>Click</ol>
+<li><img src="Refresh Coloring Scheme.bmp"> <b>Refresh Coloring Scheme</b> - 
+<ol>
+<li>
+<li></ol></ul>
+<p>
+<b>Menu Functions</b>
+<ul>
+<li><b>Edit</b>  
+<ul>
+<li><b>Add Field</b> - Adds a field to the Attribute Table Editor and allows you to specify the name, file type, width, and precision.
+<ol>
+<li>Click Edit->Add Field, and then a dialog box appears titled Create Field.
+<li>Title the new field.
+<li>Select the data type.
+<li>Select the width.
+<li>Select the precision, if the data type is double.</ol>
+<li><b>Remove Field</b> - Removes a field from the Attribute Table Editor.
+<ol>
+<li>Click Edit->Remove Field, and then a dialog box appears titled Delete Field.
+<li>Click the Field to Remove drop down button to select the field to remove.
+<li>Click OK, and then the field is removed.</ol>
+<li><b>Rename Field</b> - Renames a field in the Attribute Table Editor.
+<ol>
+<li>Click Edit->Rename Field, and then a dialog box appears titled Rename Field.
+<li>Click the Field to Rename drop down button to select the field to rename.
+<li>Type the new name in the available white input box.
+<li>Click OK, and then the field is renamed.</ol></ul>
+<li><b>View</b>
+<ul>
+<li><b>Show Only Selected Shapes</b>
+<ul>
+<li>See the above explanation under Toolbars Functions.</ul>
+<li><b>Zoom to Selected Shapes</b>
+<ul>
+<li>See the above explanation under Toolbars Functions.</ul>
+<li><b>Zoom to Shape Being Edited</b> - Zooms in the Map Display to the shape being edited in the Attribute Table Editor.
+<ol>
+<li>Click View->Zoom to Shape Being Edited
+<li>Minimize the Attribute Table Editor to view in the Map Display the shape being edited.</ol></ul>
+<li><b>Selection</b>
+<ul>
+<li><b>Query</b> - Allows you to select the from the shapes in the Attribute Table Editor according to your specified query expression <i>(Note: an example of a query expression is Area > 5000 which will select all shapes with areas greater than 5000)</i>.
+<ol>
+<li>Click Selection->Query, and then a dialog opens titled Query.
+<li>Type your query expression into the dialog box's large white area.
+<li>Click the Apply button, and then shapes will be selected in the Attribute Table Editor according to your specified query expression.</ol>
+<li><b>Select All</b> - Selects all the shapes in the Attribute Table Editor.
+<ul>
+<li>Click Selection->Select All, and then all the shapes in the Attribute Table Editor are selected.</ul>
+<li><b>Select None</b> - Di-selects all the shapes in the Attribute Table Editor.
+<ul>
+<li>Click Selection->Select None, and then all the shapes in the Attribute Table Editor are not selected.</ul>
+<li><b>Switch Selection</b> - Selects all shapes not currently selected and di-selects all shapes that were selected.
+<ul>
+<li>Click Selection->Switch Selection, and then all the shapes in the Attribute Table Editor that were selected are not and the shapes that were not selected now are selected.</ul>
+<li><b>Export Selected Features</b> - Saves the selected shapes in the Attribute Table Editor as a shapefile.
+<ol>
+<li>Select the shape(s) that you want saved in a new shapefile by clicking in the Attribute Table Editor at the extreme left (blank) column associated with the shape <i>(Note: to select many shapes, hold down on the keyboard Ctrl key and then click additional shapes)</i>.
+<li>Click Selection->Export Selected Features, and then a dialog box appears titled Save As.
+<li>Browse to the location you would like to store your shapefile.
+<li>Name your shapefile.
+<li>Click OK, and then your shapefile is saved according to the shapes you selected, and also the stored location.</ol></ul>
+<li><b>Tools</b> 
+<ul>
+<li><b>Find</b> - Allows you to search for a text string from the Attribute Table Editor. The location of the text will be displayed in the Attribute Table Editor.
+<ol>
+<li>Click Tools->Find, and then a dialog box opens titled Find.
+<li>Type into the white box the text that you would like to find.
+<li>Click OK, and then the text is displayed in the Attribute Table Editor <i>(Note: if the text does not exist in the Attribute Table Editor, a dialog box  appears and says the string could not be found)</i>.</ol>
+<li><b>Replace</b> - Allows you to search for a text string from the Attribute Table Editor and then replace it with another text string.
+<ol>
+<li>Click Tools->Replace, and then a dialog box opens titled Replace.
+<li>Type into the Find box the text that you would like to find, and then type into the Replace box the text that you would like to replace.
+<li>Click Replace, then the text is replaced in the Attribute Table Editor. A dialog box appears and displays how many replacements were made <i>(Note: if the text does not exist in the Attribute Table Editor, a dialog box appears and says the 0 replacements were made)</i>.
+</ol>
+<li><b>Import Field Definitions from DBF</b>
+<ul>
+<li>See the above explanation under Toolbars Functions.</ul>
+<li><b>Field Calculator Tool</b>
+<ul>
+<li>See the above explanation under Toolbars Functions.</ul>
+<li><b>Generate or Update MWShapeID Field</b> - Creates a new identification field titled MWShapeID.
+<ol>
+<li>Click Tools->Generate or Update MWShapeID Field, and then a new identification field is created titled MWShapeID.
+<li>Click the Apply button of the Attribute Table Editor to save your changes.</ol>
+<li><b>Copy ShapeIDs to Specified Field</b> - Copies the shape ID's to a field that you specify.
+<ol>
+<li>Click Tools->Copy ShapeIDs to Specified Field, and then a dialog box opens titled Enter Field Name.
+<li>Type the name of the field to put ID values in.
+<li>Click OK, and then ID values are placed in the specified field.</ol></ul>
+<p>
+<b>Field Functions</b>
+<ul>
+<li><b>Calculate Values (All Records)</b> - Calculates all shapes of one field in the Attribute Table Editor according to your specified calculation.
+<ol>
+<li>Right click on a field in the Attribute Table Editor.
+<li>Click Calculate Values (All Records), and then a dialog box opens titled Field Calculator.
+<li> See the above explanation under Toolbars Functions and Field Calculator.</ol>
+<li><b>Assign Values (Selected Records)</b> - Assigns values to the selected records of a field.
+<ol>
+<li>Right click on a field in the Attribute Table Editor.
+<li>Click Assign Values (Selected Records), and then a dialog box opens titled Assign Values (Selected Records).
+<li> Type the numerical value, word, or other symbol into the input box.
+<li>Click OK, and then your input value is Assigned to the selected records of the field.</ol>
+<li><b>Trim Text (All Records)</b> - 
+<li><b>Trim Text (Selected Records)</b> - 
+<li><b>Sort ASC</b> - Sorts the cell values of a field ascendingly from numerical smallest to largest value or from alphebetical A to Z.
+<ol>
+<li>Right click on a field in the Attribute Table Editor.
+<li>Click Sort ASC, and then the field is sorted in ascending order.</ol>
+<li><b>Sort Desc</b> - Sorts the cell values of a field descendingly from numerical largest to smallest value or from alphebetical Z to A.
+<ol>
+<li>Right click on a field in the Attribute Table Editor.
+<li>Click Sort Desc, and then the field is sorted in descending order.</ol> 
+<li><b>Statistics</b> - Calculates descriptive statistics for a numeric field including Sum, Count, Mean, Maximum, Minimum, Range, and Standard Deviation.
+<ol>
+<li>Right click on a field in the Attribute Table Editor.
+<li>Click Statistics, and then a dialog box appears titled Statistics.</ol></ul>
+
+
+
+
+
+
+

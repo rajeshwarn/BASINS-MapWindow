@@ -1,0 +1,7 @@
+
+Microsoft (R) Visual Studio Version 10.0.30319.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: MapWinGIS10, Configuration: NDebug with Symbols x64 ------
+1>  Could Not Find C:\dev\MapWinGIS4Dev\NDebug with Symbols\x64\*.tlb
+1>  MapWinGIS.vcxproj -> C:\dev\MapWinGIS4Dev\..\MapWindow4Dev\Bin64\MapWinGIS.ocx
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

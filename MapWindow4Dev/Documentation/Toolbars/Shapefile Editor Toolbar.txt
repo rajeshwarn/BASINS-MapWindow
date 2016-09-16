@@ -1,0 +1,90 @@
+Listed below are the basic functions of the Shapefile Editor Toolbar tools. For easy visual reference, images of each tool are included. To use a tool, simply click on that tool in your MapWindow application <i>(Note: Be sure to enable Undo Options so you can undo while you edit shapefiles)</i> also <i>(Note: to learn more about Attribute Table Editor Toolbars <img src="../General Help/Attribute Table Editor Toolbar.bmp">, click <a href="General Help/Attribute Table Editor">here</a>)</i>.
+<ul>
+<li><img src="CreateNewShapefile.bmp"> <b>Create New Shapefile</b> - Allows you to create a new point, line, or polygon shapefile. 
+<ol>
+<li>Click on the tool and a dialog box called New Shapefile Options opens and you can then choose the new shapefile name. 
+<li>Type the full file-path name or click this button <img src="Browse.bmp"> to browse and save your new shapefile.</ol>
+<li><img src="AddPredefinedShape.bmp"> <b>Add a New Generic Predefined Shape to Current Shapefile</b> - Allows you to add the basic shapes n-Sided Regular Polygon, Circle, Rectangle, and Elipse to your highlighted shapefile according to the specified size and location. 
+<ol>
+<li>Click the Add a New Generic Predefined Shape to Current Shapefile tool in the Shapefile Editor Toolbar.
+<li>Select which type of shape (n-Sided Regular Polygon, Circle, Rectangle, or Elipse).
+<li>Select the size.
+<li>Click on the map display where you would like the shape to appear. (Multiple clicks will add multiple shapes) 
+<li>When you are done placing the shape(s), then click the Done button on the Add Predefined Basic Shape dialog box.<i>(Note: Be sure to enable Undo Options so you can undo any mis-placed geometric shapes)</i>
+</ol><li><img src="AddNewShape.bmp"> <b>Add New Shape to Current Shapefile</b> - Allows you to add a shape to your highlighted shapefile according to the specified click location. For points, each click adds a point. For polylines and polygons, each click adds a vertex.
+<ol>
+<li>Click to add the desired number of points or vertices.
+<li>To close off a polygon, simply click once on the vertex which encloses the polygon. <i>(Note: As you close off the polygon, the line will jump to the closest vertex and then snap when you click on that vertex)</i></ol>
+<li><img src="RemoveShape.bmp"> <b>Remove Shape from Current Shapefile</b> - Allows you to remove a shape from your highlighted shapefile according to the selected shape(s).
+<li><img src="CopySelectedShape.bmp"> <b>Copy the Selected Shape to the Clipboard</b> - Allows you to copy the selected shapes from the map display.
+<li><img src="PasteSelectedShape.bmp"> <b>Paste the Shape from the Clipboard</b> - Allows you to paste the selected shapes to the map display.
+<li><img src="MergeTwoShapes.bmp"> <b>Merge Two Shapes</b> - Allows you to merge two shapes. <ol>
+<li>Click the Merge Two Shapes button.
+<li>Click on the first shape.
+<li>Click any subsequent shapes that you want merged by holding down the Ctrl key on your keyboard and then click the shape(s). <i>(Note: Although all shapes are merged into one shape visually, this tool maintains the attributes of only the first shape clicked)</i></ol>
+<li><img src="EraseSelectedShape.bmp"> <b>Erase Current Layer at Selected Shape</b> - Allows you to erase any selected shape(s).
+<ol>
+<li>Select the shape(s) using the Select button.
+<li>Click the Erase Current Layer at Selected Shape button and the shapes are erased from the shapefile.</ol>
+<li><img src="EraseBelowSelectedShape.bmp"> <b>Erase Current Layer Beneath the Selected Shape</b> - Allows you to erase beneath any selected shape(s).
+<ul>
+<li>Click the Erase Current Layer Beneath the Selected Shape button and any shapes are erased from beneath the selected shape.</ul>
+<li><img src="MoveShape.bmp"> <b>Move Existing Shapes in Selected Layer</b> - Allows you to move any selected shape(s).
+<ol>
+<li>Click on the first shape.
+<li>Click any subsequent shapes by holding down the Ctrl key on your keyboard.
+<li>Click the Move Existing Shapes in Selected Layer button and drag the mouse to the new location.
+<li>Release the click (it may take a few seconds) and the shape(s) will move to where you released the click.</ol>
+<li><img src="RotateShape.bmp"> <b>Rotate a Shape about its Centroid or a Specific Point</b> - Allows you to rotate any selected shape(s)from + 180 to -180 degrees.
+<ol>
+<li>Click the Rotate a Shape about its Centroid or a Specific Point button and a dialog box appears.
+<li>Type the degree of rotation amount or use the slider bar.
+<li>Rotate the shape about its centroid(default option) or any selected point on the shape.
+<li>Click Do Rotation to rotate about the centroid.
+<p>
+Otherwise
+<p>
+<li>Click the hyperlink Get Point from Map to select a new rotation point from the map.
+<li>Click in the map display on the new rotation point.
+<li>Click Do Rotation. The shape will rotate about the rotation point for the chosen number of degrees.</ol>
+<li><img src="ResizeShape.bmp"> <b>Resize (Expand or Shrink) a Shape</b> - Allows you to resize any selected shape(s).
+<ol>
+<li>Click on the first shape.
+<li>Click any subsequent shapes by holding down the Ctrl key on your keyboard.
+<li>Click the Resize (Expand or Shrink) a Shape button. A dialog box appears titled Resize Shape and you may expand or shrink the shape(s) according to the specified percent (expand or shrink). You may also resize by a distance which you specify. 
+<li>Click the Resize button to resize the selected shape(s).</ol>
+<li><img src="MoveVertex.bmp"> <b>Move an Existing Vertex in a Shape</b> - Allows you to move the vertices of any shape. 
+<ol>
+<li>Click on the Move an Existing Vertex in a Shape button.
+<li>Place the mouse cursor over the shape of interest and the vertices will appear.
+<li>Place the mouse over the vertex to be moved and it will highlight.
+<li>Click and drag the vertex to the desired location.
+<li>Release the click.</ol>
+<li><img src="AddVertex.bmp"> <b>Add a Vertex to an Existing Shape</b> - Allows you to add a vertex to any shape. 
+<ol>
+<li>Click on the Add a Vertex to an Existing Shape button and the mouse cursor will show a plus sign.
+<li>Place the mouse cursor over the shape of interest and the vertices will appear.
+<li>Place the mouse over the location to add a vertex and it will highlight.
+<li>Click to add a vertex.</ol> 
+<li><img src="RemoveVertex.bmp"> <b>Remove a Vertex from an Existing Shape</b> - Allows you to remove a vertex from any shape.
+<ol>
+<li>Click on the Remove a Vertex from an Existing Shape button and the mouse cursor will show a minus sign.
+<li>Place the mouse cursor over the shape of interest and the vertices will appear.
+<li>Place the mouse over the location to remove a vertex and it will highlight.
+<li>Click to remove a vertex.</ol>
+<li><img src="CheckCleanUpShapefile.bmp"> <b>Check and Clean Up the Shapefile</b> - Allows you to clean and delete any vertices that are duplicates or are within a specified distance from an adjacent vertex <i>(Note: This process make take some time, depending on the size and number of shapes).</i> 
+<ol>
+<li>Click on the Check and Clean Up the Shapefile button and a dialog box will appear titled Check and Clean Up.
+<li>Specify the distance between vertices to allow for deletion of one vertex.
+<p>
+Or
+<p>
+<li>Type 0, and only duplicate vertices will be deleted.</ol>
+<li><img src="UndoOptions.bmp"> <b>Undo Options</b> - Listed below are the available undo options.
+<ul>
+<li><b>Undo Last Change</b> - Allows you to undo the last change made while editing a shape.
+<li><b>Enable Undo Capability</b> - Allows you to enable undo capabilities in your MapWindow project (Note: Be sure to click the Enable Undo Capability button before you start editing your shapes, because once you start editing, the changes cannot be undone otherwise).
+<li><b>Disable Undo Capability</b> - Allows you to disable undo capabilities in your MapWindow project.
+</ul></ul>
+
+

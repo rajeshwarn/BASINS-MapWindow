@@ -1,0 +1,32 @@
+<h>Printable Word Document</h>
+
+Microsoft Word must be installed before converting to a printable Word document (basename.doc).
+Word 97 and Word 2000 have been tested with AuthorDoc. In addition, the file WB70EN32.TLB 
+should be in the windows system directory. This file allows the use of WordBasic from Visual Basic.
+Download from <a href="http://www.microsoft.com/WordDev/Articles/exe/WB70EN32.exe">Microsoft</a> or
+from <a href="ftp://hspf.com/pub/misc/WB70EN32.TLB">Aqua Terra</a>.
+<p>
+<ul>
+<li>Select the Convert option in the File menu
+<li>Choose Printable Document
+<li>Select whether or not you want 
+  <ul>
+  <li>a table of Contents (reccommended)
+  <li>Footer Timestamps (sometimes useful for version control)
+  </ul>
+<li>If you already have the basename.doc file open that you are about to redo, close it
+<li>Press the Convert button.
+<li>The Out directory will now contain basename.doc - open it and see how you like the final product.
+</ul>
+
+Some manual post-processing will generally be helpful before printing because AuthorDoc is 
+not very smart about deciding where page breaks should go. If there are many sections 
+shorter than one page, it is probably desirable to remove several page breaks. Experiment 
+with removing page breaks and see how it affects the table of contents. Where images fall 
+near the edges of pages, it may be desirable to move the image to let the text flow more 
+evenly and take up fewer pages. 
+<p>
+When manually editing the output, remember that any changes made will be lost when the document
+is regenerated from source. Changes to the text should be made to the source rather than the
+Word document so they will carry over to other formats and future versions of the document. 
+

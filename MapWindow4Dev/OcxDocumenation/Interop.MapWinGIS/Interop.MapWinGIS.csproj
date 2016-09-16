@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C8417744-324A-4766-AE1D-1387C4AC359E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MapWinGIS</RootNamespace>
+    <AssemblyName>Interop.MapWinGIS</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Interop.MapWinGIS.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MapWinGIS, Version=4.8.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\MapWinGIS.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Com Classes\Chart.cs" />
+    <Compile Include="Com Classes\ChartField.cs" />
+    <Compile Include="Com Classes\Charts.cs" />
+    <Compile Include="Com Classes\ColorScheme.cs" />
+    <Compile Include="Com Classes\ESRIGridManager.cs" />
+    <Compile Include="Com Classes\Extents.cs" />
+    <Compile Include="Com Classes\Field.cs" />
+    <Compile Include="Com Classes\GeoProjection.cs" />
+    <Compile Include="Com Classes\GlobalSettings.cs" />
+    <Compile Include="Com Classes\Grid.cs" />
+    <Compile Include="Com Classes\GridColorBreak.cs" />
+    <Compile Include="Com Classes\GridColorScheme.cs" />
+    <Compile Include="Com Classes\GridHeader.cs" />
+    <Compile Include="Com Classes\Image.cs" />
+    <Compile Include="Com Classes\LabelCategory.cs" />
+    <Compile Include="Com Classes\LabelClass.cs" />
+    <Compile Include="Com Classes\Labels.cs" />
+    <Compile Include="Com Classes\LinePattern.cs" />
+    <Compile Include="Com Classes\LineSegment.cs" />
+    <Compile Include="Com Classes\PointClass.cs" />
+    <Compile Include="Com Classes\Shape.cs" />
+    <Compile Include="Com Classes\ShapeDrawingOptions.cs" />
+    <Compile Include="Com Classes\ShapefileCategories.cs" />
+    <Compile Include="Com Classes\ShapefileCategory.cs" />
+    <Compile Include="Com Classes\ShapefileColorBreak.cs" />
+    <Compile Include="Com Classes\ShapefileColorScheme.cs" />
+    <Compile Include="Com Classes\ShapeNetwork.cs" />
+    <Compile Include="Com Classes\TableClass.cs" />
+    <Compile Include="Com Classes\Tiles.cs" />
+    <Compile Include="Com Classes\Tin.cs" />
+    <Compile Include="Com Classes\Utils.cs" />
+    <Compile Include="Com Classes\Vector.cs" />
+    <Compile Include="Enumerations.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Com Classes\Shapefile.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

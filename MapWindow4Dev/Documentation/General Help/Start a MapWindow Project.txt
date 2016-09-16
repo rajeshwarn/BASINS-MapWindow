@@ -1,0 +1,26 @@
+<b>Steps to Open a New MapWindow Project</b>
+<ol>
+<li>Double click on the MapWindow icon that is on your desktop (or click Start->All Programs (or Programs)->MapWindow GIS->MapWindow GIS). A welcome screen appears titled Welcome to MapWindow.
+<li>Click on the hyperlink titled Add Data to This Project.
+</ol>
+<b>Steps to Open an Existing MapWindow Project</b>
+<ol>
+<li>Double click on the MapWindow icon that is on your desktop (or click Start->All Programs (or Programs)->MapWindow GIS->MapWindow GIS). A welcome screen appears titled Welcome to MapWindow.
+<li>Click on the hyperlink titled Open Document. A dialog box appears and allows you to add a MapWindow Project file.
+<li>Search for an existing MapWindow project file and highlight it by clicking on the file name.
+<li>Click the Open button. <i>(Note: to learn more about MapWindow Project Files, click <a href="Menus\File">here</a> and then browse for the title To Save a MapWindow Project)</i></ol>
+<p>
+To learn more about the below topics click on the hyperlinks.
+<br>
+<ul>
+<li><a href="Add Data">Adding Data</a>
+<li><a href="Toolbars\Shapefile Editor Toolbar">Editing Shapefiles</a>
+<li><a href="Find a Function">Additional MapWindow Functionality</a>
+<li><a href="Online Help">Online Help</a></ul>
+
+
+
+
+
+
+

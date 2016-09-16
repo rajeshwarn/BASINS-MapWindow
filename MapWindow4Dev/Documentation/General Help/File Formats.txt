@@ -1,0 +1,47 @@
+Below are the file formats supported by MapWindow GIS:
+<p>
+All Supported Vector Formats
+<ul>
+<li>ESRI Shapefiles (*.shp)
+<li>AutoCAD (*.dxf) can be added through a converter
+<li>CSV (*.csv) can be added through a converter
+</ul> 
+All Supported Grid Formats
+<ul>
+<li>USU Binary (*.bgd)
+<li>ASCII Text (ESRI Ascii Grid) (*.asc, *.arc)
+<li>ESRI Grid (sta.adf)
+<li>ESRI FLT (*.flt)
+<li>USGS SDTS 30m (*.ddf)
+<li>PAux (PCI .aux Labelled) (*.aux)
+<li>PIX (PCIDSK Database File) (*.pix)
+<li>DTED (DTED Elevation Raster) (*.dhm, *.dt0, *.dt1)
+<li>ECW (Enhanced Compression Wavelet)(*.ecw)
+<li>Windows Metafile (*.wmf)</ul>
+All Supported Image Formats
+<ul>
+<li>BIL (ESRI HDR/BIL Images) (*.bil)
+<li>GeoTIFF (*.tif)
+<li>ERDAS Imagine (*.img)
+<li>ArcInfo Grid Images (hdr.adf)
+<li>ASCII Grid Images (*.asc)
+<li>Binary Terrain Images (*.bt)
+<li>BIL (ESRI HDR/BIL Images)(*.bil)
+<li>Bitmap Images (*.bmp)
+<li>ERDAS Imagine (*.img)
+<li>GIF Images (*.gif)
+<li>PC Raster Images (*.map)
+<li>JPEG2000 Images (*.jp2)
+<li>JPEG Images (*.jpg)
+<li>SID (MrSID Images)(*.sid)
+<li>Portable Network Images (*.pgm, *.pnm, *.png, *....</ul>
+Regarding TIFF formats, a TIFF may be either a plain image (like a bitmap or jpeg), or it may be a GeoTIFF.
+<ul>
+<li>Plain TIFF images contain Red, Green, and Blue color bands and values range from 0-255. These images need to be accompanied by a "world file", which will be the same filename as the image, but with the extension ".tfw" or ".wld".</ul> 
+<ul>
+<li>GeoTIFF grids contain z values such as elevation (e.g. DEM) or precipitation (e.g. PRISM), or multiple bands (e.g. Landsat) and value ranges depend on the grid type. By default, the first band of a grid is loaded for display. Also, these grids do not need a world file.</ul>
+<br>
+Loading options for TIFFs and images are LoadAsGrid, LoadAsImage, and Automatic and these are located under File->Settings->File Formats->TIFF/IMG Loading Behavior. LoadAsGrid will load all layers that contain a *.tif file extension as grids. LoadAsImage will load all layers that contain a *.tif file extensions as images. Automatic will automatically load layers that contain a *.tif file extension as either grids or images, depending on the result of analyzing the data.
+
+
+

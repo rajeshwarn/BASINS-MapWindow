@@ -1,0 +1,109 @@
+<html><head><title>Web Tile Servers And Maps</title></head><body>
+<table>
+<tr><th>Server Name Link</th>
+    <th>Link</th>
+    <th>TileURLPattern</th>
+    <th>WebmapURLPattern</th>
+    <th>Copyright</th>
+    <th>ZoomMin</th>
+    <th>ZoomMax</th>
+    <th>LatMin</th>
+    <th>LatMax</th>
+    <th>LonMin</th>
+    <th>LonMax</th>
+    <th>Transparent</th>
+</tr>
+<tr><td>OpenStreetMap</td>
+    <td>http://openstreetmap.org/</td>
+    <td>http://{abc}.tile.openstreetmap.org/{Zoom}/{X}/{Y}.png</td>
+    <td>http://www.openstreetmap.org/?lat={Lat}&lon={Lon}&zoom={Zoom}</td>
+    <td>(C) OpenStreetMap</td>
+    <td>0</td>
+    <td>18</td>
+</tr>
+<tr><td>Bing Labeled Aerial</td>
+    <td>http://www.bing.com/maps/</td>
+    <td>http://ecn.t{0123}.tiles.virtualearth.net/tiles/h{BingQuadKey}?g={VersionBing}&mkt=en-us&n=z</td>
+    <td>http://www.bing.com/maps/?cp={Lat}~{Lon}&lvl={Zoom}&sty=h</td>
+    <td>(C) Microsoft Corporation (C) NAVTEQ</td>
+    <td>1</td>
+    <td>18</td>
+</tr>
+<tr><td>Bing Roads</td>
+    <td>http://www.bing.com/maps/</td>
+    <td>http://ecn.t{0123}.tiles.virtualearth.net/tiles/r{BingQuadKey}?g={VersionBing}&mkt=en-us&lbl=l1&stl=h&shading=hill&n=z</td>
+    <td>http://www.bing.com/maps/?cp={Lat}~{Lon}&lvl={Zoom}&sty=r</td>
+    <td>(C) Microsoft Corporation (C) NAVTEQ</td>
+    <td>1</td>
+    <td>18</td>
+</tr>
+<tr><td>Bing Aerial</td>
+    <td>http://www.bing.com/maps/</td>
+    <td>http://ecn.t{0123}.tiles.virtualearth.net/tiles/a{BingQuadKey}?g={VersionBing}&mkt=en-us&n=z</td>
+    <td>http://www.bing.com/maps/?cp={Lat}~{Lon}&lvl={Zoom}&sty=a</td>
+    <td>(C) Microsoft Corporation (C) NAVTEQ</td>
+    <td>1</td>
+    <td>18</td>
+</tr>
+<tr><td>OSM - Cloudmade</td>
+    <td>http://maps.cloudmade.com/</td>
+    <td>http://b.tile.cloudmade.com/861a545aa8db599fa26c79ee6ce76753/1/256/{Zoom}/{X}/{Y}.png</td>
+    <td>http://maps.cloudmade.com/?lat={Lat}&lng={Lon}&zoom={Zoom}</td>
+    <td>(C) 2010 CloudMade - Map data CCBYSA 2010 OpenStreetMap.org</td>
+    <td>0</td>
+    <td>18</td>
+</tr>
+<tr><td>OSM - Fine Line</td>
+    <td>http://maps.cloudmade.com/?styleId=2</td>
+    <td>http://b.tile.cloudmade.com/861a545aa8db599fa26c79ee6ce76753/2/256/{Zoom}/{X}/{Y}.png</td>
+    <td>http://maps.cloudmade.com/?lat={Lat}&lng={Lon}&zoom={Zoom}&styleId=2</td>
+    <td>(C) 2010 CloudMade - Map data CCBYSA 2010 OpenStreetMap.org</td>
+    <td>0</td>
+    <td>18</td>
+</tr>
+<tr><td>OSM - Midnight</td>
+    <td>http://maps.cloudmade.com/?styleId=999</td>
+    <td>http://b.tile.cloudmade.com/861a545aa8db599fa26c79ee6ce76753/999/256/{Zoom}/{X}/{Y}.png</td>
+    <td>http://maps.cloudmade.com/?lat={Lat}&lng={Lon}&zoom={Zoom}&styleId=999</td>
+    <td>(C) 2010 CloudMade - Map data CCBYSA 2010 OpenStreetMap.org</td>
+</tr>
+<tr>
+    <td>OpenCycleMap</td>
+    <td>http://www.opencyclemap.org/</td>
+    <td>http://{abc}.tile.opencyclemap.org/cycle/{Zoom}/{X}/{Y}.png</td>
+    <td>http://www.opencyclemap.org/?lat={Lat}&lon={Lon}&zoom={Zoom}</td>
+    <td>(C) OpenStreetMap</td>
+    <td>0</td>
+    <td>16</td>
+</tr>
+<tr><td>Yahoo Satellite</td>
+    <td>http://maps.yahoo.com/#mvt=s</td>
+    <td>http://us.maps3.yimg.com/aerial.maps.yimg.com/png?v={VersionYahooSatellite}&t=a&s=256&x={X}&y={YY}&z={Zoom+1}&r=1</td>
+    <td>http://maps.yahoo.com/#mvt=s&lat={Lat}&lon={Lon}&zoom={Zoom}</td>
+    <td>(C) Yahoo! Inc. Imagery (C) I-cubed, NASA</td>
+</tr>
+<tr><td>Yahoo Maps</td>
+    <td>http://maps.yahoo.com/</td>
+    <td>http://us.maps2.yimg.com/us.png.maps.yimg.com/png?v={VersionYahooMap}&x={X}&y={YY}&z={Zoom+1}&r=1</td>
+    <td>http://maps.yahoo.com/?&lat={Lat}&lon={Lon}&zoom={Zoom}</td>
+    <td>(C) Yahoo! Inc. Data (C) NAVTEQ</td>
+</tr>
+<tr><td>ArcGIS Online World Topo Map</td>
+    <td>http://services.arcgisonline.com/ArcGIS/rest/services/</td>
+    <td>http://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{Zoom}/{Y}/{X}</td>
+    <td>-</td>
+    <td>(C) ESRI</td>
+    <td>0</td>
+    <td>18</td>
+</tr>
+<tr><td>ArcGIS Online World Street Map</td>
+    <td>http://services.arcgisonline.com/ArcGIS/rest/services/</td>
+    <td>http://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{Zoom}/{Y}/{X}</td>
+    <td>-</td>
+    <td>(C) ESRI</td>
+    <td>0</td>
+    <td>18</td>
+</tr>
+</table>
+</body>
+</html>

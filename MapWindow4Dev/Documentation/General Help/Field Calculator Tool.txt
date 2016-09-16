@@ -1,0 +1,298 @@
+The following functions may be used in the MapWindow Table Editor's Field Calculator window:
+<br>
+<b>FUNCTION -- DESCRIPTION</b>
+<br>
++ -- addition
+<br>
+- -- subtraction
+<br>
+* -- multiplication
+<br>
+/ -- division
+<br>
+% -- percentage
+<br>
+\ -- integer division
+<br>
+^ -- raise to power
+<br>
+! -- factorial
+<br>
+abs(x) -- absolute value
+<br>
+"atn(x), atan(x)" -- inverse tangent
+<br>
+cos(x) -- cosine
+<br>
+sin(x) -- sin
+<br>
+exp(x) -- exponential
+<br>
+fix(x) -- integer part
+<br>
+int(x) -- integer part
+<br>
+dec(x) -- decimal part
+<br>
+"ln(x), log(x)" -- logarithm natural
+<br>
+"logN(x,n)" -- N-base logarithm
+<br>
+rnd(x) -- random
+<br>
+sgn(x) -- sign
+<br>
+sqr(x) -- square root
+<br>
+cbr(x) -- cube root
+<br>
+tan(x) -- tangent
+<br>
+acos(x) -- inverse cosine
+<br>
+asin(x) -- Inverse sine
+<br>
+cosh(x) -- hyperbolic cosine
+<br>
+sinh(x) -- hyperbolic sine
+<br>
+tanh(x) -- hyperbolic tangent
+<br>
+acosh(x) -- Inverse hyperbolic cosine
+<br>
+asinh(x) -- Inverse hyperbolic sine
+<br>
+atanh(x) -- Inverse hyperbolic tangent
+<br>
+"root(x,n)" -- n-th root (the same as x^(1/n)
+<br>
+"mod(a,b)" -- Division remainder
+<br>
+fact(x) -- factorial
+<br>
+"comb(n,k)" -- combinations
+<br>
+"perm(n,k)" -- permutations
+<br>
+"min(a,b,...)" -- minimum
+<br>
+"max(a,b,...)" -- maximum
+<br>
+"mcd(a,b,...)" -- maximum common divisor 
+<br>
+"mcm(a,b,...)" -- minimum common multiple 
+<br>
+"gcd(a,b,...)" -- greatest common divisor 
+<br>
+"lcm(a,b,...)" -- lowest common multiple 
+<br>
+csc(x) -- cosecant
+<br>
+sec(x) -- secant
+<br>
+cot(x) -- cotangent
+<br>
+acsc(x) -- inverse cosecant
+<br>
+asec(x) -- inverse secant
+<br>
+acot(x) -- inverse cotangent
+<br>
+csch(x) -- hyperbolic cosecant
+<br>
+sech(x) -- hyperbolic secant
+<br>
+coth(x) -- hyperbolic cotangent
+<br>
+acsch(x) -- inverse hyperbolic cosecant
+<br>
+asech(x) -- inverse hyperbolic secant
+<br>
+acoth(x) -- inverse hyperbolic cotangent
+<br>
+rad(x) -- radiant conversion
+<br>
+deg(x) -- degree sess. conversion
+<br>
+grad(x) -- degree cent. conversion
+<br>
+"round(x,d)" -- round a number with d decimal
+<br>
+>  -- greater than
+<br>
+>= -- equal or greater than
+<br>
+<  -- less than
+<br>
+<= -- equal or less than
+<br>
+= -- equal
+<br>
+<>  -- not equal
+<br>
+and -- logic and
+<br>
+or -- logic or
+<br>
+not -- logic not
+<br>
+xor -- logic exclusive-or
+<br>
+nand -- logic nand
+<br>
+nor -- logic nor
+<br>
+nxor -- logic exclusive-nor
+<br>
+Psi(x)  -- Function psi 
+<br>
+"DNorm(x,?,?)" -- Normal density function
+<br>
+"CNorm(x,m,d)" -- Normal cumulative function
+<br>
+"DPoisson(x,k)" -- Poisson density function
+<br>
+"CPoisson(x,k)" -- "Poisson cumulative function k = 1, 2,3 ..."
+<br>
+"DBinom(k,n,x)" -- Binomial density for k successes for n trials 
+<br>
+"CBinom(k,n,x)" -- Binomial cumulative for k successes for n trials 
+<br>
+Si(x) -- Sine integral
+<br>
+Ci(x) -- Cosine integral
+<br>
+FresnelS(x) -- Fresnel's sine integral
+<br>
+FresnelC(x) -- Fresnel's cosine integral
+<br>
+J0(x) -- Bessel's function of 1st kind
+<br>
+Y0(x) -- Bessel's function of 2st kind
+<br>
+I0(x) -- "Bessel's function of 1st kind, modified"
+<br>
+K0(x) -- "Bessel's function of 2st kind, modified"
+<br>
+"BesselJ(x,n)" -- "Bessel's function of 1st kind, nth order"
+<br>
+"BesselY(x,n)" -- "Bessel's function of 2st kind, nth order"
+<br>
+"BesselI(x,n)" -- "Bessel's function of 1st kind, nth order, modified"
+<br>
+"BesselK(x,n)" -- "Bessel's function of 2st kind, nth order, modified"
+<br>
+"HypGeom(x,a,b,c)" -- Hypergeometric function
+<br>
+"PolyCh(x,n)" -- Chebycev's polynomials
+<br>
+"PolyLe(x,n)" -- Legendre's polynomials
+<br>
+"PolyLa(x,n)" -- Laguerre's polynomials
+<br>
+"PolyHe(x,n)" -- Hermite's polynomials
+<br>
+AiryA(x)    -- Airy function Ai(x)
+<br>
+AiryB(x)   -- Airy function Bi(x)
+<br>
+Elli1(x) -- Elliptic integral of 1st kind
+<br>
+Elli2(x)   -- Elliptic integral of 2st kind
+<br>
+Erf(x) -- Error Gauss's function
+<br>
+gamma(x) -- Gamma function
+<br>
+gammaln(x) -- Logarithm Gamma function
+<br>
+"gammai(a,x)" -- Gamma Incomplete function
+<br>
+digamma(x) psi(x) -- Digamma function
+<br>
+"beta(a,b)" -- Beta function
+<br>
+"betaI(x,a,b)" -- Beta Incomplete function
+<br>
+Ei(x) -- Exponential integral
+<br>
+"Ein(x,n)" -- Exponential integral of n order
+<br>
+zeta(x) -- zeta Riemman's function
+<br>
+"Clip(x,a,b)   " -- Clipping function
+<br>
+"WTRI(t,p)" -- Triangular wave  
+<br>
+"WSQR(t,p)" -- Square wave  
+<br>
+"WRECT(t,p,d)" -- Rectangular wave  
+<br>
+"WTRAPEZ(t,p,d)" -- Trapez. wave  
+<br>
+"WSAW(t,p)" -- Saw wave  
+<br>
+"WRAISE(t,p)" -- Rampa wave  
+<br>
+"WLIN(t,p,d)" -- Linear wave  
+<br>
+"WPULSE(t,p,d)" -- Rectangular pulse wave  
+<br>
+"WSTEPS(t,p,n)" -- Steps wave  
+<br>
+"WEXP(t,p,a)" -- Exponential pulse wave  
+<br>
+"WEXPB(t,p,a)" -- Exponential bipolar pulse wave  
+<br>
+"WPULSEF(t,p,a)" -- Filtered pulse wave  
+<br>
+"WRING(t,p,a,fm)" -- Ringing wave  
+<br>
+"WPARAB(t,p)" -- Parabolic pulse wave  
+<br>
+"WRIPPLE(t,p,a)" -- Ripple wave  
+<br>
+"WAM(t,fo,fm,m)" -- Amplitude modulation  
+<br>
+"WFM(t,fo,fm,m)" -- Frequecy modulation  
+<br>
+Year(d) -- year
+<br>
+Month(d) -- month
+<br>
+Day(d) -- day
+<br>
+Hour(d) -- hour
+<br>
+Minute(d) -- minute
+<br>
+Second(d) -- second
+<br>
+"DateSerial(a,m,d)" -- Dateserial from date
+<br>
+"TimeSerial(h,m,s)" -- Timeserial from time
+<br>
+time# -- system time
+<br>
+date# -- system date
+<br>
+now# -- system timestamp 
+<br>
+"Sum(a,b,...)" -- Sum
+<br>
+"Mean(a,b,...)" -- Arithmetic mean
+<br>
+"Meanq(a,b,...)" -- Quadratic mean
+<br>
+"Meang(a,b,...)" -- Arithmetic mean
+<br>
+"Var(a,b,...)" -- Variance
+<br>
+"Varp(a,b,...)" -- Variance pop.
+<br>
+"Stdev(a,b,...)" -- Standard deviation
+<br>
+"Stdevp(a,b,...)" -- Standard deviation pop.
+<br>
+"Step(x,a)" -- Haveside's step function
+

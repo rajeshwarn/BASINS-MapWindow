@@ -1,0 +1,60 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapefileEditor13", "ShapefileEditor\ShapefileEditor13.csproj", "{29126229-CB94-4883-88C4-C7D6BCBC9F75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mwIdentifier13", "Identifier\mwIdentifier13.csproj", "{0DAF4107-5CEE-4EFA-90E6-DC7D7FE85EE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mwSymbology13", "SymbologyPlugin\mwSymbology13.csproj", "{4A169101-B908-4F1E-BF5A-FF2B551926B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29126229-CB94-4883-88C4-C7D6BCBC9F75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29126229-CB94-4883-88C4-C7D6BCBC9F75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29126229-CB94-4883-88C4-C7D6BCBC9F75}.Debug|x64.ActiveCfg = Debug|x64
+		{29126229-CB94-4883-88C4-C7D6BCBC9F75}.Debug|x64.Build.0 = Debug|x64
+		{29126229-CB94-4883-88C4-C7D6BCBC9F75}.Debug|x86.ActiveCfg = Debug|x86
+		{29126229-CB94-4883-88C4-C7D6BCBC9F75}.Debug|x86.Build.0 = Debug|x86
+		{29126229-CB94-4883-88C4-C7D6BCBC9F75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29126229-CB94-4883-88C4-C7D6BCBC9F75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29126229-CB94-4883-88C4-C7D6BCBC9F75}.Release|x64.ActiveCfg = Release|x64
+		{29126229-CB94-4883-88C4-C7D6BCBC9F75}.Release|x64.Build.0 = Release|x64
+		{29126229-CB94-4883-88C4-C7D6BCBC9F75}.Release|x86.ActiveCfg = Release|x86
+		{29126229-CB94-4883-88C4-C7D6BCBC9F75}.Release|x86.Build.0 = Release|x86
+		{0DAF4107-5CEE-4EFA-90E6-DC7D7FE85EE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DAF4107-5CEE-4EFA-90E6-DC7D7FE85EE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DAF4107-5CEE-4EFA-90E6-DC7D7FE85EE8}.Debug|x64.ActiveCfg = Debug|x64
+		{0DAF4107-5CEE-4EFA-90E6-DC7D7FE85EE8}.Debug|x64.Build.0 = Debug|x64
+		{0DAF4107-5CEE-4EFA-90E6-DC7D7FE85EE8}.Debug|x86.ActiveCfg = Debug|x86
+		{0DAF4107-5CEE-4EFA-90E6-DC7D7FE85EE8}.Debug|x86.Build.0 = Debug|x86
+		{0DAF4107-5CEE-4EFA-90E6-DC7D7FE85EE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DAF4107-5CEE-4EFA-90E6-DC7D7FE85EE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DAF4107-5CEE-4EFA-90E6-DC7D7FE85EE8}.Release|x64.ActiveCfg = Release|x64
+		{0DAF4107-5CEE-4EFA-90E6-DC7D7FE85EE8}.Release|x64.Build.0 = Release|x64
+		{0DAF4107-5CEE-4EFA-90E6-DC7D7FE85EE8}.Release|x86.ActiveCfg = Release|x86
+		{0DAF4107-5CEE-4EFA-90E6-DC7D7FE85EE8}.Release|x86.Build.0 = Release|x86
+		{4A169101-B908-4F1E-BF5A-FF2B551926B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A169101-B908-4F1E-BF5A-FF2B551926B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A169101-B908-4F1E-BF5A-FF2B551926B7}.Debug|x64.ActiveCfg = Debug|x64
+		{4A169101-B908-4F1E-BF5A-FF2B551926B7}.Debug|x64.Build.0 = Debug|x64
+		{4A169101-B908-4F1E-BF5A-FF2B551926B7}.Debug|x86.ActiveCfg = Debug|x86
+		{4A169101-B908-4F1E-BF5A-FF2B551926B7}.Debug|x86.Build.0 = Debug|x86
+		{4A169101-B908-4F1E-BF5A-FF2B551926B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A169101-B908-4F1E-BF5A-FF2B551926B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A169101-B908-4F1E-BF5A-FF2B551926B7}.Release|x64.ActiveCfg = Release|x64
+		{4A169101-B908-4F1E-BF5A-FF2B551926B7}.Release|x64.Build.0 = Release|x64
+		{4A169101-B908-4F1E-BF5A-FF2B551926B7}.Release|x86.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

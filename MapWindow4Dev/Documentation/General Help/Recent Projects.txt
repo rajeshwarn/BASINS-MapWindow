@@ -1,0 +1,4 @@
+<b>Recent Projects</b>
+<p>
+Recent Projects allows you to open existing MapWindow projects that have been used previously. The MapWindow application stores where you saved recent MapWindow projects and lists them under Main Menu; go to File->Recent Projects.
+

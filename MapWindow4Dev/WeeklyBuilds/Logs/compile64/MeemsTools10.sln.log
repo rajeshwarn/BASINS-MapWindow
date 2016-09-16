@@ -1,0 +1,14 @@
+
+Microsoft (R) Visual Studio Version 10.0.30319.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: WizardBase10, Configuration: Debug x64 ------
+  WizardBase10 -> C:\dev\MapWindow4Dev\Bin64\Plugins\MeemsTools\WizardBase.dll
+------ Build started: Project: MeemsTools.CommonFunctions10, Configuration: Debug x64 ------
+  MeemsTools.CommonFunctions10 -> C:\dev\MapWindow4Dev\Bin64\Plugins\MeemsTools\MeemsTools.CommonFunctions.dll
+------ Build started: Project: DrillDownIdentifier10, Configuration: Debug x64 ------
+  DrillDownIdentifier10 -> C:\dev\MapWindow4Dev\Bin64\Plugins\MeemsTools\MeemsTools.DrillDown.dll
+------ Build started: Project: UpdateMeasurements10, Configuration: Debug x64 ------
+  UpdateMeasurements10 -> C:\dev\MapWindow4Dev\Bin64\Plugins\MeemsTools\MeemsTools.UpdateMeasurements.dll
+------ Build started: Project: DataSources10, Configuration: Debug x64 ------
+  DataSources10 -> C:\dev\MapWindow4Dev\Bin64\Plugins\MeemsTools\MeemsTools.DataSources.dll
+========== Build: 5 succeeded or up-to-date, 0 failed, 0 skipped ==========

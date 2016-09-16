@@ -1,0 +1,32 @@
+
+Microsoft (R) Visual Studio Version 10.0.30319.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: Utilities10, Configuration: Debug x64 ------
+  Utilities10 -> C:\dev\D4EM\Bin64\Utilities.dll
+------ Build started: Project: DataCache10, Configuration: Debug x64 ------
+C:\dev\D4EM\EDDT\DataCache\CacheManager.cs(138,32): warning CS0168: The variable 'e' is declared but never used
+C:\dev\D4EM\EDDT\DataCache\CacheIndex.cs(59,24): warning CS0219: The variable 'datasetXML' is assigned but its value is never used
+C:\dev\D4EM\EDDT\DataCache\CacheIndex.cs(62,24): warning CS0168: The variable 'tempKey' is declared but never used
+C:\dev\D4EM\EDDT\DataCache\DatasetInfo.cs(54,20): warning CS0168: The variable 'tempKey' is declared but never used
+C:\dev\D4EM\EDDT\DataCache\DatasetInfo.cs(54,29): warning CS0168: The variable 'tempVal' is declared but never used
+C:\dev\D4EM\EDDT\DataCache\DatasetInfo.cs(239,20): warning CS0168: The variable 'val' is declared but never used
+C:\dev\D4EM\EDDT\DataCache\CacheIndex.cs(16,30): warning CS0414: The field 'DataCache.CacheIndex.schemas' is assigned but its value is never used
+C:\dev\D4EM\EDDT\DataCache\CacheIndex.cs(24,22): warning CS0414: The field 'DataCache.CacheIndex._validDoc' is assigned but its value is never used
+
+Compile complete -- 0 errors, 8 warnings
+  DataCache10 -> C:\dev\D4EM\Bin64\DataCache.dll
+------ Build started: Project: WebDownload10, Configuration: Debug x64 ------
+  WebDownload10 -> C:\dev\D4EM\Bin64\WebDownload.dll
+------ Build started: Project: EDDTLib10, Configuration: Debug x64 ------
+C:\dev\D4EM\EDDT\EDDTLib\NLCD.cs(203,13): warning CS0162: Unreachable code detected
+C:\dev\D4EM\EDDT\EDDTLib\Common.cs(82,37): warning CS0168: The variable 'ex' is declared but never used
+C:\dev\D4EM\EDDT\EDDTLib\Common.cs(90,37): warning CS0168: The variable 'ex' is declared but never used
+C:\dev\D4EM\EDDT\EDDTLib\Common.cs(359,26): warning CS0219: The variable 'att' is assigned but its value is never used
+C:\dev\D4EM\EDDT\EDDTLib\Common.cs(367,20): warning CS0219: The variable 'arg' is assigned but its value is never used
+C:\dev\D4EM\EDDT\EDDTLib\Common.cs(370,20): warning CS0219: The variable 'argVal' is assigned but its value is never used
+C:\dev\D4EM\EDDT\EDDTLib\NWIS.cs(29,36): warning CS0414: The field 'EDDTLib.NWIS.pProgress' is assigned but its value is never used
+C:\dev\D4EM\EDDT\EDDTLib\NWIS.cs(30,30): warning CS0414: The field 'EDDTLib.NWIS.pLabel' is assigned but its value is never used
+
+Compile complete -- 0 errors, 8 warnings
+  EDDTLib10 -> C:\dev\D4EM\Bin64\EDDTLib.dll
+========== Build: 4 succeeded or up-to-date, 0 failed, 0 skipped ==========

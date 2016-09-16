@@ -1,0 +1,51 @@
+<b>Raster</b>
+
+The GIS Tools Raster menu includes items for working with raster format data such as grids.
+<br>
+The available options include:
+<br>
+Assign Projection to Grids
+<br>
+This tool allows the user to assign a projection to a raster data object. The projection data is written to the grid, but no actual reprojection occurs. This is functionally equivalent to ESRI’s “Define Projection” tool.
+<br>
+Reproject Grids
+<br>
+This tool will take an existing grid and reproject the data to another projection. The user will be prompted for a destination projection and the conversion will take place. If the grid’s current projection cannot be determined, the user will be prompted to specify the current data projection as well.
+<br>
+Change Grid Formats
+<br>
+This tool will allow the user to convert from one grid storage format to another. This tool also allows resampling of the grid during conversion. Conversion between formats would be between ESRI Grid to USU Binary Grid, for instance, while a resampling would be changing the data type from integer to double.
+<br>
+Create Grid Images
+<br>
+This tool will create a georeferenced image of the grid’s data content according to one of several preset coloring schemes which the user will be prompted to select from. These include ‘Desert’, ‘Fall Leaves’, ‘Summer Mountains’, and ‘Valley Fires’, among others.
+<br>
+Merge Grids
+<br>
+This tool will take two or more grids and merge them into one grid. Any area where data is missing will be filled in automatically with the grid’s No Data value. Input grids should all be in the same projection.
+<br>
+Resample Grids
+<br>
+This tool will allow the user to resample the grid from one data type to another. An example would be changing the data type from integer to double. 
+<p>
+<b>Vector</b>
+<br>
+The GIS Tools Vector menu item contains functionality for working with vector data like ESRI Shapefiles (*.shp).
+<br>
+The functions available here include:
+<br>
+Assign Projection to Shapefile
+<br>
+This tool allows the user to assign a projection to a vector data object. The projection data is written to the projection file (.prj), but no actual reprojection occurs. This is functionally equivalent to ESRI’s “Define Projection” tool.
+<br>
+Reproject a Shapefile
+<br>
+This tool will take an existing shapefile and reproject the data to another projection. The user will be prompted for a destination projection and the conversion will take place. If the shapefile’s current projection cannot be determined, the user will be prompted to specify the current data projection as well.
+<br>
+If the data is unprojected (in latitude and longitude), then the most important consideration is the datum and ellipsoid in use, which define the mathematical model of the earth on which the latitude and longitude coordinates are based.
+<br>
+Within the US, the datum and ellipsoid will almost always be the same, and only a few are commonly used. For example NAD27 (North American Datum 1927), NAD83 (North American Datum 1983)and WGS84 (World Geodetic System 1984) are common and WGS84 is for most practical purposes the same as NAD83 (the main differences are seen in Z or elevation values).
+<br>
+If you had to guess as to what datum & ellipsoid a dataset was using, look at its age - if it's a particulary old dataset in the USA, perhaps NAD27. Otherwise, NAD83. There's not really a foolproof way to tell other than trial and error. Of course, if metadata is available, maybe in the form of an XML file, this will hopefully tell you the datum.
+<br>
+If the projection is unrecognized, invalid, etc then the the projection engine will assume you mean "+proj=longlat +datum=wgs84 +ellps=wga84", in other words, unprojected lat/long with the World Geodetic System 1984 datum and ellipsoid.

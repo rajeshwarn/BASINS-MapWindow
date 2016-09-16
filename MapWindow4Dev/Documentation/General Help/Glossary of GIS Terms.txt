@@ -1,0 +1,88 @@
+If you cannot find the GIS term below, then please click on the <a href="http://www.mapwindow.org/tutorials/">GIS Dictionary</a> link and search for your GIS term online.
+<p>
+Adapted from ESRI ArcGIS Help.
+<p>
+<b>Attribute</b>
+<ol>
+<li>A piece of information describing a vector. The attributes of a census tract, for example, might include its area, population, and average per capita income.
+<li>A characteristic of a vector described by numbers, characters, images, and CAD drawings, typically stored in tabular format and linked to the vector by a user-assigned identifier. For example, the attributes of a well might include depth and gallons per minute. 
+<li>A column in a table. 
+</ol>
+<p>
+<b>Attribute table</b> 
+<br>A tabular file containing rows and columns, associated with a class of vectors (for example, wells or roads). Each row represents a vector. Each column represents one attribute of a vector.
+<p>
+<b>Clip</b>
+<br>This process creates a new vector by using a polygon vector (or selected polygons in that vector) as a cookie cutter on a point, line, or polygon vector.
+<p>
+<b>Field</b>
+<br>A column in an attribute table. Each field contains the values for a single attribute. 
+<p>
+<b>Geodatabase</b>
+<br>An object-oriented geographic database that provides services for managing geographic data. These services include validation rules, relationships, and topological associations. A geodatabase contains vector datasets and is hosted inside of a relational database management system. 
+<p>
+<b>Layer</b> 
+<br>A generic term for geographic data stored in either vector or raster format. Examples of Layers are Digital Elevation Models (DEM), polygons of waterbodies, or polyline transportation networks. 
+<p>
+<b>Legend</b> 
+<br>The window where the titles of vector and raster data appear. The Legend is used to highlight layers also know as Table of Contents or Catalog Tree
+<p>
+<b>Line</b>
+<br>A two-dimensional vector consisting of the connection of a set of x,y coordinate pairs, where the starting point and ending point do not coincide.
+<p>
+<b>Map Display</b>
+<br>The display window where vector and raster data appear for visualization; typically the largest window in view in the GIS application.
+<p>
+<b>Merge</b>
+<br>A new vector is created from multiple vectors. Merge allows you to combine the vectors from two or more vectors of the same geometric type.
+<p>
+<b>Overlay</b>
+<br>To produce a new layer from the product of multiple layers, such that the new layer contains the vectors and attributes of each input layer.
+<p>
+<b>Point</b> 
+<br>A single x,y coordinate pair that represents a single vector such as a telephone pole. 
+<p>
+<b>Polygon</b> 
+<br>A two-dimensional vector representing an area such as a state or county. 
+<p>
+<b>Polyline (or line)</b> 
+<br>A one-dimensional vector representing a line such as a road or river.
+<p>
+<b>Projection</b> 
+<br>A mathematical formula that transforms vector locations between the earth's curved surface and a map's flat surface. A projected coordinate system includes the information needed to transform locations expressed as latitude and longitude values to x,y coordinates. 
+<p>
+<b>Property</b>
+<br>A physically descriptive characteristic of a vector, which may or may not be a column of the associated attribute table.  Area, perimeter, and length are examples of properties of a vector.
+<p>
+<b>Raster</b>
+<br>Represents any data source that uses a grid structure to store geographic information. 
+<p>
+<b>Render</b>
+<br>To display a layer on a map such that different vectors in the same layer are displayed differently based on an attribute of each vector.
+<p>
+<b>Select</b>
+<br>To indicate a particular feature(s) in a layer.  A feature may be selected by its polygon or by its row in the associated attribute table.
+<p>
+<b>Shape</b>
+<br>A generic term for a point, line, or polygon of a vector (e. g. one vector may have many polygons or shapes).
+<p>
+<b>Value</b>
+<br>The data element contained in a specific row and column of an attribute table.
+<p>
+<b>Vector</b>
+<br>A coordinate-based data structure commonly used to represent geographic features such as points, lines or polygons in a layer.  Sometimes referred to as a Shapefile.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

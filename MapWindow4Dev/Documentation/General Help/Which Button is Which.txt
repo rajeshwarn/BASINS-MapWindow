@@ -1,0 +1,21 @@
+<b>Below are listed two links for toolbar help.</b>
+<p>
+<a href="Toolbars\Main Toolbar">Main Toolbar</a>
+<br>
+<img src="Which Button is Which/MainToolbar.bmp">
+<p>
+<a href="Toolbars\Shapefile Editor Toolbar">Shapefile Editor Toolbar</a>
+<br>
+<img src="Which Button is Which/ShapefileToolbar.bmp">
+<p>
+(Note: Tool-tip Text is text that appears as the mouse cursor is placed over a button. Try it out! You can explore the button functionality before you press it.)
+
+
+
+
+
+
+
+
+
+

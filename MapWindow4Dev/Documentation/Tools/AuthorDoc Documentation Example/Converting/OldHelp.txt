@@ -1,0 +1,11 @@
+<h>Old-Style Windows Help</h>
+
+Since HTML Help has supplanted old-style help, we reccommend using 
+<a href="HTMLHelp">HTML Help</a> instead.
+Before generating an old-style help file (basename.hlp, basename.cnt) 
+Microsoft Word will need to be installed as discussed for 
+<a href="Printable">printable Word documents</a>. 
+Microsoft's Help Compiler for Windows (HCW) will also be needed, 
+but it has become difficult to find on the web.
+
+

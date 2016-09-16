@@ -1,0 +1,35 @@
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: CSharpCodeCompletion, Configuration: Debug x64 ------
+C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets : warning MSB3246: Resolved file has a bad image, no metadata, or is otherwise inaccessible. Could not load file or assembly 'C:\dev\MapWindow4Dev\Bin64\MapWinUtility.dll' or one of its dependencies. This assembly is built by a runtime newer than the currently loaded runtime and cannot be loaded.
+C:\Windows\Microsoft.NET\Framework\v3.5\Csc.exe /noconfig /unsafe- /checked+ /nowarn:1701,1702 /nostdlib- /platform:x64 /warn:4 /define:DEBUG;TRACE /reference:..\Bin64\ICSharpCode.NRefactory.dll /reference:..\Bin64\ICSharpCode.SharpDevelop.Dom.dll /reference:..\Bin64\ICSharpCode.TextEditor.dll /reference:..\Bin64\log4net.dll /reference:..\Bin64\Mono.Cecil.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll" /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /debug+ /debug:Full /filealign:4096 /optimize- /out:obj\x64\Debug\CSharpEditor.dll /resource:obj\x64\Debug\CSharpEditor.MainForm.resources /target:library /warnaserror- CodeCompletionData.cs MainForm.cs MainForm.Designer.cs AssemblyInfo.cs CodeCompletionProvider.cs CodeCompletionKeyHandler.cs HostCallbackImplementation.cs ToolTipProvider.cs
+warning CS1607: Assembly generation -- Referenced assembly 'System.Data.dll' targets a different processor
+warning CS1607: Assembly generation -- Referenced assembly 'mscorlib.dll' targets a different processor
+
+Compile complete -- 0 errors, 2 warnings
+CSharpCodeCompletion -> C:\dev\MapWindow4Dev\Bin64\CSharpEditor.dll
+Done building project "CSharpCodeCompletion.csproj".
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: CSharpCodeCompletion, Configuration: Debug x64 ------
+C:\Windows\Microsoft.NET\Framework\v3.5\Csc.exe /noconfig /unsafe- /checked+ /nowarn:1701,1702 /nostdlib- /platform:x64 /warn:4 /define:DEBUG;TRACE /reference:..\Bin64\ICSharpCode.NRefactory.dll /reference:..\Bin64\ICSharpCode.SharpDevelop.Dom.dll /reference:..\Bin64\ICSharpCode.TextEditor.dll /reference:..\Bin64\log4net.dll /reference:..\Bin64\MapWinUtility.dll /reference:..\Bin64\Mono.Cecil.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll" /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /debug+ /debug:Full /filealign:4096 /optimize- /out:obj\x64\Debug\CSharpEditor.dll /resource:obj\x64\Debug\CSharpEditor.MainForm.resources /target:library /warnaserror- CodeCompletionData.cs MainForm.cs MainForm.Designer.cs AssemblyInfo.cs CodeCompletionProvider.cs CodeCompletionKeyHandler.cs HostCallbackImplementation.cs ToolTipProvider.cs
+warning CS1607: Assembly generation -- Referenced assembly 'System.Data.dll' targets a different processor
+warning CS1607: Assembly generation -- Referenced assembly 'mscorlib.dll' targets a different processor
+
+Compile complete -- 0 errors, 2 warnings
+CSharpCodeCompletion -> C:\dev\MapWindow4Dev\Bin64\CSharpEditor.dll
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: CSharpCodeCompletion, Configuration: Debug x64 ------
+C:\Windows\Microsoft.NET\Framework\v3.5\Csc.exe /noconfig /unsafe- /checked+ /nowarn:1701,1702 /nostdlib- /platform:x64 /warn:4 /define:DEBUG;TRACE /reference:..\Bin64\ICSharpCode.NRefactory.dll /reference:..\Bin64\ICSharpCode.SharpDevelop.Dom.dll /reference:..\Bin64\ICSharpCode.TextEditor.dll /reference:..\Bin64\log4net.dll /reference:..\Bin64\MapWinUtility.dll /reference:..\Bin64\Mono.Cecil.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll" /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /debug+ /debug:Full /filealign:4096 /optimize- /out:obj\x64\Debug\CSharpEditor.dll /resource:obj\x64\Debug\CSharpEditor.MainForm.resources /target:library /warnaserror- CodeCompletionData.cs MainForm.cs MainForm.Designer.cs AssemblyInfo.cs CodeCompletionProvider.cs CodeCompletionKeyHandler.cs HostCallbackImplementation.cs ToolTipProvider.cs
+warning CS1607: Assembly generation -- Referenced assembly 'System.Data.dll' targets a different processor
+warning CS1607: Assembly generation -- Referenced assembly 'mscorlib.dll' targets a different processor
+
+Compile complete -- 0 errors, 2 warnings
+CSharpCodeCompletion -> C:\dev\MapWindow4Dev\Bin64\CSharpEditor.dll
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========

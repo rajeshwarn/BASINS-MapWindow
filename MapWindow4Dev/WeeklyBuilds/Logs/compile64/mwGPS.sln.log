@@ -1,0 +1,21 @@
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: mwGPS, Configuration: Debug x64 ------
+C:\Windows\Microsoft.NET\Framework\v3.5\Vbc.exe /noconfig /baseaddress:11000000 /imports:Microsoft.VisualBasic,System,System.Collections,System.Data,System.Diagnostics /optioncompare:Binary /optionexplicit+ /optionstrict:custom /nowarn:41999,42016,42017,42018,42019,42020,42021,42022,42032,42036 /platform:x64 /rootnamespace:mwGPS /doc:obj\x64\Debug\mwGPS.xml /define:"CONFIG=\"Debug\",DEBUG=-1,TRACE=-1,_MyType=\"Windows\",PLATFORM=\"x64\"" /reference:..\..\MapWindow4Dev\Bin\Interop.MapWinGIS.dll,..\..\MapWindow4Dev\Bin\MapWinGeoProc.dll,..\..\MapWindow4Dev\Bin\MapWinInterfaces.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /main:"mwTaudemBasinsWrap.(None)" /debug+ /debug:full /out:obj\x64\Debug\mwGPS.dll /resource:obj\x64\Debug\mwGPS.frmCOMSettings.resources /resource:obj\x64\Debug\mwGPS.frmDisplayGPS.resources /resource:obj\x64\Debug\mwGPS.frmGPSSettings.resources /resource:obj\x64\Debug\mwGPS.Resources.resources /resource:Icons\DisplayGPSInfo.ico,mwGPS.DisplayGPSInfo.ico /resource:Icons\DataLogging.ico,mwGPS.DataLogging.ico /resource:Icons\FormConnection.ico,mwGPS.FormConnection.ico /resource:Icons\DrawGPSArrow.ico,mwGPS.DrawGPSArrow.ico /resource:Icons\DrawGPSTrail.ico,mwGPS.DrawGPSTrail.ico /resource:Icons\PanWithLoc.ico,mwGPS.PanWithLoc.ico /resource:Icons\DrawGPSLoc.ico,mwGPS.DrawGPSLoc.ico /resource:Icons\CenterOnPan.ico,mwGPS.CenterOnPan.ico /resource:Icons\drawLine.ico,mwGPS.drawLine.ico /resource:Icons\pencilFreehand.ico,mwGPS.pencilFreehand.ico /resource:Icons\pencilGPS.ico,mwGPS.pencilGPS.ico /resource:Icons\pencilAddVertex.ico,mwGPS.pencilAddVertex.ico /resource:Icons\hand.ico,mwGPS.hand.ico /resource:Icons\zoom_in_16_2.ico,mwGPS.zoom_in_16_2.ico /resource:Icons\zoom_out_16.ico,mwGPS.zoom_out_16.ico /resource:Icons\Delete.ico,mwGPS.Delete.ico /target:library Classes\clsPersistantGPSSettings.vb Classes\clsGPSController.vb Classes\mwGPS.vb Forms\frmCOMSettings.Designer.vb Forms\frmCOMSettings.vb Forms\frmDisplayGPS.Designer.vb Forms\frmDisplayGPS.vb Forms\frmGPSSettings.Designer.vb Forms\frmGPSSettings.vb Modules\Globals.vb "My Project\AssemblyInfo.vb" "My Project\Resources.Designer.vb"
+vbc : warning BC40010: Possible problem detected while building assembly 'mwGPS': Referenced assembly 'mscorlib.dll' targets a different processor
+vbc : warning BC40010: Possible problem detected while building assembly 'mwGPS': Referenced assembly 'System.Data.dll' targets a different processor
+mwGPS -> C:\dev\MapWindow4Dev\Bin64\Plugins\GPS\mwGPS.dll
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: mwGPS, Configuration: Debug x64 ------
+mwGPS -> C:\dev\MapWindow4Dev\Bin64\Plugins\GPS\mwGPS.dll
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: mwGPS, Configuration: Debug x64 ------
+mwGPS -> C:\dev\MapWindow4Dev\Bin64\Plugins\GPS\mwGPS.dll
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========

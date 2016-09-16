@@ -1,0 +1,20 @@
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: mwTiles, Configuration: Debug x64 ------
+C:\Windows\Microsoft.NET\Framework\v3.5\Vbc.exe /noconfig /imports:Microsoft.VisualBasic,System,System.Collections,System.Collections.Generic,System.Diagnostics,System.Drawing,System.Linq /nowarn:42016,41999,42017,42018,42019,42032,42036,42020,42021,42022 /platform:x64 /rootnamespace:mwTiles /define:"CONFIG=\"Debug\",DEBUG=-1,TRACE=-1,_MyType=\"Windows\",PLATFORM=\"x64\"" /reference:C:\Dev\MapWindow4Dev\Bin\Interop.MapWinGIS.dll,C:\Dev\MapWindow4Dev\Bin\MapWinGeoProc.dll,C:\Dev\MapWindow4Dev\Bin\MapWinInterfaces.dll,C:\Dev\MapWindow4Dev\Bin\MapWinUtility.dll,"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll",C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll /debug+ /debug:full /out:obj\x64\Debug\mwTiles.dll /resource:obj\x64\Debug\mwTiles.Resources.resources /resource:servers.html,mwTiles.servers.html /target:library clsDownloader.vb clsQueueManager.vb clsServer.vb modGlobal.vb mwTiles.vb "My Project\AssemblyInfo.vb" "My Project\Application.Designer.vb" "My Project\Resources.Designer.vb" "My Project\Settings.Designer.vb"
+vbc : warning BC40010: Possible problem detected while building assembly 'mwTiles': Referenced assembly 'mscorlib.dll' targets a different processor
+mwTiles -> C:\dev\MapWindow4Dev\Bin64\Plugins\mwTiles.dll
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: mwTiles, Configuration: Debug x64 ------
+mwTiles -> C:\dev\MapWindow4Dev\Bin64\Plugins\mwTiles.dll
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: mwTiles, Configuration: Debug x64 ------
+mwTiles -> C:\dev\MapWindow4Dev\Bin64\Plugins\mwTiles.dll
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========

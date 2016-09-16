@@ -1,0 +1,7 @@
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: mwLaunch, Configuration: Debug x86 ------
+C:\Windows\Microsoft.NET\Framework\v3.5\Vbc.exe /noconfig /imports:Microsoft.VisualBasic,System,System.Collections,System.Collections.Generic,System.Diagnostics /nowarn:42016,41999,42017,42018,42019,42032,42036,42020,42021,42022 /platform:x86 /rootnamespace:mwLaunch /doc:obj\x86\Debug\mwLaunch.xml /define:"CONFIG=\"Debug\",DEBUG=-1,TRACE=-1,_MyType=\"Windows\",PLATFORM=\"x86\"" /reference:C:\Dev\MapWindow4Dev\Bin\Interop.MapWinGIS.dll,C:\Dev\MapWindow4Dev\Bin\MapWinGeoProc.dll,C:\Dev\MapWindow4Dev\Bin\MapWinInterfaces.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll /debug+ /debug:full /out:obj\x86\Debug\mwLaunch.dll /resource:obj\x86\Debug\mwLaunch.Resources.resources /resource:KMLtemplate.xml,mwLaunch.KMLtemplate.xml /target:library mwLaunch.vb "My Project\AssemblyInfo.vb" "My Project\Application.Designer.vb" "My Project\Resources.Designer.vb" "My Project\Settings.Designer.vb"
+mwLaunch -> C:\dev\MapWindow4Dev\Bin\Plugins\mwLaunch.dll
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========

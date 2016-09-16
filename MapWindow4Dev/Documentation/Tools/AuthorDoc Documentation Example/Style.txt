@@ -1,0 +1,61 @@
+
+Styles can change the appearance of your document by adding background 
+colors and images and changing how headers are formatted. Currently, 
+styles are only implemented for HTML and HTMLHelp output formats.
+<p>
+Defining one or more styles for a document is entirely optional.
+If no styles are defined, defaults will be used.
+<p>
+One way to use styles is to make a style file that applies to the entire 
+document. To do this for a project file basename.txt, create a new file 
+called basename.sty in the same directory.
+<p>
+Default Style File:
+<p>
+<pre>
+[Top]
+&lt;hr size=7&gt;&lt;h2&gt;&lt;sectionname&gt;&lt;/h2&gt;&lt;hr size=7&gt;
+
+[Body]
+bgcolor="#ffffff"
+</pre>
+
+The text following [Top] will be inserted at the top of each section.
+The text following [Bottom] will be inserted at the top of each section.
+The &lt;hr&gt; tag makes a horizontal line in HTML and the &lt;h2&gh; starts 
+a second-largest-size HTML header. The tag &lt;sectionname&gt; will be replaced with the section name
+during conversion. The text following [Body] will be inserted in the body tag for each page as in 
+&lt;body bgcolor="#ffffff"&gt;. 
+<p>
+To make sections at different levels of the hierarchy have different styles, 
+make a more complicated style file with numbers indicating which levels use which styles:
+<p>
+<pre>
+[Top]
+&lt;hr size=7&gt;&lt;h2&gt;&lt;sectionname&gt;&lt;/h2&gt;&lt;hr size=7&gt;
+1 &lt;img src="/TopLevel.png"&gt;&lt;h1&gt;&lt;sectionname&gt;&lt;/h1&gt;
+2 &lt;img src="/SecondLevel.png"&gt;&lt;h2&gt;&lt;sectionname&gt;&lt;/h2&gt;
+
+[Bottom]
+&lt;hr&gt;
+
+[Body]
+bgcolor="#ffffff"
+1 background="/bgimages/TopBackground.gif"
+2 background="/bgimages/SecondBackground.gif"
+</pre>
+
+In this example, the same defaults are used for most levels, but the first and 
+second level sections have customized headers and body tags, all including images, 
+and the first level headers will be larger than all the rest using &lt;h1&gt; tags.
+It is reccommended to always define a default style to avoid unexpected carryover
+between styles. A default style must be defined before any level-specific styles.
+<p>
+Finally, if more flexibility is needed, a style file can be selected using a
+style tag. The tag &lt;style Intro&gt; will read the file Intro.sty and use that 
+style for the current section and all its subsections. When it is finished, 
+the Intro style will be forgotten and the style previously in effect will be resumed.
+
+
+
+

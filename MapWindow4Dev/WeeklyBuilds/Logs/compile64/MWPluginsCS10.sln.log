@@ -1,0 +1,19 @@
+
+Microsoft (R) Visual Studio Version 10.0.30319.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: mwIdentifier10, Configuration: Debug x64 ------
+ALINK : warning AL1073: Referenced assembly 'mscorlib.dll' targets a different processor
+ALINK : warning AL1073: Referenced assembly 'mscorlib.dll' targets a different processor
+ALINK : warning AL1073: Referenced assembly 'mscorlib.dll' targets a different processor
+ALINK : warning AL1073: Referenced assembly 'mscorlib.dll' targets a different processor
+ALINK : warning AL1073: Referenced assembly 'mscorlib.dll' targets a different processor
+  mwIdentifier10 -> C:\dev\MapWindow4Dev\Bin64\ApplicationPlugins\mwIdentifier.dll
+------ Build started: Project: ShapefileEditor10, Configuration: Debug x64 ------
+ALINK : warning AL1073: Referenced assembly 'mscorlib.dll' targets a different processor
+ALINK : warning AL1073: Referenced assembly 'mscorlib.dll' targets a different processor
+ALINK : warning AL1073: Referenced assembly 'mscorlib.dll' targets a different processor
+ALINK : warning AL1073: Referenced assembly 'mscorlib.dll' targets a different processor
+  ShapefileEditor10 -> C:\dev\MapWindow4Dev\bin64\Plugins\ShapefileEditor.dll
+------ Build started: Project: mwSymbology10, Configuration: Debug x64 ------
+  mwSymbology10 -> C:\dev\MapWindow4Dev\bin64\ApplicationPlugins\mwSymbology.dll
+========== Build: 3 succeeded or up-to-date, 0 failed, 0 skipped ==========

@@ -1,0 +1,8 @@
+<b>About</b>
+<p>
+The About MapWindow dialog box lists the location where the current project file and the current configuration file are saved. The about box also gives credit to individuals and organizations that contributed to the project.
+<p>
+Also, the About dialog box lists bug fixes, added functionality, and improved functionality of the most current versions of MapWindow GIS.
+<p>
+The Process Info. button opens a document which describes details of your computer, which can be copied and pasted when reporting problems.
+

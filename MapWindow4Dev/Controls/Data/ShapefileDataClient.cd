@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="MapWindow.Data.ShapefileDataClient">
+    <Position X="0.5" Y="0.5" Width="6" />
+    <Members>
+      <Method Name="CreateAdapter" Hidden="true" />
+      <Method Name="CreateBinaryParameter" Hidden="true" />
+      <Method Name="CreateCommand" Hidden="true" />
+      <Method Name="CreateConnectionString" Hidden="true" />
+      <Method Name="CreateParameter" Hidden="true" />
+      <Method Name="CreateTable" Hidden="true" />
+      <Field Name="FIELD_GEOMETRY" Hidden="true" />
+      <Method Name="LoadShapefile" Hidden="true" />
+      <Field Name="m_connectionString" Hidden="true" />
+      <Field Name="m_provider" Hidden="true" />
+      <Method Name="ShapefileDataClient" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AEASAACAAAAIAEkABAIUABAAAQAIEkAAYAAAIghAQAA=</HashCode>
+      <FileName>Data\ShapefileDataClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MapWindow.Data.OleDbProvider" Collapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAIAAAAAEEAACAEAAAAEAAAAAAAAAAAAgAQAAA=</HashCode>
+      <FileName>Data\DataProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.123" />
+  </Class>
+  <Class Name="MapWindow.Data.SQLiteProvider" Collapsed="true">
+    <Position X="11.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAIAAAAAEEAACAEAAAAEAAAAAAAAAAAAgAQAAA=</HashCode>
+      <FileName>Data\DataProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.215" />
+  </Class>
+  <Interface Name="MapWindow.Data.IDataProvider">
+    <Position X="7.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAIAAAAAEEAACAEAAAAEAAAAAAAAAAAAgAQAAA=</HashCode>
+      <FileName>Data\DataProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

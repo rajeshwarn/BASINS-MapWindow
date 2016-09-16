@@ -1,0 +1,127 @@
+[24-Jun-11  0:32:58.91] Start compiling IndexSearching.sln 
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Rebuild All started: Project: SpatialIndexCore, Configuration: Release x64 ------
+1>Deleting intermediate and output files for project 'SpatialIndexCore', configuration 'Release|x64'
+1>Compiling...
+1>Index.cc
+1>TPRTree.cc
+1>.\src\tprtree\TPRTree.cc(160) : warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>.\src\tprtree\TPRTree.cc(164) : warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>.\src\tprtree\TPRTree.cc(168) : warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>.\src\tprtree\TPRTree.cc(442) : warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>.\src\tprtree\TPRTree.cc(447) : warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>.\src\tprtree\TPRTree.cc(452) : warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>.\src\tprtree\TPRTree.cc(472) : warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>.\src\tprtree\TPRTree.cc(492) : warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>.\src\tprtree\TPRTree.cc(497) : warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>.\src\tprtree\TPRTree.cc(502) : warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>.\src\tprtree\TPRTree.cc(507) : warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>Tools.cc
+1>.\src\tools\Tools.cc(522) : warning C4244: 'argument' : conversion from 'time_t' to 'uint32_t', possible loss of data
+1>rand48.cc
+1>RandomEvictionsBuffer.cc
+1>.\src\storagemanager\RandomEvictionsBuffer.cc(44) : warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>.\src\storagemanager\RandomEvictionsBuffer.cc(56) : warning C4244: 'argument' : conversion from 'time_t' to 'long', possible loss of data
+1>MemoryStorageManager.cc
+1>DiskStorageManager.cc
+1>.\src\storagemanager\DiskStorageManager.cc(95) : warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>Buffer.cc
+1>TimeRegion.cc
+1>TimePoint.cc
+1>SpatialIndexImpl.cc
+1>Region.cc
+1>Point.cc
+1>MovingRegion.cc
+1>MovingPoint.cc
+1>LineSegment.cc
+1>RTree.cc
+1>.\src\rtree\RTree.cc(156) : warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>.\src\rtree\RTree.cc(160) : warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>.\src\rtree\RTree.cc(164) : warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>.\src\rtree\RTree.cc(532) : warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>.\src\rtree\RTree.cc(537) : warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>.\src\rtree\RTree.cc(542) : warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>.\src\rtree\RTree.cc(557) : warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>.\src\rtree\RTree.cc(577) : warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>.\src\rtree\RTree.cc(582) : warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>.\src\rtree\RTree.cc(587) : warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>.\src\rtree\RTree.cc(592) : warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>BulkLoader.cc
+1>.\src\rtree\BulkLoader.cc(79) : warning C4267: 'argument' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>.\src\rtree\BulkLoader.cc(105) : warning C4267: 'argument' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>.\src\rtree\BulkLoader.cc(256) : warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>.\src\rtree\BulkLoader.cc(324) : warning C4267: 'argument' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>.\src\rtree\BulkLoader.cc(324) : warning C4267: 'argument' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>.\src\rtree\BulkLoader.cc(423) : warning C4267: 'argument' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>.\src\rtree\BulkLoader.cc(423) : warning C4267: 'argument' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>Statistics.cc
+1>Node.cc
+1>Compiling...
+1>MVRTree.cc
+1>.\src\mvrtree\MVRTree.cc(150) : warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>.\src\mvrtree\MVRTree.cc(154) : warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>.\src\mvrtree\MVRTree.cc(158) : warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>.\src\mvrtree\MVRTree.cc(418) : warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>.\src\mvrtree\MVRTree.cc(423) : warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>.\src\mvrtree\MVRTree.cc(428) : warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>.\src\mvrtree\MVRTree.cc(443) : warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>.\src\mvrtree\MVRTree.cc(463) : warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>.\src\mvrtree\MVRTree.cc(468) : warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>.\src\mvrtree\MVRTree.cc(473) : warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>.\src\mvrtree\MVRTree.cc(478) : warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+1>Leaf.cc
+1>Compiling...
+1>Statistics.cc
+1>Compiling...
+1>Node.cc
+1>Compiling...
+1>Leaf.cc
+1>Compiling...
+1>Index.cc
+1>Compiling...
+1>Statistics.cc
+1>Compiling...
+1>Node.cc
+1>Compiling...
+1>Leaf.cc
+1>Compiling...
+1>Index.cc
+1>Creating library...
+1>Build log was saved at "file://c:\dev\SupportLibraries\IndexSearching\SpatialIndexCore\spatialindex\Release\x64\BuildLog.htm"
+1>SpatialIndexCore - 0 error(s), 44 warning(s)
+2>------ Rebuild All started: Project: IndexSearching, Configuration: Release x64 ------
+2>Deleting intermediate and output files for project 'IndexSearching', configuration 'Release|x64'
+2>Compiling...
+2>ShapeFileStream.cpp
+2>c:\dev\supportlibraries\indexsearching\ShapeFileStream.h(80) : warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+2>c:\dev\supportlibraries\indexsearching\ShapeFileStream.h(85) : warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+2>c:\dev\supportlibraries\indexsearching\ShapeFileStream.h(90) : warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+2>.\ShapeFileStream.cpp(104) : warning C4244: 'initializing' : conversion from 'std::streamoff' to 'int', possible loss of data
+2>.\ShapeFileStream.cpp(159) : warning C4244: 'initializing' : conversion from 'std::streamoff' to 'int', possible loss of data
+2>.\ShapeFileStream.cpp(193) : warning C4244: '=' : conversion from 'std::streamoff' to 'int', possible loss of data
+2>IndexShapeFiles.cpp
+2>c:\dev\supportlibraries\indexsearching\ShapeFileStream.h(80) : warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+2>c:\dev\supportlibraries\indexsearching\ShapeFileStream.h(85) : warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+2>c:\dev\supportlibraries\indexsearching\ShapeFileStream.h(90) : warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+2>.\IndexShapeFiles.cpp(154) : warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+2>.\IndexShapeFiles.cpp(155) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+2>.\IndexShapeFiles.cpp(158) : warning C4244: '=' : conversion from '__int64' to 'long', possible loss of data
+2>IndexSearching.cpp
+2>.\IndexSearching.cpp(185) : warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+2>Linking...
+2>   Creating library C:\dev\SupportLibraries\IndexSearching\Release\x64\IndexSearching.lib and object C:\dev\SupportLibraries\IndexSearching\Release\x64\IndexSearching.exp
+2>Generating code
+2>Finished generating code
+2>Embedding manifest...
+2>Copy files.
+2>        1 file(s) copied.
+2>        1 file(s) copied.
+2>c:\dev\SupportLibraries\IndexSearching\\IndexSearching.h
+2>c:\dev\SupportLibraries\IndexSearching\\IndexShapeFiles.h
+2>c:\dev\SupportLibraries\IndexSearching\\ShapeFileStream.h
+2>        3 file(s) copied.
+2>Build log was saved at "file://c:\dev\SupportLibraries\IndexSearching\Release\x64\BuildLog.htm"
+2>IndexSearching - 0 error(s), 13 warning(s)
+========== Rebuild All: 2 succeeded, 0 failed, 0 skipped ==========

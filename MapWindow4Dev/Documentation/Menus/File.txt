@@ -1,0 +1,54 @@
+<ul>
+<li><b>New</b> - Allows you to open a new MapWindow Project.
+<ol>
+<li>Click File->New. A blank MapWindow Project will appear.
+<li>Click Yes, No, or Cancel if a dialog box appears and prompts you to save the existing MapWindow Project.</ol>
+<br>
+<li><b>Open Project</b> - Allows you to open an existing MapWindow Project.
+<ol>
+<li>Click File->Open Project. An Open dialog box will appear titled Open.
+<li>Browse to your MapWindow Project file from the stored location and highlight it by clicking on the file name.
+<li>Click the Open button.</ol>
+<br>
+<li><b>Save</b> - Allows you to save a MapWindow Project.
+<ol>
+<li>Click File->Save
+<li>Save your MapWindow Project as often as you like.</ol>
+<br>
+<li><b>Save As</b> - Allows you to save a MapWindow Project if not already saved, or save it with a new name.
+<ol>
+<li>Click File->Save As. A Save As dialog box will appear and prompt you to save your MapWindow Project file at any desired location.
+<li>Browse to where you would like to store your MapWindow Project file and name the file.
+<li>Click Save.</ol>
+<br>
+<i>(Note: When you click Save or Save As, please understand that only a MapWindow Project file is stored which consists color schemes and other general settings, but your layers are only referenced or pointed to; your MapWindow Project File does not directly store the vector and raster layers. Indeed, when you send your MapWindow Project file to another user, also include the associated vector and raster layers.)</i>
+<p>
+<li><b>Print</b> - Allows you to print a MapWindow Project <i>(Note: to learn more about printing, click <a href="General Help\Printing">here</a>).</i>
+<li><b>Settings</b> - Allows you to change the settings of a MapWindow Project <i>(Note: to learn more about settings, click <a href="Menus\Settings">here</a>).</i>
+<li><b>Recent Projects</b> - Allows you to open your most recent MapWindow projects.
+<ol>
+<li>Click File->Recent Projects
+<li>Click the recent project that you would like to open. 
+<li>Click Yes, No, or Cancel if a dialog box appears and prompts you to save the existing MapWindow Project.</ol>
+<li><b>Close</b> - Allows you to close a MapWindow Project. 
+<ol>
+<li>Click File->Close
+<li>Click Yes, No, or Cancel if a dialog box appears and prompts you to save the existing MapWindow Project.</ol>
+<li><b>Exit</b> - Allows you to exit a MapWindow Project. 
+<ol>
+<li>Click File->Exit
+<li>Click Yes, No, or Cancel if a dialog box appears and prompts you to save the existing MapWindow Project.</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

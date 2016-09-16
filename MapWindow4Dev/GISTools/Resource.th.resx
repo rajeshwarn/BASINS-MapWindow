@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="mnuApplyProjGRID.Text" xml:space="preserve">
+    <value>กำหนด Projection ให้กริด</value>
+  </data>
+  <data name="mnuApplyProjImage.Text" xml:space="preserve">
+    <value>กำหนด Projection ให้ภาพ</value>
+  </data>
+  <data name="mnuApplyProjSF.Text" xml:space="preserve">
+    <value>กำหนด Projection ให้ Shapefile</value>
+  </data>
+  <data name="mnuBuffer.Text" xml:space="preserve">
+    <value>Buffer สัณฐาน</value>
+  </data>
+  <data name="mnuCalculateArea.Text" xml:space="preserve">
+    <value>คำนวณพื้นที่หลายเหลี่ยม</value>
+  </data>
+  <data name="mnuChangeFormatGRID.Text" xml:space="preserve">
+    <value>เปลี่ยนรูปแบบกริด</value>
+  </data>
+  <data name="mnuChangeNodata.Text" xml:space="preserve">
+    <value>เปลี่ยนค่าไม่มีข้อมูล</value>
+  </data>
+  <data name="mnuClipGridWithPoly.Text" xml:space="preserve">
+    <value>ตัดกริดด้วยหลายเหลี่ยม</value>
+  </data>
+  <data name="mnuClipPolyWithLine.Text" xml:space="preserve">
+    <value>ตัดหลายเหลี่ยมด้วยเส้น</value>
+  </data>
+  <data name="mnuClipSFWithPoly.Text" xml:space="preserve">
+    <value>ตัด Shapefile ด้วยหลายเหลี่ยม</value>
+  </data>
+  <data name="mnuContour.Text" xml:space="preserve">
+    <value>&amp;สร้าง Shapefile เส้นชั้นระดับ</value>
+  </data>
+  <data name="mnuCreateImageGRID.Text" xml:space="preserve">
+    <value>สร้างภาพกริด</value>
+  </data>
+  <data name="mnuEraseSFWithPoly.Text" xml:space="preserve">
+    <value>ลบ Shapefile ด้วยหลายเหลี่ยม</value>
+  </data>
+  <data name="mnuExportByMask.Text" xml:space="preserve">
+    <value>ส่งออกสัณฐานไปยัง Shapefile ใหม่โดยหน้ากาก</value>
+  </data>
+  <data name="mnuExportSelected.Text" xml:space="preserve">
+    <value>ส่งออกสัณฐานที่เลือกไปยัง Shapefile ใหม่</value>
+  </data>
+  <data name="mnuGeoreference.Text" xml:space="preserve">
+    <value>&amp;ทำการอ้างอิงทางภูมิศาสตร์ให้ภาพหรือกริด</value>
+  </data>
+  <data name="mnuGISTools.Text" xml:space="preserve">
+    <value>เครื่องมือ GIS</value>
+  </data>
+  <data name="mnuIdentity.Text" xml:space="preserve">
+    <value>เอกลักษณ์สัณฐานด้วยหลายเหลี่ยม</value>
+  </data>
+  <data name="mnuImage.Text" xml:space="preserve">
+    <value>ภาพ</value>
+  </data>
+  <data name="mnuMerge.Text" xml:space="preserve">
+    <value>รวมสัณฐานเข้าด้วยกัน</value>
+  </data>
+  <data name="mnuMergeGRIDS.Text" xml:space="preserve">
+    <value>รวมกริดเข้าด้วยกัน</value>
+  </data>
+  <data name="mnuMergeSF.Text" xml:space="preserve">
+    <value>รวม Shapefile เข้าด้วยกัน</value>
+  </data>
+  <data name="mnuRaster.Text" xml:space="preserve">
+    <value>ราสเตอร์</value>
+  </data>
+  <data name="mnuRectifyToWorldfile.Text" xml:space="preserve">
+    <value>ทำภาพให้เป็น Worldfile</value>
+  </data>
+  <data name="mnuReProjGRID.Text" xml:space="preserve">
+    <value>Project กริดใหม่</value>
+  </data>
+  <data name="mnuReProjImage.Text" xml:space="preserve">
+    <value>Project ภาพใหม่</value>
+  </data>
+  <data name="mnuReProjSF.Text" xml:space="preserve">
+    <value>Projection ใหม่ให้ Shapefile</value>
+  </data>
+  <data name="mnuResampleGRID.Text" xml:space="preserve">
+    <value>สุ่มตัวอย่างกริดใหม่</value>
+  </data>
+  <data name="mnuVector.Text" xml:space="preserve">
+    <value>เวคเตอร์</value>
+  </data>
+</root>

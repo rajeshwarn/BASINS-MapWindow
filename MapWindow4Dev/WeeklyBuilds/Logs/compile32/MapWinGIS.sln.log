@@ -1,0 +1,209 @@
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: MapWinGIS, Configuration: NDebug with Symbols Win32 ------
+Deleting old TLB file...
+Kan c:\Dev\MapWinGIS4Dev\NDebug with Symbols\Win32\*.tlb niet vinden
+Compiling...
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.01 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+cl /Od /Oi /Ot /Oy /GT /I "C:\Dev\SupportLibraries\include\\" /I "c:\Dev\MapWinGIS4Dev\\" /I "c:\Dev\MapWinGIS4Dev\\COM classes" /I "c:\Dev\MapWinGIS4Dev\\Control" /I "c:\Dev\MapWinGIS4Dev\\Drawing" /I "c:\Dev\MapWinGIS4Dev\\Grid" /I "c:\Dev\MapWinGIS4Dev\\Image" /I "c:\Dev\MapWinGIS4Dev\\Processing" /I "c:\Dev\MapWinGIS4Dev\\Shapefile" /I "c:\Dev\MapWinGIS4Dev\\ShapeNetwork" /I "c:\Dev\MapWinGIS4Dev\\Structures" /I "c:\Dev\MapWinGIS4Dev\\Tin" /I "c:\Dev\MapWinGIS4Dev\\Utilities" /I "c:\Dev\MapWinGIS4Dev\\Grid\fip" /I "c:\Dev\MapWinGIS4Dev\\Utilities\3dconnexionsdk" /D "WIN32" /D "_NDBGSYMBOLS" /D "DEBUG" /D "_WINDOWS" /D "_USRDLL" /D "_AFXDLL" /D "_CRT_SECURE_NO_WARNINGS" /D "_VC80_UPGRADE=0x0710" /D "_WINDLL" /D "_MBCS" /GF /FD /EHsc /MD /GS- /Yu"stdafx.h" /Fp"NDebug with Symbols\Win32\MapWinGIS.pch" /Fo"NDebug with Symbols\Win32\\" /Fd"NDebug with Symbols\Win32\\" /FR"NDebug with Symbols\Win32\\" /W3 /c /Zi .\Tin\vertex_table.cpp
+   .\Tin\triangle_table.cpp
+   .\Tin\TinHeap.cpp
+   .\Tin\table_row.cpp
+   .\Shapefile\ShapeWrapperCOM.cpp
+   .\Shapefile\ShapeWrapper.cpp
+   .\Shapefile\ShapePoint.cpp
+   .\Shapefile\ShapefileReader.cpp
+   .\Shapefile\ShapeData.cpp
+   .\Grid\tkGridRaster.cpp
+   .\Grid\sHeader.cpp
+   .\Grid\sgrid.cpp
+   .\Grid\lHeader.cpp
+   .\Grid\lGrid.cpp
+   .\Grid\GridManager.cpp
+   .\Grid\GridInterpolate.cpp
+   .\Grid\GenericHeader.cpp
+   .\Grid\GenericGrid.cpp
+   .\Grid\fHeader.cpp
+   .\Grid\fGrid.cpp
+   .\Grid\EsriDll.cpp
+   .\Grid\dHeader.cpp
+   .\Grid\dGrid.cpp
+   .\Processing\Ogr2MWshape.cpp
+   .\Processing\GeometryOperations.cpp
+   .\Processing\Expression.cpp
+   .\Utilities\vertex.cpp
+   .\Utilities\UtilityFunctions.cpp
+   .\MapWinGIS.cpp
+   .\Control\MapTracker.cpp
+   .\Control\MapPpg.cpp
+   .\Control\Map_Shapefile.cpp
+   .\Control\Map_Obsolete.cpp
+   .\Control\Map_Layer.cpp
+   .\Control\Map_Labels.cpp
+   .\Control\Map_DrawingLayer.cpp
+   .\Control\Map.cpp
+   .\Image\tkRaster.cpp
+   .\Image\tkJpg.cpp
+   .\Image\tkGif.cpp
+   .\Image\tkBitmap.cpp
+   .\Image\ImageResamling.cpp
+   .\Image\ImageGroup.cpp
+   ".\COM classes\Vector.cpp"
+   ".\COM classes\Utils.cpp"
+   ".\COM classes\Tin.cpp"
+   ".\COM classes\TableClass.cpp"
+   ".\COM classes\ShapeNetwork.cpp"
+   ".\COM classes\ShapefileColorScheme.cpp"
+   ".\COM classes\ShapefileColorBreak.cpp"
+   ".\COM classes\ShapefileCategory.cpp"
+   ".\COM classes\ShapefileCategories.cpp"
+   ".\COM classes\Shapefile_SpatialIndex.cpp"
+   ".\COM classes\Shapefile_Selection.cpp"
+   ".\COM classes\Shapefile_ReadWrite.cpp"
+   ".\COM classes\Shapefile_Optimizations.cpp"
+   ".\COM classes\Shapefile_LabelsCharts.cpp"
+   ".\COM classes\Shapefile_Geoprocessing.cpp"
+   ".\COM classes\Shapefile_Edit.cpp"
+   ".\COM classes\Shapefile.cpp"
+   ".\COM classes\ShapeDrawingOptions.cpp"
+   ".\COM classes\Shape.cpp"
+   ".\COM classes\PointClass.cpp"
+   ".\COM classes\LineSegment.cpp"
+   ".\COM classes\LinePattern.cpp"
+   ".\COM classes\Labels.cpp"
+   ".\COM classes\LabelClass.cpp"
+   ".\COM classes\LabelCategory.cpp"
+   ".\COM classes\Image.cpp"
+   ".\COM classes\GridHeader.cpp"
+   ".\COM classes\GridColorScheme.cpp"
+   ".\COM classes\GridColorBreak.cpp"
+   ".\COM classes\Grid.cpp"
+   ".\COM classes\Field.cpp"
+   ".\COM classes\Extents.cpp"
+   ".\COM classes\ESRIGridManager.cpp"
+   ".\COM classes\ColorScheme.cpp"
+   ".\COM classes\Charts.cpp"
+   ".\COM classes\ChartField.cpp"
+   ".\COM classes\Chart.cpp"
+   .\Drawing\ShapefileDrawing.cpp
+   .\Drawing\RotatedRectangle.cpp
+   .\Drawing\PointSymbols.cpp
+   .\Drawing\LineDrawing.cpp
+   .\Drawing\LabelDrawing.cpp
+   .\Drawing\ImageDrawing.cpp
+   .\Drawing\DrawingOptions.cpp
+   .\Drawing\ChartDrawing.cpp
+vertex_table.cpp
+triangle_table.cpp
+TinHeap.cpp
+table_row.cpp
+ShapeWrapperCOM.cpp
+ShapeWrapper.cpp
+ShapePoint.cpp
+ShapefileReader.cpp
+ShapeData.cpp
+tkGridRaster.cpp
+sHeader.cpp
+sgrid.cpp
+lHeader.cpp
+lGrid.cpp
+GridManager.cpp
+GridInterpolate.cpp
+GenericHeader.cpp
+GenericGrid.cpp
+fHeader.cpp
+fGrid.cpp
+Generating Code...
+Compiling...
+EsriDll.cpp
+dHeader.cpp
+dGrid.cpp
+Ogr2MWshape.cpp
+GeometryOperations.cpp
+Expression.cpp
+vertex.cpp
+UtilityFunctions.cpp
+MapWinGIS.cpp
+MapTracker.cpp
+MapPpg.cpp
+Map_Shapefile.cpp
+Map_Obsolete.cpp
+Map_Layer.cpp
+Map_Labels.cpp
+Map_DrawingLayer.cpp
+Map.cpp
+tkRaster.cpp
+tkJpg.cpp
+tkGif.cpp
+Generating Code...
+Compiling...
+tkBitmap.cpp
+ImageResamling.cpp
+ImageGroup.cpp
+Vector.cpp
+Utils.cpp
+.\COM classes\Utils.cpp(2479) : warning C4996: '_getcwd': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getcwd. See online help for details.
+        c:\Program Files\Microsoft Visual Studio 9.0\VC\include\direct.h(59) : see declaration of '_getcwd'
+Tin.cpp
+TableClass.cpp
+ShapeNetwork.cpp
+ShapefileColorScheme.cpp
+ShapefileColorBreak.cpp
+ShapefileCategory.cpp
+ShapefileCategories.cpp
+Shapefile_SpatialIndex.cpp
+Shapefile_Selection.cpp
+Shapefile_ReadWrite.cpp
+Shapefile_Optimizations.cpp
+Shapefile_LabelsCharts.cpp
+Shapefile_Geoprocessing.cpp
+Shapefile_Edit.cpp
+Shapefile.cpp
+Generating Code...
+Compiling...
+ShapeDrawingOptions.cpp
+Shape.cpp
+PointClass.cpp
+LineSegment.cpp
+LinePattern.cpp
+Labels.cpp
+LabelClass.cpp
+LabelCategory.cpp
+Image.cpp
+GridHeader.cpp
+GridColorScheme.cpp
+GridColorBreak.cpp
+Grid.cpp
+Field.cpp
+Extents.cpp
+ESRIGridManager.cpp
+ColorScheme.cpp
+Charts.cpp
+ChartField.cpp
+Chart.cpp
+Generating Code...
+Compiling...
+ShapefileDrawing.cpp
+RotatedRectangle.cpp
+PointSymbols.cpp
+LineDrawing.cpp
+LabelDrawing.cpp
+ImageDrawing.cpp
+DrawingOptions.cpp
+ChartDrawing.cpp
+Generating Code...
+Compiling resources...
+Microsoft (R) Windows (R) Resource Compiler Version 6.1.6723.1
+Copyright (C) Microsoft Corporation.  All rights reserved.
+Linking...
+   Creating library NDebug with Symbols\Win32\MapWinGIS.lib and object NDebug with Symbols\Win32\MapWinGIS.exp
+Embedding manifest...
+Registering output...
+Creating browse information file...
+Microsoft Browse Information Maintenance Utility Version 9.00.21022
+Copyright (C) Microsoft Corporation. All rights reserved.
+Build log was saved at "file://c:\Dev\MapWinGIS4Dev\NDebug with Symbols\Win32\BuildLog.htm"
+MapWinGIS - 0 error(s), 1 warning(s)
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

@@ -1,0 +1,11 @@
+
+Microsoft (R) Visual Studio Version 10.0.30319.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: ShapefileToGrid10, Configuration: Debug x64 ------
+C:\dev\MapWindow4Plugins\mwShapefileToGrid\ShapefileToGrid\Classes\Rasterizer.cs(223,29): warning CS0219: The variable 'i' is assigned but its value is never used
+C:\dev\MapWindow4Plugins\mwShapefileToGrid\ShapefileToGrid\Classes\Rasterizer.cs(848,26): warning CS0168: The variable 'ex' is declared but never used
+C:\dev\MapWindow4Plugins\mwShapefileToGrid\ShapefileToGrid\Forms\frmShapefile.cs(24,37): warning CS0649: Field 'jk.ShapefileToGrid.frmShapefile.m_FieldType' is never assigned to, and will always have its default value 0
+
+Compile complete -- 0 errors, 3 warnings
+  ShapefileToGrid10 -> C:\dev\MapWindow4Dev\Bin64\Plugins\ShapefileToGrid.dll
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========

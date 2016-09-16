@@ -1,0 +1,64 @@
+<h>Project File</h>
+
+The project file (basename.txt) contains a table of contents of the source files. 
+The same basename is used when naming many of the output files, so choose a good name.
+This file is read by AuthorDoc and displayed in the left pane as a tree control.
+Clicking on a section name in the tree control opens that file for editing in the right pane.
+<p>
+Files are organized in folders that mirror the project file.
+Indentation of two blank spaces in the project file defines subsections 
+and folders as follows:
+<p>
+<pre>
+If the project file contains:
+
+Section1
+  Section1.1
+    Section1.1.1
+  Section1.2
+Section2
+  Section2.1
+Appendix
+  Appendix1
+  Appendix2
+
+The directory system contains:
+
+Section1.txt (General or introductory information for Section1)
+Section1 is a folder containing:
+  Section1.1.txt
+  Section1.1 is a folder containing:
+    Section1.1.1.txt   
+  Section1.2.txt
+Section2.txt
+Section2 is a folder containing:
+  Section2.1.txt
+Appendix.txt
+Appendix is a folder containing:
+  Appendix1.txt
+  Appendix2.txt
+</pre>
+
+The file and directory names must match the names in the project file. 
+Outside AuthorDoc, the files and directories containing source may appear sorted by name or date.
+Inside AuthorDoc, they always appear in the order they will be included in the converted output.
+<p>
+The project file can be changed several ways:
+<ul>
+<li>File menu item New Project starts a new project file
+<li>File menu item New Section adds a new section after the one currently selected. 
+    Create or navigate to a subdirectory to create a new subsection.
+<li>Selecting the project in the tree view opens the project file for direct editing
+<li>any text editor can open the project file as a text file
+</ul>
+After the project file is changed, make sure the files it refers to are moved 
+or renamed to follow the changes. Any source file not mentioned in the project file 
+will not be included in the conversion output.
+
+
+
+
+
+
+
+

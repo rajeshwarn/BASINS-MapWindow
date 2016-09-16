@@ -1,0 +1,14 @@
+[vr 09-10-2009 15:44:49,48] Start compiling log4net.sln 
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: log4net, Configuration: Release Win32 ------
+log4net -> C:\Dev\SupportLibraries\bin\Win32\log4net.dll
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========
+[vr 09-10-2009 15:51:07,65] Start compiling log4net.sln 
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: log4net, Configuration: Release Win32 ------
+log4net -> C:\Dev\SupportLibraries\bin\Win32\log4net.dll
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========

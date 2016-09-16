@@ -1,0 +1,5 @@
+<b>Open Project into New Group</b>
+<p>
+Open Project into a New Group allows you open more than one existing MapWindow project in to the same view or workspace (i.e. MyProject1.mwprj and MyProject2.mwprj can be viewed together at the same time). You can save both MapWindow projects into a new project by clicking the save button.
+
+

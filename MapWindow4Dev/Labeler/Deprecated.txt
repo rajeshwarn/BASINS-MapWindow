@@ -1,0 +1,4 @@
+Paul Meems, May 23 2011
+Don't use this one anymore, it's deprecated.
+Use the new one: mwSymbology.
+Do right-click on properties of shapefile and it pops up.

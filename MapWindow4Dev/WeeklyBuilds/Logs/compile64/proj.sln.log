@@ -1,0 +1,387 @@
+[24-Jun-11  0:23:51.51] Start compiling proj.sln 
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Rebuild All started: Project: proj, Configuration: Release x64 ------
+1>Performing Makefile project actions
+1>Microsoft (R) Program Maintenance Utility Version 9.00.30729.01
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1> cd src
+1> nmake /f makefile.vc clean
+1>Microsoft (R) Program Maintenance Utility Version 9.00.30729.01
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1> del *.dll
+1> del *.exe
+1> del *.exp
+1> del *.manifest
+1> del *.lib
+1> del *.obj
+1> del *.pdb
+1> cd ..\nad
+1> nmake /f makefile.vc clean
+1>Microsoft (R) Program Maintenance Utility Version 9.00.30729.01
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1> for %f in ( conus MD TN WI WO alaska hawaii prvi stgeorge stlrnc stpaul null FL ) do del %f
+1>c:\dev\SupportLibraries\GDAL\proj\nad>del conus 
+1>c:\dev\SupportLibraries\GDAL\proj\nad>del MD 
+1>c:\dev\SupportLibraries\GDAL\proj\nad>del TN 
+1>c:\dev\SupportLibraries\GDAL\proj\nad>del WI 
+1>c:\dev\SupportLibraries\GDAL\proj\nad>del WO 
+1>c:\dev\SupportLibraries\GDAL\proj\nad>del alaska 
+1>c:\dev\SupportLibraries\GDAL\proj\nad>del hawaii 
+1>c:\dev\SupportLibraries\GDAL\proj\nad>del prvi 
+1>c:\dev\SupportLibraries\GDAL\proj\nad>del stgeorge 
+1>c:\dev\SupportLibraries\GDAL\proj\nad>del stlrnc 
+1>c:\dev\SupportLibraries\GDAL\proj\nad>del stpaul 
+1>c:\dev\SupportLibraries\GDAL\proj\nad>del null 
+1>c:\dev\SupportLibraries\GDAL\proj\nad>del FL 
+1> cd ..
+1>Microsoft (R) Program Maintenance Utility Version 9.00.30729.01
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1> cd src
+1> nmake /f makefile.vc
+1>Microsoft (R) Program Maintenance Utility Version 9.00.30729.01
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1> cl /nologo -I. -DPROJ_LIB=\"C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64\PROJ_NAD\"  -DHAVE_STRERROR=1 /nologo /Ox /fp:precise /MD /c aasincos.c adjlon.c bch2bps.c bchgen.c pj_gauss.c biveval.c dmstor.c mk_cheby.c pj_auth.c pj_deriv.c pj_ell_set.c pj_ellps.c pj_errno.c pj_factors.c pj_fwd.c pj_init.c pj_inv.c pj_list.c pj_malloc.c pj_mlfn.c pj_msfn.c pj_open_lib.c pj_param.c pj_phi2.c pj_pr_list.c pj_qsfn.c pj_strerrno.c pj_tsfn.c pj_units.c pj_zpoly1.c rtodms.c vector1.c pj_release.c geocent.c pj_transform.c pj_datum_set.c pj_datums.c pj_apply_gridshift.c nad_cvt.c nad_init.c nad_intr.c pj_utils.c pj_gridlist.c pj_gridinfo.c proj_mdist.c pj_mutex.c pj_initcache.c PJ_boggs.c PJ_collg.c PJ_crast.c PJ_denoy.c PJ_eck1.c PJ_eck2.c PJ_eck3.c PJ_eck4.c PJ_eck5.c PJ_fahey.c PJ_fouc_s.c PJ_gins8.c PJ_gn_sinu.c PJ_goode.c PJ_hatano.c PJ_loxim.c PJ_mbt_fps.c PJ_mbtfpp.c PJ_mbtfpq.c PJ_moll.c PJ_nell.c PJ_nell_h.c PJ_putp2.c PJ_putp3.c PJ_putp4p.c PJ_putp5.c PJ_putp6.c PJ_robin.c PJ_sts.c PJ_urm5.c PJ_urmfps.c PJ_wag2.c PJ_wag3.c PJ_wink1.c PJ_wink2.c PJ_aeqd.c PJ_gnom.c PJ_laea.c PJ_mod_ster.c PJ_nsper.c PJ_nzmg.c PJ_ortho.c PJ_stere.c PJ_sterea.c proj_rouss.c PJ_aea.c PJ_bipc.c PJ_bonne.c PJ_eqdc.c PJ_imw_p.c PJ_lcc.c PJ_poly.c PJ_rpoly.c PJ_sconics.c PJ_lcca.c PJ_cass.c PJ_cc.c PJ_cea.c PJ_eqc.c PJ_gall.c PJ_labrd.c PJ_lsat.c PJ_merc.c PJ_mill.c PJ_ocea.c PJ_omerc.c PJ_somerc.c PJ_tcc.c PJ_tcea.c PJ_tmerc.c PJ_geos.c PJ_gstmerc.c PJ_airy.c PJ_aitoff.c PJ_august.c PJ_bacon.c PJ_chamb.c PJ_hammer.c PJ_lagrng.c PJ_larr.c PJ_lask.c PJ_nocol.c PJ_ob_tran.c PJ_oea.c PJ_tpeqd.c PJ_vandg.c PJ_vandg2.c PJ_vandg4.c PJ_wag7.c pj_latlong.c PJ_krovak.c pj_geocent.c 
+1>aasincos.c
+1>adjlon.c
+1>bch2bps.c
+1>bchgen.c
+1>pj_gauss.c
+1>biveval.c
+1>dmstor.c
+1>mk_cheby.c
+1>pj_auth.c
+1>pj_deriv.c
+1>pj_ell_set.c
+1>pj_ellps.c
+1>pj_errno.c
+1>pj_factors.c
+1>pj_fwd.c
+1>pj_init.c
+1>pj_inv.c
+1>pj_list.c
+1>pj_malloc.c
+1>pj_mlfn.c
+1>Generating Code...
+1>Compiling...
+1>pj_msfn.c
+1>pj_open_lib.c
+1>pj_open_lib.c(46) : warning C4129: 'd' : unrecognized character escape sequence
+1>pj_open_lib.c(46) : warning C4129: 'S' : unrecognized character escape sequence
+1>pj_open_lib.c(46) : warning C4129: 'G' : unrecognized character escape sequence
+1>pj_open_lib.c(46) : warning C4129: 'g' : unrecognized character escape sequence
+1>pj_open_lib.c(46) : warning C4129: '.' : unrecognized character escape sequence
+1>pj_open_lib.c(46) : warning C4129: '.' : unrecognized character escape sequence
+1>pj_open_lib.c(46) : warning C4129: 'P' : unrecognized character escape sequence
+1>pj_param.c
+1>pj_phi2.c
+1>pj_pr_list.c
+1>pj_qsfn.c
+1>pj_strerrno.c
+1>pj_tsfn.c
+1>pj_units.c
+1>pj_zpoly1.c
+1>rtodms.c
+1>vector1.c
+1>pj_release.c
+1>geocent.c
+1>pj_transform.c
+1>pj_datum_set.c
+1>pj_datums.c
+1>pj_apply_gridshift.c
+1>nad_cvt.c
+1>nad_init.c
+1>Generating Code...
+1>Compiling...
+1>nad_intr.c
+1>pj_utils.c
+1>pj_gridlist.c
+1>pj_gridinfo.c
+1>proj_mdist.c
+1>pj_mutex.c
+1>pj_initcache.c
+1>PJ_boggs.c
+1>PJ_collg.c
+1>PJ_crast.c
+1>PJ_denoy.c
+1>PJ_eck1.c
+1>PJ_eck2.c
+1>PJ_eck3.c
+1>PJ_eck4.c
+1>PJ_eck5.c
+1>PJ_fahey.c
+1>PJ_fouc_s.c
+1>PJ_gins8.c
+1>PJ_gn_sinu.c
+1>Generating Code...
+1>Compiling...
+1>PJ_goode.c
+1>PJ_hatano.c
+1>PJ_loxim.c
+1>PJ_mbt_fps.c
+1>PJ_mbtfpp.c
+1>PJ_mbtfpq.c
+1>PJ_moll.c
+1>PJ_nell.c
+1>PJ_nell_h.c
+1>PJ_putp2.c
+1>PJ_putp3.c
+1>PJ_putp4p.c
+1>PJ_putp5.c
+1>PJ_putp6.c
+1>PJ_robin.c
+1>PJ_sts.c
+1>PJ_urm5.c
+1>PJ_urmfps.c
+1>PJ_wag2.c
+1>PJ_wag3.c
+1>Generating Code...
+1>Compiling...
+1>PJ_wink1.c
+1>PJ_wink2.c
+1>PJ_aeqd.c
+1>PJ_gnom.c
+1>PJ_laea.c
+1>PJ_mod_ster.c
+1>PJ_nsper.c
+1>PJ_nzmg.c
+1>PJ_ortho.c
+1>PJ_stere.c
+1>PJ_sterea.c
+1>proj_rouss.c
+1>PJ_aea.c
+1>PJ_bipc.c
+1>PJ_bonne.c
+1>PJ_eqdc.c
+1>PJ_imw_p.c
+1>PJ_lcc.c
+1>PJ_poly.c
+1>PJ_rpoly.c
+1>Generating Code...
+1>Compiling...
+1>PJ_sconics.c
+1>PJ_lcca.c
+1>PJ_cass.c
+1>PJ_cc.c
+1>PJ_cea.c
+1>PJ_eqc.c
+1>PJ_gall.c
+1>PJ_labrd.c
+1>PJ_lsat.c
+1>PJ_merc.c
+1>PJ_mill.c
+1>PJ_ocea.c
+1>PJ_omerc.c
+1>PJ_somerc.c
+1>PJ_tcc.c
+1>PJ_tcea.c
+1>PJ_tmerc.c
+1>PJ_geos.c
+1>PJ_gstmerc.c
+1>PJ_airy.c
+1>Generating Code...
+1>Compiling...
+1>PJ_aitoff.c
+1>PJ_august.c
+1>PJ_bacon.c
+1>PJ_chamb.c
+1>PJ_hammer.c
+1>PJ_lagrng.c
+1>PJ_larr.c
+1>PJ_lask.c
+1>PJ_nocol.c
+1>PJ_ob_tran.c
+1>PJ_oea.c
+1>PJ_tpeqd.c
+1>PJ_vandg.c
+1>PJ_vandg2.c
+1>PJ_vandg4.c
+1>PJ_wag7.c
+1>pj_latlong.c
+1>PJ_krovak.c
+1>pj_geocent.c
+1>Generating Code...
+1> if exist proj.lib del proj.lib
+1> lib /out:proj.lib aasincos.obj adjlon.obj bch2bps.obj bchgen.obj pj_gauss.obj  biveval.obj dmstor.obj mk_cheby.obj pj_auth.obj  pj_deriv.obj pj_ell_set.obj pj_ellps.obj pj_errno.obj  pj_factors.obj pj_fwd.obj pj_init.obj pj_inv.obj  pj_list.obj pj_malloc.obj pj_mlfn.obj pj_msfn.obj  pj_open_lib.obj pj_param.obj pj_phi2.obj pj_pr_list.obj  pj_qsfn.obj pj_strerrno.obj pj_tsfn.obj pj_units.obj  pj_zpoly1.obj rtodms.obj vector1.obj pj_release.obj  geocent.obj pj_transform.obj pj_datum_set.obj pj_datums.obj  pj_apply_gridshift.obj nad_cvt.obj nad_init.obj  nad_intr.obj pj_utils.obj pj_gridlist.obj pj_gridinfo.obj  proj_mdist.obj pj_mutex.obj pj_initcache.obj PJ_boggs.obj PJ_collg.obj PJ_crast.obj PJ_denoy.obj  PJ_eck1.obj PJ_eck2.obj PJ_eck3.obj PJ_eck4.obj  PJ_eck5.obj PJ_fahey.obj PJ_fouc_s.obj PJ_gins8.obj  PJ_gn_sinu.obj PJ_goode.obj PJ_hatano.obj PJ_loxim.obj  PJ_mbt_fps.obj PJ_mbtfpp.obj PJ_mbtfpq.obj PJ_moll.obj  PJ_nell.obj PJ_nell_h.obj PJ_putp2.obj PJ_putp3.obj  PJ_putp4p.obj PJ_putp5.obj PJ_putp6.obj PJ_robin.obj  PJ_sts.obj PJ_urm5.obj PJ_urmfps.obj PJ_wag2.obj  PJ_wag3.obj PJ_wink1.obj PJ_wink2.obj PJ_aeqd.obj PJ_gnom.obj PJ_laea.obj PJ_mod_ster.obj  PJ_nsper.obj PJ_nzmg.obj PJ_ortho.obj PJ_stere.obj PJ_sterea.obj  proj_rouss.obj PJ_aea.obj PJ_bipc.obj PJ_bonne.obj PJ_eqdc.obj  PJ_imw_p.obj PJ_lcc.obj PJ_poly.obj  PJ_rpoly.obj PJ_sconics.obj PJ_lcca.obj PJ_cass.obj PJ_cc.obj PJ_cea.obj PJ_eqc.obj  PJ_gall.obj PJ_labrd.obj PJ_lsat.obj PJ_merc.obj  PJ_mill.obj PJ_ocea.obj PJ_omerc.obj PJ_somerc.obj  PJ_tcc.obj PJ_tcea.obj PJ_tmerc.obj PJ_geos.obj PJ_gstmerc.obj PJ_airy.obj PJ_aitoff.obj PJ_august.obj PJ_bacon.obj  PJ_chamb.obj PJ_hammer.obj PJ_lagrng.obj PJ_larr.obj  PJ_lask.obj PJ_nocol.obj PJ_ob_tran.obj PJ_oea.obj  PJ_tpeqd.obj PJ_vandg.obj PJ_vandg2.obj PJ_vandg4.obj  PJ_wag7.obj pj_latlong.obj PJ_krovak.obj pj_geocent.obj
+1>Microsoft (R) Library Manager Version 9.00.30729.01
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1> link /debug /dll /def:proj.def /out:proj.dll /implib:proj_i.lib  aasincos.obj adjlon.obj bch2bps.obj bchgen.obj pj_gauss.obj  biveval.obj dmstor.obj mk_cheby.obj pj_auth.obj  pj_deriv.obj pj_ell_set.obj pj_ellps.obj pj_errno.obj  pj_factors.obj pj_fwd.obj pj_init.obj pj_inv.obj  pj_list.obj pj_malloc.obj pj_mlfn.obj pj_msfn.obj  pj_open_lib.obj pj_param.obj pj_phi2.obj pj_pr_list.obj  pj_qsfn.obj pj_strerrno.obj pj_tsfn.obj pj_units.obj  pj_zpoly1.obj rtodms.obj vector1.obj pj_release.obj  geocent.obj pj_transform.obj pj_datum_set.obj pj_datums.obj  pj_apply_gridshift.obj nad_cvt.obj nad_init.obj  nad_intr.obj pj_utils.obj pj_gridlist.obj pj_gridinfo.obj  proj_mdist.obj pj_mutex.obj pj_initcache.obj PJ_boggs.obj PJ_collg.obj PJ_crast.obj PJ_denoy.obj  PJ_eck1.obj PJ_eck2.obj PJ_eck3.obj PJ_eck4.obj  PJ_eck5.obj PJ_fahey.obj PJ_fouc_s.obj PJ_gins8.obj  PJ_gn_sinu.obj PJ_goode.obj PJ_hatano.obj PJ_loxim.obj  PJ_mbt_fps.obj PJ_mbtfpp.obj PJ_mbtfpq.obj PJ_moll.obj  PJ_nell.obj PJ_nell_h.obj PJ_putp2.obj PJ_putp3.obj  PJ_putp4p.obj PJ_putp5.obj PJ_putp6.obj PJ_robin.obj  PJ_sts.obj PJ_urm5.obj PJ_urmfps.obj PJ_wag2.obj  PJ_wag3.obj PJ_wink1.obj PJ_wink2.obj PJ_aeqd.obj PJ_gnom.obj PJ_laea.obj PJ_mod_ster.obj  PJ_nsper.obj PJ_nzmg.obj PJ_ortho.obj PJ_stere.obj PJ_sterea.obj  proj_rouss.obj PJ_aea.obj PJ_bipc.obj PJ_bonne.obj PJ_eqdc.obj  PJ_imw_p.obj PJ_lcc.obj PJ_poly.obj  PJ_rpoly.obj PJ_sconics.obj PJ_lcca.obj PJ_cass.obj PJ_cc.obj PJ_cea.obj PJ_eqc.obj  PJ_gall.obj PJ_labrd.obj PJ_lsat.obj PJ_merc.obj  PJ_mill.obj PJ_ocea.obj PJ_omerc.obj PJ_somerc.obj  PJ_tcc.obj PJ_tcea.obj PJ_tmerc.obj PJ_geos.obj PJ_gstmerc.obj PJ_airy.obj PJ_aitoff.obj PJ_august.obj PJ_bacon.obj  PJ_chamb.obj PJ_hammer.obj PJ_lagrng.obj PJ_larr.obj  PJ_lask.obj PJ_nocol.obj PJ_ob_tran.obj PJ_oea.obj  PJ_tpeqd.obj PJ_vandg.obj PJ_vandg2.obj PJ_vandg4.obj  PJ_wag7.obj pj_latlong.obj PJ_krovak.obj pj_geocent.obj
+1>Microsoft (R) Incremental Linker Version 9.00.30729.01
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>   Creating library proj_i.lib and object proj_i.exp
+1> if exist proj.dll.manifest mt -manifest proj.dll.manifest -outputresource:proj.dll;2
+1>Microsoft (R) Manifest Tool version 5.2.3790.2076
+1>Copyright (c) Microsoft Corporation 2005. 
+1>All rights reserved.
+1> cl /nologo -I. -DPROJ_LIB=\"C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64\PROJ_NAD\"  -DHAVE_STRERROR=1 /nologo /Ox /fp:precise /MD /c proj.c gen_cheb.c p_series.c emess.c 
+1>proj.c
+1>gen_cheb.c
+1>p_series.c
+1>emess.c
+1>Generating Code...
+1> cl proj.obj gen_cheb.obj p_series.obj emess.obj proj_i.lib
+1>Microsoft (R) C/C++ Optimizing Compiler Version 15.00.30729.01 for x64
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>Microsoft (R) Incremental Linker Version 9.00.30729.01
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/out:proj.exe 
+1>proj.obj 
+1>gen_cheb.obj 
+1>p_series.obj 
+1>emess.obj 
+1>proj_i.lib 
+1> if exist proj.exe.manifest mt -manifest proj.exe.manifest -outputresource:proj.exe;1
+1>Microsoft (R) Manifest Tool version 5.2.3790.2076
+1>Copyright (c) Microsoft Corporation 2005. 
+1>All rights reserved.
+1> cl /nologo -I. -DPROJ_LIB=\"C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64\PROJ_NAD\"  -DHAVE_STRERROR=1 /nologo /Ox /fp:precise /MD /c cs2cs.c 
+1>cs2cs.c
+1> cl cs2cs.obj gen_cheb.obj p_series.obj emess.obj proj_i.lib
+1>Microsoft (R) C/C++ Optimizing Compiler Version 15.00.30729.01 for x64
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>Microsoft (R) Incremental Linker Version 9.00.30729.01
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/out:cs2cs.exe 
+1>cs2cs.obj 
+1>gen_cheb.obj 
+1>p_series.obj 
+1>emess.obj 
+1>proj_i.lib 
+1> if exist cs2cs.exe.manifest mt -manifest cs2cs.exe.manifest -outputresource:cs2cs.exe;1
+1>Microsoft (R) Manifest Tool version 5.2.3790.2076
+1>Copyright (c) Microsoft Corporation 2005. 
+1>All rights reserved.
+1> cl /nologo -I. -DPROJ_LIB=\"C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64\PROJ_NAD\"  -DHAVE_STRERROR=1 /nologo /Ox /fp:precise /MD /c geod.c geod_set.c geod_for.c geod_inv.c 
+1>geod.c
+1>geod_set.c
+1>geod_for.c
+1>geod_inv.c
+1>Generating Code...
+1> cl geod.obj geod_set.obj geod_for.obj geod_inv.obj emess.obj proj_i.lib
+1>Microsoft (R) C/C++ Optimizing Compiler Version 15.00.30729.01 for x64
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>Microsoft (R) Incremental Linker Version 9.00.30729.01
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/out:geod.exe 
+1>geod.obj 
+1>geod_set.obj 
+1>geod_for.obj 
+1>geod_inv.obj 
+1>emess.obj 
+1>proj_i.lib 
+1> if exist geod.exe.manifest mt -manifest geod.exe.manifest -outputresource:geod.exe;1
+1>Microsoft (R) Manifest Tool version 5.2.3790.2076
+1>Copyright (c) Microsoft Corporation 2005. 
+1>All rights reserved.
+1> cl /nologo -I. -DPROJ_LIB=\"C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64\PROJ_NAD\"  -DHAVE_STRERROR=1 /nologo /Ox /fp:precise /MD /c nad2bin.c 
+1>nad2bin.c
+1> cl nad2bin.obj emess.obj proj_i.lib
+1>Microsoft (R) C/C++ Optimizing Compiler Version 15.00.30729.01 for x64
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>Microsoft (R) Incremental Linker Version 9.00.30729.01
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/out:nad2bin.exe 
+1>nad2bin.obj 
+1>emess.obj 
+1>proj_i.lib 
+1> cd ..\nad
+1> nmake /f makefile.vc
+1>Microsoft (R) Program Maintenance Utility Version 9.00.30729.01
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1> if exist conus.lla "c:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin\nmake.EXE" /f makefile.vc nadshift
+1>Microsoft (R) Program Maintenance Utility Version 9.00.30729.01
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1> for %f in ( conus MD TN WI WO alaska hawaii prvi stgeorge stlrnc stpaul null FL ) do ..\src\nad2bin.exe %f < %f.lla
+1>c:\dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe conus  0<conus.lla 
+1>c:\dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe MD  0<MD.lla 
+1>c:\dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe TN  0<TN.lla 
+1>c:\dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe WI  0<WI.lla 
+1>c:\dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe WO  0<WO.lla 
+1>c:\dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe alaska  0<alaska.lla 
+1>c:\dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe hawaii  0<hawaii.lla 
+1>c:\dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe prvi  0<prvi.lla 
+1>c:\dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe stgeorge  0<stgeorge.lla 
+1>c:\dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe stlrnc  0<stlrnc.lla 
+1>c:\dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe stpaul  0<stpaul.lla 
+1>c:\dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe null  0<null.lla 
+1>c:\dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe FL  0<FL.lla 
+1> nmake /f makefile.vc install-all
+1>Microsoft (R) Program Maintenance Utility Version 9.00.30729.01
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1> mkdir C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64
+1>A subdirectory or file C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64 already exists.
+1> mkdir C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64\PROJ_NAD
+1>A subdirectory or file C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64\PROJ_NAD already exists.
+1> for %f in ( GL27 nad.lst nad27 nad83 proj_def.dat world epsg esri  esri.extra other.extra IGNF ) do copy %f C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64\PROJ_NAD
+1>c:\dev\SupportLibraries\GDAL\proj\nad>copy GL27 C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64\PROJ_NAD 
+1>        1 file(s) copied.
+1>c:\dev\SupportLibraries\GDAL\proj\nad>copy nad.lst C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64\PROJ_NAD 
+1>        1 file(s) copied.
+1>c:\dev\SupportLibraries\GDAL\proj\nad>copy nad27 C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64\PROJ_NAD 
+1>        1 file(s) copied.
+1>c:\dev\SupportLibraries\GDAL\proj\nad>copy nad83 C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64\PROJ_NAD 
+1>        1 file(s) copied.
+1>c:\dev\SupportLibraries\GDAL\proj\nad>copy proj_def.dat C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64\PROJ_NAD 
+1>        1 file(s) copied.
+1>c:\dev\SupportLibraries\GDAL\proj\nad>copy world C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64\PROJ_NAD 
+1>        1 file(s) copied.
+1>c:\dev\SupportLibraries\GDAL\proj\nad>copy epsg C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64\PROJ_NAD 
+1>        1 file(s) copied.
+1>c:\dev\SupportLibraries\GDAL\proj\nad>copy esri C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64\PROJ_NAD 
+1>        1 file(s) copied.
+1>c:\dev\SupportLibraries\GDAL\proj\nad>copy esri.extra C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64\PROJ_NAD 
+1>        1 file(s) copied.
+1>c:\dev\SupportLibraries\GDAL\proj\nad>copy other.extra C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64\PROJ_NAD 
+1>        1 file(s) copied.
+1>c:\dev\SupportLibraries\GDAL\proj\nad>copy IGNF C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64\PROJ_NAD 
+1>        1 file(s) copied.
+1> if exist conus "c:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin\nmake.EXE" /f makefile.vc install-nadgrids
+1>Microsoft (R) Program Maintenance Utility Version 9.00.30729.01
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1> for %f in ( conus MD TN WI WO alaska hawaii prvi stgeorge stlrnc stpaul null FL ) do copy %f C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64\PROJ_NAD
+1>c:\dev\SupportLibraries\GDAL\proj\nad>copy conus C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64\PROJ_NAD 
+1>        1 file(s) copied.
+1>c:\dev\SupportLibraries\GDAL\proj\nad>copy MD C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64\PROJ_NAD 
+1>        1 file(s) copied.
+1>c:\dev\SupportLibraries\GDAL\proj\nad>copy TN C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64\PROJ_NAD 
+1>        1 file(s) copied.
+1>c:\dev\SupportLibraries\GDAL\proj\nad>copy WI C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64\PROJ_NAD 
+1>        1 file(s) copied.
+1>c:\dev\SupportLibraries\GDAL\proj\nad>copy WO C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64\PROJ_NAD 
+1>        1 file(s) copied.
+1>c:\dev\SupportLibraries\GDAL\proj\nad>copy alaska C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64\PROJ_NAD 
+1>        1 file(s) copied.
+1>c:\dev\SupportLibraries\GDAL\proj\nad>copy hawaii C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64\PROJ_NAD 
+1>        1 file(s) copied.
+1>c:\dev\SupportLibraries\GDAL\proj\nad>copy prvi C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64\PROJ_NAD 
+1>        1 file(s) copied.
+1>c:\dev\SupportLibraries\GDAL\proj\nad>copy stgeorge C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64\PROJ_NAD 
+1>        1 file(s) copied.
+1>c:\dev\SupportLibraries\GDAL\proj\nad>copy stlrnc C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64\PROJ_NAD 
+1>        1 file(s) copied.
+1>c:\dev\SupportLibraries\GDAL\proj\nad>copy stpaul C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64\PROJ_NAD 
+1>        1 file(s) copied.
+1>c:\dev\SupportLibraries\GDAL\proj\nad>copy null C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64\PROJ_NAD 
+1>        1 file(s) copied.
+1>c:\dev\SupportLibraries\GDAL\proj\nad>copy FL C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64\PROJ_NAD 
+1>        1 file(s) copied.
+1> copy *.gsb C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64\PROJ_NAD
+1>ntf_r93.gsb
+1>nzgd2kgrid0005.gsb
+1>        2 file(s) copied.
+1> copy ntv1_can.dat C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64\PROJ_NAD
+1>        1 file(s) copied.
+1> cd ..
+1> cd src
+1> nmake /f makefile.vc copyfiles
+1>Microsoft (R) Program Maintenance Utility Version 9.00.30729.01
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1> copy proj.dll "C:\dev\SupportLibraries\GDAL\gdal18\..\..\bin\x64"
+1>        1 file(s) copied.
+1> copy proj_i.lib "C:\dev\SupportLibraries\GDAL\gdal18\..\..\lib\x64"
+1>        1 file(s) copied.
+1> cd ..
+1>Build log was saved at "file://c:\dev\SupportLibraries\GDAL\proj\build\msvc90\Release\x64\BuildLog.htm"
+1>proj - 0 error(s), 7 warning(s)
+========== Rebuild All: 1 succeeded, 0 failed, 0 skipped ==========

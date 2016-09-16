@@ -1,0 +1,19 @@
+<h>AuthorDoc Introduction</h>
+AuthorDoc is a system developed by Aqua Terra Consultants for creating documentation 
+and converting it into various formats. While documentation is being written, 
+it is saved in plain-text format with a little HTML formatting. This format is called 
+"source" as in "source code" in programming. The AuthorDoc interface or any other 
+text editing program can be used to create and edit source.
+<p>
+AuthorDoc can convert source into a printable Microsoft Word document (basename.doc), 
+old-style Windows help (basename.hlp, basename.cnt), new style Windows HTML Help 
+(basename.chm), or HTML pages suitable for placing on a website.
+<p>
+In this manual, the word <b>basename</b> is used to refer to the project name. 
+This should probably be the name of the application being documented. 
+Shorten the name if it is longer than 8 characters and do not include spaces.
+For example, if the project is documentation for Word, read basename in the manual as Word. 
+
+
+
+

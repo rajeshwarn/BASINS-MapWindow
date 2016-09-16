@@ -1,0 +1,139 @@
+<h>Using HTML Help Files in Visual Basic</h>
+
+The HtmlHelp API (hhctrl.ocx)can open an HTML Help file to a particular topic 
+or look up a particular keyword. For example:
+
+<pre>
+Dim d As HH_AKLINK
+d.pszKeywords = "keyword"
+d.fReserved = vbFalse
+d.cbStruct = LenB(d)
+HtmlHelp Me.hwnd, "c:\basename.chm", HH_ALINK_LOOKUP, d
+
+'Declarations needed are:
+
+Enum HH_COMMAND
+    HH_DISPLAY_TOPIC = &amp;H0
+    HH_HELP_FINDER = &amp;H0           ' WinHelp equivalent
+    HH_SET_WIN_TYPE = &amp;H4
+    HH_GET_WIN_TYPE = &amp;H5
+    HH_GET_WIN_HANDLE = &amp;H6
+    HH_SYNC = &amp;H9
+    HH_KEYWORD_LOOKUP = &amp;HD
+    HH_DISPLAY_TEXT_POPUP = &amp;HE    ' display string resource id or text in a popup window
+    HH_HELP_CONTEXT = &amp;HF          ' display mapped numeric value in dwData
+    HH_TP_HELP_CONTEXTMENU = &amp;H10  ' text popup help, same as WinHelp HELP_CONTEXTMENU
+    HH_TP_HELP_WM_HELP = &amp;H11      ' text popup help, same as WinHelp HELP_WM_HELP
+    HH_CLOSE_ALL = &amp;H12            ' close all windows opened by the caller
+    HH_ALINK_LOOKUP = &amp;H13         ' ALink version of HH_KEYWORD_LOOKUP
+End Enum
+
+Declare Function HtmlHelp Lib "hhctrl.ocx" Alias "HtmlHelpA" _
+  (ByVal hwndCaller As Long, 
+   ByVal pszFile As String,
+   ByVal uCommand As HH_COMMAND,
+   dwData As Any) As Long
+
+Type HH_AKLINK
+    cbStruct As Long            ' sizeof this structure
+    fReserved As Long           ' must be FALSE (really!)
+    pszKeywords As String       ' semi-colon separated keywords
+    pszUrl As String            ' URL to jump to if no keywords found (may be NULL)
+    pszMsgText As String        ' text to display if pszUrl is NULL and no keyword match
+    pszMsgTitle As String       ' title to display if pszUrl is NULL and no keyword match
+    pszWindow As String         ' Window to display URL in
+    fIndexOnFail As Long        ' Displays index if keyword lookup fails.
+End Type
+
+</pre>
+
+See the documentation in HTML Help Workshop for more information.
+<p>
+<hr>
+<p>
+Another way to open basename.chm is to call the following routine:
+<p>
+<pre>OpenFile("c:\basename.chm")</pre>
+<p>
+The OpenFile routine also opens any other file as though the user had double-clicked 
+it in Windows Explorer.
+<p>
+<pre>
+Declare Function ShellExecute Lib "shell32.dll" Alias "ShellExecuteA" _
+  (ByVal hwnd As Long, _
+   ByVal lpOperation As String, _
+   ByVal lpFile As String, _
+   ByVal lpParameters As String, _
+   ByVal lpDirectory As String, _
+   ByVal nShowCmd As Long) As Long
+
+' Subroutine ===============================================
+' Name:     OpenFile
+' Purpose:  Opens a file using its files association.
+'
+' Arguments:
+'  Required  filename - Full path name to file.
+'   Optional cdlg - CommonDialog for displaying an Open dialog if filename is not found
+'
+Public Function OpenFile(ByVal Filename As String, Optional cdlg As CommonDialog) As String
+  Dim TempDir As String
+  Dim TempChar As String
+  Dim DirectoryNm As String
+  Dim FileNm As String
+  Dim errShell As Long
+  Dim Msg As String
+  
+  On Error GoTo errOpenFile
+'
+' Get file and pathname.
+'
+  Filename = Trim(Filename)
+  If Len(Dir(Filename)) = 0 Then
+    If Not IsMissing(cdlg) Then
+      cdlg.DialogTitle = "Open File"
+      cdlg.Filename = Filename
+      cdlg.CancelError = False
+      cdlg.ShowOpen
+      Filename = Trim(cdlg.Filename)
+    End If
+  End If
+
+  If Len(Dir(Filename)) &gt; 0 Then
+    DirectoryNm = PathNameOnly(Filename)
+    FileNm = Mid(Filename, Len(DirectoryNm) + 2)
+  '
+  ' Open the file.
+  '
+    errShell = ShellExecute(0&amp;, "open", FileNm, 0&amp;, DirectoryNm, SW_SHOWNORMAL)
+    Msg = ""
+    If errShell &lt;= 32 Then Msg = errShell
+    Select Case errShell
+      Case 0:  Msg = "The file could not be run due to insufficient system memory or a corrupt program file"
+      Case 2:  Msg = "File Not Found"
+      Case 3:  Msg = "Invalid Path"
+      Case 5:  Msg = "Sharing or protection error"
+      Case 6:  Msg = "Separate data segments are required for each task"
+      Case 8:  Msg = "Insufficient memory to run the program"
+      Case 10: Msg = "Incorrect Windows version"
+      Case 11: Msg = "Invalid Program File"
+      Case 12: Msg = "Program file requires a different operating System"
+      Case 13: Msg = "Program requires MS-DOS 4.0"
+      Case 14: Msg = "Unknown program file type"
+      Case 15: Msg = "Windows prgram does not support protected memory mode"
+      Case 16: Msg = "Invalid use of data segments when loading a second instance of a program"
+      Case 19: Msg = "Attempt to run a compressed program file"
+      Case 20: Msg = "Invalid dynamic link library"
+      Case 21: Msg = "Program requires Windows 32-bit extensions"
+      Case 31: Msg = "No application found for this file"
+    End Select
+    If Msg &lt;&gt; "" Then MsgBox Msg &amp; vbCr &amp; Filename, vbOKOnly, "Error opening file"
+  End If
+  OpenFile = Msg
+  Exit Function
+errOpenFile:
+  MsgBox "Fatal Error: Could not open external file using ShellExecute." &amp; vbCr &amp; err.Description
+End Function
+</pre>
+The most common error when trying to open a help file is getting the path wrong
+so the help file cannot be found or an older version of it is found instead.
+

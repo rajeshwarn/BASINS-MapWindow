@@ -1,0 +1,224 @@
+[vr 09-10-2009 15:42:46,32] Start compiling proj.sln 
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: proj, Configuration: Release Win32 ------
+Performing Makefile project actions
+Microsoft (R) Program Maintenance Utility Version 9.00.30729.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+ cd src
+ nmake /f makefile.vc
+Microsoft (R) Program Maintenance Utility Version 9.00.30729.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+ cd ..\nad
+ nmake /f makefile.vc
+Microsoft (R) Program Maintenance Utility Version 9.00.30729.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+ if exist conus.lla "C:\Program Files\Microsoft Visual Studio 9.0\VC\bin\nmake.EXE" /f makefile.vc nadshift
+Microsoft (R) Program Maintenance Utility Version 9.00.30729.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+ for %f in ( conus MD TN WI WO FL alaska hawaii prvi stgeorge stlrnc stpaul null ) do ..\src\nad2bin.exe %f < %f.lla
+C:\Dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe conus  0<conus.lla 
+C:\Dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe MD  0<MD.lla 
+C:\Dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe TN  0<TN.lla 
+C:\Dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe WI  0<WI.lla 
+C:\Dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe WO  0<WO.lla 
+C:\Dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe FL  0<FL.lla 
+C:\Dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe alaska  0<alaska.lla 
+C:\Dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe hawaii  0<hawaii.lla 
+C:\Dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe prvi  0<prvi.lla 
+C:\Dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe stgeorge  0<stgeorge.lla 
+C:\Dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe stlrnc  0<stlrnc.lla 
+C:\Dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe stpaul  0<stpaul.lla 
+C:\Dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe null  0<null.lla 
+ nmake /f makefile.vc install-all
+Microsoft (R) Program Maintenance Utility Version 9.00.30729.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+ mkdir "\..\..\bin\Win32"
+ mkdir "\..\..\bin\Win32/PROJ_NAD"
+ for %f in ( GL27 nad.lst nad27 nad83 proj_def.dat world epsg esri  esri.extra other.extra IGNF ntf_r93.gsb ) do copy %f "\..\..\bin\Win32/PROJ_NAD"
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy GL27 "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy nad.lst "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy nad27 "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy nad83 "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy proj_def.dat "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy world "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy epsg "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy esri "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy esri.extra "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy other.extra "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy IGNF "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy ntf_r93.gsb "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+ if exist conus "C:\Program Files\Microsoft Visual Studio 9.0\VC\bin\nmake.EXE" /f makefile.vc install-nadgrids
+Microsoft (R) Program Maintenance Utility Version 9.00.30729.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+ for %f in ( conus MD TN WI WO FL alaska hawaii prvi stgeorge stlrnc stpaul null ) do copy %f "\..\..\bin\Win32/PROJ_NAD"
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy conus "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy MD "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy TN "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy WI "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy WO "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy FL "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy alaska "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy hawaii "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy prvi "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy stgeorge "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy stlrnc "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy stpaul "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy null "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+ copy *.gsb "\..\..\bin\Win32/PROJ_NAD"
+CHENYX06a.gsb
+ntf_r93.gsb
+nzgd2kgrid0005.gsb
+        3 bestand(en) gekopieerd.
+ copy ntv1_can.dat "\..\..\bin\Win32/PROJ_NAD"
+        1 bestand(en) gekopieerd.
+ cd ..
+ cd src
+ nmake /f makefile.vc copyfiles
+Microsoft (R) Program Maintenance Utility Version 9.00.30729.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+ copy proj.dll "\..\..\bin\Win32"
+        1 bestand(en) gekopieerd.
+ cd ..
+Build log was saved at "file://c:\Dev\SupportLibraries\GDAL\proj\build\msvc90\Release\BuildLog.htm"
+proj - 0 error(s), 0 warning(s)
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+[vr 09-10-2009 15:49:55,23] Start compiling proj.sln 
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: proj, Configuration: Release Win32 ------
+Performing Makefile project actions
+Microsoft (R) Program Maintenance Utility Version 9.00.30729.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+ cd src
+ nmake /f makefile.vc
+Microsoft (R) Program Maintenance Utility Version 9.00.30729.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+ cd ..\nad
+ nmake /f makefile.vc
+Microsoft (R) Program Maintenance Utility Version 9.00.30729.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+ if exist conus.lla "C:\Program Files\Microsoft Visual Studio 9.0\VC\bin\nmake.EXE" /f makefile.vc nadshift
+Microsoft (R) Program Maintenance Utility Version 9.00.30729.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+ for %f in ( conus MD TN WI WO FL alaska hawaii prvi stgeorge stlrnc stpaul null ) do ..\src\nad2bin.exe %f < %f.lla
+C:\Dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe conus  0<conus.lla 
+C:\Dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe MD  0<MD.lla 
+C:\Dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe TN  0<TN.lla 
+C:\Dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe WI  0<WI.lla 
+C:\Dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe WO  0<WO.lla 
+C:\Dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe FL  0<FL.lla 
+C:\Dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe alaska  0<alaska.lla 
+C:\Dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe hawaii  0<hawaii.lla 
+C:\Dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe prvi  0<prvi.lla 
+C:\Dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe stgeorge  0<stgeorge.lla 
+C:\Dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe stlrnc  0<stlrnc.lla 
+C:\Dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe stpaul  0<stpaul.lla 
+C:\Dev\SupportLibraries\GDAL\proj\nad>..\src\nad2bin.exe null  0<null.lla 
+ nmake /f makefile.vc install-all
+Microsoft (R) Program Maintenance Utility Version 9.00.30729.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+ mkdir "\..\..\bin\Win32"
+Er bestaat al een submap of bestand \..\..\bin\Win32.
+ mkdir "\..\..\bin\Win32/PROJ_NAD"
+Er bestaat al een submap of bestand \..\..\bin\Win32/PROJ_NAD.
+ for %f in ( GL27 nad.lst nad27 nad83 proj_def.dat world epsg esri  esri.extra other.extra IGNF ntf_r93.gsb ) do copy %f "\..\..\bin\Win32/PROJ_NAD"
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy GL27 "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy nad.lst "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy nad27 "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy nad83 "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy proj_def.dat "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy world "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy epsg "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy esri "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy esri.extra "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy other.extra "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy IGNF "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy ntf_r93.gsb "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+ if exist conus "C:\Program Files\Microsoft Visual Studio 9.0\VC\bin\nmake.EXE" /f makefile.vc install-nadgrids
+Microsoft (R) Program Maintenance Utility Version 9.00.30729.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+ for %f in ( conus MD TN WI WO FL alaska hawaii prvi stgeorge stlrnc stpaul null ) do copy %f "\..\..\bin\Win32/PROJ_NAD"
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy conus "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy MD "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy TN "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy WI "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy WO "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy FL "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy alaska "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy hawaii "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy prvi "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy stgeorge "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy stlrnc "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy stpaul "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+C:\Dev\SupportLibraries\GDAL\proj\nad>copy null "\..\..\bin\Win32/PROJ_NAD" 
+        1 bestand(en) gekopieerd.
+ copy *.gsb "\..\..\bin\Win32/PROJ_NAD"
+CHENYX06a.gsb
+ntf_r93.gsb
+nzgd2kgrid0005.gsb
+        3 bestand(en) gekopieerd.
+ copy ntv1_can.dat "\..\..\bin\Win32/PROJ_NAD"
+        1 bestand(en) gekopieerd.
+ cd ..
+ cd src
+ nmake /f makefile.vc copyfiles
+Microsoft (R) Program Maintenance Utility Version 9.00.30729.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+ copy proj.dll "\..\..\bin\Win32"
+        1 bestand(en) gekopieerd.
+ cd ..
+Build log was saved at "file://c:\Dev\SupportLibraries\GDAL\proj\build\msvc90\Release\BuildLog.htm"
+proj - 0 error(s), 0 warning(s)
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

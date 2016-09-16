@@ -1,0 +1,125 @@
+The Legend Editor allows you to view layer properties, legend properties, and symbology for the highlighted layer in the Legend <i>(Note: only legend properties and symbology are editable)</i>. To display the properties of another layer you do not need to close the Legend Editor dialog box, just click on another layer in the Legend.
+<br>
+<ul>
+<li><b>To open the Legend Editor:</b>
+<br>
+<ol>
+<li>Highlight a layer by clicking on it in the Legend
+<li>Right click in the Legend
+<li>Click Properties, and then a dialog box appears titled Legend Editor.</ol></ul>
+<p>
+<b>Layer Properties</b>
+<ul>
+<li><b>Bounding Box (Min X, Max X)</b> - Displays the minimum and maximum data extents in the X direction.
+<li><b>Bounding Box (Min Y, Max Y)</b> - Displays the minimum and maximum data extents in the Y direction.
+<li><b>Bounding Box (Min Z, Max Z)</b> - Displays the minimum and maximum data extents in the Z direction.
+<li><b>Cell Size X</b> (Raster layers only) - Displays the width of each cell in the X direction.
+<li><b>Cell Size Y</b> (Raster layers only) - Displays the width of each cell in the Y direction.
+<li><b>Columns</b> (Raster layers only) - Displays the number of columns in the raster.
+<li><b>Data Type</b> (Raster layers only) - Displays the data type of the raster.
+<li><b>Filename</b> - Displays the complete file path name for the layer.
+<li><b>Handle</b> - The internal indexing handle for the layer.
+<li><b>Maximum Value</b> (Raster layers only) - Displays the minimum value of the raster.
+<li><b>Minimum Value</b> (Raster layers only) - Displays the maximum value of the raster.
+<li><b>No Data Value</b> (Raster layers only) - Displays the value assigned as No Data for the raster.
+<li><b>Projection</b> - Displays the projection of the layer.
+<li><b>Rows</b> (Raster layers only) - Displays the number of rows of the raster.</ul>
+<p>
+<b>Legend Properties</b>
+<ul>
+<li><b>Expand Legend</b> (Vector layers only) - Allows this layer to expand to show any additional data (i.e. coloring scheme)in the Legend. If set to True, the layer is expandable, and if set to False, the layer is not expandable.
+<ol>
+<li>Click on the drop-down arrow button <img src="Drop Down Button.bmp"> next to Expand Legend, under Legend Properties.
+<li>Click True, or False, and then the layer is expandable or not.</ol>
+<li><b>Legend Picture</b> - 
+<ol>
+<li>Click on the browse button <img src="Browse.bmp"> next to Legend Picture and under Legend Properties, and then a dialog box appears titled Open.
+<li>Browse for an icon (*ico).
+<li>Click the Open button, and then your icon is displayed in the Legend next to your layer.</ol>
+<li><b>Size</b> - Displays the width and height of the chosen icon.</ul>
+<p>
+<b>Symbology</b>
+<ul>
+<li><b>Coloring Scheme</b> - Allows you to symbolize your data with colors for numerical or catagorical values.
+<p>
+<b>General Instructions</b>
+<ol>
+<li>Click the browse button <img src="Browse.bmp"> next to Coloring Scheme and under Symbology, and then a dialog box appears titled Coloring Scheme Editor.
+<li>Click the drop-down arrow button <img src="Drop Down Button.bmp"> next to Field to Color By and click on the field you would like to use for the symbology.
+<li>Click the drop-down arrow button next to Number format and choose either Scientific Notation, Rounded Decimals, Not Rounded Decimals, or Automatic (Shortest Text).
+<li>Click the Apply or OK button when you are done symbolizing your layer.</ol>
+<br>
+<b>Toolbars</b>
+<ul>
+<li><img src="Open.bmp"> <b>Open</b> - Adds a MapWindow Coloring Scheme file (*.mwleg) to the layer.
+<ol>
+<li>Click the Open button, and then a dialog box appears titled Open.
+<li>Browse for a MapWindow Coloring Scheme file (*.mwleg).
+<li>Click the Open button, and then your coloring scheme is added to your layer.</ol>
+<li><img src="Save.bmp"> <b>Save</b> - Saves the MapWindow Coloring Scheme file (*.mwleg) that you create to your hard drive.
+<ol>
+<li>Click the Save button, and then a dialog box appears titled Save As.
+<li>Browse for a location to save your MapWindow Coloring Scheme file (*.mwleg).
+<li>Click the Save button, and then your coloring scheme is saved to your hard drive.</ol>
+<li><img src="Add.bmp"> <b>Add</b> - Adds a break (Color, Title, and Value) to your coloring scheme.
+<li><img src="Delete.bmp"> <b>Delete</b> - Deletes a break from your coloring scheme.
+<ol>
+<li>Click to highlight a break in your coloring scheme.
+<li>Click the Delete button, and then the row is deleted.</ol>
+<li><img src="Clear Breaks.bmp"> <b>Clear Breaks</b> - Clears (deletes) all breaks from your coloring scheme.
+<li><img src="Breaks.bmp"> <b>Lightning Bolt</b>
+<ul>
+<li><b>Continuous Ramp</b> - Adds a continuous coloring scheme to your layer.
+<ol>
+<li>Click and hold the Lightning Bolt button.
+<li>Click the Continuous Ramp button, and then a dialog box appears titled Choose Colors.
+<ol>
+<li>Click the Start Color drop-down button <img src="Drop Down Button.bmp">.
+<li>Select a Start Color.
+<li>Click the End Color drop-down button.
+<li>Select an End Color.
+<li>Type the number of symbology breaks you want in the Number of Breaks dialog box.
+<li>Click OK, and then the continuous color ramp is displayed in the Color Scheme Editor.</ol>
+<li><b>Equal Breaks</b> - Adds a selected number of equally spaced breaks to your symbology.
+<ol>
+<li>Click and hold the Lightning Bolt button.
+<li>Click the Equal Breaks button, and then a dialog box opens titled Input Number of Breaks.
+<li>Type the number of breaks.
+<li>Click OK, and then the number of breaks is displayed in the Color Scheme Editor dialog box.</ol>
+<li><b>Unique Values</b> - Adds all unique values to your symbology.
+<ol>
+<li>Click and hold the Lightning Bolt button.
+<li>Click the Unique Values button, and then all unique values are displayed in the Color Scheme Editor dialog box.</ol></ul></ul>
+<li><b>Display Name</b> - 
+<li><b>Dynamic Visibility</b> - 
+<li><b>Transparency Color</b> (Raster layers only) - 
+<li><b>Use Transparency</b> (Raster layers only) -
+<li><b>Fill Color</b> - 
+<li><b>Fill Style</b> - 
+<li><b>Label Setup</b> - 
+<li><b>Line Style</b> - 
+<li><b>Line Width</b> - 
+<li><b>Outline Color</b> - 
+<li><b>Show Fill</b> - 
+<li><b>Transparency Percent</b> - 
+<li><b>Vertex Color</b> - 
+<li><b>Vertex Size</b> - 
+<li><b>Vertices Visible</b> - </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

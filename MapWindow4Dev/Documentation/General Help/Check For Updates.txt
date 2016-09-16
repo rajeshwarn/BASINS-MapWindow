@@ -1,0 +1,7 @@
+<b>Check For Updates</b>
+<p>
+Check For Updates will automatically search the www.mapwindow.org website for MapWindow application and component updates. Check For Updates is listed under the Main Menu; go to File->Check For Updates.
+
+
+
+

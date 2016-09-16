@@ -1,0 +1,728 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+GISTools
+</name>
+</assembly>
+<members>
+<member name="M:GISTools.ImageTools.DoApplyImageProj(MapWindow.Interfaces.IMapWin)">
+	<summary>
+ DoApplyImageProj                                              
+ Opens an instance of frmSelectImages to allow image selection
+ Opens a dialog to allow the user to specify a projection
+ Creates a prj file with the projection string
+ </summary>
+	<remarks>
+ By Ted Dunsford on 6/27/2006
+ Derived from Chris's DoAPplyGridProj
+ </remarks>
+</member><member name="M:GISTools.frmValidate.#ctor">
+	<summary>
+ Creates a new instance of the frmExportSelected class
+ </summary>
+</member><member name="M:GISTools.frmValidate.cboLayer_SelectedIndexChanged(System.Object,System.EventArgs)">
+	<summary>
+ Fill the list of fields for the layer
+ </summary>
+</member><member name="M:GISTools.frmValidate.btnOk_Click(System.Object,System.EventArgs)">
+	<summary>
+ Runs the tool
+ </summary>
+</member><member name="M:GISTools.frmValidate.CreateShapefile(MapWinGIS.Shapefile)">
+	<summary>
+ Creates point shapefile woth errors
+ </summary>
+</member><member name="M:GISTools.frmValidate.AddError(System.String,MapWinGIS.Shapefile,System.Int32)">
+	<summary>
+ Adds an error to the list
+ </summary>
+	<param name="message">Message returned by Shape.IsValid</param>
+	<remarks></remarks>
+</member><member name="M:GISTools.frmValidate.GetErrorPoint(System.String)">
+	<summary>
+ Extracts coordinates; format = message[X Y]
+ </summary>
+	<param name="message"></param>
+</member><member name="M:GISTools.frmValidate.ListBox1_SelectedIndexChanged(System.Object,System.EventArgs)">
+	<summary>
+ Zooms map to the selected shape
+ </summary>
+</member><member name="M:GISTools.frmBufferNew.#ctor">
+	<summary>
+ Creates a new instance of the frmDissilve class
+ </summary>
+	<remarks></remarks>
+</member><member name="M:GISTools.frmBufferNew.cboLayer_SelectedIndexChanged(System.Object,System.EventArgs)">
+	<summary>
+ Fill the list of fields for the layer
+ </summary>
+</member><member name="M:GISTools.frmBufferNew.btnBrowse_Click(System.Object,System.EventArgs)">
+	<summary>
+ Chooses the file to save the results to
+ </summary>
+</member><member name="M:GISTools.frmBufferNew.btnOk_Click(System.Object,System.EventArgs)">
+	<summary>
+ Runs th buffer routine
+ </summary>
+</member><member name="M:GISTools.frmCentroids.#ctor">
+	<summary>
+ Creates a new instance of the frmExplode class
+ </summary>
+</member><member name="M:GISTools.frmCentroids.cboLayer_SelectedIndexChanged(System.Object,System.EventArgs)">
+	<summary>
+ Fill the list of fields for the layer
+ </summary>
+</member><member name="M:GISTools.frmCentroids.btnBrowse_Click(System.Object,System.EventArgs)">
+	<summary>
+ Chooses the file to save the results to
+ </summary>
+</member><member name="M:GISTools.frmCentroids.btnOk_Click(System.Object,System.EventArgs)">
+	<summary>
+ Runs the centroid routine
+ </summary>
+</member><member name="M:GISTools.clsToolBase.#ctor">
+	<summary>
+  Creates new instance of the clsToolBase class
+ </summary>
+</member><member name="M:GISTools.frmExplode.#ctor">
+	<summary>
+ Creates a new instance of the frmExplode class
+ </summary>
+</member><member name="M:GISTools.frmExplode.cboLayer_SelectedIndexChanged(System.Object,System.EventArgs)">
+	<summary>
+ Fill the list of fields for the layer
+ </summary>
+</member><member name="M:GISTools.frmExplode.btnBrowse_Click(System.Object,System.EventArgs)">
+	<summary>
+ Chooses the file to save the results to
+ </summary>
+</member><member name="M:GISTools.frmExplode.btnOk_Click(System.Object,System.EventArgs)">
+	<summary>
+ Runs th dissolve routine
+ </summary>
+</member><member name="P:GISTools.My.Resources.Resource.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.cmbMapUnit_Items">
+	<summary>
+  Looks up a localized string similar to Centimeters.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.cmbMapUnit_Items1">
+	<summary>
+  Looks up a localized string similar to DecimalDegrees.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.cmbMapUnit_Items2">
+	<summary>
+  Looks up a localized string similar to Feet.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.cmbMapUnit_Items3">
+	<summary>
+  Looks up a localized string similar to Inches.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.cmbMapUnit_Items4">
+	<summary>
+  Looks up a localized string similar to Kilometers.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.cmbMapUnit_Items5">
+	<summary>
+  Looks up a localized string similar to Meters.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.cmbMapUnit_Items6">
+	<summary>
+  Looks up a localized string similar to Miles.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.cmbMapUnit_Items7">
+	<summary>
+  Looks up a localized string similar to Millimeters.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.cmbMapUnit_Items8">
+	<summary>
+  Looks up a localized string similar to Yards.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnu3Dto2D_Text">
+	<summary>
+  Looks up a localized string similar to 3D vector to 2D vector.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuAggregateShapes_Text">
+	<summary>
+  Looks up a localized string similar to Aggregate shapes.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuApplyProjGRID_Text">
+	<summary>
+  Looks up a localized string similar to Assign Projection to Grids.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuApplyProjImage_Text">
+	<summary>
+  Looks up a localized string similar to Assign Projection to Images.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuApplyProjSF_Text">
+	<summary>
+  Looks up a localized string similar to Assign Projection to Shapefile.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuAttributeQuery_Text">
+	<summary>
+  Looks up a localized string similar to Attribute Query.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuBuffer_Text">
+	<summary>
+  Looks up a localized string similar to Buffer Shapes.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuBufferNew_Text">
+	<summary>
+  Looks up a localized string similar to Buffer Shapes.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuCalculateArea_Text">
+	<summary>
+  Looks up a localized string similar to Calculate Polygon Areas.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuChangeFormatGRID_Text">
+	<summary>
+  Looks up a localized string similar to Change Grid Formats.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuChangeNodata_Text">
+	<summary>
+  Looks up a localized string similar to Change Nodata Value.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuClipGridWithPoly_Text">
+	<summary>
+  Looks up a localized string similar to Clip Grid With Polygon.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuClipPolyWithLine_Text">
+	<summary>
+  Looks up a localized string similar to Clip Polygon with Line.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuClipSFWithPoly_Text">
+	<summary>
+  Looks up a localized string similar to Clip Shapefile With Polygon.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuContour_Text">
+	<summary>
+  Looks up a localized string similar to Generate a Contour Shapefile.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuCreateImageGRID_Text">
+	<summary>
+  Looks up a localized string similar to Create Grid Images.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuDatabaseTools_Text">
+	<summary>
+  Looks up a localized string similar to Database Tools.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuDissolveByAttribute_Text">
+	<summary>
+  Looks up a localized string similar to Dissolve by Attribute.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuEraseSFWithPoly_Text">
+	<summary>
+  Looks up a localized string similar to Erase Shapefile With Polygon.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuExplodeShapes_Text">
+	<summary>
+  Looks up a localized string similar to Explode Shapes.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuExportByMask_Text">
+	<summary>
+  Looks up a localized string similar to Export Shapes to New Shapefile by Mask.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuExportSelected_Text">
+	<summary>
+  Looks up a localized string similar to Export Selection.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuFixupShapefile_Text">
+	<summary>
+  Looks up a localized string similar to Fix up Shapefile.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuGeoreference_Text">
+	<summary>
+  Looks up a localized string similar to Georeference an Image or Grid.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuGISTools_Text">
+	<summary>
+  Looks up a localized string similar to GIS Tools.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuIdentity_Text">
+	<summary>
+  Looks up a localized string similar to Identify Shapes with Polygon.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuImage_Text">
+	<summary>
+  Looks up a localized string similar to Image Operations.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuLoadTable_Text">
+	<summary>
+  Looks up a localized string similar to Import Shapefiles.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuMerge_Text">
+	<summary>
+  Looks up a localized string similar to Merge Shapes.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuMergeGRIDS_Text">
+	<summary>
+  Looks up a localized string similar to Merge Grids.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuMergeNew_Text">
+	<summary>
+  Looks up a localized string similar to Merge Shapefiles.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuMergeSF_Text">
+	<summary>
+  Looks up a localized string similar to Merge Shapefiles.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuProjectionIdentify_Text">
+	<summary>
+  Looks up a localized string similar to Identify Projection.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuProjectionManager_Text">
+	<summary>
+  Looks up a localized string similar to Projection Viewer.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuRaster_Text">
+	<summary>
+  Looks up a localized string similar to Raster.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuRectifyToWorldfile_Text">
+	<summary>
+  Looks up a localized string similar to Rectify Image to Worldfile.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuReProjGRID_Text">
+	<summary>
+  Looks up a localized string similar to Reproject Grids.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuReProjImage_Text">
+	<summary>
+  Looks up a localized string similar to Reproject Images.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuReProjSF_Text">
+	<summary>
+  Looks up a localized string similar to Reproject Shapefile.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuResampleGRID_Text">
+	<summary>
+  Looks up a localized string similar to Resample Grids.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuSaveTable_Text">
+	<summary>
+  Looks up a localized string similar to Export Shapefiles.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuSfClip_Text">
+	<summary>
+  Looks up a localized string similar to Clipping.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuSfDifference_Text">
+	<summary>
+  Looks up a localized string similar to Difference.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuSfIntersection_Text">
+	<summary>
+  Looks up a localized string similar to Intersection.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuSfSymmDifference_Text">
+	<summary>
+  Looks up a localized string similar to Symmetrical difference.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuSfUnion_Text">
+	<summary>
+  Looks up a localized string similar to Union.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuShapefileCentroids_Text">
+	<summary>
+  Looks up a localized string similar to Create Centroids.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuShapefileValidate_Text">
+	<summary>
+  Looks up a localized string similar to Validate Shapefile.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuSimplifyLines_Text">
+	<summary>
+  Looks up a localized string similar to Simplify Lines.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuSortShapefile_Text">
+	<summary>
+  Looks up a localized string similar to Sort Shapefile.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuSpatialQuery_Text">
+	<summary>
+  Looks up a localized string similar to Spatial Query.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuVector_Text">
+	<summary>
+  Looks up a localized string similar to Vector Operations.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuVectorCalculate_Text">
+	<summary>
+  Looks up a localized string similar to Calculate.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuVectorGeneralize_Text">
+	<summary>
+  Looks up a localized string similar to Generilize.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuVectorGenerate_Text">
+	<summary>
+  Looks up a localized string similar to Generate.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuVectorModify_Text">
+	<summary>
+  Looks up a localized string similar to Modify.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuVectorNew_Text">
+	<summary>
+  Looks up a localized string similar to New vector tools.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuVectorOld_Text">
+	<summary>
+  Looks up a localized string similar to Old tools.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuVectorOverlays_Text">
+	<summary>
+  Looks up a localized string similar to Overlays.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuVectorProjections_Text">
+	<summary>
+  Looks up a localized string similar to Projections.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuVectorQuery_Text">
+	<summary>
+  Looks up a localized string similar to Query.
+</summary>
+</member><member name="P:GISTools.My.Resources.Resource.mnuVectorStandard_Text">
+	<summary>
+  Looks up a localized string similar to Standard.
+</summary>
+</member><member name="T:GISTools.My.Resources.Resource">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:GISTools.Callback.Canceled">
+	<summary>
+ Returns true in case you has pressed the Cancel button, to enable appropriate message in the tool form
+ </summary>
+</member><member name="M:GISTools.Callback.#ctor(GISTools.frmProgressNew@)">
+	<summary>
+ Creates a new instance of the Callback class. Reference to the progress form is passed (it's executed in the interface thread)
+ </summary>
+</member><member name="M:GISTools.Callback.Progress(System.String,System.Int32,System.String)">
+	<summary>
+ Passing progress to the interface thread
+ </summary>
+	<remarks></remarks>
+</member><member name="M:GISTools.Callback.ErrorOccured(System.String,System.String)">
+	<summary>
+ Implementing ICallback interface
+ </summary>
+</member><member name="M:GISTools.Callback.DoCancel">
+	<summary>
+ Cancel the operation
+ </summary>
+</member><member name="M:GISTools.Callback.StopFunction">
+	<summary>
+ Implement IStopExecution interface
+ </summary>
+</member><member name="T:GISTools.Callback">
+	<summary>
+ Callback class. Shows progress information from back thread to the interface thread. Works in the back thread.
+ </summary>
+</member><member name="M:GISTools.ProjectionTools.DoApplySFProj(MapWindow.Interfaces.IMapWin)">
+	<summary>
+ Assigns projection to the shapefile (no reproject is done)
+ </summary>
+	<param name="m_Map">Reference to MapWindow</param>
+	<remarks></remarks>
+</member><member name="M:GISTools.frmSortShapefile.#ctor">
+	<summary>
+ Creates a new instance of the frmSortShapefile class
+ </summary>
+</member><member name="M:GISTools.frmSortShapefile.cboLayer_SelectedIndexChanged(System.Object,System.EventArgs)">
+	<summary>
+ Fill the list of fields for the layer
+ </summary>
+</member><member name="M:GISTools.frmSortShapefile.btnBrowse_Click(System.Object,System.EventArgs)">
+	<summary>
+ Chooses the file to save the results to
+ </summary>
+</member><member name="M:GISTools.frmSortShapefile.btnOk_Click(System.Object,System.EventArgs)">
+	<summary>
+ Runs the tool
+ </summary>
+</member><member name="M:GISTools.frmMergeNew.#ctor">
+	<summary>
+ Creates a new instance of the frmMergeNew class
+ </summary>
+</member><member name="M:GISTools.frmMergeNew.cboLayer_SelectedIndexChanged(System.Object,System.EventArgs)">
+	<summary>
+ Fill the list of fields for the layer
+ </summary>
+</member><member name="M:GISTools.frmMergeNew.btnBrowse_Click(System.Object,System.EventArgs)">
+	<summary>
+ Chooses the file to save the results to
+ </summary>
+</member><member name="M:GISTools.frmMergeNew.btnOk_Click(System.Object,System.EventArgs)">
+	<summary>
+ Runs th dissolve routine
+ </summary>
+</member><member name="M:GISTools.frmProgressNew.Progress(System.Int32)">
+	<summary>
+ Updating the progress bar
+ </summary>
+</member><member name="M:GISTools.frmProgressNew.btnCancel_Click(System.Object,System.EventArgs)">
+	<summary>
+ Cancel the operation (by terminating the thread)
+ </summary>
+</member><member name="M:GISTools.frmProgressNew.UpdateTime">
+	<summary>
+ Updates the elapsed time
+ </summary>
+</member><member name="T:GISTools.frmProgressNew">
+	<summary>
+ Shows progress information from the back thread provided by Callback class. Works in the interface thread.
+ Sends abortion and finishing events to the forms
+ </summary>
+</member><member name="M:GISTools.frmSpatialQuery.#ctor">
+	<summary>
+ Creates a new instance of the frmDissilve class
+ </summary>
+</member><member name="M:GISTools.frmSpatialQuery.cboSelection_SelectedIndexChanged(System.Object,System.EventArgs)">
+	<summary>
+ Shows the number of selected shapes for the definition layer
+ </summary>
+</member><member name="M:GISTools.frmSpatialQuery.btnOk_Click(System.Object,System.EventArgs)">
+	<summary>
+ Start the selection process
+ </summary>
+</member><member name="M:GISTools.Globals.GetGroupDescription(System.String)">
+	<summary>
+ Returns description for specified group
+ </summary>
+</member><member name="M:GISTools.Globals.GetDescription(System.String)">
+	<summary>
+ Returns description for specified command
+ </summary>
+	<param name="commandName"></param>
+</member><member name="M:GISTools.frmSimplifyLines.#ctor">
+	<summary>
+ Creates a new instance of the frmExplode class
+ </summary>
+</member><member name="M:GISTools.frmSimplifyLines.cboLayer_SelectedIndexChanged(System.Object,System.EventArgs)">
+	<summary>
+ Fill the list of fields for the layer
+ </summary>
+</member><member name="M:GISTools.frmSimplifyLines.btnBrowse_Click(System.Object,System.EventArgs)">
+	<summary>
+ Chooses the file to save the results to
+ </summary>
+</member><member name="M:GISTools.frmSimplifyLines.btnOk_Click(System.Object,System.EventArgs)">
+	<summary>
+ Runs th dissolve routine
+ </summary>
+</member><member name="M:GISTools.frmClipOperation.#ctor(MapWinGIS.tkClipOperation)">
+	<summary>
+ Creates a new instance of the frmClipOperation class
+ </summary>
+</member><member name="M:GISTools.frmClipOperation.cboLayer_SelectedIndexChanged(System.Object,System.EventArgs)">
+	<summary>
+ Fill the list of fields for the layer
+ </summary>
+</member><member name="M:GISTools.frmClipOperation.btnBrowse_Click(System.Object,System.EventArgs)">
+	<summary>
+ Chooses the file to save the results to
+ </summary>
+</member><member name="M:GISTools.frmClipOperation.btnOk_Click(System.Object,System.EventArgs)">
+	<summary>
+ Runs th dissolve routine
+ </summary>
+</member><member name="M:GISTools.frmClipOperation.Execute">
+	<summary>
+ Executes the operation in the back thread
+ </summary>
+	<remarks></remarks>
+</member><member name="M:GISTools.frmClipOperation.TaskFinished(System.Boolean,System.String)">
+	<summary>
+ Handles the finishing of execution
+ </summary>
+</member><member name="M:GISTools.frmClipOperation.DoClose(System.Object,System.Windows.Forms.FormClosedEventArgs)">
+	<summary>
+ Handles the closing of the progress window, hides the current window
+ </summary>
+</member><member name="M:GISTools.ShapefileTools.PopulateShapefileList(System.Windows.Forms.ComboBox@,System.Boolean,System.Boolean)">
+	<summary>
+ Fills the list of shapefile layers
+ </summary>
+</member><member name="M:GISTools.ShapefileTools.PopulateShapefileList(System.Windows.Forms.ComboBox@,MapWindow.Interfaces.eLayerType,System.Boolean)">
+	<summary>
+ Fills the list of shapefile layers of a specific type
+ </summary>
+</member><member name="M:GISTools.ShapefileTools.PopulateFieldList(System.String,System.Windows.Forms.ComboBox@)">
+	<summary>
+ Fills the list of fields for the shapefile
+ </summary>
+</member><member name="M:GISTools.ShapefileTools.LayerByName(System.String)">
+	<summary>
+ Returns reference to the layer with the specified name
+ </summary>
+</member><member name="M:GISTools.ShapefileTools.ShapefileByLayerName(System.String)">
+	<summary>
+ Returns shapefile associated with the layer name
+ </summary>
+</member><member name="M:GISTools.ShapefileTools.GetAvailibleFileName(System.String,System.String)">
+	<summary>
+ Returns the available filename with the specified postfix.
+ Applicable for shapefiles only.
+ </summary>
+</member><member name="M:GISTools.ShapefileTools.DoExportSelected">
+	<summary>
+ DoExportSelected                                              
+ Exports the selected MapWindow shapes to a new shapefile.
+ </summary>
+	<remarks>
+ By Chris Michaelis Aug 2006
+ Change Log: 
+ Date          Changed By      Notes
+ 08/22/2006    JLK             MsgBox to Logger.Msg, added additional Logger messages
+ </remarks>
+</member><member name="M:GISTools.frmFixUpShapefile.#ctor">
+	<summary>
+ Creates a new instance of the frmExportSelected class
+ </summary>
+</member><member name="M:GISTools.frmFixUpShapefile.cboLayer_SelectedIndexChanged(System.Object,System.EventArgs)">
+	<summary>
+ Fill the list of fields for the layer
+ </summary>
+</member><member name="M:GISTools.frmFixUpShapefile.btnBrowse_Click(System.Object,System.EventArgs)">
+	<summary>
+ Chooses the file to save the results to
+ </summary>
+</member><member name="M:GISTools.frmFixUpShapefile.btnOk_Click(System.Object,System.EventArgs)">
+	<summary>
+ Runs the tool
+ </summary>
+</member><member name="M:GISTools.frmFixUpShapefile.GetInvalidShapesCount(MapWinGIS.Shapefile)">
+	<summary>
+ Returns the number of invalid shapes
+ </summary>
+</member><member name="P:GISTools.GisToolsPlugin.Author">
+	<summary>
+ Gets information about plugin author
+ </summary>
+</member><member name="P:GISTools.GisToolsPlugin.BuildDate">
+	<summary>
+ Gets information aboub build date
+ </summary>
+</member><member name="P:GISTools.GisToolsPlugin.Description">
+	<summary>
+ Gets plugin descriptions
+ </summary>
+</member><member name="P:GISTools.GisToolsPlugin.Version">
+	<summary>
+ Gets plugin version number
+ </summary>
+</member><member name="P:GISTools.GisToolsPlugin.Name">
+	<summary>
+ Gets plugin name
+ </summary>
+</member><member name="P:GISTools.GisToolsPlugin.SerialNumber">
+	<summary>
+ Gets plugin serial number
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:GISTools.GisToolsPlugin.#ctor">
+	<summary>
+ Creates new instance of GISTools plugin class
+ </summary>
+</member><member name="M:GISTools.GisToolsPlugin.Initialize(MapWindow.Interfaces.IMapWin,System.Int32)">
+	<summary>
+ Initializes GIS tools plugin
+ </summary>
+	<param name="MapWin">Reference to MapWindow</param>
+	<param name="ParentHandle">The handle of parent window</param>
+</member><member name="M:GISTools.GisToolsPlugin.InitToolbox">
+	<summary>
+ Initilizes geoprocessing toobox. Icons are specified inside Mapwindow
+ </summary>
+</member><member name="M:GISTools.GisToolsPlugin.AddTool(System.String,MapWindow.Interfaces.IGisToolboxGroup)">
+	<summary>
+ Adds new tool to the toolbox
+ </summary>
+</member><member name="M:GISTools.GisToolsPlugin.CreateGroup(System.String)">
+	<summary>
+ Creates new group
+ </summary>
+</member><member name="M:GISTools.GisToolsPlugin.Terminate">
+	<summary>
+ Destroys the menus
+ </summary>
+</member><member name="M:GISTools.GisToolsPlugin.MapMouseDown(System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean@)">
+	<summary>
+ Handles mouse down event for image georeferencing form
+ </summary>
+</member><member name="M:GISTools.GisToolsPlugin.ToolClickedHandler(MapWindow.Interfaces.IGisTool,System.Boolean@)">
+	<summary>
+  Handles tool clicked event and runs appropriate tools
+ </summary>
+	<param name="tool">The tool that was clicked</param>
+	<param name="handled">Notifies the caller that event was handled</param>
+</member><member name="T:GISTools.GisToolsPlugin">
+	<summary>
+ Class implementing IPlugin interface for GIS tools plugin
+ </summary>
+</member><member name="M:GISTools.frmAggregate.#ctor">
+	<summary>
+ Creates a new instance of the frmAggregate class
+ </summary>
+</member><member name="M:GISTools.frmAggregate.cboLayer_SelectedIndexChanged(System.Object,System.EventArgs)">
+	<summary>
+ Fill the list of fields for the layer
+ </summary>
+</member><member name="M:GISTools.frmAggregate.btnBrowse_Click(System.Object,System.EventArgs)">
+	<summary>
+ Chooses the file to save the results to
+ </summary>
+</member><member name="M:GISTools.frmAggregate.btnOk_Click(System.Object,System.EventArgs)">
+	<summary>
+ Runs th dissolve routine
+ </summary>
+</member><member name="M:GISTools.frmAggregate.optAggregateAll_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ Toggles the enabled state of field combo
+ </summary>
+</member><member name="M:GISTools.frmDissolve.#ctor">
+	<summary>
+ Creates a new instance of the frmDissolve class
+ </summary>
+</member><member name="M:GISTools.frmDissolve.cboLayer_SelectedIndexChanged(System.Object,System.EventArgs)">
+	<summary>
+ Fill the list of fields for the layer
+ </summary>
+</member><member name="M:GISTools.frmDissolve.btnBrowse_Click(System.Object,System.EventArgs)">
+	<summary>
+ Chooses the file to save the results to
+ </summary>
+</member><member name="M:GISTools.frmDissolve.btnOk_Click(System.Object,System.EventArgs)">
+	<summary>
+ Runs th dissolve routine
+ </summary>
+</member><member name="M:GISTools.frmExportSelected.#ctor">
+	<summary>
+ Creates a new instance of the frmExportSelected class
+ </summary>
+</member><member name="M:GISTools.frmExportSelected.cboLayer_SelectedIndexChanged(System.Object,System.EventArgs)">
+	<summary>
+ Fill the list of fields for the layer
+ </summary>
+</member><member name="M:GISTools.frmExportSelected.btnBrowse_Click(System.Object,System.EventArgs)">
+	<summary>
+ Chooses the file to save the results to
+ </summary>
+</member><member name="M:GISTools.frmExportSelected.btnOk_Click(System.Object,System.EventArgs)">
+	<summary>
+ Runs the tool
+ </summary>
+</member>
+</members>
+</doc>

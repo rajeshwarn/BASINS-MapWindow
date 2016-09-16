@@ -1,0 +1,7 @@
+MapWindow is...
+
+If it breaks, <a href='Support and Contact Information.html'>contact our support team</a> and bug them.
+
+To get started, open a sample project - like the <a href='Using MapWindow\Your First Project - USA Example.html'>United States Sample Project</a> which will get you started.
+
+

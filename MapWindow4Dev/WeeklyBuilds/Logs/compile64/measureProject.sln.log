@@ -1,0 +1,20 @@
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: measureProject, Configuration: Debug x64 ------
+C:\Windows\Microsoft.NET\Framework\v3.5\Vbc.exe /noconfig /imports:Microsoft.VisualBasic,System,System.Collections,System.Collections.Generic,System.Diagnostics /nowarn:42016,41999,42017,42018,42019,42032,42036,42020,42021,42022 /platform:x64 /rootnamespace:measureProject /doc:obj\x64\Debug\measureProject.xml /define:"CONFIG=\"Debug\",DEBUG=-1,TRACE=-1,_MyType=\"Windows\",PLATFORM=\"x64\"" /reference:..\..\..\MapWindow4Dev\Bin\Interop.MapWinGIS.dll,C:\Dev\MapWindow4Dev\Bin\MapWinGeoProc.dll,C:\Dev\MapWindow4Dev\Bin\MapWinInterfaces.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll,C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll /debug+ /debug:full /out:obj\x64\Debug\measureProject.dll /resource:obj\x64\Debug\measureProject.frmMeasure.resources /resource:obj\x64\Debug\measureProject.Resources.resources /resource:Icons\clear.ico,measureProject.clear.ico /resource:Icons\help.ico,measureProject.help.ico /resource:Icons\measureArea.ico,measureProject.measureArea.ico /resource:Icons\measureFeature.ico,measureProject.measureFeature.ico /resource:Icons\measureLength.ico,measureProject.measureLength.ico /resource:Icons\measureTool.ico,measureProject.measureTool.ico /resource:Icons\unit.ico,measureProject.unit.ico /target:library Forms\frmMeasure.Designer.vb Forms\frmMeasure.vb Classes\measureClass.vb Modules\modScaleBarUtils.vb Modules\Module_Global.vb "My Project\AssemblyInfo.vb" "My Project\Application.Designer.vb" "My Project\Resources.Designer.vb" "My Project\Settings.Designer.vb"
+vbc : warning BC40010: Possible problem detected while building assembly 'measureProject': Referenced assembly 'mscorlib.dll' targets a different processor
+measureProject -> C:\dev\MapWindow4Dev\Bin64\Plugins\measureProject.dll
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: measureProject, Configuration: Debug x64 ------
+measureProject -> C:\dev\MapWindow4Dev\Bin64\Plugins\measureProject.dll
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+------ Build started: Project: measureProject, Configuration: Debug x64 ------
+measureProject -> C:\dev\MapWindow4Dev\Bin64\Plugins\measureProject.dll
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========

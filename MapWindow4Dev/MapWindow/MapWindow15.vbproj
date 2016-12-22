@@ -7,7 +7,7 @@
     <ProjectGuid>{77B53F05-5CEF-408E-886E-A842C66A4266}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ApplicationIcon>USGS-color-32.ico</ApplicationIcon>
+    <ApplicationIcon>Resources\MapWindow_new.ico</ApplicationIcon>
     <AssemblyKeyContainerName>
     </AssemblyKeyContainerName>
     <AssemblyName>BASINS</AssemblyName>
@@ -50,7 +50,7 @@
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <OutputPath>..\..\..\BASINS40\Bin\</OutputPath>
+    <OutputPath>..\..\..\BASINS\Bin\</OutputPath>
     <DocumentationFile>BASINS.xml</DocumentationFile>
     <BaseAddress>285212672</BaseAddress>
     <ConfigurationOverrideFile>
@@ -124,7 +124,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
-    <OutputPath>..\..\..\BASINS40\Bin\</OutputPath>
+    <OutputPath>..\..\..\BASINS\Bin\</OutputPath>
     <BaseAddress>285212672</BaseAddress>
     <DocumentationFile>BASINS.xml</DocumentationFile>
     <WarningLevel>1</WarningLevel>
@@ -163,6 +163,10 @@
     </Reference>
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.SQLite, Version=1.0.66.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BASINS\Bin\System.Data.SQLite.dll</HintPath>
     </Reference>
     <Reference Include="System.Drawing">
       <Name>System.Drawing</Name>
@@ -2278,7 +2282,6 @@
     <Content Include="Resources\OpenFolder.png" />
     <Content Include="Resources\pan.png" />
     <None Include="Resources\panels.png" />
-    <None Include="Resources\paypal.png" />
     <Content Include="Resources\play.ico" />
     <Content Include="Resources\plugin.ico" />
     <Content Include="Resources\plugin.png" />
@@ -2333,7 +2336,6 @@
     <Content Include="Resources\zoom_out.png" />
     <Content Include="Resources\zoom_preview.png" />
     <Content Include="Resources\zoom_to_layer.png" />
-    <Content Include="USGS-color-32.ico" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">

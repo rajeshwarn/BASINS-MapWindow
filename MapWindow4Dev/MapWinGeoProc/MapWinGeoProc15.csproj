@@ -140,19 +140,16 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AxInterop.MapWinGIS, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Bin\AxInterop.MapWinGIS.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="AxInterop.MapWinGIS">
+      <HintPath>..\..\..\BASINS\Bin\AxInterop.MapWinGIS.dll</HintPath>
     </Reference>
     <Reference Include="Interop.MapWinGIS, Version=4.7.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <SpecificVersion>False</SpecificVersion>
       <Private>False</Private>
     </Reference>
-    <Reference Include="MapWindow.Interfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=14ba77d91dae5597, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <Private>False</Private>
+    <Reference Include="MapWindow.Interfaces">
+      <HintPath>..\..\..\BASINS\Bin\MapWindow.Interfaces.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <Name>System</Name>

@@ -117,15 +117,15 @@
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AxInterop.MapWinGIS, Version=4.8.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\BASINS40\Bin\AxInterop.MapWinGIS.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="AxInterop.MapWinGIS">
+      <HintPath>..\..\..\BASINS\Bin\AxInterop.MapWinGIS.dll</HintPath>
     </Reference>
-    <Reference Include="Interop.MapWinGIS, Version=4.8.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\BASINS40\Bin\Interop.MapWinGIS.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="Interop.MapWinGIS">
+      <HintPath>..\..\..\BASINS\Bin\Interop.MapWinGIS.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="MapWindow.Controls">
+      <HintPath>..\..\..\BASINS\Bin\MapWindow.Controls.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <Name>System</Name>
@@ -745,13 +745,9 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\MapWindow4Plugins\MapWinUtility\BASINS-MapWinUtility15.vbproj">
+    <ProjectReference Include="..\..\..\BASINS\MapWinUtility\BASINS-MapWinUtility15.vbproj">
       <Project>{33e88992-742f-4d13-823f-35d6a07b1aa1}</Project>
       <Name>BASINS-MapWinUtility15</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Controls\mwControls15.csproj">
-      <Project>{c57f9b4f-b807-4b1a-acc7-87fd29fce7dc}</Project>
-      <Name>mwControls15</Name>
     </ProjectReference>
     <ProjectReference Include="..\MapWinGeoProc\MapWinGeoProc15.csproj">
       <Project>{7ae7b1df-7d39-4326-9a62-2ef9d62deb98}</Project>

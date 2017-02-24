@@ -132,7 +132,7 @@ Public Class ColoringSchemeTools
         Return Nothing
     End Function
 
-    <CLSCompliant(False)> _
+    <CLSCompliant(False)>
     Public Shared Function ImportScheme(ByVal lyr As MapWindow.Interfaces.Layer, ByVal Filename As String) As Object
         Dim doc As New XmlDocument
         Dim root As XmlElement
@@ -143,8 +143,8 @@ Public Class ColoringSchemeTools
         root = doc.DocumentElement
 
 
-        If lyr.LayerType = Interfaces.eLayerType.LineShapefile OrElse _
-          lyr.LayerType = Interfaces.eLayerType.PointShapefile OrElse _
+        If lyr.LayerType = Interfaces.eLayerType.LineShapefile OrElse
+          lyr.LayerType = Interfaces.eLayerType.PointShapefile OrElse
           lyr.LayerType = Interfaces.eLayerType.PolygonShapefile Then
             Try
                 Dim sch As New MapWinGIS.ShapefileColorScheme
@@ -153,7 +153,7 @@ Public Class ColoringSchemeTools
                         Return sch
                     End If
                 Else
-                    mapwinutility.logger.msg("File contains invalid coloring scheme type.")
+                    MapWinUtility.Logger.Msg("File contains invalid coloring scheme type.")
                     Return Nothing
                 End If
 

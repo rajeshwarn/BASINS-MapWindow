@@ -158,6 +158,26 @@
       <SpecificVersion>False</SpecificVersion>
       <Private>False</Private>
     </Reference>
+    <Reference Include="MapWindow.Controls, Version=4.8.6.19536, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BASINS\Bin\MapWindow.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="MapWindow.Interfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=14ba77d91dae5597, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BASINS\Bin\MapWindow.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="MapWinGeoProc, Version=4.8.6.19535, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BASINS\Bin\MapWinGeoProc.dll</HintPath>
+    </Reference>
+    <Reference Include="MapWinInterfaces, Version=4.8.6.42296, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BASINS\Bin\MapWinInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="MapWinUtility, Version=4.8.8.21279, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BASINS\Bin\MapWinUtility.dll</HintPath>
+    </Reference>
     <Reference Include="System">
       <Name>System</Name>
     </Reference>
@@ -2373,24 +2393,6 @@
       <WrapperTool>primary</WrapperTool>
       <Isolated>False</Isolated>
     </COMReference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\MapWindow4Plugins\MapWinUtility\BASINS-MapWinUtility15.vbproj">
-      <Project>{33e88992-742f-4d13-823f-35d6a07b1aa1}</Project>
-      <Name>BASINS-MapWinUtility15</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Controls\mwControls15.csproj">
-      <Project>{c57f9b4f-b807-4b1a-acc7-87fd29fce7dc}</Project>
-      <Name>mwControls15</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MapWinGeoProc\MapWinGeoProc15.csproj">
-      <Project>{7ae7b1df-7d39-4326-9a62-2ef9d62deb98}</Project>
-      <Name>MapWinGeoProc15</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MapWinInterfaces\MapWinInterfaces15.csproj">
-      <Project>{e880aab1-98b5-45b8-a3b8-cb3d0db8b317}</Project>
-      <Name>MapWinInterfaces15</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
   <PropertyGroup>

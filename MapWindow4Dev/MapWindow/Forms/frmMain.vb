@@ -3799,13 +3799,13 @@ Partial Friend Class MapWindowForm
                 'help menus - do these first so that the logic about keeping help at the
                 'end of the menu list works.
                 Case "mnuOnlineDocs"
-                    System.Diagnostics.Process.Start("http://www.mapwindow.org/apps/wiki/doku.php")
+                    System.Diagnostics.Process.Start("http://www.mapwindow.org")
                 Case "mnuTutorials"
-                    System.Diagnostics.Process.Start("http://www.mapwindow.org/apps/wiki/doku.php?id=getting_started")
+                    System.Diagnostics.Process.Start("http://www.mapwindow.org")
                 Case "mnuBugReport"
-                    System.Diagnostics.Process.Start("http://bugs.mapwindow.org")
+                    System.Diagnostics.Process.Start("http://www.mapwindow.org")
                 Case "mnuDonate"
-                    System.Diagnostics.Process.Start("http://www.mapwindow.org/pages/donate.php")
+                    System.Diagnostics.Process.Start("http://www.mapwindow.org")
                 Case "mnuOfflineDocs"
                     System.Diagnostics.Process.Start(BinFolder & "\OfflineDocs\index.html")
                 Case "mnuContents" : doContents()

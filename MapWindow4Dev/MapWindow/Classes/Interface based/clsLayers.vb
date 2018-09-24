@@ -1000,13 +1000,13 @@ ENDFUNC:
                 filename = bgdequiv
             Else
                 'Convert it
-                Dim cvg As New SuperGrid
-                If cvg.Open(filename) Then
-                    'Opening it will cause the equiv. bgd to be written
-                    cvg.Close()
-                    filename = bgdequiv
-                    'else -- try to open with grid handler in ocx - may fail for these three formats though.
-                End If
+                'Dim cvg As New SuperGrid
+                'If cvg.Open(filename) Then
+                '    'Opening it will cause the equiv. bgd to be written
+                '    cvg.Close()
+                '    filename = bgdequiv
+                '    'else -- try to open with grid handler in ocx - may fail for these three formats though.
+                'End If
             End If
         End If
 
@@ -1134,13 +1134,13 @@ ENDFUNC:
                     filename = bgdequiv
                 Else
                     'Convert it
-                    Dim cvg As New SuperGrid
-                    If cvg.Open(filename) Then
-                        'Opening it will cause the equiv. bgd to be written
-                        cvg.Close()
-                        filename = bgdequiv
-                        'else -- try to open with grid handler in ocx - may fail for these three formats though.
-                    End If
+                    'Dim cvg As New SuperGrid
+                    'If cvg.Open(filename) Then
+                    '    'Opening it will cause the equiv. bgd to be written
+                    '    cvg.Close()
+                    '    filename = bgdequiv
+                    '    'else -- try to open with grid handler in ocx - may fail for these three formats though.
+                    'End If
                 End If
             End If
 
